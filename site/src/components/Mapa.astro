@@ -184,7 +184,7 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
     map.addControl(new maplibregl.FullscreenControl(), "top-right");
 
     // Only offer a filter where there is something to filter: a single line's map has one
-    // mode, and the control would be noise.
+    // mode, and a station's map is a couple of blocks wide — in both the control is noise.
     const modosDe = (feature: NetworkFeature): string[] =>
       feature.properties.kind === "line"
         ? [feature.properties.mode]
@@ -193,7 +193,7 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
       features.some((feature) => modosDe(feature).includes(modo)),
     );
     let visiveis = new Set(modos);
-    if (!linha && modos.length > 1) {
+    if (!linha && !estacao && modos.length > 1) {
       map.addControl(
         new ControleModos(modos, (selecionados) => {
           visiveis = selecionados;

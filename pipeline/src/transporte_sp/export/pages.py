@@ -5,8 +5,9 @@ committed. Generating into the repository rather than at build time means a pull
 shows exactly how the network changed — a new station appears as a new file, a renamed one
 as a rename — which is the whole point of versioning the data.
 
-An interchange belongs to several lines but gets a single canonical page, under the
-lowest-numbered line that serves it; the other lines link to it.
+Lines live at ``/linhas/<slug>/`` and stations at ``/estacao/<slug>/``, deliberately apart:
+a station can be served by four lines, and filing it under one of them would make the other
+three link to a URL that claims otherwise.
 """
 
 from __future__ import annotations
@@ -66,22 +67,20 @@ SOURCE_LABELS = {
 
 def write_all(network: Network) -> None:
     _reset(CONTENT_DIR / "linhas")
+    _reset(CONTENT_DIR / "estacao")
     BUILD_DATA_DIR.mkdir(parents=True, exist_ok=True)
     stations = {station.id: station for station in network.stations}
-    canonical = _canonical_pages(network, stations)
 
     for line in network.lines:
-        _write(_line_path(line), _line_page(line, network, stations, canonical))
-    for station_id, line in canonical.items():
-        _write(
-            _station_path(line, stations[station_id]),
-            _station_page(stations[station_id], network, line),
-        )
+        _write(_line_path(line), _line_page(line, network, stations))
+    for station in network.stations:
+        _write(_station_path(station), _station_page(station, network))
     _write(CONTENT_DIR / "linhas.mdx", _index_page(network))
-    _write_sidebar(network, stations, canonical)
+    _write_sidebar(network)
+    _write_redirects(network)
     _publish_data(network)
     log.info(
-        "site: %d line pages, %d station pages", len(network.lines), len(canonical)
+        "site: %d line pages, %d station pages", len(network.lines), len(network.stations)
     )
 
 
@@ -96,22 +95,22 @@ def _write(path: Path, body: str) -> None:
     path.write_text(body)
 
 
-def _canonical_pages(network: Network, stations: dict[str, Station]) -> dict[str, Line]:
-    """Which line owns each station's page — the first one that serves it."""
-    by_id = {line.id: line for line in network.lines}
-    return {
-        station.id: by_id[station.lines[0]]
-        for station in network.stations
-        if station.lines and station.lines[0] in by_id
-    }
-
-
 def _line_path(line: Line) -> Path:
     return CONTENT_DIR / "linhas" / f"{line.slug}.mdx"
 
 
-def _station_path(line: Line, station: Station) -> Path:
-    return CONTENT_DIR / "linhas" / line.slug / f"{station.slug}.mdx"
+def _station_path(station: Station) -> Path:
+    """Stations live at ``/estacao/<slug>/``, outside any line.
+
+    Nesting a station under a line meant picking one owner for a place that has several:
+    the Sé serves four lines, and filing it under the lowest-numbered one made the other
+    three link away to a URL that reads as if the station belonged elsewhere.
+    """
+    return CONTENT_DIR / "estacao" / f"{station.slug}.mdx"
+
+
+def station_href(station: Station) -> str:
+    return f"/estacao/{station.slug}/"
 
 
 def _escape(text: str) -> str:
@@ -126,23 +125,18 @@ def _frontmatter(title: str, description: str, **extra) -> str:
     return "\n".join(lines)
 
 
-def _line_page(line: Line, network: Network, stations, canonical) -> str:
-    number = line.number.value if line.number else None
-    title = f"Linha {number} - {line.name.value}" if number else line.name.value
+def _line_page(line: Line, network: Network, stations) -> str:
+    title = _line_title(line)
     mode = MODE_LABELS.get(line.mode.value, line.mode.value)
     status = STATUS_LABELS.get(line.status.value, line.status.value)
     description = f"{mode} · {status}" + (
         f" · {line.length_km.value} km" if line.length_km else ""
     )
 
-    sections = _station_sections(line, network, stations, canonical)
+    sections = _station_sections(line, network, stations)
 
     body = [
-        _frontmatter(
-            title,
-            description,
-            sidebar={"order": int(number) if number and number.isdigit() else 99},
-        ),
+        _frontmatter(title, description),
         "",
         'import FichaLinha from "@components/FichaLinha.astro";',
         'import MapaLinha from "@components/MapaLinha.astro";',
@@ -184,7 +178,7 @@ def _line_page(line: Line, network: Network, stations, canonical) -> str:
 STATUS_ORDER = ["operational", "partial", "under_construction", "planned", "proposed", "closed"]
 
 
-def _station_sections(line: Line, network: Network, stations, canonical):
+def _station_sections(line: Line, network: Network, stations):
     """The station table, split by state when the line has more than one.
 
     Lines 6-Laranja and 17-Ouro run a first stretch while the rest is still being built, and
@@ -196,13 +190,11 @@ def _station_sections(line: Line, network: Network, stations, canonical):
         station = stations.get(station_id)
         if station is None:
             continue
-        owner = canonical.get(station.id)
-        href = f"/linhas/{owner.slug}/{station.slug}/" if owner else ""
         others = [other for other in station.lines if other != line.id]
         row = "| {} | [{}]({}) | {} | {} | {} |".format(
             position,
             station.name.value,
-            href,
+            station_href(station),
             station.code.value if station.code else "—",
             _unbreakable(STATUS_LABELS.get(station.status.value, station.status.value)),
             ", ".join(_line_label(network, other) for other in others) or "—",
@@ -234,12 +226,10 @@ def _line_label(network: Network, line_id: str) -> str:
     line = next((item for item in network.lines if item.id == line_id), None)
     if line is None:
         return line_id
-    number = line.number.value if line.number else None
-    label = f"Linha {number} - {line.name.value}" if number else line.name.value
-    return f"[{label}](/linhas/{line.slug}/)"
+    return f"[{_line_title(line)}](/linhas/{line.slug}/)"
 
 
-def _station_page(station: Station, network: Network, line: Line) -> str:
+def _station_page(station: Station, network: Network) -> str:
     served = [_line_label(network, item) for item in station.lines]
     description = "Estação de " + ", ".join(
         _plain_line_label(network, item) for item in station.lines
@@ -269,8 +259,7 @@ def _plain_line_label(network: Network, line_id: str) -> str:
     line = next((item for item in network.lines if item.id == line_id), None)
     if line is None:
         return line_id
-    number = line.number.value if line.number else None
-    return f"Linha {number} - {line.name.value}" if number else line.name.value
+    return _line_title(line)
 
 
 def _provenance_table(entity) -> str:
@@ -320,9 +309,17 @@ _VALUE_LABELS = {
 
 
 def _readable(value, fieldname: str = "") -> str:
-    """A value as a reader should see it — translated, rounded, or summarised."""
+    """A value as a reader should see it — translated, rounded, or summarised.
+
+    Coordinates arrive either as the parsed model (the chosen value) or as a plain mapping
+    (the alternatives, which the model keeps untyped), and both must render the same.
+    """
+    latitude = getattr(value, "lat", None)
+    longitude = getattr(value, "lon", None)
     if isinstance(value, dict) and {"lat", "lon"} <= value.keys():
-        return f"{value['lat']:.5f}, {value['lon']:.5f}"
+        latitude, longitude = value["lat"], value["lon"]
+    if latitude is not None and longitude is not None:
+        return f"{latitude:.5f}, {longitude:.5f}"
     if isinstance(value, list):
         return f"{len(value)} trecho(s)"
     if fieldname == "length_km":
@@ -368,10 +365,8 @@ def _index_page(network: Network) -> str:
             "| --- | --- | --: | --: |",
         ]
         for line in lines:
-            number = line.number.value if line.number else None
-            label = f"Linha {number} - {line.name.value}" if number else line.name.value
             body.append(
-                f"| [{label}](/linhas/{line.slug}/) | "
+                f"| [{_line_title(line)}](/linhas/{line.slug}/) | "
                 f"{STATUS_LABELS.get(line.status.value, line.status.value)} | "
                 f"{len(line.stations) or '—'} | "
                 f"{f'{line.length_km.value} km' if line.length_km else '—'} |"
@@ -388,25 +383,53 @@ def _index_page(network: Network) -> str:
     ]) + "\n"
 
 
-def _write_sidebar(network: Network, stations, canonical) -> None:
-    """Emit the sidebar so each line reads as a line, not as a folder name.
+def _write_sidebar(network: Network) -> None:
+    """Emit the sidebar grouped by mode, the same way the index groups its tables.
 
     Starlight's autogenerated groups take their label from the directory on disk, which
-    turns every line into ``linha-1-azul``. They are also flat here rather than nested: the
-    active theme renders groups without a disclosure, so nesting the stations would put all
-    333 of them on screen at once. Each line page already lists its stations in order, and
-    the search covers them.
+    would show every line as ``linha-1-azul`` and would file the 333 stations under it.
+    Stations are reachable from their line and from the search; the sidebar lists lines,
+    sectioned by mode so a reader is not scrolling past 21 bus corridors to reach the metro.
     """
-    entries = []
+    grouped: dict[str, list[Line]] = {}
     for line in network.lines:
-        number = line.number.value if line.number else None
-        entries.append(
-            {
-                "label": f"Linha {number} - {line.name.value}" if number else line.name.value,
-                "link": f"/linhas/{line.slug}/",
-            }
-        )
-    _write(BUILD_DATA_DIR / "sidebar.json", json.dumps(entries, ensure_ascii=False, indent=1))
+        grouped.setdefault(line.mode.value, []).append(line)
+    order = [mode for mode in MODE_ORDER if mode in grouped]
+    order += [mode for mode in grouped if mode not in MODE_ORDER]
+
+    groups = [
+        {
+            "label": MODE_LABELS.get(mode, mode),
+            "items": [
+                {"label": _line_title(line), "link": f"/linhas/{line.slug}/"}
+                for line in grouped[mode]
+            ],
+        }
+        for mode in order
+    ]
+    _write(BUILD_DATA_DIR / "sidebar.json", json.dumps(groups, ensure_ascii=False, indent=1))
+
+
+def _write_redirects(network: Network) -> None:
+    """Keep the URLs the stations used to live at working.
+
+    Station pages moved out from under the lines. The old address of each one was
+    ``/linhas/<lowest-numbered line>/<station>/``, which is reproducible from the dataset,
+    so every one of them is redirected rather than left to 404.
+    """
+    by_id = {line.id: line for line in network.lines}
+    redirects = {}
+    for station in network.stations:
+        if not station.lines or station.lines[0] not in by_id:
+            continue
+        antigo = f"/linhas/{by_id[station.lines[0]].slug}/{station.slug}"
+        redirects[antigo] = station_href(station).rstrip("/")
+    _write(BUILD_DATA_DIR / "redirects.json", json.dumps(redirects, ensure_ascii=False, indent=1))
+
+
+def _line_title(line: Line) -> str:
+    number = line.number.value if line.number else None
+    return f"Linha {number} - {line.name.value}" if number else line.name.value
 
 
 def _publish_data(network: Network) -> None:

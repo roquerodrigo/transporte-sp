@@ -22,10 +22,14 @@ def read(root, *parts) -> str:
     return (root / "docs" / "linhas" / "/".join(parts)).read_text()
 
 
+def read_station(root, slug: str) -> str:
+    return (root / "docs" / "estacao" / f"{slug}.mdx").read_text()
+
+
 def test_a_page_is_written_for_every_line_and_station(generated):
     root, network = generated
-    written = list((root / "docs" / "linhas").rglob("*.mdx"))
-    assert len(written) == len(network.lines) + len(network.stations)
+    assert len(list((root / "docs" / "linhas").rglob("*.mdx"))) == len(network.lines)
+    assert len(list((root / "docs" / "estacao").rglob("*.mdx"))) == len(network.stations)
 
 
 def test_a_line_page_lists_its_stations_in_order(generated):
@@ -44,11 +48,36 @@ def test_a_corridor_without_stations_says_so_instead_of_showing_an_empty_table(g
     assert "sem pontos" in read(root, "corredor-paes-de-barros.mdx")
 
 
-def test_an_interchange_gets_one_page_under_its_first_line(generated):
+def test_a_station_gets_one_page_outside_any_line(generated):
+    """A station served by several lines cannot be filed under one of them."""
     root, _ = generated
-    pages_for_itaquera = list((root / "docs" / "linhas").rglob("corinthians-itaquera.mdx"))
-    assert len(pages_for_itaquera) == 1
-    assert pages_for_itaquera[0].parent.name == "linha-3-vermelha"
+    written = list((root / "docs").rglob("corinthians-itaquera.mdx"))
+    assert len(written) == 1
+    assert written[0].parent.name == "estacao"
+
+
+def test_a_line_links_its_stations_at_the_station_path(generated):
+    root, _ = generated
+    assert "(/estacao/corinthians-itaquera/)" in read(root, "linha-3-vermelha.mdx")
+
+
+def test_the_old_station_address_is_redirected(generated):
+    import json
+
+    root, _ = generated
+    redirects = json.loads((root / "build" / "redirects.json").read_text())
+    assert redirects["/linhas/linha-3-vermelha/corinthians-itaquera"] == (
+        "/estacao/corinthians-itaquera"
+    )
+
+
+def test_the_sidebar_is_grouped_by_mode(generated):
+    import json
+
+    root, _ = generated
+    groups = json.loads((root / "build" / "sidebar.json").read_text())
+    assert [group["label"] for group in groups][:1] == ["Metrô"]
+    assert all("items" in group for group in groups)
 
 
 def test_the_provenance_table_translates_vocabularies(generated):

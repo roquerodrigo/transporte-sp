@@ -44,7 +44,16 @@ def test_the_station_order_is_taken_from_the_gtfs(network):
 def test_a_projected_station_lands_on_its_projected_line(network):
     line = next(line for line in network.lines if line.id == "linha-6")
     assert "brasilandia" in line.stations
-    assert line.status.value == "planned"
+    # OSM maps the stretch that already runs while GeoSampa still calls the whole line
+    # projected, which is what "partially open" means.
+    assert line.status.value == "partial"
+
+
+def test_a_running_stop_outranks_a_projected_record_for_the_same_station(network):
+    stations = {station.id: station for station in network.stations}
+    assert stations["brasilandia"].status.value == "operational"
+    assert stations["brasilandia"].status.confidence == "E"
+    assert stations["itaberaba"].status.value == "planned"
 
 
 def test_a_bus_corridor_is_published_as_brt(network):

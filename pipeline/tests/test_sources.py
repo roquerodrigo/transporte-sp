@@ -55,7 +55,7 @@ class TestGtfs:
 class TestOverpass:
     def test_route_relations_become_lines(self, osm_snapshot):
         lines = overpass.lines()
-        assert [line.number for line in lines] == ["3"]
+        assert [line.number for line in lines] == ["3", "6"]
         assert lines[0].mode == "subway"
 
     def test_a_heritage_route_without_an_operator_is_not_a_line(self, osm_snapshot):

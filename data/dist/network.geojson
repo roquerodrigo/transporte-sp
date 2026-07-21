@@ -155574,6 +155574,9 @@
         "lines": [
           "linha-6"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -155595,6 +155598,9 @@
         "name": "AACD-Servidor",
         "lines": [
           "linha-5"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "SER",
@@ -155618,6 +155624,9 @@
         "lines": [
           "linha-14"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -155639,6 +155648,9 @@
         "name": "Abel Ferreira",
         "lines": [
           "linha-16"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -155662,6 +155674,9 @@
         "lines": [
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -155683,6 +155698,9 @@
         "name": "Aclimacao",
         "lines": [
           "linha-6"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -155706,6 +155724,9 @@
         "lines": [
           "linha-5"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "ADP",
         "interchange": false
@@ -155728,7 +155749,10 @@
         "lines": [
           "linha-17"
         ],
-        "status": "planned",
+        "modes": [
+          "monorail"
+        ],
+        "status": "operational",
         "code": "CGN",
         "interchange": false
       }
@@ -155751,6 +155775,9 @@
           "linha-13",
           "expresso-aeroporto"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "AGU",
         "interchange": true
@@ -155772,6 +155799,9 @@
         "name": "Afonsina",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -155796,6 +155826,10 @@
           "linha-6",
           "linha-7"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "ABR",
         "interchange": true
@@ -155817,6 +155851,9 @@
         "name": "Alto da Boa Vista",
         "lines": [
           "linha-5"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "ABA",
@@ -155840,6 +155877,9 @@
         "lines": [
           "linha-2"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "AIP",
         "interchange": false
@@ -155861,6 +155901,9 @@
         "name": "Álvaro Ramos",
         "lines": [
           "linha-16"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -155884,6 +155927,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "ABU",
         "interchange": false
@@ -155905,6 +155951,9 @@
         "name": "Américo Maurano",
         "lines": [
           "linha-17"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "planned",
         "code": null,
@@ -155928,6 +155977,9 @@
         "lines": [
           "vlt-linha-1",
           "vlt-linha-2"
+        ],
+        "modes": [
+          "lrt"
         ],
         "status": "operational",
         "code": "SP-4720",
@@ -155953,6 +156005,9 @@
           "linha-2",
           "linha-16"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "ANR",
         "interchange": true
@@ -155974,6 +156029,9 @@
         "name": "Anália Franco",
         "lines": [
           "linha-16"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -155998,6 +156056,9 @@
           "linha-3",
           "linha-19"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "GBU",
         "interchange": true
@@ -156019,6 +156080,9 @@
         "name": "Antonio Gianetti Neto",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "AGN",
@@ -156042,6 +156106,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "AJO",
         "interchange": false
@@ -156063,6 +156130,9 @@
         "name": "Aracaré",
         "lines": [
           "linha-12"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "ARC",
@@ -156086,6 +156156,9 @@
         "lines": [
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -156107,6 +156180,9 @@
         "name": "Arlindo Vieira",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -156130,6 +156206,9 @@
         "lines": [
           "linha-1"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "PPQ",
         "interchange": false
@@ -156151,6 +156230,9 @@
         "name": "Artur Alvim",
         "lines": [
           "linha-3"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "ART",
@@ -156174,6 +156256,9 @@
         "lines": [
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "AUT",
         "interchange": false
@@ -156195,6 +156280,9 @@
         "name": "Baltazar Fidélis",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "BFI",
@@ -156218,6 +156306,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "BRU",
         "interchange": false
@@ -156240,6 +156331,9 @@
         "lines": [
           "linha-6"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -156261,6 +156355,9 @@
         "name": "Belém",
         "lines": [
           "linha-3"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "BEL",
@@ -156285,6 +156382,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": "BCA",
         "interchange": true
@@ -156306,6 +156406,9 @@
         "name": "Berrini - Casas Bahia",
         "lines": [
           "linha-9"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": null,
@@ -156329,6 +156432,9 @@
         "lines": [
           "linha-14"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -156350,6 +156456,9 @@
         "name": "Borba Gato",
         "lines": [
           "linha-5"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "BGT",
@@ -156373,6 +156482,9 @@
         "lines": [
           "linha-19"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -156394,6 +156506,9 @@
         "name": "Botujuru",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "BTJ",
@@ -156421,6 +156536,10 @@
           "linha-12",
           "expresso-aeroporto"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "BAS",
         "interchange": true
@@ -156442,6 +156561,9 @@
         "name": "Brás Cubas",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": null,
@@ -156465,6 +156587,9 @@
         "lines": [
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -156486,6 +156611,9 @@
         "name": "Brasilândia",
         "lines": [
           "linha-6"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -156509,6 +156637,9 @@
         "lines": [
           "linha-3"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "BRE",
         "interchange": false
@@ -156530,6 +156661,9 @@
         "name": "Brigadeiro",
         "lines": [
           "linha-2"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "BGD",
@@ -156553,6 +156687,9 @@
         "lines": [
           "linha-5"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "BCB",
         "interchange": false
@@ -156575,7 +156712,10 @@
         "lines": [
           "linha-17"
         ],
-        "status": "planned",
+        "modes": [
+          "monorail"
+        ],
+        "status": "operational",
         "code": "BPA",
         "interchange": false
       }
@@ -156596,6 +156736,9 @@
         "name": "Butantã",
         "lines": [
           "linha-4"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "BUT",
@@ -156618,6 +156761,9 @@
         "name": "Caieiras",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "CAI",
@@ -156642,6 +156788,9 @@
           "linha-11",
           "linha-12"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "CMV",
         "interchange": true
@@ -156664,6 +156813,9 @@
         "lines": [
           "linha-6"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -156685,6 +156837,9 @@
         "name": "Camilo Haddad",
         "lines": [
           "linha-15"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "operational",
         "code": "CAD",
@@ -156709,6 +156864,10 @@
           "linha-5",
           "linha-17"
         ],
+        "modes": [
+          "monorail",
+          "subway"
+        ],
         "status": "operational",
         "code": "CPB",
         "interchange": true
@@ -156732,6 +156891,10 @@
           "linha-5",
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "CPL",
         "interchange": true
@@ -156753,6 +156916,9 @@
         "name": "Campo Limpo Paulista",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "CLP",
@@ -156776,6 +156942,9 @@
         "lines": [
           "linha-5"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "CPR",
         "interchange": false
@@ -156798,6 +156967,9 @@
         "lines": [
           "linha-10"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "CPV",
         "interchange": false
@@ -156819,6 +156991,9 @@
         "name": "Carandiru",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "CDU",
@@ -156843,6 +157018,9 @@
           "linha-8",
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "CPB",
         "interchange": true
@@ -156864,6 +157042,9 @@
         "name": "Cardeal Arcoverde",
         "lines": [
           "linha-22"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -156887,6 +157068,9 @@
         "lines": [
           "linha-3"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "CAR",
         "interchange": false
@@ -156908,6 +157092,9 @@
         "name": "Catumbi",
         "lines": [
           "linha-19"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -156931,6 +157118,9 @@
         "lines": [
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "CEA",
         "interchange": false
@@ -156952,6 +157142,9 @@
         "name": "Cerro Corá",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -156976,6 +157169,9 @@
           "linha-2",
           "linha-5"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "CKB",
         "interchange": true
@@ -156998,7 +157194,10 @@
         "lines": [
           "linha-17"
         ],
-        "status": "planned",
+        "modes": [
+          "monorail"
+        ],
+        "status": "operational",
         "code": "CZD",
         "interchange": false
       }
@@ -157019,6 +157218,9 @@
         "name": "Cidade A.E. Carvalho",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -157042,6 +157244,9 @@
         "lines": [
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "CJD",
         "interchange": false
@@ -157063,6 +157268,9 @@
         "name": "Cidade Leonor",
         "lines": [
           "linha-17"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "planned",
         "code": null,
@@ -157086,6 +157294,9 @@
         "lines": [
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "USP",
         "interchange": false
@@ -157107,6 +157318,9 @@
         "name": "Clínicas",
         "lines": [
           "linha-2"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "CLI",
@@ -157130,6 +157344,9 @@
         "lines": [
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -157151,6 +157368,9 @@
         "name": "Comandante Sampaio",
         "lines": [
           "linha-8"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "CSA",
@@ -157174,6 +157394,9 @@
         "lines": [
           "linha-12"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "ERM",
         "interchange": false
@@ -157195,6 +157418,9 @@
         "name": "Conceição",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "CON",
@@ -157219,6 +157445,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -157240,6 +157469,9 @@
         "name": "Consolação",
         "lines": [
           "linha-2"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "CNS",
@@ -157265,6 +157497,10 @@
           "linha-11",
           "linha-14"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "ITQ",
         "interchange": true
@@ -157286,6 +157522,9 @@
         "name": "Cotia Km 26",
         "lines": [
           "linha-22"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -157309,6 +157548,9 @@
         "lines": [
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -157330,6 +157572,9 @@
         "name": "Curuçá",
         "lines": [
           "linha-19"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -157353,6 +157598,9 @@
         "lines": [
           "linha-16"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -157374,6 +157622,9 @@
         "name": "Dom Bosco",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "DOB",
@@ -157397,6 +157648,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "DMO",
         "interchange": false
@@ -157418,6 +157672,9 @@
         "name": "Donatello",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -157441,6 +157698,9 @@
         "lines": [
           "linha-19"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -157462,6 +157722,9 @@
         "name": "Eiras Garcia",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -157486,6 +157749,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -157509,6 +157775,9 @@
           "linha-12",
           "linha-13"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -157530,6 +157799,9 @@
         "name": "Eng Manoel Feio",
         "lines": [
           "linha-12"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": null,
@@ -157553,6 +157825,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "ECD",
         "interchange": false
@@ -157574,6 +157849,9 @@
         "name": "Estação GRU CPTM",
         "lines": [
           "aeromovel-gru"
+        ],
+        "modes": [
+          "lrt"
         ],
         "status": "operational",
         "code": null,
@@ -157597,6 +157875,9 @@
         "lines": [
           "linha-5"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "HSP",
         "interchange": false
@@ -157618,6 +157899,9 @@
         "name": "Estação TPS1",
         "lines": [
           "aeromovel-gru"
+        ],
+        "modes": [
+          "lrt"
         ],
         "status": "operational",
         "code": null,
@@ -157641,6 +157925,9 @@
         "lines": [
           "aeromovel-gru"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": false
@@ -157662,6 +157949,9 @@
         "name": "Estação TPS3",
         "lines": [
           "aeromovel-gru"
+        ],
+        "modes": [
+          "lrt"
         ],
         "status": "operational",
         "code": null,
@@ -157685,6 +157975,9 @@
         "lines": [
           "linha-17"
         ],
+        "modes": [
+          "monorail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -157706,6 +157999,9 @@
         "name": "Estudantes",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "EST",
@@ -157729,6 +158025,9 @@
         "lines": [
           "linha-5"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "ECT",
         "interchange": false
@@ -157750,6 +158049,9 @@
         "name": "FAAP-Pacaembu",
         "lines": [
           "linha-6"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -157774,6 +158076,9 @@
           "linha-4",
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "FAL",
         "interchange": true
@@ -157796,6 +158101,9 @@
         "lines": [
           "linha-15"
         ],
+        "modes": [
+          "monorail"
+        ],
         "status": "operational",
         "code": "FJT",
         "interchange": false
@@ -157817,6 +158125,9 @@
         "name": "Ferraz de Vasconcelos",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "FVC",
@@ -157841,6 +158152,9 @@
           "linha-4",
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "FRA",
         "interchange": true
@@ -157862,6 +158176,9 @@
         "name": "Francisco Morato",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "FMO",
@@ -157885,6 +158202,9 @@
         "lines": [
           "linha-7"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "FDR",
         "interchange": false
@@ -157907,7 +158227,10 @@
         "lines": [
           "linha-6"
         ],
-        "status": "planned",
+        "modes": [
+          "subway"
+        ],
+        "status": "operational",
         "code": "FRE",
         "interchange": false
       }
@@ -157928,6 +158251,9 @@
         "name": "General Miguel Costa",
         "lines": [
           "linha-8"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "GMC",
@@ -157951,6 +158277,9 @@
         "lines": [
           "linha-5"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "GGR",
         "interchange": false
@@ -157972,6 +158301,9 @@
         "name": "Girassol",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -157995,6 +158327,9 @@
         "lines": [
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "SP-4073",
         "interchange": false
@@ -158016,6 +158351,9 @@
         "name": "Granja Julieta",
         "lines": [
           "linha-9"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "GJT",
@@ -158039,6 +158377,9 @@
         "lines": [
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -158060,6 +158401,9 @@
         "name": "Guaianases",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "GUA",
@@ -158083,6 +158427,9 @@
         "lines": [
           "linha-10"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "GPT",
         "interchange": false
@@ -158104,6 +158451,9 @@
         "name": "Guarulhos",
         "lines": [
           "linha-19"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -158128,6 +158478,9 @@
           "linha-13",
           "expresso-aeroporto"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "GCE",
         "interchange": true
@@ -158149,6 +158502,9 @@
         "name": "Guilhermina-Esperança",
         "lines": [
           "linha-3"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "VPA",
@@ -158173,6 +158529,10 @@
           "linha-9",
           "linha-22"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "HBR",
         "interchange": true
@@ -158194,6 +158554,9 @@
         "name": "Hélio Pellegrino",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -158218,6 +158581,9 @@
           "linha-4",
           "linha-6"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "HIG",
         "interchange": true
@@ -158239,6 +158605,9 @@
         "name": "Hortênsias",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -158262,6 +158631,9 @@
         "lines": [
           "linha-14"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -158283,6 +158655,9 @@
         "name": "Hosp. Santa Marcelina",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -158306,6 +158681,9 @@
         "lines": [
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -158327,6 +158705,9 @@
         "name": "Hospital Jardim Helena",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -158350,6 +158731,9 @@
         "lines": [
           "linha-17"
         ],
+        "modes": [
+          "monorail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -158371,6 +158755,9 @@
         "name": "Hospital Universitário",
         "lines": [
           "linha-22"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -158394,6 +158781,9 @@
         "lines": [
           "linha-14"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -158415,6 +158805,9 @@
         "name": "Imperatriz Leopoldina",
         "lines": [
           "linha-8"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "ILE",
@@ -158438,6 +158831,9 @@
         "lines": [
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -158459,6 +158855,9 @@
         "name": "Integração",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -158482,6 +158881,9 @@
         "lines": [
           "linha-10"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "IPG",
         "interchange": false
@@ -158503,6 +158905,9 @@
         "name": "Itaberaba / Hospital Vila Penteado",
         "lines": [
           "linha-6"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": "ITB",
@@ -158526,6 +158931,9 @@
         "lines": [
           "linha-12"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "ITI",
         "interchange": false
@@ -158547,6 +158955,9 @@
         "name": "Itapegica",
         "lines": [
           "linha-19"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -158570,6 +158981,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "IPV",
         "interchange": false
@@ -158591,6 +159005,9 @@
         "name": "Itaquaquecetuba",
         "lines": [
           "linha-12"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "IQC",
@@ -158615,6 +159032,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -158638,6 +159058,10 @@
           "linha-1",
           "linha-17"
         ],
+        "modes": [
+          "monorail",
+          "subway"
+        ],
         "status": "operational",
         "code": "JAB",
         "interchange": true
@@ -158659,6 +159083,9 @@
         "name": "Jandira",
         "lines": [
           "linha-8"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "JDI",
@@ -158682,6 +159109,9 @@
         "lines": [
           "linha-1"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "LIB",
         "interchange": false
@@ -158703,6 +159133,9 @@
         "name": "Jaraguá",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "JRG",
@@ -158726,6 +159159,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "JBE",
         "interchange": false
@@ -158747,6 +159183,9 @@
         "name": "Jardim Brasil",
         "lines": [
           "linha-19"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -158770,6 +159209,9 @@
         "lines": [
           "linha-15"
         ],
+        "modes": [
+          "monorail"
+        ],
         "status": "planned",
         "code": "IGT",
         "interchange": false
@@ -158791,6 +159233,9 @@
         "name": "Jardim D'Abril",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -158814,6 +159259,9 @@
         "lines": [
           "linha-12"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "JHE",
         "interchange": false
@@ -158835,6 +159283,9 @@
         "name": "Jardim Irene",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -158858,6 +159309,9 @@
         "lines": [
           "linha-14"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -158879,6 +159333,9 @@
         "name": "Jardim Japão",
         "lines": [
           "linha-19"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -158902,6 +159359,9 @@
         "lines": [
           "linha-19"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -158923,6 +159383,9 @@
         "name": "Jardim Paulista",
         "lines": [
           "linha-16"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -158946,6 +159409,9 @@
         "lines": [
           "linha-15"
         ],
+        "modes": [
+          "monorail"
+        ],
         "status": "operational",
         "code": "JPL",
         "interchange": false
@@ -158967,6 +159433,9 @@
         "name": "Jardim Roberto",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -158990,6 +159459,9 @@
         "lines": [
           "linha-12"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "JRO",
         "interchange": false
@@ -159011,6 +159483,9 @@
         "name": "Jardim São Paulo - Ayrton Senna",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "JPA",
@@ -159034,6 +159509,9 @@
         "lines": [
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -159055,6 +159533,9 @@
         "name": "Jardim Silveira - Leo Madeiras",
         "lines": [
           "linha-8"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "JSI",
@@ -159078,6 +159559,9 @@
         "lines": [
           "linha-14"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -159099,6 +159583,9 @@
         "name": "Jesuíno Cardoso",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -159122,6 +159609,9 @@
         "lines": [
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "JOD",
         "interchange": false
@@ -159144,7 +159634,10 @@
         "lines": [
           "linha-6"
         ],
-        "status": "planned",
+        "modes": [
+          "subway"
+        ],
+        "status": "operational",
         "code": "JPI",
         "interchange": false
       }
@@ -159167,6 +159660,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -159188,6 +159684,9 @@
         "name": "José Bonifácio",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "JBO",
@@ -159212,6 +159711,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -159233,6 +159735,9 @@
         "name": "Júlio Prestes",
         "lines": [
           "linha-8"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "JPR",
@@ -159256,6 +159761,9 @@
         "lines": [
           "linha-7"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "JUN",
         "interchange": false
@@ -159277,6 +159785,9 @@
         "name": "Jundiapeba",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "JPB",
@@ -159300,6 +159811,9 @@
         "lines": [
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "JUR",
         "interchange": false
@@ -159321,6 +159835,9 @@
         "name": "Juventus - Mooca",
         "lines": [
           "linha-10"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "MOC",
@@ -159344,6 +159861,9 @@
         "lines": [
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": "LPA",
         "interchange": false
@@ -159365,6 +159885,9 @@
         "name": "Lapa (Linha 7)",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "LPA",
@@ -159388,6 +159911,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "LAB",
         "interchange": false
@@ -159410,6 +159936,9 @@
         "lines": [
           "linha-5"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "LTR",
         "interchange": false
@@ -159431,6 +159960,9 @@
         "name": "Liviero",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -159458,6 +159990,10 @@
           "linha-11",
           "expresso-aeroporto"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "LUZ",
         "interchange": true
@@ -159479,6 +160015,9 @@
         "name": "Macedo Soares",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -159502,6 +160041,9 @@
         "lines": [
           "linha-3"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "DEO",
         "interchange": false
@@ -159523,6 +160065,9 @@
         "name": "Maristela",
         "lines": [
           "linha-6"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": null,
@@ -159547,6 +160092,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": "MMO",
         "interchange": true
@@ -159568,6 +160116,9 @@
         "name": "Mauá",
         "lines": [
           "linha-10"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "MAU",
@@ -159591,6 +160142,9 @@
         "lines": [
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": false
@@ -159612,6 +160166,9 @@
         "name": "Mendes - Vila Natal",
         "lines": [
           "linha-9"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "MVN",
@@ -159635,6 +160192,9 @@
         "lines": [
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": false
@@ -159656,6 +160216,9 @@
         "name": "Miguel Couto",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -159680,6 +160243,9 @@
           "linha-5",
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "MOE",
         "interchange": true
@@ -159701,6 +160267,9 @@
         "name": "Mogi das Cruzes",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "MDC",
@@ -159724,6 +160293,9 @@
         "lines": [
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -159745,6 +160317,9 @@
         "name": "Morro Grande",
         "lines": [
           "linha-6"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -159769,6 +160344,10 @@
           "linha-9",
           "linha-17"
         ],
+        "modes": [
+          "commuter_rail",
+          "monorail"
+        ],
         "status": "operational",
         "code": "MRB",
         "interchange": true
@@ -159791,6 +160370,9 @@
         "lines": [
           "vlt-linha-1",
           "vlt-linha-2"
+        ],
+        "modes": [
+          "lrt"
         ],
         "status": "operational",
         "code": null,
@@ -159815,6 +160397,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -159836,6 +160421,9 @@
         "name": "Nova Granada",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -159859,6 +160447,9 @@
         "lines": [
           "linha-16"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -159880,6 +160471,9 @@
         "name": "Oratório",
         "lines": [
           "linha-15"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "operational",
         "code": "ORT",
@@ -159904,6 +160498,9 @@
           "linha-8",
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "OSA",
         "interchange": true
@@ -159927,6 +160524,9 @@
           "linha-4",
           "linha-16"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "FRE",
         "interchange": true
@@ -159948,6 +160548,9 @@
         "name": "Paes de Barros",
         "lines": [
           "linha-16"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -159974,6 +160577,10 @@
           "linha-8",
           "expresso-aeroporto"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "BFU",
         "interchange": true
@@ -159995,6 +160602,9 @@
         "name": "Panambi",
         "lines": [
           "linha-17"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "operational",
         "code": null,
@@ -160018,6 +160628,9 @@
         "lines": [
           "linha-17"
         ],
+        "modes": [
+          "monorail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -160040,6 +160653,9 @@
         "lines": [
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": false
@@ -160061,6 +160677,9 @@
         "name": "Parada Inglesa",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "PIG",
@@ -160085,6 +160704,9 @@
           "linha-1",
           "linha-2"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "PSO",
         "interchange": true
@@ -160106,6 +160728,9 @@
         "name": "Paraisópolis",
         "lines": [
           "linha-17"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "planned",
         "code": null,
@@ -160129,6 +160754,9 @@
         "lines": [
           "linha-19"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -160150,6 +160778,9 @@
         "name": "Parque Aclimação",
         "lines": [
           "linha-16"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -160173,6 +160804,9 @@
         "lines": [
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -160194,6 +160828,9 @@
         "name": "Parque da Independência",
         "lines": [
           "linha-16"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -160217,6 +160854,9 @@
         "lines": [
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -160238,6 +160878,9 @@
         "name": "Parque do Carmo",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -160261,6 +160904,9 @@
         "lines": [
           "linha-16"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -160282,6 +160928,9 @@
         "name": "Parque Oratório/Nevada",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -160305,6 +160954,9 @@
         "lines": [
           "linha-3"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "PCA",
         "interchange": false
@@ -160326,6 +160978,9 @@
         "name": "Paulista",
         "lines": [
           "linha-4"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "PTA",
@@ -160349,6 +161004,9 @@
         "lines": [
           "linha-3"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "PDS",
         "interchange": false
@@ -160370,6 +161028,9 @@
         "name": "Penha - Lojas Besni",
         "lines": [
           "linha-3"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "PEN",
@@ -160393,7 +161054,10 @@
         "lines": [
           "linha-6"
         ],
-        "status": "planned",
+        "modes": [
+          "subway"
+        ],
+        "status": "operational",
         "code": null,
         "interchange": false
       }
@@ -160414,6 +161078,9 @@
         "name": "Perus",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "PRU",
@@ -160436,6 +161103,9 @@
         "name": "Pimentas",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -160460,6 +161130,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -160483,6 +161156,10 @@
           "linha-4",
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "PIN",
         "interchange": true
@@ -160504,6 +161181,9 @@
         "name": "Piqueri",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "PQR",
@@ -160527,6 +161207,9 @@
         "lines": [
           "linha-7"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "PRT",
         "interchange": false
@@ -160548,6 +161231,9 @@
         "name": "Poá",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "POA",
@@ -160571,6 +161257,9 @@
         "lines": [
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -160592,6 +161281,9 @@
         "name": "Portugal",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -160615,6 +161307,9 @@
         "lines": [
           "linha-1"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "TTE",
         "interchange": false
@@ -160637,6 +161332,9 @@
         "lines": [
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": false
@@ -160658,6 +161356,9 @@
         "name": "Praça da Árvore",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "ARV",
@@ -160682,6 +161383,10 @@
           "linha-10",
           "linha-20"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "SAN",
         "interchange": true
@@ -160703,6 +161408,9 @@
         "name": "Prefeito Saladino",
         "lines": [
           "linha-10"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "PSA",
@@ -160727,6 +161435,9 @@
           "linha-8",
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "PAL",
         "interchange": true
@@ -160748,6 +161459,9 @@
         "name": "Primavera - Interlagos",
         "lines": [
           "linha-9"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "INT",
@@ -160771,6 +161485,9 @@
         "lines": [
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -160792,6 +161509,9 @@
         "name": "PUC-Cardoso de Almeida",
         "lines": [
           "linha-6"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -160815,6 +161535,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "QTU",
         "interchange": false
@@ -160836,6 +161559,9 @@
         "name": "Regente Feijó",
         "lines": [
           "linha-16"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -160860,6 +161586,9 @@
           "linha-3",
           "linha-4"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "REP",
         "interchange": true
@@ -160881,6 +161610,9 @@
         "name": "Reserva Raposo",
         "lines": [
           "linha-22"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -160904,6 +161636,9 @@
         "lines": [
           "linha-10"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "RPI",
         "interchange": false
@@ -160925,6 +161660,9 @@
         "name": "Rio das Pedras/Aricanduva",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -160948,6 +161686,9 @@
         "lines": [
           "linha-10"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "RGS",
         "interchange": false
@@ -160969,6 +161710,9 @@
         "name": "Rio Negro",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -160992,6 +161736,9 @@
         "lines": [
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -161013,6 +161760,9 @@
         "name": "Rubem Berta",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -161036,6 +161786,9 @@
         "lines": [
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -161057,6 +161810,9 @@
         "name": "Sabiá",
         "lines": [
           "linha-22"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -161080,6 +161836,9 @@
         "lines": [
           "linha-2"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "SAC",
         "interchange": false
@@ -161101,6 +161860,9 @@
         "name": "Sacramento",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -161124,6 +161886,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "SCO",
         "interchange": false
@@ -161146,6 +161911,9 @@
         "lines": [
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -161167,6 +161935,9 @@
         "name": "Santa Cecília",
         "lines": [
           "linha-3"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "CEC",
@@ -161191,6 +161962,9 @@
           "linha-1",
           "linha-5"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "SCZ",
         "interchange": true
@@ -161212,6 +161986,9 @@
         "name": "Santa Maria",
         "lines": [
           "linha-22"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -161235,7 +162012,10 @@
         "lines": [
           "linha-6"
         ],
-        "status": "planned",
+        "modes": [
+          "subway"
+        ],
+        "status": "operational",
         "code": "STM",
         "interchange": false
       }
@@ -161256,6 +162036,9 @@
         "name": "Santa Rita",
         "lines": [
           "linha-8"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "SRT",
@@ -161279,6 +162062,9 @@
         "lines": [
           "linha-8"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "STE",
         "interchange": false
@@ -161300,6 +162086,9 @@
         "name": "Santana",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "SAN",
@@ -161324,6 +162113,10 @@
           "linha-5",
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "SAM",
         "interchange": true
@@ -161346,6 +162139,9 @@
         "lines": [
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -161367,6 +162163,9 @@
         "name": "Santos - Imigrantes",
         "lines": [
           "linha-2"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "IMG",
@@ -161391,6 +162190,9 @@
           "linha-2",
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "SUM",
         "interchange": true
@@ -161414,6 +162216,9 @@
           "linha-1",
           "linha-19"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "BTO",
         "interchange": true
@@ -161436,6 +162241,9 @@
         "lines": [
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": false
@@ -161457,6 +162265,9 @@
         "name": "São Caetano do Sul - Prefeito Walter Braido",
         "lines": [
           "linha-10"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "SCT",
@@ -161481,6 +162292,9 @@
           "linha-6",
           "linha-16"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": true
@@ -161502,6 +162316,9 @@
         "name": "São George",
         "lines": [
           "linha-22"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -161526,6 +162343,9 @@
           "linha-1",
           "linha-6"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "JQM",
         "interchange": true
@@ -161547,6 +162367,9 @@
         "name": "São Judas",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "JUD",
@@ -161570,6 +162393,9 @@
         "lines": [
           "linha-15"
         ],
+        "modes": [
+          "monorail"
+        ],
         "status": "operational",
         "code": "SLU",
         "interchange": false
@@ -161591,6 +162417,9 @@
         "name": "São Mateus",
         "lines": [
           "linha-15"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "operational",
         "code": "MAT",
@@ -161615,6 +162444,9 @@
           "linha-12",
           "linha-14"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "SMP",
         "interchange": true
@@ -161638,6 +162470,10 @@
           "linha-4",
           "linha-17"
         ],
+        "modes": [
+          "monorail",
+          "subway"
+        ],
         "status": "operational",
         "code": "MBI",
         "interchange": true
@@ -161659,6 +162495,9 @@
         "name": "São Pedro",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -161683,6 +162522,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -161705,6 +162547,10 @@
         "lines": [
           "linha-14",
           "linha-15"
+        ],
+        "modes": [
+          "commuter_rail",
+          "monorail"
         ],
         "status": "operational",
         "code": "SAP",
@@ -161729,6 +162575,9 @@
           "linha-1",
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "SAU",
         "interchange": true
@@ -161752,6 +162601,9 @@
           "linha-1",
           "linha-3"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "PSE",
         "interchange": true
@@ -161774,7 +162626,10 @@
         "lines": [
           "linha-6"
         ],
-        "status": "planned",
+        "modes": [
+          "subway"
+        ],
+        "status": "operational",
         "code": null,
         "interchange": false
       }
@@ -161795,6 +162650,9 @@
         "name": "Silva Teles",
         "lines": [
           "linha-19"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -161818,6 +162676,9 @@
         "lines": [
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "SOC",
         "interchange": false
@@ -161839,6 +162700,9 @@
         "name": "Suzano",
         "lines": [
           "linha-11"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "SUZ",
@@ -161862,6 +162726,9 @@
         "lines": [
           "linha-20"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -161884,6 +162751,9 @@
         "lines": [
           "ligacao-alphaville-campo-limpo"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -161905,6 +162775,9 @@
         "name": "Taboão-Pauliceia",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -161929,6 +162802,10 @@
           "linha-2",
           "linha-10"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "TTI",
         "interchange": true
@@ -161950,6 +162827,9 @@
         "name": "Tamboré",
         "lines": [
           "ligacao-alphaville-campo-limpo"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -161975,6 +162855,10 @@
           "linha-11",
           "linha-12"
         ],
+        "modes": [
+          "commuter_rail",
+          "subway"
+        ],
         "status": "operational",
         "code": "TAT",
         "interchange": true
@@ -161997,6 +162881,9 @@
         "lines": [
           "linha-16",
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -162021,6 +162908,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -162042,6 +162932,9 @@
         "name": "Terminal Cotia",
         "lines": [
           "linha-22"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -162065,6 +162958,9 @@
         "lines": [
           "vlt-linha-1"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": false
@@ -162086,6 +162982,9 @@
         "name": "Tiradentes",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "TRD",
@@ -162109,6 +163008,9 @@
         "lines": [
           "linha-2"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "TRI",
         "interchange": false
@@ -162130,6 +163032,9 @@
         "name": "Tucuruvi",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "TUC",
@@ -162153,6 +163058,9 @@
         "lines": [
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": false
@@ -162174,6 +163082,9 @@
         "name": "USP Leste",
         "lines": [
           "linha-12"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "USL",
@@ -162197,6 +163108,9 @@
         "lines": [
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -162218,6 +163132,9 @@
         "name": "Utinga",
         "lines": [
           "linha-10"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "UTG",
@@ -162241,6 +163158,9 @@
         "lines": [
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": false
@@ -162262,6 +163182,9 @@
         "name": "Varginha",
         "lines": [
           "linha-9"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "VAR",
@@ -162285,6 +163208,9 @@
         "lines": [
           "linha-7"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "VPL",
         "interchange": false
@@ -162306,6 +163232,9 @@
         "name": "Velha Campinas",
         "lines": [
           "linha-6"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -162329,7 +163258,10 @@
         "lines": [
           "linha-17"
         ],
-        "status": "planned",
+        "modes": [
+          "monorail"
+        ],
+        "status": "operational",
         "code": "VJD",
         "interchange": false
       }
@@ -162350,6 +163282,9 @@
         "name": "Vergueiro - Sebrae",
         "lines": [
           "linha-1"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "VGO",
@@ -162373,6 +163308,9 @@
         "lines": [
           "linha-19"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -162394,6 +163332,9 @@
         "name": "Vila Aurora",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "VAU",
@@ -162417,6 +163358,9 @@
         "lines": [
           "linha-17"
         ],
+        "modes": [
+          "monorail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -162438,6 +163382,9 @@
         "name": "Vila Bertioga",
         "lines": [
           "linha-16"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -162461,6 +163408,9 @@
         "lines": [
           "linha-6"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -162482,6 +163432,9 @@
         "name": "Vila Clarice",
         "lines": [
           "linha-7"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "VCL",
@@ -162505,7 +163458,10 @@
         "lines": [
           "linha-17"
         ],
-        "status": "planned",
+        "modes": [
+          "monorail"
+        ],
+        "status": "operational",
         "code": "VCD",
         "interchange": false
       }
@@ -162526,6 +163482,9 @@
         "name": "Vila das Belezas",
         "lines": [
           "linha-5"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "VBE",
@@ -162549,6 +163508,9 @@
         "lines": [
           "linha-14"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -162570,6 +163532,9 @@
         "name": "Vila Luzita",
         "lines": [
           "linha-14"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "planned",
         "code": null,
@@ -162593,6 +163558,9 @@
         "lines": [
           "linha-2"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "VMD",
         "interchange": false
@@ -162614,6 +163582,9 @@
         "name": "Vila Maria",
         "lines": [
           "linha-19"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -162637,6 +163608,9 @@
         "lines": [
           "linha-1"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "VMN",
         "interchange": false
@@ -162658,6 +163632,9 @@
         "name": "Vila Matilde",
         "lines": [
           "linha-3"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "operational",
         "code": "VTD",
@@ -162681,6 +163658,9 @@
         "lines": [
           "linha-6"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -162703,6 +163683,9 @@
         "lines": [
           "linha-9"
         ],
+        "modes": [
+          "commuter_rail"
+        ],
         "status": "operational",
         "code": "VOL",
         "interchange": false
@@ -162724,6 +163707,9 @@
         "name": "Vila Paulista",
         "lines": [
           "linha-17"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "planned",
         "code": null,
@@ -162748,6 +163734,10 @@
           "linha-2",
           "linha-15"
         ],
+        "modes": [
+          "monorail",
+          "subway"
+        ],
         "status": "operational",
         "code": "VPT",
         "interchange": true
@@ -162769,6 +163759,9 @@
         "name": "Vila Romana",
         "lines": [
           "linha-20"
+        ],
+        "modes": [
+          "subway"
         ],
         "status": "planned",
         "code": null,
@@ -162792,6 +163785,9 @@
         "lines": [
           "linha-4"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "operational",
         "code": "VSO",
         "interchange": false
@@ -162813,6 +163809,9 @@
         "name": "Vila Tolstói",
         "lines": [
           "linha-15"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "operational",
         "code": "VTL",
@@ -162836,6 +163835,9 @@
         "lines": [
           "linha-15"
         ],
+        "modes": [
+          "monorail"
+        ],
         "status": "operational",
         "code": "VUN",
         "interchange": false
@@ -162857,6 +163859,9 @@
         "name": "Villa Lobos - Jaguaré",
         "lines": [
           "linha-9"
+        ],
+        "modes": [
+          "commuter_rail"
         ],
         "status": "operational",
         "code": "JAG",
@@ -162880,6 +163885,9 @@
         "lines": [
           "linha-22"
         ],
+        "modes": [
+          "subway"
+        ],
         "status": "planned",
         "code": null,
         "interchange": false
@@ -162901,6 +163909,9 @@
         "name": "Washington Luís",
         "lines": [
           "linha-17"
+        ],
+        "modes": [
+          "monorail"
         ],
         "status": "planned",
         "code": "JDA",
@@ -162925,6 +163936,9 @@
           "vlt-linha-1",
           "vlt-linha-2"
         ],
+        "modes": [
+          "lrt"
+        ],
         "status": "operational",
         "code": null,
         "interchange": true
@@ -162946,6 +163960,9 @@
         "name": "Xavier Pinheiro",
         "lines": [
           "vlt-linha-2"
+        ],
+        "modes": [
+          "lrt"
         ],
         "status": "operational",
         "code": null,

@@ -79,3 +79,24 @@ def test_the_page_data_drops_the_alignments_it_does_not_need(generated):
 
 def test_frontmatter_escapes_quotes_in_a_title():
     assert '\\"' in pages._frontmatter('Estação "X"', "d")
+
+
+def test_a_mixed_line_splits_its_stations_by_state(generated):
+    """Line 6 runs a first stretch while the rest is still projected."""
+    root, _ = generated
+    body = read(root, "linha-6-laranja.mdx")
+    assert "### Em operação" in body
+    assert "### Projetada" in body
+
+
+def test_a_line_in_a_single_state_keeps_one_table(generated):
+    root, _ = generated
+    body = read(root, "linha-3-vermelha.mdx")
+    assert "### " not in body
+
+
+def test_the_index_is_split_by_mode(generated):
+    root, _ = generated
+    index = (root / "docs" / "linhas.mdx").read_text()
+    assert "## Metrô" in index
+    assert "## BRT" in index

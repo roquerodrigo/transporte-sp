@@ -322,6 +322,8 @@ def order_stations(lines, stations, clusters, observations) -> None:
                     station.lines.remove(line.id)
             ordered = sequence
         else:
+            if basis == "osm":
+                _mark_running(sequence, by_id)
             ordered = _append_unsequenced(sequence, members, by_id, line)
 
         line.stations = ordered
@@ -334,6 +336,36 @@ def order_stations(lines, stations, clusters, observations) -> None:
             station = by_id[station_id]
             if line.id not in station.lines:
                 station.lines.append(line.id)
+
+
+def _mark_running(sequence: list[str], by_id) -> None:
+    """A station OSM maps as a stop on a live route is open, whatever GeoSampa still says.
+
+    This is the station-level counterpart of the ``partial`` line status. GeoSampa lists
+    every station of Lines 6-Laranja and 17-Ouro in its *projected* layer, including the
+    stretch that started running in 2026, and its layer wins the precedence for status. OSM
+    only puts a stop in a route relation once the route serves it, so a station reached this
+    way is running — published as inferred, with GeoSampa's reading kept as the alternative.
+    """
+    for station_id in sequence:
+        station = by_id.get(station_id)
+        if station is None or station.status.value == "operational":
+            continue
+        previous = station.status
+        station.status = Sourced[str](
+            value="operational",
+            source="pipeline",
+            confidence="E",
+            alternatives=[
+                Alternative(
+                    value=previous.value,
+                    source=previous.source,
+                    confidence=previous.confidence,
+                    note="ainda projetada nesta fonte",
+                ),
+                *previous.alternatives,
+            ],
+        )
 
 
 def _append_unsequenced(sequence: list[str], members, by_id, line) -> list[str]:

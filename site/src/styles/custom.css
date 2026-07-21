@@ -82,3 +82,78 @@
 .mapa-popup .maplibregl-popup-content a:hover {
   text-decoration: underline;
 }
+
+/*
+ * MapLibre's chrome — controls, popup, attribution — ships light-only styling with a
+ * hard-coded white background, while its text inherits the page's colour. Under the dark
+ * theme that is near-white text on white: the filter panel and the tooltip disappear.
+ *
+ * The rules are prefixed with `.mapa` to outrank the library's own single-class selectors
+ * without resorting to `!important`, and they use Starlight's variables so the chrome
+ * follows the theme the same way the basemap already does.
+ */
+.mapa .maplibregl-ctrl-group,
+.mapa .maplibregl-popup-content,
+/* The attribution is styled by two class selectors when compact, which ties on specificity
+   and wins on source order — so it is matched the same way. */
+.mapa .maplibregl-ctrl-attrib.maplibregl-compact,
+.mapa .maplibregl-ctrl-attrib {
+  background: var(--sl-color-bg);
+  color: var(--sl-color-text);
+}
+
+/* Compact mode collapses to a round "i" button whose icon is a dark SVG. */
+:root[data-theme="dark"] .mapa .maplibregl-ctrl-attrib-button {
+  filter: invert(1);
+}
+
+.mapa .maplibregl-ctrl-group {
+  border: 1px solid var(--sl-color-hairline);
+  box-shadow: none;
+}
+
+/* MapLibre sets its own font stack on the map root, so everything it draws — the filter
+   panel, the tooltip, the attribution — came out in a different typeface from the page
+   around it. Only its chrome can follow: the place names belong to the raster basemap and
+   are baked into the tiles. */
+/* The container is also the map root, so MapLibre's own `.maplibregl-map` rule ties with a
+   bare `.mapa` and wins on order. */
+.mapa.maplibregl-map,
+.mapa .maplibregl-ctrl,
+.mapa .maplibregl-popup {
+  font-family: var(--sl-font);
+}
+
+.mapa .maplibregl-ctrl-group button + button {
+  border-top-color: var(--sl-color-hairline);
+}
+
+.mapa .maplibregl-ctrl-attrib a {
+  color: var(--sl-color-text-accent);
+}
+
+/* The popup's arrow is drawn as a border triangle, so it needs the background colour too. */
+.mapa .maplibregl-popup-anchor-top .maplibregl-popup-tip {
+  border-bottom-color: var(--sl-color-bg);
+}
+.mapa .maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+  border-top-color: var(--sl-color-bg);
+}
+.mapa .maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: var(--sl-color-bg);
+}
+.mapa .maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: var(--sl-color-bg);
+}
+
+/* The control icons are dark SVGs baked into the stylesheet; on a dark surface they have to
+   be flipped, there being no variable to reach into them. */
+:root[data-theme="dark"] .mapa .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+  filter: invert(1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .mapa .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+    filter: invert(1);
+  }
+}

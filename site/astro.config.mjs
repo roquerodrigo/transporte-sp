@@ -71,6 +71,8 @@ export default defineConfig({
       ],
       // Injected here rather than from a `Head` override: themes routinely override
       // `Head`, and whichever override loses simply does not render.
+      // Starlight injects the SVG favicon on its own; the raster fallbacks, the iOS touch
+      // icon and the manifest are added here, each prefixed with the site base.
       head: [
         {
           tag: "script",
@@ -79,6 +81,21 @@ export default defineConfig({
             "utf8",
           ),
         },
+        { tag: "link", attrs: { rel: "icon", href: `${base}/favicon.ico`, sizes: "48x48" } },
+        {
+          tag: "link",
+          attrs: { rel: "icon", type: "image/png", sizes: "32x32", href: `${base}/favicon-32.png` },
+        },
+        {
+          tag: "link",
+          attrs: { rel: "icon", type: "image/png", sizes: "16x16", href: `${base}/favicon-16.png` },
+        },
+        {
+          tag: "link",
+          attrs: { rel: "apple-touch-icon", sizes: "180x180", href: `${base}/apple-touch-icon.png` },
+        },
+        { tag: "link", attrs: { rel: "manifest", href: `${base}/site.webmanifest` } },
+        { tag: "meta", attrs: { name: "theme-color", content: "#0f172a" } },
       ],
       sidebar: [
         { label: "Mapa da rede", link: "/mapa/" },

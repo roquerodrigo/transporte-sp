@@ -5,6 +5,7 @@ description: "Estação de Linha L2 - VLT Linha 2"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="poupatempo" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Poupatempo | OpenStreetMap | C | — |
-| Coordenada | -23.93566, -46.32386 | OpenStreetMap | C | -23.93567, -46.32388 (Wikidata) |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Poupatempo | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.93566, -46.32386 | <Origem fonte="osm" nivel="C" /> | -23.93567, -46.32388 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |

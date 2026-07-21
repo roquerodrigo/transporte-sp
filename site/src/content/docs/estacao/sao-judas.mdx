@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="sao-judas" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | São Judas | OpenStreetMap | C | SÃO JUDAS (GeoSampa) |
-| Coordenada | -23.62575, -46.64081 | GeoSampa | A | -23.62558, -46.64082 (OpenStreetMap); -23.62561, -46.64075 (Wikidata); -23.62588, -46.64094 (GTFS SPTrans) |
-| Sigla | JUD | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 1974-09-14 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | São Judas | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.62575, -46.64081 | <Origem fonte="geosampa" nivel="A" /> | -23.62558, -46.64082 <Origem fonte="osm" nivel="C" /><br />-23.62561, -46.64075 <Origem fonte="wikidata" nivel="C" /><br />-23.62588, -46.64094 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JUD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 14/09/1974 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

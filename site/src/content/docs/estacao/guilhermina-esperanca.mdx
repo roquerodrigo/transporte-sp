@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="guilhermina-esperanca" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Guilhermina-Esperança | OpenStreetMap | C | Guilhermina Esperança (GTFS SPTrans); GUILHERMINA-ESPERANÇA (GeoSampa) |
-| Coordenada | -23.52926, -46.51655 | GeoSampa | A | -23.52930, -46.51664 (OpenStreetMap); -23.52929, -46.51655 (Wikidata); -23.52932, -46.51667 (GTFS SPTrans) |
-| Sigla | VPA | Wikidata | C | — |
-| Inauguração | 1988-08-27 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Guilhermina-Esperança | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.52926, -46.51655 | <Origem fonte="geosampa" nivel="A" /> | -23.52930, -46.51664 <Origem fonte="osm" nivel="C" /><br />-23.52929, -46.51655 <Origem fonte="wikidata" nivel="C" /><br />-23.52932, -46.51667 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | VPA | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 27/08/1988 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

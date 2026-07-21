@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="domingos-de-moraes" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Domingos de Moraes | OpenStreetMap | C | Domingos De Moraes (GTFS SPTrans) |
-| Coordenada | -23.51879, -46.72167 | OpenStreetMap | C | -23.51879, -46.72162 (Wikidata); -23.51879, -46.72167 (GTFS SPTrans) |
-| Sigla | DMO | Wikidata | C | — |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Domingos de Moraes | <Origem fonte="osm" nivel="C" /> | DOMINGOS DE MORAIS <Origem fonte="geosampa" nivel="A" /> |
+| Coordenada | -23.51893, -46.72148 | <Origem fonte="geosampa" nivel="A" /> | -23.51879, -46.72167 <Origem fonte="osm" nivel="C" /><br />-23.51879, -46.72162 <Origem fonte="wikidata" nivel="C" /><br />-23.51879, -46.72167 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | DMO | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

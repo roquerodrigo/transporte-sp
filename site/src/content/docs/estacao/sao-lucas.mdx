@@ -5,6 +5,7 @@ description: "Estação de Linha 15 - Prata"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="sao-lucas" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | São Lucas | OpenStreetMap | C | SÃO LUCAS (GeoSampa) |
-| Coordenada | -23.58929, -46.54437 | GeoSampa | A | -23.58893, -46.54464 (OpenStreetMap); -23.58890, -46.54464 (Wikidata); -23.58900, -46.54460 (GTFS SPTrans) |
-| Sigla | SLU | Wikidata | C | — |
-| Inauguração | 2018-04-06 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | São Lucas | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.58929, -46.54437 | <Origem fonte="geosampa" nivel="A" /> | -23.58893, -46.54464 <Origem fonte="osm" nivel="C" /><br />-23.58890, -46.54464 <Origem fonte="wikidata" nivel="C" /><br />-23.58900, -46.54460 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | SLU | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 06/04/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

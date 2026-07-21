@@ -5,6 +5,8 @@ description: "BRT · Projetada"
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="emtu-brt-abc-paulista" />
 
@@ -16,10 +18,10 @@ Nenhuma fonte consultada publica estações para esta linha — os corredores de
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | EMTU BRT ABC Paulista | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
-| Modo | BRT | GeoSampa | A | — |
-| Operadora | SPTrans | GeoSampa | A | — |
-| Ordem das estações | inferido | inferido | E | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | EMTU BRT ABC Paulista | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |
+| Modo | BRT | <Origem fonte="geosampa" nivel="A" /> | — |
+| Operadora | SPTrans | <Origem fonte="geosampa" nivel="A" /> | — |
+| Ordem das estações | inferido | <Origem fonte="pipeline" nivel="E" /> | — |

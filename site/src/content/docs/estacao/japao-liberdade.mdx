@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="japao-liberdade" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Japão - Liberdade | OpenStreetMap | C | Liberdade (GTFS SPTrans); JAPÃO-LIBERDADE (GeoSampa) |
-| Coordenada | -23.55498, -46.63573 | GeoSampa | A | -23.55518, -46.63560 (OpenStreetMap); -23.55477, -46.63565 (Wikidata); -23.55521, -46.63558 (GTFS SPTrans) |
-| Sigla | LIB | Wikidata | C | — |
-| Inauguração | 1975-02-17 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Japão - Liberdade | <Origem fonte="osm" nivel="C" /> | Liberdade <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Coordenada | -23.55498, -46.63573 | <Origem fonte="geosampa" nivel="A" /> | -23.55518, -46.63560 <Origem fonte="osm" nivel="C" /><br />-23.55477, -46.63565 <Origem fonte="wikidata" nivel="C" /><br />-23.55521, -46.63558 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | LIB | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 17/02/1975 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

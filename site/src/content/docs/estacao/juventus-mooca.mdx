@@ -5,6 +5,7 @@ description: "Estação de Linha 10 - Turquesa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="juventus-mooca" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Juventus - Mooca | OpenStreetMap | C | Juventus-Mooca (Wikidata); Moóca (GTFS SPTrans); MOOCA (GeoSampa) |
-| Coordenada | -23.55807, -46.60835 | GeoSampa | A | -23.55802, -46.60828 (OpenStreetMap); -23.55716, -46.60883 (Wikidata); -23.55780, -46.60842 (GTFS SPTrans) |
-| Sigla | MOC | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Juventus - Mooca | <Origem fonte="osm" nivel="C" /> | Moóca <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Coordenada | -23.55807, -46.60835 | <Origem fonte="geosampa" nivel="A" /> | -23.55802, -46.60828 <Origem fonte="osm" nivel="C" /><br />-23.55716, -46.60883 <Origem fonte="wikidata" nivel="C" /><br />-23.55780, -46.60842 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | MOC | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="varginha" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Varginha | OpenStreetMap | C | VARGINHA (GeoSampa); VARGINHA (GeoSampa) |
-| Coordenada | -23.77000, -46.71190 | GeoSampa | A | -23.77030, -46.71196 (GeoSampa); -23.77020, -46.71195 (OpenStreetMap); -23.77083, -46.71194 (Wikidata); -23.77037, -46.71205 (GTFS SPTrans) |
-| Sigla | VAR | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Varginha | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.77000, -46.71190 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 93 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | VAR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

@@ -5,6 +5,7 @@ description: "Estação de Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-paulista" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Paulista | GeoSampa | A | — |
-| Coordenada | -23.63830, -46.66223 | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Paulista | <Origem fonte="geosampa" nivel="A" /> | — |
+| Coordenada | -23.63830, -46.66223 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

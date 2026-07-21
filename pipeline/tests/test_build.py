@@ -26,7 +26,8 @@ def test_the_readable_name_wins_over_the_shouted_one(network):
     itaquera = next(s for s in network.stations if s.slug == "corinthians-itaquera")
     assert itaquera.name.value == "Corinthians–Itaquera"
     assert itaquera.name.source == "osm"
-    assert "CORINTHIANS-ITAQUERA" in [item.value for item in itaquera.name.alternatives]
+    # The same name in capitals is not a second reading, so it is not offered as one.
+    assert [item.value for item in itaquera.name.alternatives] == []
 
 
 def test_the_coordinate_comes_from_the_official_survey(network):
@@ -115,3 +116,10 @@ def test_a_projected_station_survives_a_gtfs_covered_line(network):
     assert line.station_order.value == "gtfs_sptrans"
     stations = {station.id: station for station in network.stations}
     assert all(stations[station_id] for station_id in line.stations)
+
+
+def test_an_operating_station_keeps_a_line_it_only_serves_in_the_future(network):
+    """Ipiranga runs on Line 10 today and is a projected stop of Line 15."""
+    stations = {station.slug: station for station in network.stations}
+    itaquera = stations["corinthians-itaquera"]
+    assert "linha-3" in itaquera.lines

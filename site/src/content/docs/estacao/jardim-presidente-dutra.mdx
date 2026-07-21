@@ -5,6 +5,7 @@ description: "Estação de Linha 13 - Jade"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jardim-presidente-dutra" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jardim Presidente Dutra | GeoSampa | A | — |
-| Coordenada | -23.41712, -46.42489 | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jardim Presidente Dutra | <Origem fonte="geosampa" nivel="A" /> | — |
+| Coordenada | -23.41712, -46.42489 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

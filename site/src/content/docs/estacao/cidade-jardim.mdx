@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="cidade-jardim" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Cidade Jardim | OpenStreetMap | C | CIDADE JARDIM (GeoSampa) |
-| Coordenada | -23.58552, -46.69116 | GeoSampa | A | -23.58524, -46.69118 (OpenStreetMap); -23.58534, -46.69104 (Wikidata); -23.58534, -46.69129 (GTFS SPTrans) |
-| Sigla | CJD | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Cidade Jardim | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.58552, -46.69116 | <Origem fonte="geosampa" nivel="A" /> | -23.58524, -46.69118 <Origem fonte="osm" nivel="C" /><br />-23.58534, -46.69104 <Origem fonte="wikidata" nivel="C" /><br />-23.58534, -46.69129 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CJD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

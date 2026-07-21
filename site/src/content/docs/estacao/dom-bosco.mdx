@@ -5,6 +5,7 @@ description: "Estação de Linha 11 - Coral"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="dom-bosco" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Dom Bosco | OpenStreetMap | C | DOM BOSCO (GeoSampa) |
-| Coordenada | -23.54180, -46.44813 | GeoSampa | A | -23.54177, -46.44813 (OpenStreetMap); -23.54177, -46.44813 (Wikidata); -23.54171, -46.44799 (GTFS SPTrans) |
-| Sigla | DOB | Wikidata | C | — |
-| Inauguração | 2000-04-27 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Dom Bosco | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54180, -46.44813 | <Origem fonte="geosampa" nivel="A" /> | -23.54177, -46.44813 <Origem fonte="osm" nivel="C" /><br />-23.54177, -46.44813 <Origem fonte="wikidata" nivel="C" /><br />-23.54171, -46.44799 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | DOB | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 27/04/2000 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

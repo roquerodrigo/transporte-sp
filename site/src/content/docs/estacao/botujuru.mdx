@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="botujuru" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Botujuru | OpenStreetMap | C | BOTUJURU (GeoSampa) |
-| Coordenada | -23.23583, -46.76773 | GeoSampa | A | -23.23587, -46.76761 (OpenStreetMap); -23.23600, -46.76740 (Wikidata); -23.23541, -46.76793 (GTFS SPTrans) |
-| Sigla | BTJ | Wikidata | C | — |
-| Inauguração | 1908-09-17 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Botujuru | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.23583, -46.76773 | <Origem fonte="geosampa" nivel="A" /> | -23.23587, -46.76761 <Origem fonte="osm" nivel="C" /><br />-23.23600, -46.76740 <Origem fonte="wikidata" nivel="C" /><br />-23.23541, -46.76793 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | BTJ | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 17/09/1908 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

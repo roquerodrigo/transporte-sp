@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="adolfo-pinheiro-unisa" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Adolfo Pinheiro - Unisa | OpenStreetMap | C | Adolfo Pinheiro (Wikidata); Adolfo Pinheiro (GTFS SPTrans); ADOLFO PINHEIRO (GeoSampa) |
-| Coordenada | -23.64965, -46.70388 | GeoSampa | A | -23.65007, -46.70421 (OpenStreetMap); -23.65019, -46.70400 (Wikidata); -23.65008, -46.70424 (GTFS SPTrans) |
-| Sigla | ADP | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2014-02-12 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Adolfo Pinheiro - Unisa | <Origem fonte="osm" nivel="C" /> | Adolfo Pinheiro <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.64965, -46.70388 | <Origem fonte="geosampa" nivel="A" /> | -23.65007, -46.70421 <Origem fonte="osm" nivel="C" /><br />-23.65019, -46.70400 <Origem fonte="wikidata" nivel="C" /><br />-23.65008, -46.70424 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ADP | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 12/02/2014 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

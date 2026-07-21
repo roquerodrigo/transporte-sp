@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="barueri" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Barueri | OpenStreetMap | C | BARUERI (GeoSampa) |
-| Coordenada | -23.51256, -46.87517 | GeoSampa | A | -23.51261, -46.87508 (OpenStreetMap); -23.51259, -46.87508 (Wikidata); -23.51264, -46.87511 (GTFS SPTrans) |
-| Sigla | BRU | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Barueri | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.51256, -46.87517 | <Origem fonte="geosampa" nivel="A" /> | -23.51261, -46.87508 <Origem fonte="osm" nivel="C" /><br />-23.51259, -46.87508 <Origem fonte="wikidata" nivel="C" /><br />-23.51264, -46.87511 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | BRU | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

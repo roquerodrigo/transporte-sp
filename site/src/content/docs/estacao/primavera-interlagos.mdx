@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="primavera-interlagos" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Primavera - Interlagos | OpenStreetMap | C | Primavera-Interlagos (Wikidata); Primavera-interlagos (GTFS SPTrans); PRIMAVERA - INTERLAGOS (GeoSampa) |
-| Coordenada | -23.72271, -46.69176 | GeoSampa | A | -23.72287, -46.69177 (OpenStreetMap); -23.72347, -46.69173 (Wikidata); -23.72289, -46.69177 (GTFS SPTrans) |
-| Sigla | INT | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Primavera - Interlagos | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.72271, -46.69176 | <Origem fonte="geosampa" nivel="A" /> | -23.72287, -46.69177 <Origem fonte="osm" nivel="C" /><br />-23.72347, -46.69173 <Origem fonte="wikidata" nivel="C" /><br />-23.72289, -46.69177 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | INT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

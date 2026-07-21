@@ -1,10 +1,12 @@
 ---
 title: "Corredor Jardim Ângela / Guarapiranga / Santo Amaro"
-description: "BRT · Em operação · 7.319 km"
+description: "BRT · Em operação · 7,3 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="corredor-jardim-angela-guarapiranga-santo-amaro" />
 
@@ -16,11 +18,11 @@ Nenhuma fonte consultada publica estações para esta linha — os corredores de
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Corredor Jardim Ângela / Guarapiranga / Santo Amaro | GeoSampa | A | — |
-| Situação | Em operação | GeoSampa | A | — |
-| Modo | BRT | GeoSampa | A | — |
-| Operadora | SPTrans | GeoSampa | A | — |
-| Extensão | 7.319 km | GeoSampa | E | — |
-| Ordem das estações | inferido | inferido | E | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Corredor Jardim Ângela / Guarapiranga / Santo Amaro | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |
+| Modo | BRT | <Origem fonte="geosampa" nivel="A" /> | — |
+| Operadora | SPTrans | <Origem fonte="geosampa" nivel="A" /> | — |
+| Extensão | 7,3 km | <Origem fonte="geosampa" nivel="E" /> | — |
+| Ordem das estações | inferido | <Origem fonte="pipeline" nivel="E" /> | — |

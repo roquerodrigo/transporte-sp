@@ -5,6 +5,7 @@ description: "Estação de Linha 4 - Amarela, Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="sao-paulo-morumbi" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | São Paulo – Morumbi | OpenStreetMap | C | São Paulo-Morumbi (Wikidata); São Paulo - Morumbi (GTFS SPTrans); SÃO PAULO-MORUMBI (GeoSampa); SÃO PAULO-MORUMBI (GeoSampa) |
-| Coordenada | -23.58639, -46.72383 | GeoSampa | A | -23.58682, -46.72388 (GeoSampa); -23.58614, -46.72391 (OpenStreetMap); -23.58572, -46.72380 (Wikidata); -23.58613, -46.72347 (GTFS SPTrans) |
-| Sigla | MBI | Wikidata | C | — |
-| Inauguração | 2018-10-27 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | São Paulo – Morumbi | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.58639, -46.72383 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 74 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | MBI | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 27/10/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

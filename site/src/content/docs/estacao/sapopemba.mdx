@@ -5,6 +5,7 @@ description: "Estação de Linha 14 - Onix, Linha 15 - Prata"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="sapopemba" />
 
@@ -17,11 +18,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Sapopemba | OpenStreetMap | C | Terminal Intermodal Sapopemba (Wikidata); SAPOPEMBA (GeoSampa); SAPOPEMBA (GeoSampa) |
-| Coordenada | -23.61475, -46.50143 | GeoSampa | A | -23.61468, -46.50121 (GeoSampa); -23.61471, -46.50083 (OpenStreetMap); -23.61471, -46.50084 (Wikidata); -23.61468, -46.50083 (GTFS SPTrans) |
-| Sigla | SAP | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2019-12-16 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Sapopemba | <Origem fonte="osm" nivel="C" /> | Terminal Intermodal Sapopemba <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.61475, -46.50143 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 61 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | SAP | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 16/12/2019 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

@@ -5,6 +5,7 @@ description: "Estação de Linha 14 - Onix"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="miguel-couto" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Miguel Couto | GeoSampa | A | — |
-| Coordenada | -23.67694, -46.50636 | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Miguel Couto | <Origem fonte="geosampa" nivel="A" /> | — |
+| Coordenada | -23.67694, -46.50636 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

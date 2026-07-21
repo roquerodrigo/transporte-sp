@@ -35,6 +35,10 @@
   width: 100%;
   overflow: visible;
   margin: 0;
+  /* On a phone the auto layout squeezes the columns until a single provenance row is 560px
+     tall. Below this width the table scrolls sideways instead — the wrapper already handles
+     that, with a keyboard-reachable region. Wider tables on a desktop are unaffected. */
+  min-width: 34rem;
 }
 
 .sl-markdown-content table:not(:where(.not-content *)) {
@@ -61,6 +65,18 @@
 .sl-markdown-content :is(th, td) {
   padding-block: 0.4rem;
 }
+
+/* Starlight leaves the outer edge of the first and last cell flush, so body text and table
+   text share a left edge. That reads well on a plain table and badly on this one: the rows
+   and the header carry a tint, and the text ends up touching the edge of the tinted band. */
+.sl-markdown-content :is(th, td):first-child {
+  padding-inline-start: 0.7rem;
+}
+
+.sl-markdown-content :is(th, td):last-child {
+  padding-inline-end: 0.7rem;
+}
+
 
 @media (max-width: 50rem) {
   .sl-markdown-content table:not(:where(.not-content *)) {

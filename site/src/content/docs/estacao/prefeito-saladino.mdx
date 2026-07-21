@@ -5,6 +5,7 @@ description: "Estação de Linha 10 - Turquesa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="prefeito-saladino" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Prefeito Saladino | OpenStreetMap | C | PREFEITO SALADINO (GeoSampa) |
-| Coordenada | -23.63781, -46.53694 | GeoSampa | A | -23.63837, -46.53670 (OpenStreetMap); -23.63843, -46.53659 (Wikidata); -23.63876, -46.53686 (GTFS SPTrans) |
-| Sigla | PSA | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 1952-11-29 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Prefeito Saladino | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.63781, -46.53694 | <Origem fonte="geosampa" nivel="A" /> | -23.63837, -46.53670 <Origem fonte="osm" nivel="C" /><br />-23.63843, -46.53659 <Origem fonte="wikidata" nivel="C" /><br />-23.63876, -46.53686 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | PSA | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 29/11/1952 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

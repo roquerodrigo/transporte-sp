@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="carandiru" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Carandiru | OpenStreetMap | C | CARANDIRU (GeoSampa) |
-| Coordenada | -23.50928, -46.62496 | GeoSampa | A | -23.50913, -46.62520 (OpenStreetMap); -23.50927, -46.62497 (OpenStreetMap); -23.50966, -46.62490 (Wikidata); -23.50873, -46.62490 (GTFS SPTrans) |
-| Sigla | CDU | Wikidata | C | — |
-| Acessibilidade | Parcialmente acessível | OpenStreetMap | C | — |
-| Inauguração | 1975-09-26 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Carandiru | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.50928, -46.62496 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 61 m de distância<br /><Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | CDU | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Parcialmente acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 26/09/1975 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

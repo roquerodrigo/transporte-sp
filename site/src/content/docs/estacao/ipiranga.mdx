@@ -1,10 +1,11 @@
 ---
 title: "Ipiranga"
-description: "Estação de Linha 10 - Turquesa"
+description: "Estação de Linha 5 - Lilas, Linha 10 - Turquesa, Linha 15 - Prata"
 ---
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="ipiranga" />
 
@@ -12,13 +13,15 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Linhas
 
+- [Linha 5 - Lilas](/linhas/linha-5-lilas/)
 - [Linha 10 - Turquesa](/linhas/linha-10-turquesa/)
+- [Linha 15 - Prata](/linhas/linha-15-prata/)
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Ipiranga | OpenStreetMap | C | Ipiranga (CPTM) (Wikidata); IPIRANGA (GeoSampa); IPIRANGA (GeoSampa) |
-| Coordenada | -23.58249, -46.59665 | GeoSampa | A | -23.58260, -46.59685 (GeoSampa); -23.58249, -46.59663 (OpenStreetMap); -23.58250, -46.59658 (Wikidata); -23.58259, -46.59694 (Wikidata); -23.58236, -46.59666 (GTFS SPTrans) |
-| Sigla | IPG | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Ipiranga | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.58249, -46.59665 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 32 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | IPG | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

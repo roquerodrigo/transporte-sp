@@ -5,6 +5,7 @@ description: "Estação de Linha 14 - Onix"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="abc" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Abc | GeoSampa | A | — |
-| Coordenada | -23.65941, -46.50827 | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Abc | <Origem fonte="geosampa" nivel="A" /> | — |
+| Coordenada | -23.65941, -46.50827 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

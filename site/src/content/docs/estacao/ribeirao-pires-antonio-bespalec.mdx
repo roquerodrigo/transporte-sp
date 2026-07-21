@@ -5,6 +5,7 @@ description: "Estação de Linha 10 - Turquesa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="ribeirao-pires-antonio-bespalec" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Ribeirão Pires - Antônio Bespalec | OpenStreetMap | C | Ribeirão Pires (Wikidata); Ribeirão Pires (GTFS SPTrans); RIBEIRÃO PIRES (GeoSampa) |
-| Coordenada | -23.71383, -46.41454 | GeoSampa | A | -23.71424, -46.41425 (OpenStreetMap); -23.71378, -46.41452 (Wikidata); -23.71359, -46.41481 (GTFS SPTrans) |
-| Sigla | RPI | Wikidata | C | — |
-| Inauguração | 1885-03-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Ribeirão Pires - Antônio Bespalec | <Origem fonte="osm" nivel="C" /> | Ribeirão Pires <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.71383, -46.41454 | <Origem fonte="geosampa" nivel="A" /> | -23.71424, -46.41425 <Origem fonte="osm" nivel="C" /><br />-23.71378, -46.41452 <Origem fonte="wikidata" nivel="C" /><br />-23.71359, -46.41481 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | RPI | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/03/1885 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

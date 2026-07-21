@@ -5,6 +5,7 @@ description: "Estação de Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="chucri-zaidan" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Chucri Zaidan | OpenStreetMap | C | CHUCRI ZAIDAN (GeoSampa) |
-| Coordenada | -23.61376, -46.69596 | GeoSampa | A | -23.61398, -46.69550 (OpenStreetMap); -23.61399, -46.69528 (Wikidata) |
-| Sigla | CZD | Wikidata | C | — |
-| Inauguração | 2026-03-31 | Wikidata | C | — |
-| Situação | Em operação | inferido | E | Projetada (GeoSampa); Em operação (OpenStreetMap) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Chucri Zaidan | <Origem fonte="osm" nivel="C" /> | E.T. Água Espraiada <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.61376, -46.69596 | <Origem fonte="geosampa" nivel="A" /> | -23.61398, -46.69550 <Origem fonte="osm" nivel="C" /><br />-23.61399, -46.69528 <Origem fonte="wikidata" nivel="C" /><br />-23.61369, -46.69523 <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | CZD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 31/03/2026 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="pipeline" nivel="E" /> | Projetada <Origem fonte="geosampa" nivel="A" /><br />Em operação <Origem fonte="osm" nivel="C" /> |

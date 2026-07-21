@@ -5,6 +5,7 @@ description: "Estação de Linha 13 - Jade"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jardim-dos-eucaliptos" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jardim dos Eucaliptos | GeoSampa | A | — |
-| Coordenada | -23.41791, -46.49267 | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jardim dos Eucaliptos | <Origem fonte="geosampa" nivel="A" /> | — |
+| Coordenada | -23.41791, -46.49267 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

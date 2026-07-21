@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde, Linha 10 - Turquesa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="tamanduatei" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Tamanduateí | OpenStreetMap | C | Tamanduateí (1955) (Wikidata); TAMANDUATEÍ (GeoSampa); TAMANDUATEÍ (GeoSampa) |
-| Coordenada | -23.59294, -46.58957 | GeoSampa | A | -23.59275, -46.58942 (GeoSampa); -23.59261, -46.58945 (OpenStreetMap); -23.59279, -46.58952 (OpenStreetMap); -23.59447, -46.58793 (Wikidata); -23.59241, -46.58969 (Wikidata); -23.59444, -46.58806 (Wikidata); -23.59298, -46.58934 (GTFS SPTrans); -23.59312, -46.58967 (GTFS SPTrans) |
-| Sigla | TTI | Wikidata | C | TMD (Wikidata); TMD (OpenStreetMap) |
-| Inauguração | 2010-09-21 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Tamanduateí | <Origem fonte="osm" nivel="C" /> | Tamanduateí (1955) <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.59294, -46.58957 | <Origem fonte="geosampa" nivel="A" /> | 8 leituras, até 239 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | TTI | <Origem fonte="wikidata" nivel="C" /> | TMD <Origem fonte="wikidata" nivel="C" /> |
+| Inauguração | 21/09/2010 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -1513,6 +1513,7 @@
         "alternatives": []
       },
       "lines": [
+        "linha-13",
         "linha-14"
       ],
       "status": {
@@ -1533,7 +1534,7 @@
         "geosampa_id": "6039",
         "metro_code": null
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa"
       ]
@@ -1677,20 +1678,7 @@
         "value": "São Miguel Paulista",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "SÃO MIGUEL PAULISTA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SÃO MIGUEL PAULISTA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1707,7 +1695,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "192 m away"
+            "note": "192 m de distância"
           },
           {
             "value": {
@@ -1716,7 +1704,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "7 m away"
+            "note": "7 m de distância"
           },
           {
             "value": {
@@ -1725,7 +1713,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "212 m away"
+            "note": "212 m de distância"
           },
           {
             "value": {
@@ -1734,7 +1722,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "5 m away"
+            "note": "5 m de distância"
           }
         ]
       },
@@ -1930,36 +1918,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": null
-          },
-          {
-            "value": "Corinthians-itaquera",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "Corinthians-itaquera",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "CORINTHIANS-ITAQUERA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "CORINTHIANS - ITAQUERA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "CORINTHIANS-ITAQUERA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -1978,7 +1936,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "28 m away"
+            "note": "28 m de distância"
           },
           {
             "value": {
@@ -1987,7 +1945,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "20 m away"
+            "note": "20 m de distância"
           },
           {
             "value": {
@@ -1996,7 +1954,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "13 m away"
+            "note": "13 m de distância"
           },
           {
             "value": {
@@ -2005,7 +1963,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "14 m away"
+            "note": "14 m de distância"
           },
           {
             "value": {
@@ -2014,7 +1972,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "91 m away"
+            "note": "91 m de distância"
           },
           {
             "value": {
@@ -2023,7 +1981,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "41 m away"
+            "note": "41 m de distância"
           }
         ]
       },
@@ -2264,18 +2222,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": null
-          },
-          {
-            "value": "SAPOPEMBA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SAPOPEMBA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -2294,7 +2240,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "23 m away"
+            "note": "23 m de distância"
           },
           {
             "value": {
@@ -2303,7 +2249,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "61 m away"
+            "note": "61 m de distância"
           },
           {
             "value": {
@@ -2312,7 +2258,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "60 m away"
+            "note": "60 m de distância"
           },
           {
             "value": {
@@ -2321,7 +2267,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "61 m away"
+            "note": "61 m de distância"
           }
         ]
       },

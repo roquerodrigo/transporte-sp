@@ -5,6 +5,8 @@ description: "Trem metropolitano · Projetada"
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-14" />
 
@@ -16,33 +18,33 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 5 | [São Miguel Paulista](/estacao/sao-miguel-paulista/) | SMP | Em operação | [Linha 12 - Safira](/linhas/linha-12-safira/) |
-| 9 | [Corinthians-Itaquera](/estacao/corinthians-itaquera/) | ITQ | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 11 - Coral](/linhas/linha-11-coral/) |
-| 14 | [Sapopemba](/estacao/sapopemba/) | SAP | Em operação | [Linha 15 - Prata](/linhas/linha-15-prata/) |
+| 5 | [São Miguel Paulista](/estacao/sao-miguel-paulista/) | SMP | <Situacao valor="operational" /> | [Linha 12 - Safira](/linhas/linha-12-safira/) |
+| 9 | [Corinthians-Itaquera](/estacao/corinthians-itaquera/) | ITQ | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 11 - Coral](/linhas/linha-11-coral/) |
+| 14 | [Sapopemba](/estacao/sapopemba/) | SAP | <Situacao valor="operational" /> | [Linha 15 - Prata](/linhas/linha-15-prata/) |
 
 ### Projetada (19)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Bonsucesso](/estacao/bonsucesso/) | — | Projetada | — |
-| 2 | [Pimentas](/estacao/pimentas/) | — | Projetada | — |
-| 3 | [Sacramento](/estacao/sacramento/) | — | Projetada | — |
-| 4 | [Hospital Jardim Helena](/estacao/hospital-jardim-helena/) | — | Projetada | — |
-| 6 | [Vila Jacuí](/estacao/vila-jacui/) | — | Projetada | — |
-| 7 | [Imperador](/estacao/imperador/) | — | Projetada | — |
-| 8 | [Cidade A.E. Carvalho](/estacao/cidade-a-e-carvalho/) | — | Projetada | — |
-| 10 | [Hosp. Santa Marcelina](/estacao/hosp-santa-marcelina/) | — | Projetada | — |
-| 11 | [Parque do Carmo](/estacao/parque-do-carmo/) | — | Projetada | — |
-| 12 | [Rio das Pedras/Aricanduva](/estacao/rio-das-pedras-aricanduva/) | — | Projetada | — |
-| 13 | [Jardim Itápolis](/estacao/jardim-itapolis/) | — | Projetada | — |
-| 15 | [Parque Oratório/Nevada](/estacao/parque-oratorio-nevada/) | — | Projetada | — |
-| 16 | [Hosp. da Mulher/Cidade dos Meninos](/estacao/hosp-da-mulher-cidade-dos-meninos/) | — | Projetada | — |
-| 17 | [Jardim Sorocaba](/estacao/jardim-sorocaba/) | — | Projetada | — |
-| 18 | [Abc](/estacao/abc/) | — | Projetada | — |
-| 19 | [Miguel Couto](/estacao/miguel-couto/) | — | Projetada | — |
-| 20 | [Macedo Soares](/estacao/macedo-soares/) | — | Projetada | — |
-| 21 | [Vila Luzita](/estacao/vila-luzita/) | — | Projetada | — |
-| 22 | [Jardim Irene](/estacao/jardim-irene/) | — | Projetada | — |
+| 1 | [Bonsucesso](/estacao/bonsucesso/) | — | <Situacao valor="planned" /> | [Linha 13 - Jade](/linhas/linha-13-jade/) |
+| 2 | [Pimentas](/estacao/pimentas/) | — | <Situacao valor="planned" /> | — |
+| 3 | [Sacramento](/estacao/sacramento/) | — | <Situacao valor="planned" /> | — |
+| 4 | [Hospital Jardim Helena](/estacao/hospital-jardim-helena/) | — | <Situacao valor="planned" /> | — |
+| 6 | [Vila Jacuí](/estacao/vila-jacui/) | — | <Situacao valor="planned" /> | — |
+| 7 | [Imperador](/estacao/imperador/) | — | <Situacao valor="planned" /> | — |
+| 8 | [Cidade A.E. Carvalho](/estacao/cidade-a-e-carvalho/) | — | <Situacao valor="planned" /> | — |
+| 10 | [Hosp. Santa Marcelina](/estacao/hosp-santa-marcelina/) | — | <Situacao valor="planned" /> | — |
+| 11 | [Parque do Carmo](/estacao/parque-do-carmo/) | — | <Situacao valor="planned" /> | — |
+| 12 | [Rio das Pedras/Aricanduva](/estacao/rio-das-pedras-aricanduva/) | — | <Situacao valor="planned" /> | — |
+| 13 | [Jardim Itápolis](/estacao/jardim-itapolis/) | — | <Situacao valor="planned" /> | — |
+| 15 | [Parque Oratório/Nevada](/estacao/parque-oratorio-nevada/) | — | <Situacao valor="planned" /> | — |
+| 16 | [Hosp. da Mulher/Cidade dos Meninos](/estacao/hosp-da-mulher-cidade-dos-meninos/) | — | <Situacao valor="planned" /> | — |
+| 17 | [Jardim Sorocaba](/estacao/jardim-sorocaba/) | — | <Situacao valor="planned" /> | — |
+| 18 | [Abc](/estacao/abc/) | — | <Situacao valor="planned" /> | — |
+| 19 | [Miguel Couto](/estacao/miguel-couto/) | — | <Situacao valor="planned" /> | — |
+| 20 | [Macedo Soares](/estacao/macedo-soares/) | — | <Situacao valor="planned" /> | — |
+| 21 | [Vila Luzita](/estacao/vila-luzita/) | — | <Situacao valor="planned" /> | — |
+| 22 | [Jardim Irene](/estacao/jardim-irene/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de inferido.
 
@@ -50,12 +52,12 @@ A ordem das estações vem de inferido.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Onix | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
-| Número | 14 | GeoSampa | A | — |
-| Cor | #2b2b2b | inferido | E | — |
-| Modo | Trem metropolitano | GeoSampa | A | — |
-| Operadora | CPTM | GeoSampa | A | — |
-| Ordem das estações | inferido | inferido | E | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Onix | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |
+| Número | 14 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #2b2b2b | <Origem fonte="pipeline" nivel="E" /> | — |
+| Modo | Trem metropolitano | <Origem fonte="geosampa" nivel="A" /> | — |
+| Operadora | CPTM | <Origem fonte="geosampa" nivel="A" /> | — |
+| Ordem das estações | inferido | <Origem fonte="pipeline" nivel="E" /> | — |

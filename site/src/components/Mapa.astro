@@ -27,7 +27,8 @@ const {
   futuro = true,
 } = Astro.props;
 
-const dados = `${import.meta.env.BASE_URL}dados/network.geojson`;
+const base = import.meta.env.BASE_URL;
+const dados = `${base}dados/network.geojson`;
 const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
 ---
 
@@ -36,6 +37,7 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
   id={id}
   style={`height: ${altura}`}
   data-fonte={dados}
+  data-base={base}
   data-linha={linha}
   data-estacao={estacao}
   data-centro={JSON.stringify(centro)}
@@ -96,6 +98,42 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
     "subway", "monorail", "commuter_rail", "intercity_rail", "lrt", "people_mover", "brt",
   ];
 
+  /**
+   * On a station's own map, only the modes it belongs to are drawn.
+   *
+   * That map is a couple of blocks wide and centred on one platform, where a bus corridor
+   * or a light-rail line running past adds clutter and no information — the reader is
+   * looking at a metro station, not at everything that happens to pass nearby.
+   */
+  const MODOS_SOBRE_TRILHOS = ["subway", "monorail", "commuter_rail", "intercity_rail"];
+
+  /**
+   * What the reader chose to hide, kept between visits.
+   *
+   * Only the modes that are *off* are stored: a mode added to the dataset later then shows
+   * up by default instead of being silently hidden by a preference saved before it existed.
+   * Storage can throw — private windows, disabled cookies — and a map that fails to draw
+   * because it could not read a preference would be a poor trade.
+   */
+  const CHAVE_MODOS = "transporte-sp:modos-ocultos";
+
+  const lerOcultos = (): Set<string> => {
+    try {
+      const bruto = localStorage.getItem(CHAVE_MODOS);
+      return new Set(bruto ? (JSON.parse(bruto) as string[]) : []);
+    } catch {
+      return new Set();
+    }
+  };
+
+  const gravarOcultos = (ocultos: Iterable<string>): void => {
+    try {
+      localStorage.setItem(CHAVE_MODOS, JSON.stringify([...ocultos]));
+    } catch {
+      /* preference not kept; the map still works */
+    }
+  };
+
   type NetworkFeature = Feature<Geometry, Record<string, any>>;
 
   function bounds(features: NetworkFeature[]): maplibregl.LngLatBounds | null {
@@ -125,11 +163,11 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
 
     constructor(
       private readonly modos: string[],
+      private readonly visiveis: Set<string>,
       private readonly aoMudar: (visiveis: Set<string>) => void,
     ) {}
 
     onAdd(): HTMLElement {
-      const visiveis = new Set(this.modos);
       this.container.className = "maplibregl-ctrl maplibregl-ctrl-group filtro-modos";
       this.container.innerHTML = `<p class="filtro-titulo">Exibir</p>`;
 
@@ -137,10 +175,11 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
         const label = document.createElement("label");
         const caixa = document.createElement("input");
         caixa.type = "checkbox";
-        caixa.checked = true;
+        caixa.checked = this.visiveis.has(modo);
         caixa.addEventListener("change", () => {
-          caixa.checked ? visiveis.add(modo) : visiveis.delete(modo);
-          this.aoMudar(visiveis);
+          caixa.checked ? this.visiveis.add(modo) : this.visiveis.delete(modo);
+          gravarOcultos(this.modos.filter((item) => !this.visiveis.has(item)));
+          this.aoMudar(this.visiveis);
         });
         label.append(caixa, document.createTextNode(MODOS[modo] ?? modo));
         this.container.append(label);
@@ -154,8 +193,13 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
   }
 
   async function draw(container: HTMLElement) {
-    const { fonte, linha, estacao, centro, zoom, futuro } = container.dataset;
+    const { fonte, base, linha, estacao, centro, zoom, futuro } = container.dataset;
     const collection: FeatureCollection = await fetch(fonte!).then((r) => r.json());
+
+    const modosDe = (feature: NetworkFeature): string[] =>
+      feature.properties.kind === "line"
+        ? [feature.properties.mode]
+        : (feature.properties.modes ?? []);
 
     let features = collection.features as NetworkFeature[];
     if (futuro !== "true") {
@@ -172,6 +216,13 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
       ? features.find((feature) => feature.properties.id === estacao)
       : undefined;
 
+    const modosDoFoco: string[] = focus?.properties.modes ?? [];
+    if (modosDoFoco.some((modo) => MODOS_SOBRE_TRILHOS.includes(modo))) {
+      features = features.filter((feature) =>
+        modosDe(feature).some((modo) => MODOS_SOBRE_TRILHOS.includes(modo)),
+      );
+    }
+
     const map = new maplibregl.Map({
       container,
       style: basemap(isDark()),
@@ -185,22 +236,16 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
 
     // Only offer a filter where there is something to filter: a single line's map has one
     // mode, and a station's map is a couple of blocks wide — in both the control is noise.
-    const modosDe = (feature: NetworkFeature): string[] =>
-      feature.properties.kind === "line"
-        ? [feature.properties.mode]
-        : (feature.properties.modes ?? []);
     const modos = ORDEM_MODOS.filter((modo) =>
       features.some((feature) => modosDe(feature).includes(modo)),
     );
-    let visiveis = new Set(modos);
-    if (!linha && !estacao && modos.length > 1) {
-      map.addControl(
-        new ControleModos(modos, (selecionados) => {
-          visiveis = selecionados;
-          aplicarFiltro();
-        }),
-        "top-left",
-      );
+    // The stored preference belongs to the network map, which is the only one that offers
+    // the control. A line's own map must show that line whatever the reader hid elsewhere.
+    const comControle = !linha && !estacao && modos.length > 1;
+    const ocultos = comControle ? lerOcultos() : new Set<string>();
+    const visiveis = new Set(modos.filter((modo) => !ocultos.has(modo)));
+    if (comControle) {
+      map.addControl(new ControleModos(modos, visiveis, () => aplicarFiltro()), "top-left");
     }
 
     /**
@@ -301,16 +346,47 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
       if (!primeiraCarga) return;
       primeiraCarga = false;
 
-      const popup = new maplibregl.Popup({ closeButton: false, offset: 10 });
+      /**
+       * Where a feature's own page lives. Stations sit outside any line, so a station and a
+       * line resolve differently; the base path comes from the element because this script
+       * also runs on a page served under a different prefix by a fork.
+       */
+      const enderecoDe = (feature: NetworkFeature): string =>
+        feature.properties.kind === "station"
+          ? `${base}estacao/${feature.properties.slug}/`
+          : `${base}linhas/${feature.properties.slug}/`;
+
+      /** A station under the cursor wins over the line it sits on: it is the finer target. */
+      const alvoDe = (features: NetworkFeature[] | undefined): NetworkFeature | undefined =>
+        features?.find((item) => item.properties.kind === "station") ?? features?.[0];
+
+      const popup = new maplibregl.Popup({
+        closeButton: false,
+        offset: 12,
+        className: "mapa-popup",
+      });
+
       map.on("mousemove", ["estacoes", "tracado"], (event) => {
-        const feature = event.features?.[0];
+        const feature = alvoDe(event.features as NetworkFeature[] | undefined);
         if (!feature) return;
         map.getCanvas().style.cursor = "pointer";
-        popup.setLngLat(event.lngLat).setText(String(feature.properties.name)).addTo(map);
+
+        const link = document.createElement("a");
+        link.href = enderecoDe(feature);
+        link.textContent = String(feature.properties.name);
+        popup.setLngLat(event.lngLat).setDOMContent(link).addTo(map);
       });
-      map.on("mouseleave", "estacoes", () => {
+
+      map.on("mouseleave", ["estacoes", "tracado"], () => {
         map.getCanvas().style.cursor = "";
         popup.remove();
+      });
+
+      // The popup is a hover hint and cannot be reached with the pointer, so the feature
+      // itself is the link: clicking anywhere on a station or a line opens its page.
+      map.on("click", ["estacoes", "tracado"], (event) => {
+        const feature = alvoDe(event.features as NetworkFeature[] | undefined);
+        if (feature) location.href = enderecoDe(feature);
       });
     });
   }

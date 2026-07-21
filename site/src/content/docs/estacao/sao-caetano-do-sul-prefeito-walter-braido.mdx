@@ -5,6 +5,7 @@ description: "Estação de Linha 10 - Turquesa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="sao-caetano-do-sul-prefeito-walter-braido" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | São Caetano do Sul - Prefeito Walter Braido | OpenStreetMap | C | São Caetano (GTFS SPTrans); SÃO CAETANO (GeoSampa) |
-| Coordenada | -23.60984, -46.57006 | GeoSampa | A | -23.61006, -46.57006 (OpenStreetMap); -23.61006, -46.57006 (Wikidata); -23.61028, -46.57033 (GTFS SPTrans) |
-| Sigla | SCT | Wikidata | C | — |
-| Acessibilidade | Sem acessibilidade | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | São Caetano do Sul - Prefeito Walter Braido | <Origem fonte="osm" nivel="C" /> | São Caetano <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Coordenada | -23.60984, -46.57006 | <Origem fonte="geosampa" nivel="A" /> | -23.61006, -46.57006 <Origem fonte="osm" nivel="C" /><br />-23.61006, -46.57006 <Origem fonte="wikidata" nivel="C" /><br />-23.61028, -46.57033 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | SCT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Sem acessibilidade | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

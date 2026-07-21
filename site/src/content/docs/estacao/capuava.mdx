@@ -5,6 +5,7 @@ description: "Estação de Linha 10 - Turquesa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="capuava" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Capuava | OpenStreetMap | C | CAPUAVA (GeoSampa) |
-| Coordenada | -23.65835, -46.49011 | GeoSampa | A | -23.65823, -46.48972 (OpenStreetMap); -23.65836, -46.49010 (Wikidata); -23.65851, -46.49054 (GTFS SPTrans) |
-| Sigla | CPV | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 1920-09-15 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Capuava | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.65835, -46.49011 | <Origem fonte="geosampa" nivel="A" /> | -23.65823, -46.48972 <Origem fonte="osm" nivel="C" /><br />-23.65836, -46.49010 <Origem fonte="wikidata" nivel="C" /><br />-23.65851, -46.49054 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CPV | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 15/09/1920 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

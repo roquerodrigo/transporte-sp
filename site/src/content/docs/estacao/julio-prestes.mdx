@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="julio-prestes" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Júlio Prestes | OpenStreetMap | C | JÚLIO PRESTES (GeoSampa) |
-| Coordenada | -23.53260, -46.64098 | GeoSampa | A | -23.53322, -46.64056 (OpenStreetMap); -23.53480, -46.63959 (Wikidata); -23.53296, -46.64076 (GTFS SPTrans) |
-| Sigla | JPR | Wikidata | C | — |
-| Inauguração | 1875-07-10 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Júlio Prestes | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.53260, -46.64098 | <Origem fonte="geosampa" nivel="A" /> | -23.53322, -46.64056 <Origem fonte="osm" nivel="C" /><br />-23.53480, -46.63959 <Origem fonte="wikidata" nivel="C" /><br />-23.53296, -46.64076 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JPR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 10/07/1875 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

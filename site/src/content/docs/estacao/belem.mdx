@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="belem" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Belém | OpenStreetMap | C | BELÉM (GeoSampa) |
-| Coordenada | -23.54302, -46.59011 | GeoSampa | A | -23.54287, -46.58962 (OpenStreetMap); -23.54292, -46.58982 (OpenStreetMap); -23.54322, -46.58952 (Wikidata); -23.54292, -46.58968 (GTFS SPTrans) |
-| Sigla | BEL | Wikidata | C | — |
-| Inauguração | 1981-09-05 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Belém | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54302, -46.59011 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 64 m de distância<br /><Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | BEL | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 05/09/1981 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

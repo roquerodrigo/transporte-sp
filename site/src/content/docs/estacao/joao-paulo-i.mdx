@@ -5,6 +5,7 @@ description: "Estação de Linha 6 - Laranja"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="joao-paulo-i" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | João Paulo I | OpenStreetMap | C | JOÃO PAULO I (GeoSampa) |
-| Coordenada | -23.49310, -46.69141 | GeoSampa | A | -23.49376, -46.69145 (OpenStreetMap); -23.49278, -46.69083 (Wikidata) |
-| Sigla | JPI | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2026-07-02 | Wikidata | C | — |
-| Situação | Em operação | inferido | E | Projetada (GeoSampa); Em operação (OpenStreetMap) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | João Paulo I | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.49310, -46.69141 | <Origem fonte="geosampa" nivel="A" /> | -23.49376, -46.69145 <Origem fonte="osm" nivel="C" /><br />-23.49278, -46.69083 <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | JPI | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 02/07/2026 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="pipeline" nivel="E" /> | Projetada <Origem fonte="geosampa" nivel="A" /><br />Em operação <Origem fonte="osm" nivel="C" /> |

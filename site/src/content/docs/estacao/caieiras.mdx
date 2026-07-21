@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="caieiras" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Caieiras | OpenStreetMap | C | CAIEIRAS (GeoSampa) |
-| Coordenada | -23.36628, -46.75164 | GeoSampa | A | -23.36615, -46.75165 (OpenStreetMap); -23.36619, -46.75148 (Wikidata); -23.36718, -46.75282 (GTFS SPTrans) |
-| Sigla | CAI | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 1883-07-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Caieiras | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.36628, -46.75164 | <Origem fonte="geosampa" nivel="A" /> | -23.36615, -46.75165 <Origem fonte="osm" nivel="C" /><br />-23.36619, -46.75148 <Origem fonte="wikidata" nivel="C" /><br />-23.36718, -46.75282 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CAI | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 01/07/1883 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

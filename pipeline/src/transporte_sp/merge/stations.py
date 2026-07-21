@@ -28,7 +28,23 @@ log = logging.getLogger(__name__)
 def reconcile(
     observations: list[StationObservation], conflicts: list[Conflict]
 ) -> tuple[list[Station], list[list[StationObservation]]]:
-    clusters = cluster(observations)
+    clusters, aproximados = cluster(observations)
+    for um, outro, gap in aproximados:
+        conflicts.append(
+            Conflict(
+                entity="station",
+                entity_id=slugify(um),
+                fieldname="identidade",
+                chosen=um,
+                chosen_source="pipeline",
+                rejected=outro,
+                rejected_source="pipeline",
+                detail=(
+                    f"nomes diferentes a {gap} m: tratados como a mesma estação, porque as "
+                    "camadas de planejamento nomeiam uma baldeação por linha"
+                ),
+            )
+        )
     stations: list[Station] = []
     used_slugs: dict[str, int] = {}
 
@@ -83,17 +99,29 @@ def _pick(group: list[StationObservation], fieldname: str) -> dict | None:
     winner, value = candidates[0]
     if fieldname == "name":
         value = _readable(value, winner.source)
-    alternatives = [
-        Alternative(value=other_value, source=item.source, confidence=confidence(item.source))
-        for item, other_value in candidates[1:]
-        if other_value != value
-    ]
+    # "SÃO CARLOS" alongside "São Carlos" is not a second reading, it is the same one in
+    # capitals; and two sources spelling it identically only need saying once.
+    alternatives = []
+    vistos = {_comparable(value, fieldname)}
+    for item, other_value in candidates[1:]:
+        marcador = _comparable(other_value, fieldname)
+        if marcador in vistos:
+            continue
+        vistos.add(marcador)
+        alternatives.append(
+            Alternative(value=other_value, source=item.source, confidence=confidence(item.source))
+        )
     return {
         "value": value,
         "source": winner.source,
         "confidence": confidence(winner.source),
         "alternatives": alternatives,
     }
+
+
+def _comparable(value, fieldname: str):
+    """How two readings of a field are told apart when deciding what to publish."""
+    return normalise(str(value)) if fieldname == "name" else str(value)
 
 
 def _readable(name: str, source: str) -> str:
@@ -108,19 +136,26 @@ def _coordinates(group, conflicts: list[Conflict], station_id: str) -> dict:
     chosen = {"lat": winner.coordinates.lat, "lon": winner.coordinates.lon}
 
     alternatives = []
+    # A source that observed the station twice — the GTFS lists a stop per direction, and
+    # GeoSampa a point per layer — would otherwise repeat the same reading. Rounding to five
+    # decimals (about a metre) is what the page shows anyway.
+    vistos: set[tuple] = set()
     for item in ranked[1:]:
         gap = distance_m(
             winner.coordinates.lat, winner.coordinates.lon,
             item.coordinates.lat, item.coordinates.lon,
         )
-        alternatives.append(
-            Alternative(
-                value={"lat": item.coordinates.lat, "lon": item.coordinates.lon},
-                source=item.source,
-                confidence=confidence(item.source),
-                note=f"{round(gap)} m away",
+        marcador = (item.source, round(item.coordinates.lat, 5), round(item.coordinates.lon, 5))
+        if marcador not in vistos:
+            vistos.add(marcador)
+            alternatives.append(
+                Alternative(
+                    value={"lat": item.coordinates.lat, "lon": item.coordinates.lon},
+                    source=item.source,
+                    confidence=confidence(item.source),
+                    note=f"{round(gap)} m de distância",
+                )
             )
-        )
         if gap > settings.coordinate_conflict_m:
             conflicts.append(
                 Conflict(
@@ -151,20 +186,39 @@ def _external_ids(group: list[StationObservation]) -> dict:
     return merged
 
 
-def assign_lines(stations, clusters, network_lines, line_observations) -> None:
-    """Attach every station to the lines that serve it."""
+def assign_lines(stations, clusters, network_lines, line_observations) -> dict[str, set[str]]:
+    """Attach every station to the lines that serve it.
+
+    Returns, per station, the lines it is only *projected* to serve. An operating station
+    can be a future stop of another line — Ipiranga runs on Line 10 today and appears in
+    GeoSampa's projected layer for Line 15 — and that distinction has to survive, or the
+    step that trims a line to its timetable will delete the future half of the network.
+    """
     by_number = {line.id: line for line in network_lines}
     by_colour = line_merge.colour_index(network_lines)
     by_slug = {line.slug: line.id for line in network_lines}
+    planejadas: dict[str, set[str]] = {}
 
     for station, group in zip(stations, clusters, strict=True):
         found: set[str] = set()
         for observation in group:
             for reference in _references(observation):
                 line_id = _resolve(reference, by_number, by_colour, by_slug)
+                if not line_id:
+                    continue
+                found.add(line_id)
+                if observation.status and observation.status != "operational":
+                    planejadas.setdefault(station.id, set()).add(line_id)
+        station.lines = sorted_lines(found)
+        # A line asserted by an operating record is not projected, whatever else said so.
+        for observation in group:
+            if observation.status != "operational":
+                continue
+            for reference in _references(observation):
+                line_id = _resolve(reference, by_number, by_colour, by_slug)
                 if line_id:
-                    found.add(line_id)
-        station.lines = sorted(found, key=_line_order)
+                    planejadas.get(station.id, set()).discard(line_id)
+    return planejadas
 
 
 def _references(observation: StationObservation) -> list[str]:
@@ -191,6 +245,11 @@ def _resolve(reference: str, by_number, by_colour, by_slug) -> str | None:
     if number and f"linha-{int(number)}" in by_number:
         return f"linha-{int(number)}"
     return by_slug.get(slugify(text))
+
+
+def sorted_lines(line_ids) -> list[str]:
+    """Line ids in the order a reader expects: by number, named services last."""
+    return sorted(set(line_ids), key=_line_order)
 
 
 def _line_order(line_id: str) -> tuple[int, str]:

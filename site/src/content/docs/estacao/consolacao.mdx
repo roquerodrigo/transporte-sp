@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="consolacao" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Consolação | OpenStreetMap | C | CONSOLAÇÃO (GeoSampa) |
-| Coordenada | -23.55723, -46.66119 | GeoSampa | A | -23.55782, -46.66054 (OpenStreetMap); -23.55752, -46.66091 (Wikidata); -23.55809, -46.66020 (GTFS SPTrans) |
-| Sigla | CNS | Wikidata | C | — |
-| Inauguração | 1991-01-25 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Consolação | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.55723, -46.66119 | <Origem fonte="geosampa" nivel="A" /> | -23.55782, -46.66054 <Origem fonte="osm" nivel="C" /><br />-23.55752, -46.66091 <Origem fonte="wikidata" nivel="C" /><br />-23.55809, -46.66020 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CNS | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 25/01/1991 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -1,0 +1,17 @@
+---
+/** The confidence level on its own, where the source is already named alongside. */
+import { CONFIDENCE_LABELS, type Confidence } from "@data/network";
+
+interface Props {
+  nivel: Confidence;
+  /** Spell the level out; off where the row already explains it. */
+  descrito?: boolean;
+}
+
+const { nivel, descrito = true } = Astro.props;
+---
+
+<span class="pill" data-nivel={nivel} title={CONFIDENCE_LABELS[nivel]}>
+  <span class={descrito ? "pill-separador" : undefined}>{nivel}</span>
+  {descrito && <span>{CONFIDENCE_LABELS[nivel]}</span>}
+</span>

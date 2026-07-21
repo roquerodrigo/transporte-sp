@@ -1,10 +1,11 @@
 ---
 title: "Penha - Lojas Besni"
-description: "Estação de Linha 3 - Vermelha"
+description: "Estação de Linha 2 - Verde, Linha 3 - Vermelha, Linha 11 - Coral"
 ---
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="penha-lojas-besni" />
 
@@ -12,14 +13,16 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Linhas
 
+- [Linha 2 - Verde](/linhas/linha-2-verde/)
 - [Linha 3 - Vermelha](/linhas/linha-3-vermelha/)
+- [Linha 11 - Coral](/linhas/linha-11-coral/)
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Penha - Lojas Besni | OpenStreetMap | C | Penha (Wikidata); Penha (GTFS SPTrans); PENHA (GeoSampa); PENHA (GeoSampa); PENHA (GeoSampa) |
-| Coordenada | -23.53348, -46.54235 | GeoSampa | A | -23.53323, -46.54285 (GeoSampa); -23.53335, -46.54233 (GeoSampa); -23.53349, -46.54267 (OpenStreetMap); -23.53344, -46.54230 (Wikidata); -23.53359, -46.54294 (GTFS SPTrans) |
-| Sigla | PEN | Wikidata | C | — |
-| Inauguração | 1986-05-31 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa); Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Penha - Lojas Besni | <Origem fonte="osm" nivel="C" /> | Penha <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.53348, -46.54235 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 62 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | PEN | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 31/05/1986 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

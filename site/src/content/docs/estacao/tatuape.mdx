@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha, Linha 11 - Coral, Linha 12 - Safi
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="tatuape" />
 
@@ -18,10 +19,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Tatuapé | OpenStreetMap | C | TATUAPÉ (GeoSampa); TATUAPÉ (GeoSampa); TATUAPÉ (GeoSampa) |
-| Coordenada | -23.54044, -46.57628 | GeoSampa | A | -23.54023, -46.57646 (GeoSampa); -23.54023, -46.57646 (GeoSampa); -23.54025, -46.57664 (OpenStreetMap); -23.54031, -46.57618 (Wikidata); -23.54030, -46.57670 (GTFS SPTrans); -23.54010, -46.57650 (GTFS SPTrans); -23.54019, -46.57637 (GTFS SPTrans) |
-| Sigla | TAT | Wikidata | C | — |
-| Inauguração | 1981-11-05 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Tatuapé | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54044, -46.57628 | <Origem fonte="geosampa" nivel="A" /> | 6 leituras, até 45 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | TAT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 05/11/1981 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

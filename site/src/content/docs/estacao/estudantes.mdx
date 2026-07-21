@@ -5,6 +5,7 @@ description: "Estação de Linha 11 - Coral"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="estudantes" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Estudantes | OpenStreetMap | C | Terminal Estudantes (Wikidata); ESTUDANTES (GeoSampa) |
-| Coordenada | -23.51565, -46.18486 | GeoSampa | A | -23.51574, -46.18505 (OpenStreetMap); -23.51574, -46.18505 (Wikidata); -23.51677, -46.18563 (Wikidata); -23.51570, -46.18493 (GTFS SPTrans) |
-| Sigla | EST | Wikidata | C | — |
-| Inauguração | 1976-11-10 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Estudantes | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.51565, -46.18486 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 147 m de distância<br /><Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | EST | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 10/11/1976 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

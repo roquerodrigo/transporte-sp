@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="piqueri" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Piqueri | Wikidata | C | PIQUERI (GeoSampa) |
-| Coordenada | -23.50289, -46.71487 | GeoSampa | A | -23.50360, -46.71550 (Wikidata); -23.50421, -46.71500 (GTFS SPTrans) |
-| Sigla | PQR | Wikidata | C | — |
-| Inauguração | 1960-09-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Piqueri | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.50289, -46.71487 | <Origem fonte="geosampa" nivel="A" /> | -23.50360, -46.71550 <Origem fonte="wikidata" nivel="C" /><br />-23.50421, -46.71500 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | PQR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/09/1960 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

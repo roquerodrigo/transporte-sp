@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="artur-alvim" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Artur Alvim | OpenStreetMap | C | ARTUR ALVIM (GeoSampa) |
-| Coordenada | -23.54029, -46.48459 | GeoSampa | A | -23.54024, -46.48471 (OpenStreetMap); -23.54055, -46.48427 (Wikidata); -23.54007, -46.48483 (GTFS SPTrans) |
-| Sigla | ART | Wikidata | C | — |
-| Inauguração | 1988-09-17 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Artur Alvim | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54029, -46.48459 | <Origem fonte="geosampa" nivel="A" /> | -23.54024, -46.48471 <Origem fonte="osm" nivel="C" /><br />-23.54055, -46.48427 <Origem fonte="wikidata" nivel="C" /><br />-23.54007, -46.48483 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ART | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 17/09/1988 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

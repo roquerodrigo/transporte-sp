@@ -40,7 +40,7 @@
     },
     "stations": [
       "santuario-nossa-senhora-de-fatima-sumare",
-      "cardeal-arcoverde",
+      "teodoro-sampaio",
       "faria-lima-pagbank",
       "hebraica-reboucas",
       "vital-brasil",
@@ -1942,20 +1942,8 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "Santuário Nossa Senhora de Fátima-Sumaré",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
             "value": "S. N. Sra. De Fátima-sumaré",
             "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SANTUÁRIO NOSSA SENHORA DE FÁTIMA-SUMARÉ",
-            "source": "geosampa",
             "confidence": "A",
             "note": null
           },
@@ -1982,7 +1970,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "109 m away"
+            "note": "109 m de distância"
           },
           {
             "value": {
@@ -1991,7 +1979,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "5 m away"
+            "note": "5 m de distância"
           },
           {
             "value": {
@@ -2000,7 +1988,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "42 m away"
+            "note": "42 m de distância"
           },
           {
             "value": {
@@ -2009,7 +1997,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "6 m away"
+            "note": "6 m de distância"
           }
         ]
       },
@@ -2066,24 +2054,52 @@
       ]
     },
     {
-      "id": "cardeal-arcoverde",
-      "slug": "cardeal-arcoverde",
+      "id": "teodoro-sampaio",
+      "slug": "teodoro-sampaio",
       "name": {
-        "value": "Cardeal Arcoverde",
+        "value": "Teodoro Sampaio",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "CARDEAL ARCOVERDE",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
       },
       "coordinates": {
         "value": {
-          "lat": -23.56062275,
-          "lon": -46.68664372
+          "lat": -23.5609736,
+          "lon": -46.68531802
         },
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.56168786,
+              "lon": -46.68443433
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "120 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56062275,
+              "lon": -46.68664372
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "141 m de distância"
+          }
+        ]
       },
       "lines": [
+        "linha-16",
+        "linha-20",
         "linha-22"
       ],
       "status": {
@@ -2101,10 +2117,10 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "235",
+        "geosampa_id": "177",
         "metro_code": null
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa"
       ]
@@ -2121,24 +2137,6 @@
             "value": "Faria Lima",
             "source": "wikidata",
             "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "Faria Lima",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "FARIA LIMA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "FARIA LIMA",
-            "source": "geosampa",
-            "confidence": "A",
             "note": null
           }
         ]
@@ -2158,7 +2156,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "93 m away"
+            "note": "93 m de distância"
           },
           {
             "value": {
@@ -2167,7 +2165,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "11 m away"
+            "note": "11 m de distância"
           },
           {
             "value": {
@@ -2176,7 +2174,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "46 m away"
+            "note": "46 m de distância"
           },
           {
             "value": {
@@ -2185,7 +2183,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "61 m away"
+            "note": "61 m de distância"
           }
         ]
       },
@@ -2243,26 +2241,7 @@
         "value": "Hebraica - Rebouças",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Hebraica-Rebouças",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "HEBRAICA - REBOUÇAS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "HEBRAICA-REBOUÇAS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2279,7 +2258,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "180 m away"
+            "note": "180 m de distância"
           },
           {
             "value": {
@@ -2288,7 +2267,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "16 m away"
+            "note": "16 m de distância"
           },
           {
             "value": {
@@ -2297,7 +2276,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "22 m away"
+            "note": "22 m de distância"
           },
           {
             "value": {
@@ -2306,7 +2285,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "28 m away"
+            "note": "28 m de distância"
           }
         ]
       },

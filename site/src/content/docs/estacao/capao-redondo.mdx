@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="capao-redondo" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Capão Redondo | OpenStreetMap | C | CAPÃO REDONDO (GeoSampa) |
-| Coordenada | -23.65930, -46.76801 | GeoSampa | A | -23.65917, -46.76800 (OpenStreetMap); -23.65925, -46.76818 (Wikidata); -23.65996, -46.76869 (GTFS SPTrans) |
-| Sigla | CPR | Wikidata | C | — |
-| Inauguração | 2002-10-20 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Capão Redondo | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.65930, -46.76801 | <Origem fonte="geosampa" nivel="A" /> | -23.65917, -46.76800 <Origem fonte="osm" nivel="C" /><br />-23.65925, -46.76818 <Origem fonte="wikidata" nivel="C" /><br />-23.65996, -46.76869 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CPR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 20/10/2002 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

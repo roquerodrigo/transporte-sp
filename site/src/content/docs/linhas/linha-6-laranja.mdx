@@ -1,10 +1,12 @@
 ---
 title: "Linha 6 - Laranja"
-description: "Metrô · Operação parcial · 4.946 km"
+description: "Metrô · Operação parcial · 4,9 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-6" />
 
@@ -12,37 +14,36 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 ## Estações
 
-### Em operação (9)
+### Em operação (8)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 3 | [SESC-Pompeia](/estacao/sesc-pompeia/) | — | Em operação | — |
-| 4 | [Água Branca](/estacao/agua-branca/) | ABR | Em operação | [Linha 7 - Rubi](/linhas/linha-7-rubi/) |
-| 5 | [Santa Marina](/estacao/santa-marina/) | STM | Em operação | — |
-| 6 | [Freguesia do Ó](/estacao/freguesia-do-o/) | FRE | Em operação | — |
-| 7 | [João Paulo I](/estacao/joao-paulo-i/) | JPI | Em operação | — |
-| 10 | [Maristela](/estacao/maristela/) | — | Em operação | — |
-| 12 | [Perdizes](/estacao/perdizes/) | — | Em operação | — |
-| 15 | [Higienópolis-Mackenzie](/estacao/higienopolis-mackenzie/) | HIG | Em operação | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
-| 18 | [São Joaquim](/estacao/sao-joaquim/) | JQM | Em operação | [Linha 1 - Azul](/linhas/linha-1-azul/) |
+| 3 | [SESC-Pompeia](/estacao/sesc-pompeia/) | — | <Situacao valor="operational" /> | — |
+| 4 | [Água Branca](/estacao/agua-branca/) | ABR | <Situacao valor="operational" /> | [Linha 7 - Rubi](/linhas/linha-7-rubi/) |
+| 5 | [Santa Marina](/estacao/santa-marina/) | STM | <Situacao valor="operational" /> | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
+| 6 | [Freguesia do Ó](/estacao/freguesia-do-o/) | FRE | <Situacao valor="operational" /> | — |
+| 7 | [João Paulo I](/estacao/joao-paulo-i/) | JPI | <Situacao valor="operational" /> | — |
+| 11 | [Perdizes](/estacao/perdizes/) | — | <Situacao valor="operational" /> | — |
+| 14 | [Higienópolis-Mackenzie](/estacao/higienopolis-mackenzie/) | HIG | <Situacao valor="operational" /> | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
+| 17 | [São Joaquim](/estacao/sao-joaquim/) | JQM | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/) |
 
 ### Projetada (13)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Velha Campinas](/estacao/velha-campinas/) | — | Projetada | — |
-| 2 | [Morro Grande](/estacao/morro-grande/) | — | Projetada | — |
-| 8 | [Brasilândia](/estacao/brasilandia/) | — | Projetada | — |
-| 9 | [Vila Cardoso](/estacao/vila-cardoso/) | — | Projetada | — |
-| 11 | [Itaberaba / Hospital Vila Penteado](/estacao/itaberaba-hospital-vila-penteado/) | ITB | Projetada | — |
-| 13 | [PUC-Cardoso de Almeida](/estacao/puc-cardoso-de-almeida/) | — | Projetada | — |
-| 14 | [FAAP-Pacaembu](/estacao/faap-pacaembu/) | — | Projetada | — |
-| 16 | [14 Bis – Saracura](/estacao/14-bis-saracura/) | — | Projetada | — |
-| 17 | [Bela Vista](/estacao/bela-vista/) | — | Projetada | — |
-| 19 | [Aclimacao](/estacao/aclimacao/) | — | Projetada | — |
-| 20 | [Cambuci](/estacao/cambuci/) | — | Projetada | — |
-| 21 | [Vila Monumento](/estacao/vila-monumento/) | — | Projetada | — |
-| 22 | [São Carlos](/estacao/sao-carlos/) | — | Projetada | [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
+| 1 | [Velha Campinas](/estacao/velha-campinas/) | — | <Situacao valor="planned" /> | — |
+| 2 | [Morro Grande](/estacao/morro-grande/) | — | <Situacao valor="planned" /> | — |
+| 8 | [Brasilândia](/estacao/brasilandia/) | — | <Situacao valor="planned" /> | — |
+| 9 | [Maristela](/estacao/maristela/) | — | <Situacao valor="planned" /> | — |
+| 10 | [Itaberaba / Hospital Vila Penteado](/estacao/itaberaba-hospital-vila-penteado/) | ITB | <Situacao valor="planned" /> | — |
+| 12 | [PUC-Cardoso de Almeida](/estacao/puc-cardoso-de-almeida/) | — | <Situacao valor="planned" /> | — |
+| 13 | [FAAP-Pacaembu](/estacao/faap-pacaembu/) | — | <Situacao valor="planned" /> | — |
+| 15 | [14 Bis – Saracura](/estacao/14-bis-saracura/) | — | <Situacao valor="planned" /> | — |
+| 16 | [Bela Vista](/estacao/bela-vista/) | — | <Situacao valor="planned" /> | — |
+| 18 | [Aclimacao](/estacao/aclimacao/) | — | <Situacao valor="planned" /> | — |
+| 19 | [Cambuci](/estacao/cambuci/) | — | <Situacao valor="planned" /> | — |
+| 20 | [Vila Monumento](/estacao/vila-monumento/) | — | <Situacao valor="planned" /> | — |
+| 21 | [São Carlos](/estacao/sao-carlos/) | — | <Situacao valor="planned" /> | [Linha 13 - Jade](/linhas/linha-13-jade/), [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
 
 A ordem das estações vem de OpenStreetMap.
 
@@ -50,13 +51,13 @@ A ordem das estações vem de OpenStreetMap.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Laranja | GeoSampa | A | — |
-| Situação | Operação parcial | inferido | E | Em operação (OpenStreetMap); Projetada (GeoSampa) |
-| Número | 6 | OpenStreetMap | C | — |
-| Cor | #F96815 | OpenStreetMap | C | — |
-| Modo | Metrô | OpenStreetMap | C | — |
-| Operadora | Companhia do Metropolitano de São Paulo | OpenStreetMap | C | LINHAUNI (GeoSampa) |
-| Extensão | 4.946 km | OpenStreetMap | E | — |
-| Ordem das estações | OpenStreetMap | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Laranja | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Operação parcial | <Origem fonte="pipeline" nivel="E" /> | Em operação <Origem fonte="osm" nivel="C" /><br />Projetada <Origem fonte="geosampa" nivel="A" /> |
+| Número | 6 | <Origem fonte="osm" nivel="C" /> | — |
+| Cor | #F96815 | <Origem fonte="osm" nivel="C" /> | — |
+| Modo | Metrô | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | Companhia do Metropolitano de São Paulo | <Origem fonte="osm" nivel="C" /> | LINHAUNI <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 4,9 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | OpenStreetMap | <Origem fonte="osm" nivel="C" /> | — |

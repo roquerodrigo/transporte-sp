@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jundiai" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jundiaí | OpenStreetMap | C | Jundiai (GTFS SPTrans); JUNDIAÍ (GeoSampa) |
-| Coordenada | -23.19517, -46.87228 | GeoSampa | A | -23.19474, -46.87242 (OpenStreetMap); -23.19511, -46.87244 (Wikidata); -23.19564, -46.87190 (GTFS SPTrans) |
-| Sigla | JUN | Wikidata | C | — |
-| Inauguração | 1867-02-16 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jundiaí | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.19517, -46.87228 | <Origem fonte="geosampa" nivel="A" /> | -23.19474, -46.87242 <Origem fonte="osm" nivel="C" /><br />-23.19511, -46.87244 <Origem fonte="wikidata" nivel="C" /><br />-23.19564, -46.87190 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JUN | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 16/02/1867 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

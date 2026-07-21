@@ -39,6 +39,7 @@
       "alternatives": []
     },
     "stations": [
+      "santa-marina",
       "lapa",
       "vila-romana",
       "cerro-cora",
@@ -2006,48 +2007,57 @@
   },
   "stations": [
     {
-      "id": "lapa",
-      "slug": "lapa",
+      "id": "santa-marina",
+      "slug": "santa-marina",
       "name": {
-        "value": "Lapa",
+        "value": "Santa Marina",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "LAPA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.51794308,
-          "lon": -46.70075443
+          "lat": -23.5145074,
+          "lon": -46.69151724
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5175952,
-              "lon": -46.7039659
+              "lat": -23.5141145,
+              "lon": -46.6916605
             },
             "source": "osm",
             "confidence": "C",
-            "note": "330 m away"
+            "note": "46 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.51444444,
+              "lon": -46.69138889
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "15 m de distância"
           }
         ]
       },
       "lines": [
+        "linha-6",
         "linha-20"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -2057,26 +2067,146 @@
         ]
       },
       "code": {
-        "value": "LPA",
+        "value": "STM",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
-      "accessibility": null,
-      "opened": null,
+      "opened": {
+        "value": "2026-07-02",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
       "address": null,
       "external_ids": {
-        "wikidata": null,
-        "osm": "way/520671386",
+        "wikidata": "Q41344200",
+        "osm": "way/529089113",
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "173",
-        "metro_code": "LPA"
+        "geosampa_id": "124",
+        "metro_code": "STM"
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa",
-        "osm"
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "lapa",
+      "slug": "lapa",
+      "name": {
+        "value": "Lapa",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Lapa (Linha 7)",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.51773416,
+          "lon": -46.70365872
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.51794308,
+              "lon": -46.70075443
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "297 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5175952,
+              "lon": -46.7039659
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "35 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5175,
+              "lon": -46.7051
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "149 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.517538,
+              "lon": -46.703952
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "37 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-7",
+        "linha-20"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "LPA",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1899-02-20",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q8779041",
+        "osm": "way/520671386",
+        "gtfs_stop_id": "18917",
+        "gtfs_route_id": null,
+        "geosampa_id": "3084",
+        "metro_code": "LPA"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
       ]
     },
     {
@@ -2130,14 +2260,7 @@
         "value": "Cerro Corá",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": [
-          {
-            "value": "CERRO CORÁ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2154,7 +2277,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "12 m away"
+            "note": "12 m de distância"
           }
         ]
       },
@@ -2238,7 +2361,7 @@
         "confidence": "A",
         "alternatives": [
           {
-            "value": "TEODORO SAMPAIO",
+            "value": "CARDEAL ARCOVERDE",
             "source": "geosampa",
             "confidence": "A",
             "note": null
@@ -2260,13 +2383,23 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "120 m away"
+            "note": "120 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56062275,
+              "lon": -46.68664372
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "141 m de distância"
           }
         ]
       },
       "lines": [
         "linha-16",
-        "linha-20"
+        "linha-20",
+        "linha-22"
       ],
       "status": {
         "value": "planned",
@@ -2298,20 +2431,7 @@
         "value": "Fradique Coutinho",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "FRADIQUE COUTINHO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "FRADIQUE COUTINHO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2328,7 +2448,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "153 m away"
+            "note": "153 m de distância"
           },
           {
             "value": {
@@ -2337,7 +2457,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "7 m away"
+            "note": "7 m de distância"
           },
           {
             "value": {
@@ -2346,7 +2466,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "6 m away"
+            "note": "6 m de distância"
           },
           {
             "value": {
@@ -2355,7 +2475,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "13 m away"
+            "note": "13 m de distância"
           }
         ]
       },
@@ -2550,20 +2670,7 @@
         "value": "Moema",
         "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "MOEMA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "MOEMA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2580,7 +2687,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "131 m away"
+            "note": "131 m de distância"
           },
           {
             "value": {
@@ -2589,7 +2696,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "32 m away"
+            "note": "32 m de distância"
           },
           {
             "value": {
@@ -2598,7 +2705,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "6 m away"
+            "note": "6 m de distância"
           }
         ]
       },
@@ -2749,24 +2856,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": null
-          },
-          {
-            "value": "Saúde",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SAÚDE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SAÚDE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -2785,7 +2874,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "136 m away"
+            "note": "136 m de distância"
           },
           {
             "value": {
@@ -2794,7 +2883,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "21 m away"
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -2803,7 +2892,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "59 m away"
+            "note": "59 m de distância"
           },
           {
             "value": {
@@ -2812,7 +2901,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "42 m away"
+            "note": "42 m de distância"
           }
         ]
       },
@@ -3274,12 +3363,6 @@
             "note": null
           },
           {
-            "value": "PREFEITO CELSO DANIEL - SANTO ANDRÉ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
             "value": "SANTO ANDRÉ",
             "source": "geosampa",
             "confidence": "A",
@@ -3302,7 +3385,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "139 m away"
+            "note": "139 m de distância"
           },
           {
             "value": {
@@ -3311,7 +3394,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "12 m away"
+            "note": "12 m de distância"
           },
           {
             "value": {
@@ -3320,7 +3403,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           },
           {
             "value": {
@@ -3329,7 +3412,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "19 m away"
+            "note": "19 m de distância"
           },
           {
             "value": {
@@ -3338,7 +3421,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "52 m away"
+            "note": "52 m de distância"
           }
         ]
       },

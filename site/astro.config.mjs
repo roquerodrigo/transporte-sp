@@ -64,7 +64,11 @@ export default defineConfig({
           href: "https://github.com/roquerodrigo/transporte-sp",
         },
       ],
-      customCss: ["./src/styles/custom.css", "./src/styles/tables.css"],
+      customCss: [
+        "./src/styles/custom.css",
+        "./src/styles/tables.css",
+        "./src/styles/pills.css",
+      ],
       // Injected here rather than from a `Head` override: themes routinely override
       // `Head`, and whichever override loses simply does not render.
       head: [

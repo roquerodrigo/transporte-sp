@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="quitauna" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Quitaúna | OpenStreetMap | C | QUITAÚNA (GeoSampa) |
-| Coordenada | -23.52282, -46.80677 | GeoSampa | A | -23.52272, -46.80707 (OpenStreetMap); -23.52275, -46.80714 (Wikidata); -23.52287, -46.80709 (GTFS SPTrans) |
-| Sigla | QTU | Wikidata | C | — |
-| Inauguração | 1929-05-29 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Quitaúna | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.52282, -46.80677 | <Origem fonte="geosampa" nivel="A" /> | -23.52272, -46.80707 <Origem fonte="osm" nivel="C" /><br />-23.52275, -46.80714 <Origem fonte="wikidata" nivel="C" /><br />-23.52287, -46.80709 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | QTU | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 29/05/1929 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

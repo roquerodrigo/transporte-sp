@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha, Linha 7 - Rubi, Linha 8 - Diamant
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="palmeiras-barra-funda" />
 
@@ -19,10 +20,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Palmeiras-Barra Funda | OpenStreetMap | C | Palmeiras - Barra Funda (OpenStreetMap); Palmeiras-Barra Funda (Metrô) (Wikidata); Terminal Intermodal Palmeiras-Barra Funda (Wikidata); Palmeiras - Barra Funda (GTFS SPTrans); Palmeiras - Barra Funda (GTFS SPTrans); Palmeiras - Barra Funda (GTFS SPTrans); PALMEIRAS-BARRA FUNDA (GeoSampa); PALMEIRAS - BARRA FUNDA (GeoSampa); PALMEIRAS - BARRA FUNDA (GeoSampa); PALMEIRAS - BARRA FUNDA (GeoSampa); PALMEIRAS - BARRA FUNDA (GeoSampa) |
-| Coordenada | -23.52595, -46.66737 | GeoSampa | A | -23.52558, -46.66752 (GeoSampa); -23.52558, -46.66752 (GeoSampa); -23.52558, -46.66752 (GeoSampa); -23.52558, -46.66752 (GeoSampa); -23.52546, -46.66751 (OpenStreetMap); -23.52597, -46.66747 (OpenStreetMap); -23.52550, -46.66736 (Wikidata); -23.52550, -46.66736 (Wikidata); -23.52556, -46.66722 (Wikidata); -23.52532, -46.66655 (GTFS SPTrans); -23.52559, -46.66665 (GTFS SPTrans); -23.52570, -46.66680 (GTFS SPTrans) |
-| Sigla | BFU | Wikidata | C | — |
-| Inauguração | 1988-12-18 | Wikidata | C | 1988-12-17 (Wikidata) |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Palmeiras-Barra Funda | <Origem fonte="osm" nivel="C" /> | Terminal Intermodal Palmeiras-Barra Funda <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.52595, -46.66737 | <Origem fonte="geosampa" nivel="A" /> | 8 leituras, até 110 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | BFU | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 18/12/1988 | <Origem fonte="wikidata" nivel="C" /> | 17/12/1988 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

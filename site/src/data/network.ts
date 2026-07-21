@@ -117,6 +117,22 @@ export const SOURCE_LABELS: Record<string, string> = {
   pipeline: "inferido",
 };
 
+/** The tier each source sits in, for the places that carry a source id but no level. */
+export const SOURCE_CONFIDENCE: Record<string, Confidence> = {
+  geosampa: "A",
+  gtfs_sptrans: "A",
+  metro_transparencia: "A",
+  artesp: "A",
+  metro_site: "B",
+  operator_site: "B",
+  proximo_trem: "B",
+  osm: "C",
+  wikidata: "C",
+  wikipedia: "C",
+  press: "D",
+  pipeline: "E",
+};
+
 /** How confident the dataset is in a value, spelled out for a reader. */
 export const CONFIDENCE_LABELS: Record<Confidence, string> = {
   A: "oficial primária",

@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde, Linha 16 - Violeta"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="analia-franco" />
 
@@ -17,8 +18,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Anália Franco | Wikidata | C | ANÁLIA FRANCO (GeoSampa); ANÁLIA FRANCO (GeoSampa) |
-| Coordenada | -23.56376, -46.56012 | GeoSampa | A | -23.56442, -46.55963 (GeoSampa); -23.56362, -46.55962 (Wikidata) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Anália Franco | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.56376, -46.56012 | <Origem fonte="geosampa" nivel="A" /> | -23.56442, -46.55963 <Origem fonte="geosampa" nivel="A" /><br />-23.56362, -46.55962 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

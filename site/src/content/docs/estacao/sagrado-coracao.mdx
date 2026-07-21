@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="sagrado-coracao" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Sagrado Coração | OpenStreetMap | C | SAGRADO CORAÇÃO (GeoSampa) |
-| Coordenada | -23.52914, -46.91713 | GeoSampa | A | -23.52914, -46.91728 (OpenStreetMap); -23.52914, -46.91726 (Wikidata); -23.52908, -46.91728 (GTFS SPTrans) |
-| Sigla | SCO | Wikidata | C | — |
-| Inauguração | 1950-01-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Sagrado Coração | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.52914, -46.91713 | <Origem fonte="geosampa" nivel="A" /> | -23.52914, -46.91728 <Origem fonte="osm" nivel="C" /><br />-23.52914, -46.91726 <Origem fonte="wikidata" nivel="C" /><br />-23.52908, -46.91728 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | SCO | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/01/1950 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -1,6 +1,8 @@
 ---
 /** Everything the reconciler refused to resolve silently. */
-import { SOURCE_LABELS, network, lineById, stationById } from "@data/network";
+import Origem from "@components/Origem.astro";
+import { SOURCE_CONFIDENCE, network, lineById, stationById } from "@data/network";
+import { data, numero } from "@data/formato";
 import conflicts from "../../public/dados/conflicts.json";
 
 interface Conflict {
@@ -26,7 +28,6 @@ const rows = (conflicts as Conflict[]).map((conflict) => {
   return { ...conflict, label: entity?.name.value ?? conflict.entity_id };
 });
 
-const source = (id: string) => SOURCE_LABELS[id] ?? id;
 const show = (value: unknown) =>
   value && typeof value === "object" && "lat" in (value as any)
     ? `${(value as any).lat.toFixed(5)}, ${(value as any).lon.toFixed(5)}`
@@ -34,7 +35,7 @@ const show = (value: unknown) =>
 ---
 
 <p>
-  {rows.length} divergência(s) na reconciliação de {network.generated_at}.
+  {numero(rows.length)} divergência(s) na reconciliação de {data(network.generated_at)}.
 </p>
 
 <table>
@@ -54,10 +55,15 @@ const show = (value: unknown) =>
           <td>{row.label}</td>
           <td>{FIELD_LABELS[row.fieldname] ?? row.fieldname}</td>
           <td>
-            {show(row.chosen)} <em>({source(row.chosen_source)})</em>
+            {show(row.chosen)}
+            <Origem fonte={row.chosen_source} nivel={SOURCE_CONFIDENCE[row.chosen_source] ?? "E"} />
           </td>
           <td>
-            {show(row.rejected)} <em>({source(row.rejected_source)})</em>
+            {show(row.rejected)}
+            <Origem
+              fonte={row.rejected_source}
+              nivel={SOURCE_CONFIDENCE[row.rejected_source] ?? "E"}
+            />
           </td>
           <td>{row.detail}</td>
         </tr>

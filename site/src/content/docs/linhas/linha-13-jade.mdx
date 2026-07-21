@@ -1,10 +1,12 @@
 ---
 title: "Linha 13 - Jade"
-description: "Trem metropolitano · Em operação · 9.336 km"
+description: "Trem metropolitano · Em operação · 9,3 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-13" />
 
@@ -16,28 +18,29 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Eng. Goulart](/estacao/eng-goulart/) | — | Em operação | [Linha 12 - Safira](/linhas/linha-12-safira/) |
-| 2 | [Guarulhos-Cecap](/estacao/guarulhos-cecap/) | GCE | Em operação | [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
-| 3 | [Aeroporto-Guarulhos](/estacao/aeroporto-guarulhos/) | AGU | Em operação | [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
+| 1 | [Engenheiro Goulart](/estacao/engenheiro-goulart/) | EGO | <Situacao valor="operational" /> | [Linha 12 - Safira](/linhas/linha-12-safira/) |
+| 2 | [Guarulhos-Cecap](/estacao/guarulhos-cecap/) | GCE | <Situacao valor="operational" /> | — |
+| 3 | [Aeroporto-Guarulhos](/estacao/aeroporto-guarulhos/) | AGU | <Situacao valor="operational" /> | [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
 
-### Projetada (14)
+### Projetada (15)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 4 | [Bonsucesso](/estacao/bonsucesso-2/) | — | Projetada | — |
-| 5 | [Jardim Presidente Dutra](/estacao/jardim-presidente-dutra/) | — | Projetada | — |
-| 6 | [São João](/estacao/sao-joao/) | — | Projetada | — |
-| 7 | [Jardim dos Eucaliptos](/estacao/jardim-dos-eucaliptos/) | — | Projetada | — |
-| 8 | [Cangaíba](/estacao/cangaiba/) | — | Projetada | — |
-| 9 | [Gabriela Mistral](/estacao/gabriela-mistral/) | — | Projetada | [Linha 12 - Safira](/linhas/linha-12-safira/) |
-| 10 | [Guaiaúna](/estacao/guaiauna/) | — | Projetada | — |
-| 11 | [Serra de Botucatu](/estacao/serra-de-botucatu/) | — | Projetada | — |
-| 12 | [Itapura](/estacao/itapura/) | — | Projetada | — |
-| 13 | [Demétrio Ribeiro](/estacao/demetrio-ribeiro/) | — | Projetada | — |
-| 14 | [Sapucaia](/estacao/sapucaia/) | — | Projetada | — |
-| 15 | [Parque da Mooca](/estacao/parque-da-mooca/) | — | Projetada | — |
-| 16 | [Dom Pedro I](/estacao/dom-pedro-i/) | — | Projetada | — |
-| 17 | [Bom Pastor](/estacao/bom-pastor/) | — | Projetada | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
+| 4 | [Bonsucesso](/estacao/bonsucesso/) | — | <Situacao valor="planned" /> | [Linha 14 - Onix](/linhas/linha-14-onix/) |
+| 5 | [Bonsucesso](/estacao/bonsucesso-2/) | — | <Situacao valor="planned" /> | — |
+| 6 | [Jardim Presidente Dutra](/estacao/jardim-presidente-dutra/) | — | <Situacao valor="planned" /> | — |
+| 7 | [São João](/estacao/sao-joao/) | — | <Situacao valor="planned" /> | — |
+| 8 | [Jardim dos Eucaliptos](/estacao/jardim-dos-eucaliptos/) | — | <Situacao valor="planned" /> | — |
+| 9 | [Cangaíba](/estacao/cangaiba/) | — | <Situacao valor="planned" /> | — |
+| 10 | [Tiquatira](/estacao/tiquatira/) | — | <Situacao valor="planned" /> | [Linha 2 - Verde](/linhas/linha-2-verde/), [Linha 12 - Safira](/linhas/linha-12-safira/) |
+| 11 | [Guaiaúna](/estacao/guaiauna/) | — | <Situacao valor="planned" /> | — |
+| 12 | [Serra de Botucatu](/estacao/serra-de-botucatu/) | — | <Situacao valor="planned" /> | — |
+| 13 | [Itapura](/estacao/itapura/) | — | <Situacao valor="planned" /> | — |
+| 14 | [Demétrio Ribeiro](/estacao/demetrio-ribeiro/) | — | <Situacao valor="planned" /> | — |
+| 15 | [Sapucaia](/estacao/sapucaia/) | — | <Situacao valor="planned" /> | — |
+| 16 | [São Carlos](/estacao/sao-carlos/) | — | <Situacao valor="planned" /> | [Linha 6 - Laranja](/linhas/linha-6-laranja/), [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
+| 17 | [Parque da Independência](/estacao/parque-da-independencia/) | — | <Situacao valor="planned" /> | [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
+| 18 | [Bom Pastor](/estacao/bom-pastor/) | — | <Situacao valor="planned" /> | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
 
 A ordem das estações vem de GTFS SPTrans.
 
@@ -45,13 +48,13 @@ A ordem das estações vem de GTFS SPTrans.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jade | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 13 | GeoSampa | A | — |
-| Cor | #2CA05A | OpenStreetMap | C | #00B352 (GTFS SPTrans) |
-| Modo | Trem metropolitano | OpenStreetMap | C | — |
-| Operadora | Companhia Paulista de Trens Metropolitanos | OpenStreetMap | C | CPTM (GeoSampa) |
-| Extensão | 9.336 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jade | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 13 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #2CA05A | <Origem fonte="osm" nivel="C" /> | #00B352 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Trem metropolitano | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | Companhia Paulista de Trens Metropolitanos | <Origem fonte="osm" nivel="C" /> | CPTM <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 9,3 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

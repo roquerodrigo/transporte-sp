@@ -1,10 +1,11 @@
 ---
 title: "Lapa"
-description: "Estação de Linha 20 - Rosa"
+description: "Estação de Linha 7 - Rubi, Linha 20 - Rosa"
 ---
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="lapa" />
 
@@ -12,13 +13,15 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Linhas
 
+- [Linha 7 - Rubi](/linhas/linha-7-rubi/)
 - [Linha 20 - Rosa](/linhas/linha-20-rosa/)
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Lapa | OpenStreetMap | C | LAPA (GeoSampa) |
-| Coordenada | -23.51794, -46.70075 | GeoSampa | A | -23.51760, -46.70397 (OpenStreetMap) |
-| Sigla | LPA | OpenStreetMap | C | — |
-| Situação | Projetada | GeoSampa | A | Em operação (OpenStreetMap) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Lapa | <Origem fonte="osm" nivel="C" /> | Lapa (Linha 7) <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.51773, -46.70366 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 297 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | LPA | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 20/02/1899 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

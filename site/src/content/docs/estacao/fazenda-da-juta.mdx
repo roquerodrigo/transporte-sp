@@ -5,6 +5,7 @@ description: "Estação de Linha 15 - Prata"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="fazenda-da-juta" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Fazenda da Juta | OpenStreetMap | C | Fazenda Da Juta (GTFS SPTrans); FAZENDA DA JUTA (GeoSampa) |
-| Coordenada | -23.61169, -46.48747 | GeoSampa | A | -23.61182, -46.48747 (OpenStreetMap); -23.61182, -46.48749 (Wikidata); -23.61185, -46.48758 (GTFS SPTrans) |
-| Sigla | FJT | Wikidata | C | — |
-| Inauguração | 2019-12-16 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Fazenda da Juta | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.61169, -46.48747 | <Origem fonte="geosampa" nivel="A" /> | -23.61182, -46.48747 <Origem fonte="osm" nivel="C" /><br />-23.61182, -46.48749 <Origem fonte="wikidata" nivel="C" /><br />-23.61185, -46.48758 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | FJT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 16/12/2019 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

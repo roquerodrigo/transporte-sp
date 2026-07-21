@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde, Linha 22 - Marrom"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="santuario-nossa-senhora-de-fatima-sumare" />
 
@@ -17,11 +18,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Santuário Nossa Senhora de Fátima - Sumaré | OpenStreetMap | C | Santuário Nossa Senhora de Fátima-Sumaré (Wikidata); S. N. Sra. De Fátima-sumaré (GTFS SPTrans); SANTUÁRIO NOSSA SENHORA DE FÁTIMA-SUMARÉ (GeoSampa); SUMARÉ (GeoSampa) |
-| Coordenada | -23.55102, -46.67754 | GeoSampa | A | -23.55108, -46.67647 (GeoSampa); -23.55103, -46.67759 (OpenStreetMap); -23.55064, -46.67759 (Wikidata); -23.55097, -46.67757 (GTFS SPTrans) |
-| Sigla | SUM | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 1998-11-21 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Santuário Nossa Senhora de Fátima - Sumaré | <Origem fonte="osm" nivel="C" /> | S. N. Sra. De Fátima-sumaré <Origem fonte="gtfs_sptrans" nivel="A" /><br />SUMARÉ <Origem fonte="geosampa" nivel="A" /> |
+| Coordenada | -23.55102, -46.67754 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 109 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | SUM | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 21/11/1998 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

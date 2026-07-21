@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="largo-treze" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Largo Treze | OpenStreetMap | C | LARGO TREZE (GeoSampa) |
-| Coordenada | -23.65446, -46.70954 | GeoSampa | A | -23.65446, -46.71017 (OpenStreetMap); -23.65452, -46.71034 (Wikidata); -23.65446, -46.71030 (GTFS SPTrans) |
-| Sigla | LTR | Wikidata | C | — |
-| Inauguração | 2002-10-20 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Largo Treze | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.65446, -46.70954 | <Origem fonte="geosampa" nivel="A" /> | -23.65446, -46.71017 <Origem fonte="osm" nivel="C" /><br />-23.65452, -46.71034 <Origem fonte="wikidata" nivel="C" /><br />-23.65446, -46.71030 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | LTR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 20/10/2002 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

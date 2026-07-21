@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jaragua" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jaraguá | Wikidata | C | JARAGUÁ (GeoSampa) |
-| Coordenada | -23.45545, -46.73842 | GeoSampa | A | -23.45510, -46.73880 (Wikidata); -23.45550, -46.73848 (GTFS SPTrans) |
-| Sigla | JRG | Wikidata | C | — |
-| Inauguração | 1891-10-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jaraguá | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.45545, -46.73842 | <Origem fonte="geosampa" nivel="A" /> | -23.45510, -46.73880 <Origem fonte="wikidata" nivel="C" /><br />-23.45550, -46.73848 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JRG | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/10/1891 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -70,7 +70,7 @@
       "butanta",
       "sao-paulo-morumbi",
       "vila-sonia-professora-elizabeth-tenreiro",
-      "chacara-do-joquei",
+      "chacara-do-jockey",
       "taboao-da-serra"
     ],
     "station_order": {
@@ -1020,27 +1020,9 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
+            "value": "da Luz",
+            "source": "wikidata",
+            "confidence": "C",
             "note": null
           }
         ]
@@ -1060,7 +1042,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "118 m away"
+            "note": "118 m de distância"
           },
           {
             "value": {
@@ -1069,16 +1051,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "261 m away"
-          },
-          {
-            "value": {
-              "lat": -23.53496082,
-              "lon": -46.63511522
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "261 m away"
+            "note": "261 m de distância"
           },
           {
             "value": {
@@ -1087,7 +1060,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "186 m away"
+            "note": "186 m de distância"
           },
           {
             "value": {
@@ -1096,7 +1069,16 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "81 m away"
+            "note": "81 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.53509,
+              "lon": -46.63528
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "260 m de distância"
           },
           {
             "value": {
@@ -1105,7 +1087,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "72 m away"
+            "note": "72 m de distância"
           },
           {
             "value": {
@@ -1114,7 +1096,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "269 m away"
+            "note": "269 m de distância"
           },
           {
             "value": {
@@ -1123,7 +1105,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "207 m away"
+            "note": "207 m de distância"
           },
           {
             "value": {
@@ -1132,7 +1114,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "91 m away"
+            "note": "91 m de distância"
           }
         ]
       },
@@ -1140,8 +1122,7 @@
         "linha-1",
         "linha-4",
         "linha-7",
-        "linha-11",
-        "expresso-aeroporto"
+        "linha-11"
       ],
       "status": {
         "value": "operational",
@@ -1160,7 +1141,14 @@
         "value": "1975-09-26",
         "source": "wikidata",
         "confidence": "C",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "1867-02-16",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
       },
       "address": null,
       "external_ids": {
@@ -1186,20 +1174,7 @@
         "value": "República",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "REPÚBLICA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "REPÚBLICA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1216,7 +1191,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "78 m away"
+            "note": "78 m de distância"
           },
           {
             "value": {
@@ -1225,7 +1200,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "54 m away"
+            "note": "54 m de distância"
           },
           {
             "value": {
@@ -1234,7 +1209,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "41 m away"
+            "note": "41 m de distância"
           },
           {
             "value": {
@@ -1243,7 +1218,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "79 m away"
+            "note": "79 m de distância"
           },
           {
             "value": {
@@ -1252,7 +1227,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "46 m away"
+            "note": "46 m de distância"
           }
         ]
       },
@@ -1303,32 +1278,7 @@
         "value": "Higienópolis-Mackenzie",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Estação Higienópolis-Mackenzie",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "Higienópolis-mackenzie",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "HIGIENÓPOLIS-MACKENZIE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "HIGIENÓPOLIS-MACKENZIE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1345,7 +1295,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "292 m away"
+            "note": "292 m de distância"
           },
           {
             "value": {
@@ -1354,7 +1304,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "5 m away"
+            "note": "5 m de distância"
           },
           {
             "value": {
@@ -1363,7 +1313,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "38 m away"
+            "note": "38 m de distância"
           },
           {
             "value": {
@@ -1372,7 +1322,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "21 m away"
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -1381,7 +1331,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "10 m away"
+            "note": "10 m de distância"
           }
         ]
       },
@@ -1444,14 +1394,7 @@
         "value": "Paulista",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "PAULISTA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1468,7 +1411,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "36 m away"
+            "note": "36 m de distância"
           },
           {
             "value": {
@@ -1477,7 +1420,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "33 m away"
+            "note": "33 m de distância"
           },
           {
             "value": {
@@ -1486,7 +1429,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "6 m away"
+            "note": "6 m de distância"
           }
         ]
       },
@@ -1541,20 +1484,7 @@
         "value": "Oscar Freire",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "OSCAR FREIRE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "OSCAR FREIRE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1571,7 +1501,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "224 m away"
+            "note": "224 m de distância"
           },
           {
             "value": {
@@ -1580,7 +1510,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "44 m away"
+            "note": "44 m de distância"
           },
           {
             "value": {
@@ -1589,7 +1519,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "39 m away"
+            "note": "39 m de distância"
           },
           {
             "value": {
@@ -1598,7 +1528,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "29 m away"
+            "note": "29 m de distância"
           }
         ]
       },
@@ -1656,20 +1586,7 @@
         "value": "Fradique Coutinho",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "FRADIQUE COUTINHO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "FRADIQUE COUTINHO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1686,7 +1603,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "153 m away"
+            "note": "153 m de distância"
           },
           {
             "value": {
@@ -1695,7 +1612,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "7 m away"
+            "note": "7 m de distância"
           },
           {
             "value": {
@@ -1704,7 +1621,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "6 m away"
+            "note": "6 m de distância"
           },
           {
             "value": {
@@ -1713,7 +1630,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "13 m away"
+            "note": "13 m de distância"
           }
         ]
       },
@@ -1782,24 +1699,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": null
-          },
-          {
-            "value": "Faria Lima",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "FARIA LIMA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "FARIA LIMA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -1818,7 +1717,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "93 m away"
+            "note": "93 m de distância"
           },
           {
             "value": {
@@ -1827,7 +1726,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "11 m away"
+            "note": "11 m de distância"
           },
           {
             "value": {
@@ -1836,7 +1735,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "46 m away"
+            "note": "46 m de distância"
           },
           {
             "value": {
@@ -1845,7 +1744,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "61 m away"
+            "note": "61 m de distância"
           }
         ]
       },
@@ -1909,24 +1808,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": null
-          },
-          {
-            "value": "Pinheiros Metrô",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PINHEIROS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PINHEIROS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -1945,7 +1826,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "159 m away"
+            "note": "159 m de distância"
           },
           {
             "value": {
@@ -1954,7 +1835,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "162 m away"
+            "note": "162 m de distância"
           },
           {
             "value": {
@@ -1963,7 +1844,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           },
           {
             "value": {
@@ -1972,7 +1853,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "25 m away"
+            "note": "25 m de distância"
           },
           {
             "value": {
@@ -1981,7 +1862,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "157 m away"
+            "note": "157 m de distância"
           },
           {
             "value": {
@@ -1990,7 +1871,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "154 m away"
+            "note": "154 m de distância"
           },
           {
             "value": {
@@ -1999,7 +1880,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "25 m away"
+            "note": "25 m de distância"
           }
         ]
       },
@@ -2062,14 +1943,7 @@
         "value": "Butantã",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "BUTANTÃ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2086,7 +1960,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "18 m away"
+            "note": "18 m de distância"
           },
           {
             "value": {
@@ -2095,7 +1969,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "22 m away"
+            "note": "22 m de distância"
           },
           {
             "value": {
@@ -2104,7 +1978,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "24 m away"
+            "note": "24 m de distância"
           }
         ]
       },
@@ -2154,32 +2028,7 @@
         "value": "São Paulo – Morumbi",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "São Paulo-Morumbi",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "São Paulo - Morumbi",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SÃO PAULO-MORUMBI",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SÃO PAULO-MORUMBI",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2196,7 +2045,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "49 m away"
+            "note": "49 m de distância"
           },
           {
             "value": {
@@ -2205,7 +2054,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "29 m away"
+            "note": "29 m de distância"
           },
           {
             "value": {
@@ -2214,7 +2063,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "74 m away"
+            "note": "74 m de distância"
           },
           {
             "value": {
@@ -2223,7 +2072,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "46 m away"
+            "note": "46 m de distância"
           }
         ]
       },
@@ -2293,18 +2142,6 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": null
-          },
-          {
-            "value": "VILA SÔNIA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "VILA SÔNIA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -2323,7 +2160,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "0 m away"
+            "note": "0 m de distância"
           },
           {
             "value": {
@@ -2332,7 +2169,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "6 m away"
+            "note": "6 m de distância"
           },
           {
             "value": {
@@ -2341,7 +2178,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "262 m away"
+            "note": "262 m de distância"
           },
           {
             "value": {
@@ -2350,7 +2187,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "215 m away"
+            "note": "215 m de distância"
           }
         ]
       },
@@ -2401,13 +2238,20 @@
       ]
     },
     {
-      "id": "chacara-do-joquei",
-      "slug": "chacara-do-joquei",
+      "id": "chacara-do-jockey",
+      "slug": "chacara-do-jockey",
       "name": {
-        "value": "Chácara do Jóquei",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
+        "value": "Chácara do Jockey",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "CHÁCARA DO JÓQUEI",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
       },
       "coordinates": {
         "value": {
@@ -2416,7 +2260,17 @@
         },
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.60192,
+              "lon": -46.7429
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "99 m de distância"
+          }
+        ]
       },
       "lines": [
         "linha-4"
@@ -2432,7 +2286,7 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": null,
+        "wikidata": "Q126734956",
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
@@ -2441,7 +2295,8 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "geosampa"
+        "geosampa",
+        "wikidata"
       ]
     },
     {
@@ -2451,14 +2306,7 @@
         "value": "Taboão da Serra",
         "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "TABOÃO DA SERRA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2475,7 +2323,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "136 m away"
+            "note": "136 m de distância"
           }
         ]
       },

@@ -1,10 +1,12 @@
 ---
 title: "Expresso Aeroporto"
-description: "Trem metropolitano · Operação parcial · 29.081 km"
+description: "Trem metropolitano · Operação parcial · 29,1 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="expresso-aeroporto" />
 
@@ -14,25 +16,22 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Palmeiras-Barra Funda](/estacao/palmeiras-barra-funda/) | BFU | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 7 - Rubi](/linhas/linha-7-rubi/), [Linha 8 - Diamante](/linhas/linha-8-diamante/) |
-| 2 | [Luz](/estacao/luz/) | LUZ | Em operação | [Linha 1 - Azul](/linhas/linha-1-azul/), [Linha 4 - Amarela](/linhas/linha-4-amarela/), [Linha 7 - Rubi](/linhas/linha-7-rubi/), [Linha 11 - Coral](/linhas/linha-11-coral/) |
-| 3 | [Brás](/estacao/bras/) | BAS | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 10 - Turquesa](/linhas/linha-10-turquesa/), [Linha 11 - Coral](/linhas/linha-11-coral/), [Linha 12 - Safira](/linhas/linha-12-safira/) |
-| 4 | [Guarulhos-Cecap](/estacao/guarulhos-cecap/) | GCE | Em operação | [Linha 13 - Jade](/linhas/linha-13-jade/) |
-| 5 | [Aeroporto-Guarulhos](/estacao/aeroporto-guarulhos/) | AGU | Em operação | [Linha 13 - Jade](/linhas/linha-13-jade/) |
+| 1 | [Palmeiras-Barra Funda](/estacao/palmeiras-barra-funda/) | BFU | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 7 - Rubi](/linhas/linha-7-rubi/), [Linha 8 - Diamante](/linhas/linha-8-diamante/) |
+| 2 | [Aeroporto-Guarulhos](/estacao/aeroporto-guarulhos/) | AGU | <Situacao valor="operational" /> | [Linha 13 - Jade](/linhas/linha-13-jade/) |
 
 A ordem das estações vem de OpenStreetMap.
 
 :::caution[Trecho projetado sem estações]
-Esta linha tem 28.065 km de traçado projetado, mas nenhuma das fontes consultadas publica as estações desse trecho — o GeoSampa é a única que mapeia estações projetadas, e ele termina no limite do município.
+Esta linha tem 28,1 km de traçado projetado, mas nenhuma das fontes consultadas publica as estações desse trecho — o GeoSampa é a única que mapeia estações projetadas, e ele termina no limite do município.
 :::
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Expresso Aeroporto | GeoSampa | A | — |
-| Situação | Operação parcial | inferido | E | Em operação (OpenStreetMap); Projetada (GeoSampa) |
-| Modo | Trem metropolitano | OpenStreetMap | C | — |
-| Operadora | Companhia Paulista de Trens Metropolitanos | OpenStreetMap | C | CPTM (GeoSampa) |
-| Extensão | 29.081 km | OpenStreetMap | E | — |
-| Ordem das estações | OpenStreetMap | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Expresso Aeroporto | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Operação parcial | <Origem fonte="pipeline" nivel="E" /> | Em operação <Origem fonte="osm" nivel="C" /><br />Projetada <Origem fonte="geosampa" nivel="A" /> |
+| Modo | Trem metropolitano | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | Companhia Paulista de Trens Metropolitanos | <Origem fonte="osm" nivel="C" /> | CPTM <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 29,1 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | OpenStreetMap | <Origem fonte="osm" nivel="C" /> | — |

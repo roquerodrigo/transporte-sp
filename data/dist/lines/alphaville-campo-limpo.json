@@ -1325,20 +1325,7 @@
         "value": "Carapicuíba",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "CARAPICUÍBA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "CARAPICUÍBA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1355,7 +1342,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "37 m away"
+            "note": "37 m de distância"
           },
           {
             "value": {
@@ -1364,7 +1351,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "14 m away"
+            "note": "14 m de distância"
           },
           {
             "value": {
@@ -1373,7 +1360,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "11 m away"
+            "note": "11 m de distância"
           },
           {
             "value": {
@@ -1382,7 +1369,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "23 m away"
+            "note": "23 m de distância"
           }
         ]
       },
@@ -2051,20 +2038,7 @@
         "value": "Campo Limpo",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "CAMPO LIMPO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "CAMPO LIMPO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2081,7 +2055,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "65 m away"
+            "note": "65 m de distância"
           },
           {
             "value": {
@@ -2090,7 +2064,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "11 m away"
+            "note": "11 m de distância"
           },
           {
             "value": {
@@ -2099,7 +2073,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "19 m away"
+            "note": "19 m de distância"
           },
           {
             "value": {
@@ -2108,7 +2082,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "45 m away"
+            "note": "45 m de distância"
           }
         ]
       },

@@ -5,6 +5,8 @@ description: "Trem metropolitano · Projetada"
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="ligacao-alphaville-campo-limpo" />
 
@@ -16,31 +18,31 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 5 | [Carapicuíba](/estacao/carapicuiba/) | CPB | Em operação | [Linha 8 - Diamante](/linhas/linha-8-diamante/) |
-| 20 | [Campo Limpo](/estacao/campo-limpo/) | CPL | Em operação | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
+| 5 | [Carapicuíba](/estacao/carapicuiba/) | CPB | <Situacao valor="operational" /> | [Linha 8 - Diamante](/linhas/linha-8-diamante/) |
+| 20 | [Campo Limpo](/estacao/campo-limpo/) | CPL | <Situacao valor="operational" /> | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
 
 ### Projetada (18)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Rio Negro](/estacao/rio-negro/) | — | Projetada | — |
-| 2 | [Araguaia](/estacao/araguaia/) | — | Projetada | — |
-| 3 | [Tamboré](/estacao/tambore/) | — | Projetada | — |
-| 4 | [Parque da Lagoa](/estacao/parque-da-lagoa/) | — | Projetada | — |
-| 6 | [Brasil](/estacao/brasil/) | — | Projetada | — |
-| 7 | [Hospital Geral](/estacao/hospital-geral/) | — | Projetada | — |
-| 8 | [Integração](/estacao/integracao/) | — | Projetada | — |
-| 9 | [São Pedro](/estacao/sao-pedro/) | — | Projetada | — |
-| 10 | [Jardim Roberto](/estacao/jardim-roberto/) | — | Projetada | — |
-| 11 | [Santo Antônio](/estacao/santo-antonio/) | — | Projetada | — |
-| 12 | [Nova Granada](/estacao/nova-granada/) | — | Projetada | — |
-| 13 | [Sanazar](/estacao/sanazar/) | — | Projetada | — |
-| 14 | [Jardim D'Abril](/estacao/jardim-d-abril/) | — | Projetada | — |
-| 15 | [Monte Belo](/estacao/monte-belo/) | — | Projetada | — |
-| 16 | [Eiras Garcia](/estacao/eiras-garcia/) | — | Projetada | — |
-| 17 | [Hortênsias](/estacao/hortensias/) | — | Projetada | — |
-| 18 | [Taboão Msp](/estacao/taboao-msp/) | — | Projetada | — |
-| 19 | [Donatello](/estacao/donatello/) | — | Projetada | — |
+| 1 | [Rio Negro](/estacao/rio-negro/) | — | <Situacao valor="planned" /> | — |
+| 2 | [Araguaia](/estacao/araguaia/) | — | <Situacao valor="planned" /> | — |
+| 3 | [Tamboré](/estacao/tambore/) | — | <Situacao valor="planned" /> | — |
+| 4 | [Parque da Lagoa](/estacao/parque-da-lagoa/) | — | <Situacao valor="planned" /> | — |
+| 6 | [Brasil](/estacao/brasil/) | — | <Situacao valor="planned" /> | — |
+| 7 | [Hospital Geral](/estacao/hospital-geral/) | — | <Situacao valor="planned" /> | — |
+| 8 | [Integração](/estacao/integracao/) | — | <Situacao valor="planned" /> | — |
+| 9 | [São Pedro](/estacao/sao-pedro/) | — | <Situacao valor="planned" /> | — |
+| 10 | [Jardim Roberto](/estacao/jardim-roberto/) | — | <Situacao valor="planned" /> | — |
+| 11 | [Santo Antônio](/estacao/santo-antonio/) | — | <Situacao valor="planned" /> | — |
+| 12 | [Nova Granada](/estacao/nova-granada/) | — | <Situacao valor="planned" /> | — |
+| 13 | [Sanazar](/estacao/sanazar/) | — | <Situacao valor="planned" /> | — |
+| 14 | [Jardim D'Abril](/estacao/jardim-d-abril/) | — | <Situacao valor="planned" /> | — |
+| 15 | [Monte Belo](/estacao/monte-belo/) | — | <Situacao valor="planned" /> | — |
+| 16 | [Eiras Garcia](/estacao/eiras-garcia/) | — | <Situacao valor="planned" /> | — |
+| 17 | [Hortênsias](/estacao/hortensias/) | — | <Situacao valor="planned" /> | — |
+| 18 | [Taboão Msp](/estacao/taboao-msp/) | — | <Situacao valor="planned" /> | — |
+| 19 | [Donatello](/estacao/donatello/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de inferido.
 
@@ -48,10 +50,10 @@ A ordem das estações vem de inferido.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Alphaville - Campo Limpo | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
-| Modo | Trem metropolitano | GeoSampa | A | — |
-| Operadora | CPTM | GeoSampa | A | — |
-| Ordem das estações | inferido | inferido | E | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Alphaville - Campo Limpo | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |
+| Modo | Trem metropolitano | <Origem fonte="geosampa" nivel="A" /> | — |
+| Operadora | CPTM | <Origem fonte="geosampa" nivel="A" /> | — |
+| Ordem das estações | inferido | <Origem fonte="pipeline" nivel="E" /> | — |

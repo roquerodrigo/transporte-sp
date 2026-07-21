@@ -5,6 +5,7 @@ description: "Estação de Linha 15 - Prata"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="camilo-haddad" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Camilo Haddad | OpenStreetMap | C | CAMILO HADDAD (GeoSampa) |
-| Coordenada | -23.59541, -46.53769 | GeoSampa | A | -23.59554, -46.53758 (OpenStreetMap); -23.59535, -46.53768 (Wikidata); -23.59548, -46.53761 (GTFS SPTrans) |
-| Sigla | CAD | Wikidata | C | — |
-| Inauguração | 2018-04-06 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Camilo Haddad | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.59541, -46.53769 | <Origem fonte="geosampa" nivel="A" /> | -23.59554, -46.53758 <Origem fonte="osm" nivel="C" /><br />-23.59535, -46.53768 <Origem fonte="wikidata" nivel="C" /><br />-23.59548, -46.53761 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CAD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 06/04/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

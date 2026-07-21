@@ -5,6 +5,7 @@ description: "Estação de Linha 15 - Prata"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="oratorio" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Oratório | OpenStreetMap | C | Oratorio (GTFS SPTrans); ORATÓRIO (GeoSampa) |
-| Coordenada | -23.58218, -46.56190 | GeoSampa | A | -23.58210, -46.56164 (OpenStreetMap); -23.58222, -46.56194 (Wikidata); -23.58214, -46.56188 (GTFS SPTrans) |
-| Sigla | ORT | Wikidata | C | — |
-| Inauguração | 2014-08-30 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Oratório | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.58218, -46.56190 | <Origem fonte="geosampa" nivel="A" /> | -23.58210, -46.56164 <Origem fonte="osm" nivel="C" /><br />-23.58222, -46.56194 <Origem fonte="wikidata" nivel="C" /><br />-23.58214, -46.56188 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ORT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 30/08/2014 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

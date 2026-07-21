@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-formosa" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Formosa | Wikidata | C | VILA FORMOSA (GeoSampa) |
-| Coordenada | -23.56230, -46.55116 | GeoSampa | A | -23.56266, -46.55036 (Wikidata) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Formosa | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.56230, -46.55116 | <Origem fonte="geosampa" nivel="A" /> | -23.56266, -46.55036 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

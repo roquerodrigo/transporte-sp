@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="borba-gato" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Borba Gato | OpenStreetMap | C | BORBA GATO (GeoSampa) |
-| Coordenada | -23.63336, -46.69302 | GeoSampa | A | -23.63347, -46.69287 (OpenStreetMap); -23.63346, -46.69288 (Wikidata); -23.63333, -46.69302 (GTFS SPTrans) |
-| Sigla | BGT | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2017-09-06 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Borba Gato | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.63336, -46.69302 | <Origem fonte="geosampa" nivel="A" /> | -23.63347, -46.69287 <Origem fonte="osm" nivel="C" /><br />-23.63346, -46.69288 <Origem fonte="wikidata" nivel="C" /><br />-23.63333, -46.69302 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | BGT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 06/09/2017 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

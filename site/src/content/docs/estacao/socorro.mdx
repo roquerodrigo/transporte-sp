@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="socorro" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Socorro | OpenStreetMap | C | SOCORRO (GeoSampa) |
-| Coordenada | -23.66347, -46.71091 | GeoSampa | A | -23.66326, -46.71096 (OpenStreetMap); -23.66349, -46.71081 (Wikidata); -23.66343, -46.71097 (GTFS SPTrans) |
-| Sigla | SOC | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Socorro | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.66347, -46.71091 | <Origem fonte="geosampa" nivel="A" /> | -23.66326, -46.71096 <Origem fonte="osm" nivel="C" /><br />-23.66349, -46.71081 <Origem fonte="wikidata" nivel="C" /><br />-23.66343, -46.71097 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | SOC | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

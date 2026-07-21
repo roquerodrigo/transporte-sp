@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha, Linha 19 - Celeste"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="anhangabau" />
 
@@ -17,11 +18,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Anhangabaú | OpenStreetMap | C | ANHANGABAÚ (GeoSampa); ANHANGABAÚ (GeoSampa) |
-| Coordenada | -23.54795, -46.63889 | GeoSampa | A | -23.54974, -46.63958 (GeoSampa); -23.54777, -46.63932 (OpenStreetMap); -23.54792, -46.63934 (Wikidata); -23.54780, -46.63920 (GTFS SPTrans) |
-| Sigla | GBU | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 1983-11-26 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Anhangabaú | <Origem fonte="osm" nivel="C" /> | Terminal Bandeira <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.54795, -46.63889 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 212 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | GBU | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 26/11/1983 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

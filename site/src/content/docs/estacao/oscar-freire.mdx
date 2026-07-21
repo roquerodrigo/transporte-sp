@@ -5,6 +5,7 @@ description: "Estação de Linha 4 - Amarela, Linha 16 - Violeta"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="oscar-freire" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Oscar Freire | OpenStreetMap | C | OSCAR FREIRE (GeoSampa); OSCAR FREIRE (GeoSampa) |
-| Coordenada | -23.56052, -46.67208 | GeoSampa | A | -23.56034, -46.66989 (GeoSampa); -23.56089, -46.67193 (OpenStreetMap); -23.56086, -46.67210 (Wikidata); -23.56041, -46.67182 (GTFS SPTrans) |
-| Sigla | FRE | Wikidata | C | — |
-| Inauguração | 2018-04-04 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Oscar Freire | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.56052, -46.67208 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 224 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | FRE | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 04/04/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

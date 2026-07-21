@@ -53,22 +53,23 @@
       "alternatives": []
     },
     "stations": [
-      "eng-goulart",
+      "engenheiro-goulart",
       "guarulhos-cecap",
       "aeroporto-guarulhos",
+      "bonsucesso",
       "bonsucesso-2",
       "jardim-presidente-dutra",
       "sao-joao",
       "jardim-dos-eucaliptos",
       "cangaiba",
-      "gabriela-mistral",
+      "tiquatira",
       "guaiauna",
       "serra-de-botucatu",
       "itapura",
       "demetrio-ribeiro",
       "sapucaia",
-      "parque-da-mooca",
-      "dom-pedro-i",
+      "sao-carlos",
+      "parque-da-independencia",
       "bom-pastor"
     ],
     "station_order": {
@@ -1158,22 +1159,65 @@
   },
   "stations": [
     {
-      "id": "eng-goulart",
-      "slug": "eng-goulart",
+      "id": "engenheiro-goulart",
+      "slug": "engenheiro-goulart",
       "name": {
-        "value": "Eng. Goulart",
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
+        "value": "Engenheiro Goulart",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Eng. Goulart",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          }
+        ]
       },
       "coordinates": {
         "value": {
-          "lat": -23.498281,
-          "lon": -46.520092
+          "lat": -23.49810114,
+          "lon": -46.52010212
         },
-        "source": "gtfs_sptrans",
+        "source": "geosampa",
         "confidence": "A",
         "alternatives": [
+          {
+            "value": {
+              "lat": -23.49810114,
+              "lon": -46.52010212
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "0 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.498095,
+              "lon": -46.5198952
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "21 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.498056,
+              "lon": -46.52
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "12 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.498281,
+              "lon": -46.520092
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "20 m de distância"
+          },
           {
             "value": {
               "lat": -23.498099,
@@ -1181,7 +1225,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "27 m away"
+            "note": "19 m de distância"
           }
         ]
       },
@@ -1191,25 +1235,38 @@
       ],
       "status": {
         "value": "operational",
-        "source": "gtfs_sptrans",
+        "source": "geosampa",
         "confidence": "A",
         "alternatives": []
       },
-      "code": null,
+      "code": {
+        "value": "EGO",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
       "accessibility": null,
-      "opened": null,
+      "opened": {
+        "value": "1934-01-01",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
       "address": null,
       "external_ids": {
-        "wikidata": null,
-        "osm": null,
+        "wikidata": "Q10275733",
+        "osm": "node/5039552221",
         "gtfs_stop_id": "18889",
         "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
+        "geosampa_id": "3105",
+        "metro_code": "EGO"
       },
       "is_interchange": true,
       "observed_by": [
-        "gtfs_sptrans"
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
       ]
     },
     {
@@ -1219,20 +1276,7 @@
         "value": "Guarulhos-Cecap",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Guarulhos Cecap",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "GUARULHOS CECAP",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1249,7 +1293,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "6 m away"
+            "note": "6 m de distância"
           },
           {
             "value": {
@@ -1258,7 +1302,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "135 m away"
+            "note": "135 m de distância"
           },
           {
             "value": {
@@ -1267,13 +1311,12 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "73 m away"
+            "note": "73 m de distância"
           }
         ]
       },
       "lines": [
-        "linha-13",
-        "expresso-aeroporto"
+        "linha-13"
       ],
       "status": {
         "value": "operational",
@@ -1310,7 +1353,7 @@
         "geosampa_id": "3018",
         "metro_code": "GRC"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -1325,26 +1368,7 @@
         "value": "Aeroporto-Guarulhos",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Aeroporto–Guarulhos",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "Aeroporto Guarulhos",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "AEROPORTO GUARULHOS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1361,7 +1385,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "7 m away"
+            "note": "7 m de distância"
           },
           {
             "value": {
@@ -1370,7 +1394,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "63 m away"
+            "note": "63 m de distância"
           },
           {
             "value": {
@@ -1379,7 +1403,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "68 m away"
+            "note": "68 m de distância"
           }
         ]
       },
@@ -1428,6 +1452,51 @@
         "gtfs_sptrans",
         "osm",
         "wikidata"
+      ]
+    },
+    {
+      "id": "bonsucesso",
+      "slug": "bonsucesso",
+      "name": {
+        "value": "Bonsucesso",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.42384767,
+          "lon": -46.40824952
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13",
+        "linha-14"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6039",
+        "metro_code": null
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa"
       ]
     },
     {
@@ -1651,10 +1720,10 @@
       ]
     },
     {
-      "id": "gabriela-mistral",
-      "slug": "gabriela-mistral",
+      "id": "tiquatira",
+      "slug": "tiquatira",
       "name": {
-        "value": "Gabriela Mistral",
+        "value": "Tiquatira",
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
@@ -1668,12 +1737,21 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.51947906,
-          "lon": -46.55076141
+          "lat": -23.51781154,
+          "lon": -46.55098152
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
+          {
+            "value": {
+              "lat": -23.51947906,
+              "lon": -46.55076141
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "187 m de distância"
+          },
           {
             "value": {
               "lat": -23.51938372,
@@ -1681,11 +1759,12 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "12 m away"
+            "note": "176 m de distância"
           }
         ]
       },
       "lines": [
+        "linha-2",
         "linha-12",
         "linha-13"
       ],
@@ -1704,7 +1783,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "6049",
+        "geosampa_id": "132",
         "metro_code": null
       },
       "is_interchange": true,
@@ -1933,25 +2012,53 @@
       ]
     },
     {
-      "id": "parque-da-mooca",
-      "slug": "parque-da-mooca",
+      "id": "sao-carlos",
+      "slug": "sao-carlos",
       "name": {
-        "value": "Parque da Mooca",
+        "value": "São Carlos",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "PARQUE DA MOOCA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
       },
       "coordinates": {
         "value": {
-          "lat": -23.56665486,
-          "lon": -46.60412882
+          "lat": -23.56879016,
+          "lon": -46.60535047
         },
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.56957264,
+              "lon": -46.60451217
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "122 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56665486,
+              "lon": -46.60412882
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "268 m de distância"
+          }
+        ]
       },
       "lines": [
-        "linha-13"
+        "linha-6",
+        "linha-13",
+        "linha-16"
       ],
       "status": {
         "value": "planned",
@@ -1968,34 +2075,52 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "6061",
+        "geosampa_id": "201",
         "metro_code": null
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa"
       ]
     },
     {
-      "id": "dom-pedro-i",
-      "slug": "dom-pedro-i",
+      "id": "parque-da-independencia",
+      "slug": "parque-da-independencia",
       "name": {
-        "value": "Dom Pedro I",
+        "value": "Parque da Independência",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "DOM PEDRO I",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
       },
       "coordinates": {
         "value": {
-          "lat": -23.57445834,
-          "lon": -46.61072869
+          "lat": -23.57670061,
+          "lon": -46.61147852
         },
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.57445834,
+              "lon": -46.61072869
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "261 m de distância"
+          }
+        ]
       },
       "lines": [
-        "linha-13"
+        "linha-13",
+        "linha-16"
       ],
       "status": {
         "value": "planned",
@@ -2012,10 +2137,10 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "6062",
+        "geosampa_id": "211",
         "metro_code": null
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa"
       ]
@@ -2027,14 +2152,7 @@
         "value": "Bom Pastor",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": [
-          {
-            "value": "BOM PASTOR",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2051,7 +2169,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "0 m away"
+            "note": "0 m de distância"
           }
         ]
       },

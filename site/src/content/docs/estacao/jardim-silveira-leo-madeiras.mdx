@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jardim-silveira-leo-madeiras" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jardim Silveira - Leo Madeiras | OpenStreetMap | C | Jardim Silveira (Wikidata); Jardim Silveira (GTFS SPTrans); JARDIM SILVEIRA (GeoSampa) |
-| Coordenada | -23.52385, -46.89360 | GeoSampa | A | -23.52350, -46.89353 (OpenStreetMap); -23.52357, -46.89354 (Wikidata); -23.52357, -46.89349 (GTFS SPTrans) |
-| Sigla | JSI | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jardim Silveira - Leo Madeiras | <Origem fonte="osm" nivel="C" /> | Jardim Silveira <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.52385, -46.89360 | <Origem fonte="geosampa" nivel="A" /> | -23.52350, -46.89353 <Origem fonte="osm" nivel="C" /><br />-23.52357, -46.89354 <Origem fonte="wikidata" nivel="C" /><br />-23.52357, -46.89349 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JSI | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

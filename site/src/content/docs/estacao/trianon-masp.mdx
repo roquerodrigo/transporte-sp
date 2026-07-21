@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="trianon-masp" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Trianon-Masp | OpenStreetMap | C | Trianon-masp (GTFS SPTrans); TRIANON-MASP (GeoSampa) |
-| Coordenada | -23.56316, -46.65442 | GeoSampa | A | -23.56331, -46.65420 (OpenStreetMap); -23.56255, -46.65513 (Wikidata); -23.56357, -46.65391 (GTFS SPTrans) |
-| Sigla | TRI | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 1991-01-25 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Trianon-Masp | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.56316, -46.65442 | <Origem fonte="geosampa" nivel="A" /> | -23.56331, -46.65420 <Origem fonte="osm" nivel="C" /><br />-23.56255, -46.65513 <Origem fonte="wikidata" nivel="C" /><br />-23.56357, -46.65391 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | TRI | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 25/01/1991 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

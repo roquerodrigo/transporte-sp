@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="baltazar-fidelis" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Baltazar Fidélis | OpenStreetMap | C | BALTAZAR FIDELIS (GeoSampa) |
-| Coordenada | -23.30989, -46.72362 | GeoSampa | A | -23.31012, -46.72334 (OpenStreetMap); -23.30960, -46.72330 (Wikidata); -23.31058, -46.72285 (GTFS SPTrans) |
-| Sigla | BFI | Wikidata | C | — |
-| Inauguração | 1955-09-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Baltazar Fidélis | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.30989, -46.72362 | <Origem fonte="geosampa" nivel="A" /> | -23.31012, -46.72334 <Origem fonte="osm" nivel="C" /><br />-23.30960, -46.72330 <Origem fonte="wikidata" nivel="C" /><br />-23.31058, -46.72285 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | BFI | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/09/1955 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

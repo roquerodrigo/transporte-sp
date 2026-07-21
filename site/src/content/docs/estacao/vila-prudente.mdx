@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde, Linha 15 - Prata"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-prudente" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Prudente | OpenStreetMap | C | Terminal Intermodal Vila Prudente (Wikidata); Vila Prudente (monotrilho) (GTFS SPTrans); VILA PRUDENTE (GeoSampa); VILA PRUDENTE (GeoSampa); VILA PRUDENTE (GeoSampa) |
-| Coordenada | -23.58433, -46.58191 | GeoSampa | A | -23.58475, -46.58379 (GeoSampa); -23.58475, -46.58379 (GeoSampa); -23.58443, -46.58194 (OpenStreetMap); -23.58459, -46.58344 (OpenStreetMap); -23.58452, -46.58200 (Wikidata); -23.58445, -46.58194 (GTFS SPTrans); -23.58462, -46.58332 (GTFS SPTrans) |
-| Sigla | VPT | Wikidata | C | VPM (OpenStreetMap) |
-| Inauguração | 2010-08-21 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Prudente | <Origem fonte="osm" nivel="C" /> | Terminal Intermodal Vila Prudente <Origem fonte="wikidata" nivel="C" /><br />Vila Prudente (monotrilho) <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Coordenada | -23.58433, -46.58191 | <Origem fonte="geosampa" nivel="A" /> | 6 leituras, até 197 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | VPT | <Origem fonte="wikidata" nivel="C" /> | VPM <Origem fonte="osm" nivel="C" /> |
+| Inauguração | 21/08/2010 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

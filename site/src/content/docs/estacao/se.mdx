@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul, Linha 3 - Vermelha"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="se" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Sé | OpenStreetMap | C | SÉ (GeoSampa); SÉ (GeoSampa) |
-| Coordenada | -23.55092, -46.63313 | GeoSampa | A | -23.55100, -46.63309 (GeoSampa); -23.55044, -46.63345 (OpenStreetMap); -23.55059, -46.63352 (Wikidata); -23.55050, -46.63331 (GTFS SPTrans); -23.55061, -46.63350 (GTFS SPTrans) |
-| Sigla | PSE | Wikidata | C | — |
-| Inauguração | 1978-02-17 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Sé | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.55092, -46.63313 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 62 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | PSE | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 17/02/1978 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

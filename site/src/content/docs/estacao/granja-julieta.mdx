@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="granja-julieta" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Granja Julieta | OpenStreetMap | C | GRANJA JULIETA (GeoSampa) |
-| Coordenada | -23.62792, -46.71229 | GeoSampa | A | -23.62753, -46.71200 (OpenStreetMap); -23.62750, -46.71200 (Wikidata); -23.62760, -46.71211 (GTFS SPTrans) |
-| Sigla | GJT | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Granja Julieta | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.62792, -46.71229 | <Origem fonte="geosampa" nivel="A" /> | -23.62753, -46.71200 <Origem fonte="osm" nivel="C" /><br />-23.62750, -46.71200 <Origem fonte="wikidata" nivel="C" /><br />-23.62760, -46.71211 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | GJT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

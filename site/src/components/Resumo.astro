@@ -1,6 +1,7 @@
 ---
 /** Headline counts on the home page, read straight from the dataset. */
 import { network } from "@data/network";
+import { data, numero } from "@data/formato";
 
 const rail = network.lines.filter((line) => line.mode.value !== "brt");
 const running = rail.filter((line) => ["operational", "partial"].includes(line.status.value));
@@ -10,10 +11,10 @@ const planned = network.lines.filter((line) =>
 const kilometres = running.reduce((total, line) => total + (line.length_km?.value ?? 0), 0);
 
 const tiles = [
-  { value: String(running.length), label: "linhas em operação" },
-  { value: String(network.stations.length), label: "estações" },
-  { value: `${Math.round(kilometres)} km`, label: "de rede em operação" },
-  { value: String(planned.length), label: "linhas projetadas ou em obras" },
+  { value: numero(running.length), label: "linhas em operação" },
+  { value: numero(network.stations.length), label: "estações" },
+  { value: `${numero(Math.round(kilometres))} km`, label: "de rede em operação" },
+  { value: numero(planned.length), label: "linhas projetadas ou em obras" },
 ];
 ---
 
@@ -29,7 +30,7 @@ const tiles = [
 </div>
 
 <p class="atualizado">
-  Reconciliado em {network.generated_at} a partir de {network.sources.length} fontes.
+  Reconciliado em {data(network.generated_at)} a partir de {numero(network.sources.length)} fontes.
 </p>
 
 <style>
@@ -38,6 +39,15 @@ const tiles = [
     grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
     gap: 1rem;
     margin-block: 2rem 0.5rem;
+    /* These are cards with a background: a shorter label must not make one of them shorter
+       than the rest of the row. */
+    align-items: stretch;
+  }
+
+  /* Same reason as the summary card: Starlight's flow spacing reaches the grid cells and
+     shortens every tile except the first. */
+  .resumo .tile {
+    margin: 0;
   }
 
   .tile {
@@ -45,6 +55,11 @@ const tiles = [
     border-radius: 0.5rem;
     padding: 1rem;
     text-align: center;
+    /* Pin the number to the top of the card so the numbers line up across the row even
+       when one label wraps to a second line. */
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
   }
 
   .tile strong {

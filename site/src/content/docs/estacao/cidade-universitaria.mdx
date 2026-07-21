@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="cidade-universitaria" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Cidade Universitária | OpenStreetMap | C | CIDADE UNIVERSITÁRIA (GeoSampa) |
-| Coordenada | -23.55764, -46.71178 | GeoSampa | A | -23.55760, -46.71187 (OpenStreetMap); -23.55764, -46.71176 (Wikidata); -23.55757, -46.71243 (GTFS SPTrans) |
-| Sigla | USP | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Cidade Universitária | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.55764, -46.71178 | <Origem fonte="geosampa" nivel="A" /> | -23.55760, -46.71187 <Origem fonte="osm" nivel="C" /><br />-23.55764, -46.71176 <Origem fonte="wikidata" nivel="C" /><br />-23.55757, -46.71243 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | USP | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

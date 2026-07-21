@@ -1,10 +1,12 @@
 ---
 title: "Linha L2 - VLT Linha 2"
-description: "VLT · Em operação · 15.345 km"
+description: "VLT · Em operação · 15,3 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="vlt-linha-2" />
 
@@ -14,28 +16,28 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Terminal Barreiros](/estacao/terminal-barreiros/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 2 | [Mascarenhas](/estacao/mascarenhas/) | MMO | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 3 | [São Vicente](/estacao/sao-vicente/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 4 | [Emmerich](/estacao/emmerich/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 5 | [Nossa Senhora das Graças](/estacao/nossa-senhora-das-gracas/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 6 | [José Monteiro](/estacao/jose-monteiro/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 7 | [Itararé](/estacao/itarare/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 8 | [João Ribeiro](/estacao/joao-ribeiro/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 9 | [Nossa Senhora de Lourdes](/estacao/nossa-senhora-de-lourdes/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 10 | [Pinheiro Machado](/estacao/pinheiro-machado/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 11 | [Bernardino](/estacao/bernardino/) | BCA | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 12 | [Ana Costa](/estacao/ana-costa/) | SP-4720 | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 13 | [Washington Luís](/estacao/washington-luis-2/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 14 | [Conselheiro Nébias](/estacao/conselheiro-nebias/) | — | Em operação | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
-| 15 | [Xavier Pinheiro](/estacao/xavier-pinheiro/) | — | Em operação | — |
-| 16 | [Universidades I](/estacao/universidades-i/) | — | Em operação | — |
-| 17 | [Mercado](/estacao/mercado/) | — | Em operação | — |
-| 18 | [Paquetá](/estacao/paqueta/) | — | Em operação | — |
-| 19 | [Poupatempo](/estacao/poupatempo/) | — | Em operação | — |
-| 20 | [Mauá](/estacao/maua-2/) | — | Em operação | — |
-| 21 | [São Bento](/estacao/sao-bento-2/) | — | Em operação | — |
-| 22 | [Valongo](/estacao/valongo/) | — | Em operação | — |
+| 1 | [Terminal Barreiros](/estacao/terminal-barreiros/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 2 | [Mascarenhas](/estacao/mascarenhas/) | MMO | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 3 | [São Vicente](/estacao/sao-vicente/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 4 | [Emmerich](/estacao/emmerich/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 5 | [Nossa Senhora das Graças](/estacao/nossa-senhora-das-gracas/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 6 | [José Monteiro](/estacao/jose-monteiro/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 7 | [Itararé](/estacao/itarare/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 8 | [João Ribeiro](/estacao/joao-ribeiro/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 9 | [Nossa Senhora de Lourdes](/estacao/nossa-senhora-de-lourdes/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 10 | [Pinheiro Machado](/estacao/pinheiro-machado/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 11 | [Bernardino](/estacao/bernardino/) | BCA | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 12 | [Ana Costa](/estacao/ana-costa/) | SP-4720 | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 13 | [Washington Luís](/estacao/washington-luis-2/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 14 | [Conselheiro Nébias](/estacao/conselheiro-nebias/) | — | <Situacao valor="operational" /> | [Linha L1 - VLT Linha 1](/linhas/vlt-linha-1/) |
+| 15 | [Xavier Pinheiro](/estacao/xavier-pinheiro/) | — | <Situacao valor="operational" /> | — |
+| 16 | [Universidades I](/estacao/universidades-i/) | — | <Situacao valor="operational" /> | — |
+| 17 | [Mercado](/estacao/mercado/) | — | <Situacao valor="operational" /> | — |
+| 18 | [Paquetá](/estacao/paqueta/) | — | <Situacao valor="operational" /> | — |
+| 19 | [Poupatempo](/estacao/poupatempo/) | — | <Situacao valor="operational" /> | — |
+| 20 | [Mauá](/estacao/maua-2/) | — | <Situacao valor="operational" /> | — |
+| 21 | [São Bento](/estacao/sao-bento-2/) | — | <Situacao valor="operational" /> | — |
+| 22 | [Valongo](/estacao/valongo/) | — | <Situacao valor="operational" /> | — |
 
 A ordem das estações vem de OpenStreetMap.
 
@@ -43,13 +45,13 @@ A ordem das estações vem de OpenStreetMap.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | VLT Linha 2 | OpenStreetMap | C | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | L2 | OpenStreetMap | C | — |
-| Cor | #F26A21 | OpenStreetMap | C | — |
-| Modo | VLT | OpenStreetMap | C | — |
-| Operadora | BR MOBILIDADE | OpenStreetMap | C | — |
-| Extensão | 15.345 km | OpenStreetMap | E | — |
-| Ordem das estações | OpenStreetMap | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | VLT Linha 2 | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | L2 | <Origem fonte="osm" nivel="C" /> | — |
+| Cor | #F26A21 | <Origem fonte="osm" nivel="C" /> | — |
+| Modo | VLT | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | BR MOBILIDADE | <Origem fonte="osm" nivel="C" /> | — |
+| Extensão | 15,3 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | OpenStreetMap | <Origem fonte="osm" nivel="C" /> | — |

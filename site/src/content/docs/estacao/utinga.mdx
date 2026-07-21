@@ -5,6 +5,7 @@ description: "Estação de Linha 10 - Turquesa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="utinga" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Utinga | OpenStreetMap | C | UTINGA (GeoSampa) |
-| Coordenada | -23.62625, -46.54417 | GeoSampa | A | -23.62618, -46.54406 (OpenStreetMap); -23.62614, -46.54408 (Wikidata); -23.62620, -46.54362 (GTFS SPTrans) |
-| Sigla | UTG | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 1933-08-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Utinga | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.62625, -46.54417 | <Origem fonte="geosampa" nivel="A" /> | -23.62618, -46.54406 <Origem fonte="osm" nivel="C" /><br />-23.62614, -46.54408 <Origem fonte="wikidata" nivel="C" /><br />-23.62620, -46.54362 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | UTG | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 01/08/1933 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

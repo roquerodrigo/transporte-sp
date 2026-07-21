@@ -5,6 +5,7 @@ description: "Estação de Linha 12 - Safira"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="itaim-paulista" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Itaim Paulista | OpenStreetMap | C | ITAIM PAULISTA (GeoSampa) |
-| Coordenada | -23.49385, -46.40200 | GeoSampa | A | -23.49398, -46.40216 (OpenStreetMap); -23.49399, -46.40226 (Wikidata); -23.49399, -46.40230 (GTFS SPTrans) |
-| Sigla | ITI | Wikidata | C | — |
-| Inauguração | 1926-02-07 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Itaim Paulista | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.49385, -46.40200 | <Origem fonte="geosampa" nivel="A" /> | -23.49398, -46.40216 <Origem fonte="osm" nivel="C" /><br />-23.49399, -46.40226 <Origem fonte="wikidata" nivel="C" /><br />-23.49399, -46.40230 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ITI | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 07/02/1926 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

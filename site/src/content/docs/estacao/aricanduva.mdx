@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="aricanduva" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Aricanduva | Wikidata | C | ARICANDUVA (GeoSampa) |
-| Coordenada | -23.53982, -46.54131 | GeoSampa | A | -23.53972, -46.54116 (Wikidata) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Aricanduva | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.53982, -46.54131 | <Origem fonte="geosampa" nivel="A" /> | -23.53972, -46.54116 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="brigadeiro" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Brigadeiro | OpenStreetMap | C | BRIGADEIRO (GeoSampa) |
-| Coordenada | -23.56888, -46.64735 | GeoSampa | A | -23.56859, -46.64776 (OpenStreetMap); -23.56810, -46.64804 (Wikidata); -23.56762, -46.64905 (GTFS SPTrans) |
-| Sigla | BGD | Wikidata | C | — |
-| Inauguração | 1991-01-25 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Brigadeiro | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.56888, -46.64735 | <Origem fonte="geosampa" nivel="A" /> | -23.56859, -46.64776 <Origem fonte="osm" nivel="C" /><br />-23.56810, -46.64804 <Origem fonte="wikidata" nivel="C" /><br />-23.56762, -46.64905 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | BGD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 25/01/1991 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -5,6 +5,7 @@ description: "Estação de Linha 6 - Laranja"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="maristela" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Maristela | Wikidata | C | — |
-| Coordenada | -23.47639, -46.69889 | Wikidata | C | — |
-| Situação | Em operação | inferido | E | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Maristela | <Origem fonte="wikidata" nivel="C" /> | VILA CARDOSO <Origem fonte="geosampa" nivel="A" /> |
+| Coordenada | -23.47624, -46.69927 | <Origem fonte="geosampa" nivel="A" /> | -23.47639, -46.69889 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

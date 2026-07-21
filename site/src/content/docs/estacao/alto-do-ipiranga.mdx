@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="alto-do-ipiranga" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Alto do Ipiranga | OpenStreetMap | C | Alto Do Ipiranga (GTFS SPTrans); ALTO DO IPIRANGA (GeoSampa) |
-| Coordenada | -23.60219, -46.61237 | GeoSampa | A | -23.60224, -46.61249 (OpenStreetMap); -23.60218, -46.61261 (Wikidata); -23.60213, -46.61259 (GTFS SPTrans) |
-| Sigla | AIP | Wikidata | C | — |
-| Inauguração | 2007-06-30 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Alto do Ipiranga | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.60219, -46.61237 | <Origem fonte="geosampa" nivel="A" /> | -23.60224, -46.61249 <Origem fonte="osm" nivel="C" /><br />-23.60218, -46.61261 <Origem fonte="wikidata" nivel="C" /><br />-23.60213, -46.61259 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | AIP | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 30/06/2007 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

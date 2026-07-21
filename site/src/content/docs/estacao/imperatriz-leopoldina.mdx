@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="imperatriz-leopoldina" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Imperatriz Leopoldina | OpenStreetMap | C | IMPERATRIZ LEOPOLDINA (GeoSampa) |
-| Coordenada | -23.52375, -46.73759 | GeoSampa | A | -23.52372, -46.73760 (OpenStreetMap); -23.52378, -46.73746 (Wikidata); -23.52375, -46.73766 (GTFS SPTrans) |
-| Sigla | ILE | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Imperatriz Leopoldina | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.52375, -46.73759 | <Origem fonte="geosampa" nivel="A" /> | -23.52372, -46.73760 <Origem fonte="osm" nivel="C" /><br />-23.52378, -46.73746 <Origem fonte="wikidata" nivel="C" /><br />-23.52375, -46.73766 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ILE | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

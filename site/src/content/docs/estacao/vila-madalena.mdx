@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-madalena" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Madalena | OpenStreetMap | C | VILA MADALENA (GeoSampa) |
-| Coordenada | -23.54639, -46.69085 | GeoSampa | A | -23.54650, -46.69112 (OpenStreetMap); -23.54651, -46.69083 (Wikidata); -23.54650, -46.69114 (GTFS SPTrans) |
-| Sigla | VMD | Wikidata | C | — |
-| Inauguração | 1998-11-21 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Madalena | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54639, -46.69085 | <Origem fonte="geosampa" nivel="A" /> | -23.54650, -46.69112 <Origem fonte="osm" nivel="C" /><br />-23.54651, -46.69083 <Origem fonte="wikidata" nivel="C" /><br />-23.54650, -46.69114 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | VMD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 21/11/1998 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

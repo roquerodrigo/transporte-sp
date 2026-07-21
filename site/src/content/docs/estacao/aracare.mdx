@@ -5,6 +5,7 @@ description: "Estação de Linha 12 - Safira"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="aracare" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Aracaré | OpenStreetMap | C | ARACARÉ (GeoSampa) |
-| Coordenada | -23.49974, -46.33908 | GeoSampa | A | -23.50008, -46.33911 (OpenStreetMap); -23.49966, -46.33903 (Wikidata); -23.50033, -46.33904 (GTFS SPTrans) |
-| Sigla | ARC | Wikidata | C | — |
-| Inauguração | 1950-08-20 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Aracaré | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.49974, -46.33908 | <Origem fonte="geosampa" nivel="A" /> | -23.50008, -46.33911 <Origem fonte="osm" nivel="C" /><br />-23.49966, -46.33903 <Origem fonte="wikidata" nivel="C" /><br />-23.50033, -46.33904 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ARC | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 20/08/1950 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

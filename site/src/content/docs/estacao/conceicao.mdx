@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="conceicao" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Conceição | OpenStreetMap | C | CONCEIÇÃO (GeoSampa) |
-| Coordenada | -23.63538, -46.64133 | GeoSampa | A | -23.63501, -46.64129 (OpenStreetMap); -23.63621, -46.64114 (Wikidata); -23.63504, -46.64124 (GTFS SPTrans) |
-| Sigla | CON | Wikidata | C | — |
-| Inauguração | 1974-09-14 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Conceição | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.63538, -46.64133 | <Origem fonte="geosampa" nivel="A" /> | -23.63501, -46.64129 <Origem fonte="osm" nivel="C" /><br />-23.63621, -46.64114 <Origem fonte="wikidata" nivel="C" /><br />-23.63504, -46.64124 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CON | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 14/09/1974 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

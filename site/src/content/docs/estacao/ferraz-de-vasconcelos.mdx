@@ -5,6 +5,7 @@ description: "Estação de Linha 11 - Coral"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="ferraz-de-vasconcelos" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Ferraz de Vasconcelos | OpenStreetMap | C | Ferraz De Vasconcelos (GTFS SPTrans); FERRAZ DE VASCONCELOS (GeoSampa) |
-| Coordenada | -23.54075, -46.36827 | GeoSampa | A | -23.54081, -46.36838 (OpenStreetMap); -23.54100, -46.36873 (Wikidata); -23.54069, -46.36821 (GTFS SPTrans) |
-| Sigla | FVC | Wikidata | C | — |
-| Inauguração | 1926-07-29 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Ferraz de Vasconcelos | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54075, -46.36827 | <Origem fonte="geosampa" nivel="A" /> | -23.54081, -46.36838 <Origem fonte="osm" nivel="C" /><br />-23.54100, -46.36873 <Origem fonte="wikidata" nivel="C" /><br />-23.54069, -46.36821 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | FVC | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 29/07/1926 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

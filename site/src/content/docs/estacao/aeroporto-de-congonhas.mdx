@@ -5,6 +5,7 @@ description: "Estação de Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="aeroporto-de-congonhas" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Aeroporto de Congonhas | OpenStreetMap | C | Congonhas (Wikidata); AEROPORTO DE CONGONHAS (GeoSampa) |
-| Coordenada | -23.62666, -46.66150 | GeoSampa | A | -23.62700, -46.66190 (OpenStreetMap); -23.62694, -46.66176 (Wikidata) |
-| Sigla | CGN | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2026-03-31 | Wikidata | C | — |
-| Situação | Em operação | inferido | E | Projetada (GeoSampa); Em operação (OpenStreetMap) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Aeroporto de Congonhas | <Origem fonte="osm" nivel="C" /> | Congonhas <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.62666, -46.66150 | <Origem fonte="geosampa" nivel="A" /> | -23.62700, -46.66190 <Origem fonte="osm" nivel="C" /><br />-23.62694, -46.66176 <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | CGN | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 31/03/2026 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="pipeline" nivel="E" /> | Projetada <Origem fonte="geosampa" nivel="A" /><br />Em operação <Origem fonte="osm" nivel="C" /> |

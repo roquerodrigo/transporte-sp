@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde, Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="chacara-klabin" />
 
@@ -17,11 +18,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Chácara Klabin | OpenStreetMap | C | CHÁCARA KLABIN (GeoSampa); CHÁCARA KLABIN (GeoSampa) |
-| Coordenada | -23.59263, -46.63049 | GeoSampa | A | -23.59263, -46.63049 (GeoSampa); -23.59268, -46.63068 (OpenStreetMap); -23.59262, -46.63061 (Wikidata); -23.59299, -46.63100 (GTFS SPTrans); -23.59260, -46.63070 (GTFS SPTrans) |
-| Sigla | CKB | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2006-05-09 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Chácara Klabin | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.59263, -46.63049 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 66 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | CKB | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 09/05/2006 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

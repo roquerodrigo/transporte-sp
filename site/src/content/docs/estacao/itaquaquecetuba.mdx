@@ -5,6 +5,7 @@ description: "Estação de Linha 12 - Safira"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="itaquaquecetuba" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Itaquaquecetuba | OpenStreetMap | C | ITAQUAQUECETUBA (GeoSampa) |
-| Coordenada | -23.48614, -46.34788 | GeoSampa | A | -23.48604, -46.34802 (OpenStreetMap); -23.48570, -46.34852 (Wikidata); -23.48577, -46.34846 (GTFS SPTrans) |
-| Sigla | IQC | Wikidata | C | — |
-| Inauguração | 1926-02-07 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Itaquaquecetuba | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.48614, -46.34788 | <Origem fonte="geosampa" nivel="A" /> | -23.48604, -46.34802 <Origem fonte="osm" nivel="C" /><br />-23.48570, -46.34852 <Origem fonte="wikidata" nivel="C" /><br />-23.48577, -46.34846 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | IQC | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 07/02/1926 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

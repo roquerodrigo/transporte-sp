@@ -5,6 +5,7 @@ description: "Estação de Linha 6 - Laranja"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="bela-vista" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Bela Vista | Wikidata | C | BELA VISTA (GeoSampa) |
-| Coordenada | -23.56174, -46.64481 | GeoSampa | A | -23.56194, -46.64500 (Wikidata) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Bela Vista | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.56174, -46.64481 | <Origem fonte="geosampa" nivel="A" /> | -23.56194, -46.64500 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

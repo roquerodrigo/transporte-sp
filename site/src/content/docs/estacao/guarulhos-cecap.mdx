@@ -1,10 +1,11 @@
 ---
 title: "Guarulhos-Cecap"
-description: "Estação de Linha 13 - Jade, Expresso Aeroporto"
+description: "Estação de Linha 13 - Jade"
 ---
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="guarulhos-cecap" />
 
@@ -13,14 +14,13 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 ## Linhas
 
 - [Linha 13 - Jade](/linhas/linha-13-jade/)
-- [Expresso Aeroporto](/linhas/expresso-aeroporto/)
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Guarulhos-Cecap | OpenStreetMap | C | Guarulhos Cecap (GTFS SPTrans); GUARULHOS CECAP (GeoSampa) |
-| Coordenada | -23.44744, -46.49369 | GeoSampa | A | -23.44741, -46.49375 (OpenStreetMap); -23.44861, -46.49333 (Wikidata); -23.44808, -46.49354 (GTFS SPTrans) |
-| Sigla | GCE | Wikidata | C | GRC (OpenStreetMap) |
-| Inauguração | 2018-03-31 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Guarulhos-Cecap | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.44744, -46.49369 | <Origem fonte="geosampa" nivel="A" /> | -23.44741, -46.49375 <Origem fonte="osm" nivel="C" /><br />-23.44861, -46.49333 <Origem fonte="wikidata" nivel="C" /><br />-23.44808, -46.49354 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | GCE | <Origem fonte="wikidata" nivel="C" /> | GRC <Origem fonte="osm" nivel="C" /> |
+| Inauguração | 31/03/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

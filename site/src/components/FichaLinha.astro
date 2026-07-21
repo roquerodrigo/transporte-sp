@@ -1,6 +1,7 @@
 ---
 /** Summary card at the top of a line's page. */
 import Origem from "@components/Origem.astro";
+import { numero, quilometros } from "@data/formato";
 import {
   MODE_LABELS,
   STATUS_LABELS,
@@ -26,10 +27,10 @@ const entries: { label: string; value: string; field?: Sourced<unknown> | null }
   { label: "Operadora", value: line.operator?.value ?? "—", field: line.operator },
   {
     label: "Extensão",
-    value: line.length_km ? `${line.length_km.value} km` : "—",
+    value: line.length_km ? quilometros(line.length_km.value) : "—",
     field: line.length_km,
   },
-  { label: "Estações", value: line.stations.length ? String(line.stations.length) : "—" },
+  { label: "Estações", value: line.stations.length ? numero(line.stations.length) : "—" },
 ];
 
 // Only where there is something planned: on a line with no extension the row would read
@@ -37,7 +38,7 @@ const entries: { label: string; value: string; field?: Sourced<unknown> | null }
 if (line.planned_length_km) {
   entries.push({
     label: "Projetado",
-    value: `+ ${line.planned_length_km.value} km`,
+    value: `+ ${quilometros(line.planned_length_km.value)}`,
     field: line.planned_length_km,
   });
 }
@@ -73,6 +74,19 @@ if (line.planned_length_km) {
     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
     gap: 0.9rem 1.4rem;
     margin: 0;
+    /* Stretch, not the default: without it the cells align to the bottom of their row, so
+       a value that wraps pushes its own label up and the labels stop lining up. Stretching
+       also gives every cell in a row the same height. */
+    align-items: stretch;
+  }
+
+  /*
+   * Starlight gives every element that follows a sibling a top margin, which reaches the
+   * grid cells here: the first one kept its full height and every other lost a rem of it,
+   * so the leading card was always taller than the rest of its row.
+   */
+  dl > div {
+    margin: 0;
   }
 
   dt {
@@ -82,12 +96,21 @@ if (line.planned_length_km) {
     color: var(--sl-color-gray-3);
   }
 
+  /*
+   * The badge always sits on its own line. Letting it flow beside the value made the cell
+   * one line for "Metrô" and three for "Projetada", so the card came out ragged and the
+   * rows below it started at a different height on every page.
+   */
   dd {
-    margin: 0.15rem 0 0;
+    /* Starlight indents `dd` by a rem, as a definition list should be — but this is a
+       label-over-value card, not a definition list, and the indent left every value out of
+       line with its own label. */
+    margin: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
     font-weight: 600;
   }
 </style>

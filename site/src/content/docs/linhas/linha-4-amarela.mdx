@@ -1,10 +1,12 @@
 ---
 title: "Linha 4 - Amarela"
-description: "Metrô · Em operação · 12.765 km"
+description: "Metrô · Em operação · 12,8 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-4" />
 
@@ -16,24 +18,24 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Luz](/estacao/luz/) | LUZ | Em operação | [Linha 1 - Azul](/linhas/linha-1-azul/), [Linha 7 - Rubi](/linhas/linha-7-rubi/), [Linha 11 - Coral](/linhas/linha-11-coral/), [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
-| 2 | [República](/estacao/republica/) | REP | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/) |
-| 3 | [Higienópolis-Mackenzie](/estacao/higienopolis-mackenzie/) | HIG | Em operação | [Linha 6 - Laranja](/linhas/linha-6-laranja/) |
-| 4 | [Paulista](/estacao/paulista/) | PTA | Em operação | — |
-| 5 | [Oscar Freire](/estacao/oscar-freire/) | FRE | Em operação | [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
-| 6 | [Fradique Coutinho](/estacao/fradique-coutinho/) | FRA | Em operação | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
-| 7 | [Faria Lima - PagBank](/estacao/faria-lima-pagbank/) | FAL | Em operação | [Linha 22 - Marrom](/linhas/linha-22-marrom/) |
-| 8 | [Pinheiros](/estacao/pinheiros/) | PIN | Em operação | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
-| 9 | [Butantã](/estacao/butanta/) | BUT | Em operação | — |
-| 10 | [São Paulo – Morumbi](/estacao/sao-paulo-morumbi/) | MBI | Em operação | [Linha 17 - Ouro](/linhas/linha-17-ouro/) |
-| 11 | [Vila Sônia - Professora Elizabeth Tenreiro](/estacao/vila-sonia-professora-elizabeth-tenreiro/) | VSO | Em operação | — |
+| 1 | [Luz](/estacao/luz/) | LUZ | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/), [Linha 7 - Rubi](/linhas/linha-7-rubi/), [Linha 11 - Coral](/linhas/linha-11-coral/) |
+| 2 | [República](/estacao/republica/) | REP | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/) |
+| 3 | [Higienópolis-Mackenzie](/estacao/higienopolis-mackenzie/) | HIG | <Situacao valor="operational" /> | [Linha 6 - Laranja](/linhas/linha-6-laranja/) |
+| 4 | [Paulista](/estacao/paulista/) | PTA | <Situacao valor="operational" /> | — |
+| 5 | [Oscar Freire](/estacao/oscar-freire/) | FRE | <Situacao valor="operational" /> | [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
+| 6 | [Fradique Coutinho](/estacao/fradique-coutinho/) | FRA | <Situacao valor="operational" /> | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
+| 7 | [Faria Lima - PagBank](/estacao/faria-lima-pagbank/) | FAL | <Situacao valor="operational" /> | [Linha 22 - Marrom](/linhas/linha-22-marrom/) |
+| 8 | [Pinheiros](/estacao/pinheiros/) | PIN | <Situacao valor="operational" /> | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
+| 9 | [Butantã](/estacao/butanta/) | BUT | <Situacao valor="operational" /> | — |
+| 10 | [São Paulo – Morumbi](/estacao/sao-paulo-morumbi/) | MBI | <Situacao valor="operational" /> | [Linha 17 - Ouro](/linhas/linha-17-ouro/) |
+| 11 | [Vila Sônia - Professora Elizabeth Tenreiro](/estacao/vila-sonia-professora-elizabeth-tenreiro/) | VSO | <Situacao valor="operational" /> | — |
 
 ### Projetada (2)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 12 | [Chácara do Jóquei](/estacao/chacara-do-joquei/) | — | Projetada | — |
-| 13 | [Taboão da Serra](/estacao/taboao-da-serra/) | — | Projetada | — |
+| 12 | [Chácara do Jockey](/estacao/chacara-do-jockey/) | — | <Situacao valor="planned" /> | — |
+| 13 | [Taboão da Serra](/estacao/taboao-da-serra/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de GTFS SPTrans.
 
@@ -41,13 +43,13 @@ A ordem das estações vem de GTFS SPTrans.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Amarela | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 4 | GeoSampa | A | — |
-| Cor | #FFD700 | OpenStreetMap | C | #ffd500 (OpenStreetMap); #FFFF00 (GTFS SPTrans) |
-| Modo | Metrô | OpenStreetMap | C | — |
-| Operadora | ViaQuatro | OpenStreetMap | C | VIAQUATRO (GeoSampa) |
-| Extensão | 12.765 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Amarela | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 4 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #FFD700 | <Origem fonte="osm" nivel="C" /> | #ffd500 <Origem fonte="osm" nivel="C" /><br />#FFFF00 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Metrô | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | ViaQuatro | <Origem fonte="osm" nivel="C" /> | VIAQUATRO <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 12,8 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

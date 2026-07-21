@@ -5,6 +5,7 @@ description: "Estação de Linha 11 - Coral"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="antonio-gianetti-neto" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Antonio Gianetti Neto | OpenStreetMap | C | Antônio Gianetti Neto (Wikidata); Antônio Gianetti Neto (GTFS SPTrans); ANTONIO GIANETTI NETO (GeoSampa) |
-| Coordenada | -23.55435, -46.38367 | GeoSampa | A | -23.55441, -46.38363 (OpenStreetMap); -23.55436, -46.38369 (Wikidata); -23.55432, -46.38367 (GTFS SPTrans) |
-| Sigla | AGN | Wikidata | C | — |
-| Inauguração | 1998-01-10 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Antonio Gianetti Neto | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.55435, -46.38367 | <Origem fonte="geosampa" nivel="A" /> | -23.55441, -46.38363 <Origem fonte="osm" nivel="C" /><br />-23.55436, -46.38369 <Origem fonte="wikidata" nivel="C" /><br />-23.55432, -46.38367 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | AGN | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 10/01/1998 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

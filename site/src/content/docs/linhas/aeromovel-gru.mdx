@@ -1,10 +1,12 @@
 ---
 title: "Aeromóvel GRU"
-description: "VLT · Em operação · 2.563 km"
+description: "VLT · Em operação · 2,6 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="aeromovel-gru" />
 
@@ -14,10 +16,10 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Estação GRU CPTM](/estacao/estacao-gru-cptm/) | — | Em operação | — |
-| 2 | [Estação TPS1](/estacao/estacao-tps1/) | — | Em operação | — |
-| 3 | [Estação TPS2](/estacao/estacao-tps2/) | — | Em operação | — |
-| 4 | [Estação TPS3](/estacao/estacao-tps3/) | — | Em operação | — |
+| 1 | [Estação GRU CPTM](/estacao/estacao-gru-cptm/) | — | <Situacao valor="operational" /> | — |
+| 2 | [Estação TPS1](/estacao/estacao-tps1/) | — | <Situacao valor="operational" /> | — |
+| 3 | [Estação TPS2](/estacao/estacao-tps2/) | — | <Situacao valor="operational" /> | — |
+| 4 | [Estação TPS3](/estacao/estacao-tps3/) | — | <Situacao valor="operational" /> | — |
 
 A ordem das estações vem de OpenStreetMap.
 
@@ -25,11 +27,11 @@ A ordem das estações vem de OpenStreetMap.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Aeromóvel GRU | OpenStreetMap | C | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Modo | VLT | OpenStreetMap | C | — |
-| Operadora | GRU Airport | OpenStreetMap | C | — |
-| Extensão | 2.563 km | OpenStreetMap | E | — |
-| Ordem das estações | OpenStreetMap | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Aeromóvel GRU | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Modo | VLT | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | GRU Airport | <Origem fonte="osm" nivel="C" /> | — |
+| Extensão | 2,6 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | OpenStreetMap | <Origem fonte="osm" nivel="C" /> | — |

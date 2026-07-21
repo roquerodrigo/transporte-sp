@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas, Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="campo-belo" />
 
@@ -17,11 +18,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Campo Belo | OpenStreetMap | C | CAMPO BELO (GeoSampa); CAMPO BELO (GeoSampa) |
-| Coordenada | -23.61897, -46.68232 | GeoSampa | A | -23.61891, -46.68289 (GeoSampa); -23.61860, -46.68227 (OpenStreetMap); -23.61881, -46.68251 (Wikidata); -23.61836, -46.68207 (GTFS SPTrans) |
-| Sigla | CPB | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2019-04-08 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Campo Belo | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.61897, -46.68232 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 73 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | CPB | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 08/04/2019 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

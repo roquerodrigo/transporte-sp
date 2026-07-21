@@ -5,6 +5,7 @@ description: "Estação de Linha 12 - Safira"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="eng-manoel-feio" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Eng Manoel Feio | GTFS SPTrans | A | — |
-| Coordenada | -23.47864, -46.36447 | GTFS SPTrans | A | — |
-| Situação | Em operação | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Eng Manoel Feio | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |
+| Coordenada | -23.47864, -46.36447 | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

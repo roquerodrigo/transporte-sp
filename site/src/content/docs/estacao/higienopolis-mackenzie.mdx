@@ -5,6 +5,7 @@ description: "Estação de Linha 4 - Amarela, Linha 6 - Laranja"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="higienopolis-mackenzie" />
 
@@ -17,11 +18,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Higienópolis-Mackenzie | OpenStreetMap | C | Estação Higienópolis-Mackenzie (OpenStreetMap); Higienópolis-mackenzie (GTFS SPTrans); HIGIENÓPOLIS-MACKENZIE (GeoSampa); HIGIENÓPOLIS-MACKENZIE (GeoSampa) |
-| Coordenada | -23.54895, -46.65226 | GeoSampa | A | -23.55058, -46.65451 (GeoSampa); -23.54896, -46.65230 (OpenStreetMap); -23.54861, -46.65231 (OpenStreetMap); -23.54914, -46.65231 (Wikidata); -23.54903, -46.65230 (GTFS SPTrans) |
-| Sigla | HIG | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2018-01-23 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Higienópolis-Mackenzie | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54895, -46.65226 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 292 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | HIG | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 23/01/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-clarice" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Clarice | Wikidata | C | VILA CLARICE (GeoSampa) |
-| Coordenada | -23.46990, -46.74416 | GeoSampa | A | -23.46980, -46.74440 (Wikidata); -23.47004, -46.74421 (GTFS SPTrans) |
-| Sigla | VCL | Wikidata | C | — |
-| Inauguração | 1955-09-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Clarice | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.46990, -46.74416 | <Origem fonte="geosampa" nivel="A" /> | -23.46980, -46.74440 <Origem fonte="wikidata" nivel="C" /><br />-23.47004, -46.74421 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | VCL | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/09/1955 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

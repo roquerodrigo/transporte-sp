@@ -5,6 +5,7 @@ description: "Estação de Linha L1 - VLT Linha 1"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="terminal-porto" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Terminal Porto | OpenStreetMap | C | Porto (Wikidata) |
-| Coordenada | -23.95696, -46.31357 | OpenStreetMap | C | -23.95694, -46.31333 (Wikidata) |
-| Inauguração | 2017-01-31 | Wikidata | C | — |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Terminal Porto | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.95696, -46.31357 | <Origem fonte="osm" nivel="C" /> | -23.95694, -46.31333 <Origem fonte="wikidata" nivel="C" /> |
+| Inauguração | 31/01/2017 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |

@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="grajau" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Grajaú | OpenStreetMap | C | Terminal Intermodal Grajaú (Wikidata); GRAJAÚ (GeoSampa) |
-| Coordenada | -23.73645, -46.69702 | GeoSampa | A | -23.73639, -46.69700 (OpenStreetMap); -23.73650, -46.69694 (Wikidata); -23.73694, -46.69722 (Wikidata); -23.73628, -46.69707 (GTFS SPTrans) |
-| Sigla | SP-4073 | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Grajaú | <Origem fonte="osm" nivel="C" /> | Terminal Intermodal Grajaú <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.73645, -46.69702 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 59 m de distância<br /><Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | SP-4073 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

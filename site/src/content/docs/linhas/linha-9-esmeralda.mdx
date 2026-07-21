@@ -1,10 +1,12 @@
 ---
 title: "Linha 9 - Esmeralda"
-description: "Trem metropolitano · Em operação · 40.822 km"
+description: "Trem metropolitano · Em operação · 40,8 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-9" />
 
@@ -14,43 +16,43 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Morumbi - Claro](/estacao/morumbi-claro/) | MRB | Em operação | [Linha 17 - Ouro](/linhas/linha-17-ouro/) |
-| 2 | [Vila Olímpia](/estacao/vila-olimpia/) | VOL | Em operação | — |
-| 3 | [Cidade Jardim](/estacao/cidade-jardim/) | CJD | Em operação | — |
-| 4 | [Cidade Universitária](/estacao/cidade-universitaria/) | USP | Em operação | — |
-| 5 | [Villa Lobos - Jaguaré](/estacao/villa-lobos-jaguare/) | JAG | Em operação | — |
-| 6 | [Ceasa](/estacao/ceasa/) | CEA | Em operação | — |
-| 7 | [Osasco](/estacao/osasco/) | OSA | Em operação | [Linha 8 - Diamante](/linhas/linha-8-diamante/) |
-| 8 | [Presidente Altino](/estacao/presidente-altino/) | PAL | Em operação | [Linha 8 - Diamante](/linhas/linha-8-diamante/) |
-| 9 | [Pinheiros](/estacao/pinheiros/) | PIN | Em operação | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
-| 10 | [Hebraica - Rebouças](/estacao/hebraica-reboucas/) | HBR | Em operação | [Linha 22 - Marrom](/linhas/linha-22-marrom/) |
-| 11 | [Berrini - Casas Bahia](/estacao/berrini-casas-bahia/) | — | Em operação | — |
-| 12 | [Granja Julieta](/estacao/granja-julieta/) | GJT | Em operação | — |
-| 13 | [João Dias](/estacao/joao-dias/) | JOD | Em operação | — |
-| 14 | [Santo Amaro](/estacao/santo-amaro/) | SAM | Em operação | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
-| 15 | [Socorro](/estacao/socorro/) | SOC | Em operação | — |
-| 16 | [Jurubatuba- Senac](/estacao/jurubatuba-senac/) | JUR | Em operação | — |
-| 17 | [Autódromo](/estacao/autodromo/) | AUT | Em operação | — |
-| 18 | [Varginha](/estacao/varginha/) | VAR | Em operação | — |
-| 19 | [Mendes - Vila Natal](/estacao/mendes-vila-natal/) | MVN | Em operação | — |
-| 20 | [Grajaú](/estacao/grajau/) | SP-4073 | Em operação | — |
-| 21 | [Primavera - Interlagos](/estacao/primavera-interlagos/) | INT | Em operação | — |
+| 1 | [Morumbi - Claro](/estacao/morumbi-claro/) | MRB | <Situacao valor="operational" /> | [Linha 17 - Ouro](/linhas/linha-17-ouro/) |
+| 2 | [Vila Olímpia](/estacao/vila-olimpia/) | VOL | <Situacao valor="operational" /> | — |
+| 3 | [Cidade Jardim](/estacao/cidade-jardim/) | CJD | <Situacao valor="operational" /> | — |
+| 4 | [Cidade Universitária](/estacao/cidade-universitaria/) | USP | <Situacao valor="operational" /> | — |
+| 5 | [Villa Lobos - Jaguaré](/estacao/villa-lobos-jaguare/) | JAG | <Situacao valor="operational" /> | — |
+| 6 | [Ceasa](/estacao/ceasa/) | CEA | <Situacao valor="operational" /> | — |
+| 7 | [Osasco](/estacao/osasco/) | OSA | <Situacao valor="operational" /> | [Linha 8 - Diamante](/linhas/linha-8-diamante/) |
+| 8 | [Presidente Altino](/estacao/presidente-altino/) | PAL | <Situacao valor="operational" /> | [Linha 8 - Diamante](/linhas/linha-8-diamante/) |
+| 9 | [Pinheiros](/estacao/pinheiros/) | PIN | <Situacao valor="operational" /> | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
+| 10 | [Hebraica - Rebouças](/estacao/hebraica-reboucas/) | HBR | <Situacao valor="operational" /> | [Linha 22 - Marrom](/linhas/linha-22-marrom/) |
+| 11 | [Berrini - Casas Bahia](/estacao/berrini-casas-bahia/) | — | <Situacao valor="operational" /> | — |
+| 12 | [Granja Julieta](/estacao/granja-julieta/) | GJT | <Situacao valor="operational" /> | — |
+| 13 | [João Dias](/estacao/joao-dias/) | JOD | <Situacao valor="operational" /> | — |
+| 14 | [Santo Amaro](/estacao/santo-amaro/) | SAM | <Situacao valor="operational" /> | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
+| 15 | [Socorro](/estacao/socorro/) | SOC | <Situacao valor="operational" /> | — |
+| 16 | [Jurubatuba- Senac](/estacao/jurubatuba-senac/) | JUR | <Situacao valor="operational" /> | — |
+| 17 | [Autódromo](/estacao/autodromo/) | AUT | <Situacao valor="operational" /> | — |
+| 18 | [Varginha](/estacao/varginha/) | VAR | <Situacao valor="operational" /> | — |
+| 19 | [Mendes - Vila Natal](/estacao/mendes-vila-natal/) | MVN | <Situacao valor="operational" /> | — |
+| 20 | [Grajaú](/estacao/grajau/) | SP-4073 | <Situacao valor="operational" /> | — |
+| 21 | [Primavera - Interlagos](/estacao/primavera-interlagos/) | INT | <Situacao valor="operational" /> | — |
 
 A ordem das estações vem de GTFS SPTrans.
 
 :::caution[Trecho projetado sem estações]
-Esta linha tem 2.793 km de traçado projetado, mas nenhuma das fontes consultadas publica as estações desse trecho — o GeoSampa é a única que mapeia estações projetadas, e ele termina no limite do município.
+Esta linha tem 2,8 km de traçado projetado, mas nenhuma das fontes consultadas publica as estações desse trecho — o GeoSampa é a única que mapeia estações projetadas, e ele termina no limite do município.
 :::
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Esmeralda | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 9 | GeoSampa | A | — |
-| Cor | #00A88E | OpenStreetMap | C | #01A9A7 (GTFS SPTrans) |
-| Modo | Trem metropolitano | OpenStreetMap | C | — |
-| Operadora | ViaMobilidade Linhas 8 e 9 | OpenStreetMap | C | VIAMOBILIDADE (GeoSampa) |
-| Extensão | 40.822 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Esmeralda | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 9 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #00A88E | <Origem fonte="osm" nivel="C" /> | #01A9A7 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Trem metropolitano | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | ViaMobilidade Linhas 8 e 9 | <Origem fonte="osm" nivel="C" /> | VIAMOBILIDADE <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 40,8 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

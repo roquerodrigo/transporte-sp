@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas, Linha 20 - Rosa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="moema" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Moema | Wikidata | C | MOEMA (GeoSampa); MOEMA (GeoSampa) |
-| Coordenada | -23.60333, -46.66199 | GeoSampa | A | -23.60356, -46.66325 (GeoSampa); -23.60361, -46.66194 (Wikidata); -23.60339, -46.66197 (GTFS SPTrans) |
-| Sigla | MOE | Wikidata | C | — |
-| Inauguração | 2018-04-05 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Moema | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.60333, -46.66199 | <Origem fonte="geosampa" nivel="A" /> | -23.60356, -46.66325 <Origem fonte="geosampa" nivel="A" /><br />-23.60361, -46.66194 <Origem fonte="wikidata" nivel="C" /><br />-23.60339, -46.66197 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | MOE | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 05/04/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

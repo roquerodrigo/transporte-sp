@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="alto-da-boa-vista" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Alto da Boa Vista | OpenStreetMap | C | Alto Da Boa Vista (GTFS SPTrans); ALTO DA BOA VISTA (GeoSampa) |
-| Coordenada | -23.64150, -46.69906 | GeoSampa | A | -23.64163, -46.69942 (OpenStreetMap); -23.64194, -46.69972 (Wikidata); -23.64163, -46.69946 (GTFS SPTrans) |
-| Sigla | ABA | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2017-09-06 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Alto da Boa Vista | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.64150, -46.69906 | <Origem fonte="geosampa" nivel="A" /> | -23.64163, -46.69942 <Origem fonte="osm" nivel="C" /><br />-23.64194, -46.69972 <Origem fonte="wikidata" nivel="C" /><br />-23.64163, -46.69946 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ABA | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 06/09/2017 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

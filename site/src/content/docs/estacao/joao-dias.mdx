@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="joao-dias" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | João Dias | OpenStreetMap | C | JOÃO DIAS (GeoSampa) |
-| Coordenada | -23.64021, -46.72384 | GeoSampa | A | -23.63992, -46.72351 (OpenStreetMap); -23.64056, -46.72333 (Wikidata); -23.63984, -46.72349 (GTFS SPTrans) |
-| Sigla | JOD | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2021-11-05 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | João Dias | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.64021, -46.72384 | <Origem fonte="geosampa" nivel="A" /> | -23.63992, -46.72351 <Origem fonte="osm" nivel="C" /><br />-23.64056, -46.72333 <Origem fonte="wikidata" nivel="C" /><br />-23.63984, -46.72349 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JOD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 05/11/2021 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

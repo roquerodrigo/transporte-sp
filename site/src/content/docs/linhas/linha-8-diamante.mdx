@@ -1,10 +1,12 @@
 ---
 title: "Linha 8 - Diamante"
-description: "Trem metropolitano · Em operação · 40.789 km"
+description: "Trem metropolitano · Em operação · 47,6 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-8" />
 
@@ -14,28 +16,28 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Júlio Prestes](/estacao/julio-prestes/) | JPR | Em operação | — |
-| 2 | [Palmeiras-Barra Funda](/estacao/palmeiras-barra-funda/) | BFU | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 7 - Rubi](/linhas/linha-7-rubi/), [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
-| 3 | [Imperatriz Leopoldina](/estacao/imperatriz-leopoldina/) | ILE | Em operação | — |
-| 4 | [Presidente Altino](/estacao/presidente-altino/) | PAL | Em operação | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
-| 5 | [General Miguel Costa](/estacao/general-miguel-costa/) | GMC | Em operação | — |
-| 6 | [Barueri](/estacao/barueri/) | BRU | Em operação | — |
-| 7 | [Jardim Silveira - Leo Madeiras](/estacao/jardim-silveira-leo-madeiras/) | JSI | Em operação | — |
-| 8 | [Jandira](/estacao/jandira/) | JDI | Em operação | — |
-| 9 | [Engenheiro Cardoso](/estacao/engenheiro-cardoso/) | ECD | Em operação | — |
-| 10 | [Amador Bueno](/estacao/amador-bueno/) | ABU | Em operação | — |
-| 11 | [Santa Rita](/estacao/santa-rita/) | SRT | Em operação | — |
-| 12 | [Itapevi](/estacao/itapevi/) | IPV | Em operação | — |
-| 13 | [Sagrado Coração](/estacao/sagrado-coracao/) | SCO | Em operação | — |
-| 14 | [Jardim Belval](/estacao/jardim-belval/) | JBE | Em operação | — |
-| 15 | [Antônio João](/estacao/antonio-joao/) | AJO | Em operação | — |
-| 16 | [Santa Terezinha](/estacao/santa-terezinha/) | STE | Em operação | — |
-| 17 | [Carapicuíba](/estacao/carapicuiba/) | CPB | Em operação | [Alphaville - Campo Limpo](/linhas/alphaville-campo-limpo/) |
-| 18 | [Quitaúna](/estacao/quitauna/) | QTU | Em operação | — |
-| 19 | [Comandante Sampaio](/estacao/comandante-sampaio/) | CSA | Em operação | — |
-| 20 | [Osasco](/estacao/osasco/) | OSA | Em operação | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
-| 21 | [Domingos de Moraes](/estacao/domingos-de-moraes/) | DMO | Em operação | — |
-| 22 | [Lapa (Linha 8)](/estacao/lapa-linha-8/) | LAB | Em operação | — |
+| 1 | [Itapevi](/estacao/itapevi/) | IPV | <Situacao valor="operational" /> | — |
+| 2 | [Sagrado Coração](/estacao/sagrado-coracao/) | SCO | <Situacao valor="operational" /> | — |
+| 3 | [Jardim Belval](/estacao/jardim-belval/) | JBE | <Situacao valor="operational" /> | — |
+| 4 | [Antônio João](/estacao/antonio-joao/) | AJO | <Situacao valor="operational" /> | — |
+| 5 | [Santa Terezinha](/estacao/santa-terezinha/) | STE | <Situacao valor="operational" /> | — |
+| 6 | [Carapicuíba](/estacao/carapicuiba/) | CPB | <Situacao valor="operational" /> | [Alphaville - Campo Limpo](/linhas/alphaville-campo-limpo/) |
+| 7 | [Quitaúna](/estacao/quitauna/) | QTU | <Situacao valor="operational" /> | — |
+| 8 | [Comandante Sampaio](/estacao/comandante-sampaio/) | CSA | <Situacao valor="operational" /> | — |
+| 9 | [Osasco](/estacao/osasco/) | OSA | <Situacao valor="operational" /> | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
+| 10 | [Lapa - Senac](/estacao/lapa-senac/) | LAB | <Situacao valor="operational" /> | — |
+| 11 | [Júlio Prestes](/estacao/julio-prestes/) | JPR | <Situacao valor="operational" /> | — |
+| 12 | [Palmeiras-Barra Funda](/estacao/palmeiras-barra-funda/) | BFU | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 7 - Rubi](/linhas/linha-7-rubi/), [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
+| 13 | [Domingos de Moraes](/estacao/domingos-de-moraes/) | DMO | <Situacao valor="operational" /> | — |
+| 14 | [Imperatriz Leopoldina](/estacao/imperatriz-leopoldina/) | ILE | <Situacao valor="operational" /> | — |
+| 15 | [Presidente Altino](/estacao/presidente-altino/) | PAL | <Situacao valor="operational" /> | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
+| 16 | [General Miguel Costa](/estacao/general-miguel-costa/) | GMC | <Situacao valor="operational" /> | — |
+| 17 | [Barueri](/estacao/barueri/) | BRU | <Situacao valor="operational" /> | — |
+| 18 | [Jardim Silveira - Leo Madeiras](/estacao/jardim-silveira-leo-madeiras/) | JSI | <Situacao valor="operational" /> | — |
+| 19 | [Jandira](/estacao/jandira/) | JDI | <Situacao valor="operational" /> | — |
+| 20 | [Engenheiro Cardoso](/estacao/engenheiro-cardoso/) | ECD | <Situacao valor="operational" /> | — |
+| 21 | [Santa Rita](/estacao/santa-rita/) | SRT | <Situacao valor="operational" /> | — |
+| 22 | [Amador Bueno](/estacao/amador-bueno/) | ABU | <Situacao valor="operational" /> | — |
 
 A ordem das estações vem de GTFS SPTrans.
 
@@ -43,13 +45,13 @@ A ordem das estações vem de GTFS SPTrans.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Diamante | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 8 | GeoSampa | A | — |
-| Cor | #808080 | OpenStreetMap | C | #97A098 (GTFS SPTrans) |
-| Modo | Trem metropolitano | OpenStreetMap | C | — |
-| Operadora | ViaMobilidade Linhas 8 e 9 | OpenStreetMap | C | Companhia Paulista de Trens Metropolitanos (OpenStreetMap); VIAMOBILIDADE (GeoSampa) |
-| Extensão | 40.789 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Diamante | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 8 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #808080 | <Origem fonte="osm" nivel="C" /> | #97A098 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Trem metropolitano | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | ViaMobilidade Linhas 8 e 9 | <Origem fonte="osm" nivel="C" /> | Companhia Paulista de Trens Metropolitanos <Origem fonte="osm" nivel="C" /><br />VIAMOBILIDADE <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 47,6 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

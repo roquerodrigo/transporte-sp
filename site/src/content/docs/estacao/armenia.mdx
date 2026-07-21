@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="armenia" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Armênia | OpenStreetMap | C | ARMÊNIA (GeoSampa) |
-| Coordenada | -23.52550, -46.62934 | GeoSampa | A | -23.52515, -46.62888 (OpenStreetMap); -23.52540, -46.62925 (OpenStreetMap); -23.52539, -46.62916 (Wikidata); -23.52540, -46.62920 (GTFS SPTrans) |
-| Sigla | PPQ | Wikidata | C | — |
-| Acessibilidade | Parcialmente acessível | OpenStreetMap | C | — |
-| Inauguração | 1975-09-26 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Armênia | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.52550, -46.62934 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 61 m de distância<br /><Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | PPQ | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Parcialmente acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 26/09/1975 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

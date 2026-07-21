@@ -59,29 +59,35 @@ def geojson(network: Network, simplify_m: float = 0.0) -> dict:
     """One FeatureCollection with every line and every station, for the map."""
     features = []
     for line in network.lines:
-        if not line.geometry:
-            continue
-        coordinates = line.geometry.value
-        if simplify_m:
-            coordinates = [douglas_peucker(part, simplify_m) for part in coordinates]
-        features.append(
-            {
-                "type": "Feature",
-                "geometry": {"type": "MultiLineString", "coordinates": coordinates},
-                "properties": {
-                    "kind": "line",
-                    "id": line.id,
-                    "slug": line.slug,
-                    "name": line.name.value,
-                    "number": line.number.value if line.number else None,
-                    "colour": line.colour.value if line.colour else None,
-                    "mode": line.mode.value,
-                    "status": line.status.value,
-                    "operator": line.operator.value if line.operator else None,
-                    "length_km": line.length_km.value if line.length_km else None,
-                },
-            }
-        )
+        # The running and the planned alignment travel as separate features so the map can
+        # dash what is not built yet even on a line that is otherwise open.
+        for field, status, length in (
+            (line.geometry, line.status.value, line.length_km),
+            (line.planned_geometry, "planned", line.planned_length_km),
+        ):
+            if not field:
+                continue
+            coordinates = field.value
+            if simplify_m:
+                coordinates = [douglas_peucker(part, simplify_m) for part in coordinates]
+            features.append(
+                {
+                    "type": "Feature",
+                    "geometry": {"type": "MultiLineString", "coordinates": coordinates},
+                    "properties": {
+                        "kind": "line",
+                        "id": line.id,
+                        "slug": line.slug,
+                        "name": line.name.value,
+                        "number": line.number.value if line.number else None,
+                        "colour": line.colour.value if line.colour else None,
+                        "mode": line.mode.value,
+                        "status": status,
+                        "operator": line.operator.value if line.operator else None,
+                        "length_km": length.value if length else None,
+                    },
+                }
+            )
     modes_by_line = {line.id: line.mode.value for line in network.lines}
     for station in network.stations:
         features.append(

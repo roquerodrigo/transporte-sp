@@ -56,7 +56,8 @@
       "confidence": "E",
       "alternatives": []
     },
-    "geometry": {
+    "geometry": null,
+    "planned_geometry": {
       "value": [
         [
           [
@@ -1129,7 +1130,8 @@
       "confidence": "A",
       "alternatives": []
     },
-    "length_km": {
+    "length_km": null,
+    "planned_length_km": {
       "value": 23.906,
       "source": "geosampa",
       "confidence": "E",

@@ -108,3 +108,46 @@ def test_a_station_already_running_is_left_alone():
     _mark_running(["x"], {"x": station})
     assert station.status.source == "geosampa"
     assert station.status.alternatives == []
+
+
+def test_the_planned_alignment_is_kept_apart_from_the_running_one():
+    """A projected extension must not be drawn as, or measured as, track in service."""
+    running = [[[-46.70, -23.50], [-46.60, -23.50]]]
+    extension = [[[-46.60, -23.50], [-46.50, -23.50]]]
+    conflicts = []
+    lines = reconcile(
+        [
+            observation("osm", "Linha 4 - Amarela", number="4", status="operational",
+                        geometry=running),
+            observation("geosampa", "LINHA 4 - AMARELA", number="4", colour_name="AMARELA",
+                        status="operational", geometry=running),
+            observation("geosampa", "LINHA 4 - AMARELA", number="4", colour_name="AMARELA",
+                        status="planned", geometry=extension),
+        ],
+        conflicts,
+    )
+    line = lines[0]
+    assert line.geometry.value == running
+    assert line.planned_geometry.value == extension
+    assert line.status.value == "operational"
+
+
+def test_the_running_alignment_prefers_a_single_traversal_over_a_track_by_track_map():
+    """GeoSampa maps each commuter track separately, which doubles the length."""
+    single = [[[-46.70, -23.50], [-46.60, -23.50]]]
+    both_tracks = [
+        [[-46.70, -23.50], [-46.60, -23.50]],
+        [[-46.70, -23.5001], [-46.60, -23.5001]],
+    ]
+    conflicts = []
+    lines = reconcile(
+        [
+            observation("geosampa", "RUBI", number="7", status="operational",
+                        geometry=both_tracks),
+            observation("osm", "Linha 7 - Rubi", number="7", status="operational",
+                        geometry=single),
+        ],
+        conflicts,
+    )
+    assert lines[0].geometry.source == "osm"
+    assert [item.source for item in lines[0].geometry.alternatives] == ["geosampa"]

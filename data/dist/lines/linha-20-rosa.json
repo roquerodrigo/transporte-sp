@@ -69,7 +69,8 @@
       "confidence": "E",
       "alternatives": []
     },
-    "geometry": {
+    "geometry": null,
+    "planned_geometry": {
       "value": [
         [
           [
@@ -1992,7 +1993,8 @@
       "confidence": "A",
       "alternatives": []
     },
-    "length_km": {
+    "length_km": null,
+    "planned_length_km": {
       "value": 30.995,
       "source": "geosampa",
       "confidence": "E",
@@ -2157,6 +2159,7 @@
         ]
       },
       "lines": [
+        "linha-2",
         "linha-20"
       ],
       "status": {
@@ -2177,7 +2180,7 @@
         "geosampa_id": "130",
         "metro_code": null
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa"
       ]

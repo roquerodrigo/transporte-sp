@@ -55,7 +55,21 @@
     "stations": [
       "eng-goulart",
       "guarulhos-cecap",
-      "aeroporto-guarulhos"
+      "aeroporto-guarulhos",
+      "bonsucesso-2",
+      "jardim-presidente-dutra",
+      "sao-joao",
+      "jardim-dos-eucaliptos",
+      "cangaiba",
+      "gabriela-mistral",
+      "guaiauna",
+      "serra-de-botucatu",
+      "itapura",
+      "demetrio-ribeiro",
+      "sapucaia",
+      "parque-da-mooca",
+      "dom-pedro-i",
+      "bom-pastor"
     ],
     "station_order": {
       "value": "gtfs_sptrans",
@@ -67,240 +81,480 @@
       "value": [
         [
           [
-            -46.50684135,
-            -23.49171845
+            -46.5206412,
+            -23.4983038
           ],
           [
-            -46.5066108,
-            -23.49096129
+            -46.5204749,
+            -23.4982423
           ],
           [
-            -46.50546778,
-            -23.48649268
-          ],
-          [
-            -46.50483718,
-            -23.48488607
-          ],
-          [
-            -46.50431932,
-            -23.4838986
-          ],
-          [
-            -46.5034345,
-            -23.48256489
-          ],
-          [
-            -46.49957615,
-            -23.47738553
-          ],
-          [
-            -46.49879742,
-            -23.47643942
-          ],
-          [
-            -46.49790402,
-            -23.47557287
-          ],
-          [
-            -46.49692974,
-            -23.4748141
-          ],
-          [
-            -46.49636856,
-            -23.47444629
-          ],
-          [
-            -46.49546074,
-            -23.47394846
-          ],
-          [
-            -46.49389914,
-            -23.47309594
-          ],
-          [
-            -46.49269701,
-            -23.47210181
-          ],
-          [
-            -46.4919187,
-            -23.47113858
-          ],
-          [
-            -46.49138868,
-            -23.47018016
-          ],
-          [
-            -46.49090427,
-            -23.46860901
-          ],
-          [
-            -46.48914436,
-            -23.46019752
-          ],
-          [
-            -46.48918675,
-            -23.45878651
-          ],
-          [
-            -46.48943406,
-            -23.45772736
-          ],
-          [
-            -46.48999623,
-            -23.45632805
-          ],
-          [
-            -46.49118815,
-            -23.4535053
-          ],
-          [
-            -46.49470452,
-            -23.44517742
-          ],
-          [
-            -46.49495257,
-            -23.44444292
-          ],
-          [
-            -46.49508727,
-            -23.443847
-          ],
-          [
-            -46.49517584,
-            -23.44308817
-          ],
-          [
-            -46.49518468,
-            -23.44231769
-          ],
-          [
-            -46.49505973,
-            -23.4412174
-          ],
-          [
-            -46.49284147,
-            -23.4262011
+            -46.5188897,
+            -23.4976593
           ]
         ],
         [
           [
-            -46.50676802,
-            -23.49174484
+            -46.4940292,
+            -23.4466481
           ],
           [
-            -46.50653494,
-            -23.49097936
-          ],
-          [
-            -46.5053926,
-            -23.48651334
-          ],
-          [
-            -46.50476491,
-            -23.48491417
-          ],
-          [
-            -46.50425049,
-            -23.48393327
-          ],
-          [
-            -46.50336877,
-            -23.48260423
-          ],
-          [
-            -46.49951265,
-            -23.47742786
-          ],
-          [
-            -46.49873767,
-            -23.4764863
-          ],
-          [
-            -46.49785022,
-            -23.47562552
-          ],
-          [
-            -46.49688172,
-            -23.47487124
-          ],
-          [
-            -46.4963258,
-            -23.47450689
-          ],
-          [
-            -46.49542079,
-            -23.47401059
-          ],
-          [
-            -46.49385261,
-            -23.47315449
-          ],
-          [
-            -46.4926389,
-            -23.47215077
-          ],
-          [
-            -46.49185195,
-            -23.47117685
-          ],
-          [
-            -46.49131545,
-            -23.47020671
-          ],
-          [
-            -46.49082802,
-            -23.46862577
-          ],
-          [
-            -46.48906584,
-            -23.46020343
-          ],
-          [
-            -46.48910868,
-            -23.45877783
-          ],
-          [
-            -46.48935869,
-            -23.4577071
-          ],
-          [
-            -46.48992303,
-            -23.45630239
-          ],
-          [
-            -46.49111518,
-            -23.45347908
-          ],
-          [
-            -46.49463057,
-            -23.44515353
-          ],
-          [
-            -46.49487669,
-            -23.44442475
-          ],
-          [
-            -46.49500984,
-            -23.44383573
-          ],
-          [
-            -46.49509758,
-            -23.44308391
-          ],
-          [
-            -46.49510634,
-            -23.44232108
-          ],
-          [
-            -46.49498199,
-            -23.44122604
-          ],
-          [
-            -46.4927639,
-            -23.42621086
+            -46.493364,
+            -23.4482476
           ]
         ],
+        [
+          [
+            -46.4936015,
+            -23.4323028
+          ],
+          [
+            -46.4936935,
+            -23.4329357
+          ],
+          [
+            -46.4937211,
+            -23.4331258
+          ],
+          [
+            -46.4938375,
+            -23.433927
+          ]
+        ],
+        [
+          [
+            -46.5191746,
+            -23.4976782
+          ],
+          [
+            -46.5184816,
+            -23.4974259
+          ],
+          [
+            -46.517606,
+            -23.4971886
+          ],
+          [
+            -46.5172207,
+            -23.4970463
+          ],
+          [
+            -46.516968,
+            -23.4969539
+          ],
+          [
+            -46.5164618,
+            -23.4967689
+          ],
+          [
+            -46.515314,
+            -23.4963493
+          ],
+          [
+            -46.5149453,
+            -23.4962382
+          ],
+          [
+            -46.5146354,
+            -23.4961557
+          ],
+          [
+            -46.5142419,
+            -23.4960828
+          ],
+          [
+            -46.5136958,
+            -23.4960262
+          ],
+          [
+            -46.5120772,
+            -23.4959404
+          ],
+          [
+            -46.5115517,
+            -23.4958644
+          ],
+          [
+            -46.5112289,
+            -23.495781
+          ],
+          [
+            -46.5109835,
+            -23.4957085
+          ],
+          [
+            -46.5107151,
+            -23.4956071
+          ],
+          [
+            -46.5104735,
+            -23.4954992
+          ],
+          [
+            -46.5102773,
+            -23.4954085
+          ],
+          [
+            -46.5100299,
+            -23.495231
+          ],
+          [
+            -46.5096956,
+            -23.4949933
+          ],
+          [
+            -46.5090224,
+            -23.4943813
+          ],
+          [
+            -46.5077108,
+            -23.4931015
+          ],
+          [
+            -46.5074382,
+            -23.4927946
+          ],
+          [
+            -46.5072187,
+            -23.4925022
+          ],
+          [
+            -46.5070671,
+            -23.4922813
+          ],
+          [
+            -46.5069296,
+            -23.4919668
+          ],
+          [
+            -46.5068115,
+            -23.4916558
+          ]
+        ],
+        [
+          [
+            -46.5068115,
+            -23.4916558
+          ],
+          [
+            -46.5065528,
+            -23.4908538
+          ],
+          [
+            -46.5064004,
+            -23.4901721
+          ],
+          [
+            -46.5060726,
+            -23.488863
+          ],
+          [
+            -46.5057456,
+            -23.4875933
+          ],
+          [
+            -46.5054152,
+            -23.4863984
+          ],
+          [
+            -46.5051912,
+            -23.4857582
+          ],
+          [
+            -46.5048953,
+            -23.485047
+          ],
+          [
+            -46.5044534,
+            -23.4841801
+          ],
+          [
+            -46.5038617,
+            -23.4832102
+          ],
+          [
+            -46.5019881,
+            -23.4806621
+          ],
+          [
+            -46.5008316,
+            -23.4791217
+          ],
+          [
+            -46.4997586,
+            -23.4776791
+          ],
+          [
+            -46.4987827,
+            -23.476461
+          ],
+          [
+            -46.4980817,
+            -23.4757591
+          ],
+          [
+            -46.4973939,
+            -23.4751853
+          ],
+          [
+            -46.4967094,
+            -23.4746984
+          ],
+          [
+            -46.4957857,
+            -23.4741196
+          ],
+          [
+            -46.4945,
+            -23.4734617
+          ]
+        ],
+        [
+          [
+            -46.4945,
+            -23.4734617
+          ],
+          [
+            -46.4942038,
+            -23.4733101
+          ],
+          [
+            -46.4937699,
+            -23.4730469
+          ],
+          [
+            -46.4931486,
+            -23.4725515
+          ],
+          [
+            -46.4927603,
+            -23.4721858
+          ],
+          [
+            -46.4921896,
+            -23.4716058
+          ],
+          [
+            -46.4917514,
+            -23.47096
+          ],
+          [
+            -46.4914876,
+            -23.4704951
+          ]
+        ],
+        [
+          [
+            -46.4914876,
+            -23.4704951
+          ],
+          [
+            -46.49123,
+            -23.4699295
+          ],
+          [
+            -46.491104,
+            -23.4695651
+          ],
+          [
+            -46.4909653,
+            -23.4690564
+          ],
+          [
+            -46.4906099,
+            -23.4675634
+          ],
+          [
+            -46.4902622,
+            -23.4659811
+          ],
+          [
+            -46.4901852,
+            -23.4656092
+          ],
+          [
+            -46.4899025,
+            -23.4642603
+          ],
+          [
+            -46.4896926,
+            -23.4634277
+          ],
+          [
+            -46.4895594,
+            -23.4628497
+          ],
+          [
+            -46.4891814,
+            -23.4607182
+          ],
+          [
+            -46.4891117,
+            -23.459874
+          ],
+          [
+            -46.4891257,
+            -23.4590866
+          ],
+          [
+            -46.4892555,
+            -23.4582961
+          ],
+          [
+            -46.4894261,
+            -23.4577084
+          ],
+          [
+            -46.4896171,
+            -23.4572071
+          ],
+          [
+            -46.4898381,
+            -23.4567092
+          ],
+          [
+            -46.4902701,
+            -23.4556509
+          ],
+          [
+            -46.4906183,
+            -23.4548193
+          ],
+          [
+            -46.4911067,
+            -23.4536783
+          ],
+          [
+            -46.4915196,
+            -23.4526645
+          ],
+          [
+            -46.4918535,
+            -23.4518949
+          ],
+          [
+            -46.4920263,
+            -23.4514966
+          ],
+          [
+            -46.4923645,
+            -23.4506781
+          ],
+          [
+            -46.4925587,
+            -23.450234
+          ],
+          [
+            -46.4929062,
+            -23.4494237
+          ],
+          [
+            -46.4933494,
+            -23.4484854
+          ],
+          [
+            -46.4940659,
+            -23.4467592
+          ],
+          [
+            -46.4947165,
+            -23.4452068
+          ],
+          [
+            -46.494803,
+            -23.4449696
+          ],
+          [
+            -46.4949871,
+            -23.444351
+          ],
+          [
+            -46.4951074,
+            -23.4437644
+          ],
+          [
+            -46.495168,
+            -23.4431168
+          ],
+          [
+            -46.4951792,
+            -23.4425073
+          ],
+          [
+            -46.4951451,
+            -23.442016
+          ],
+          [
+            -46.4950961,
+            -23.4415225
+          ],
+          [
+            -46.4948134,
+            -23.4395883
+          ],
+          [
+            -46.4944394,
+            -23.4371712
+          ],
+          [
+            -46.4943084,
+            -23.4363399
+          ]
+        ],
+        [
+          [
+            -46.4943084,
+            -23.4363399
+          ],
+          [
+            -46.494209,
+            -23.435625
+          ]
+        ],
+        [
+          [
+            -46.494209,
+            -23.435625
+          ],
+          [
+            -46.4940961,
+            -23.4351201
+          ]
+        ],
+        [
+          [
+            -46.4937087,
+            -23.4326814
+          ],
+          [
+            -46.4940211,
+            -23.4347022
+          ],
+          [
+            -46.4940961,
+            -23.4351201
+          ]
+        ]
+      ],
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "8.818 km",
+          "source": "gtfs_sptrans",
+          "confidence": "A",
+          "note": "traçado alternativo, não usado"
+        },
+        {
+          "value": "15.993 km",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": "traça cada via separadamente"
+        }
+      ]
+    },
+    "planned_geometry": {
+      "value": [
         [
           [
             -46.40747633,
@@ -882,23 +1136,16 @@
       ],
       "source": "geosampa",
       "confidence": "A",
-      "alternatives": [
-        {
-          "value": "9.336 km",
-          "source": "osm",
-          "confidence": "C",
-          "note": "shorter alignment, not used"
-        },
-        {
-          "value": "8.818 km",
-          "source": "gtfs_sptrans",
-          "confidence": "A",
-          "note": "shorter alignment, not used"
-        }
-      ]
+      "alternatives": []
     },
     "length_km": {
-      "value": 52.003,
+      "value": 9.336,
+      "source": "osm",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "planned_length_km": {
+      "value": 36.01,
       "source": "geosampa",
       "confidence": "E",
       "alternatives": []
@@ -1181,6 +1428,658 @@
         "gtfs_sptrans",
         "osm",
         "wikidata"
+      ]
+    },
+    {
+      "id": "bonsucesso-2",
+      "slug": "bonsucesso-2",
+      "name": {
+        "value": "Bonsucesso",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.42208903,
+          "lon": -46.41330437
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6050",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "jardim-presidente-dutra",
+      "slug": "jardim-presidente-dutra",
+      "name": {
+        "value": "Jardim Presidente Dutra",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.41712376,
+          "lon": -46.42489301
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6051",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "sao-joao",
+      "slug": "sao-joao",
+      "name": {
+        "value": "São João",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.41645816,
+          "lon": -46.4569057
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6052",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "jardim-dos-eucaliptos",
+      "slug": "jardim-dos-eucaliptos",
+      "name": {
+        "value": "Jardim dos Eucaliptos",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.41790992,
+          "lon": -46.49266606
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6053",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "cangaiba",
+      "slug": "cangaiba",
+      "name": {
+        "value": "Cangaíba",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.50282819,
+          "lon": -46.53602519
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6054",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "gabriela-mistral",
+      "slug": "gabriela-mistral",
+      "name": {
+        "value": "Gabriela Mistral",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "GABRIELA MISTRAL",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.51947906,
+          "lon": -46.55076141
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.51938372,
+              "lon": -46.55080718
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "12 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-12",
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6049",
+        "metro_code": null
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "guaiauna",
+      "slug": "guaiauna",
+      "name": {
+        "value": "Guaiaúna",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.53322357,
+          "lon": -46.55347882
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6056",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "serra-de-botucatu",
+      "slug": "serra-de-botucatu",
+      "name": {
+        "value": "Serra de Botucatu",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.54098972,
+          "lon": -46.55349169
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6057",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "itapura",
+      "slug": "itapura",
+      "name": {
+        "value": "Itapura",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.54866411,
+          "lon": -46.56535596
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6058",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "demetrio-ribeiro",
+      "slug": "demetrio-ribeiro",
+      "name": {
+        "value": "Demétrio Ribeiro",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.55100342,
+          "lon": -46.57871541
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6059",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "sapucaia",
+      "slug": "sapucaia",
+      "name": {
+        "value": "Sapucaia",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.55353587,
+          "lon": -46.59073559
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6060",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "parque-da-mooca",
+      "slug": "parque-da-mooca",
+      "name": {
+        "value": "Parque da Mooca",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.56665486,
+          "lon": -46.60412882
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6061",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "dom-pedro-i",
+      "slug": "dom-pedro-i",
+      "name": {
+        "value": "Dom Pedro I",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.57445834,
+          "lon": -46.61072869
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6062",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "bom-pastor",
+      "slug": "bom-pastor",
+      "name": {
+        "value": "Bom Pastor",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "BOM PASTOR",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.58352849,
+          "lon": -46.60770132
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.58352802,
+              "lon": -46.607701
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "0 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-5",
+        "linha-13"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "140",
+        "metro_code": null
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa"
       ]
     }
   ]

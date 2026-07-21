@@ -57,7 +57,8 @@
       "confidence": "E",
       "alternatives": []
     },
-    "geometry": {
+    "geometry": null,
+    "planned_geometry": {
       "value": [
         [
           [
@@ -18462,7 +18463,8 @@
       "confidence": "A",
       "alternatives": []
     },
-    "length_km": {
+    "length_km": null,
+    "planned_length_km": {
       "value": 18.972,
       "source": "geosampa",
       "confidence": "E",
@@ -19348,6 +19350,7 @@
         ]
       },
       "lines": [
+        "linha-2",
         "linha-16"
       ],
       "status": {
@@ -19368,7 +19371,7 @@
         "geosampa_id": "109",
         "metro_code": null
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa",
         "wikidata"

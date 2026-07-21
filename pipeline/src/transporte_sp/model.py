@@ -134,7 +134,12 @@ class Line(BaseModel):
     # ordered stop members, and for lines that are not built yet it can only be inferred.
     station_order: Sourced[str] | None = None
     geometry: Sourced[list[list[list[float]]]] | None = None
+    # The alignment of the stretches that are not built yet, kept apart from the running
+    # one: drawing them as a single line makes a planned extension look like track you can
+    # ride today, and folds its kilometres into the line's length.
+    planned_geometry: Sourced[list[list[list[float]]]] | None = None
     length_km: Sourced[float] | None = None
+    planned_length_km: Sourced[float] | None = None
     observed_by: list[str] = Field(default_factory=list)
 
 

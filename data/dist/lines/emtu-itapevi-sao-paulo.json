@@ -646,7 +646,14 @@
             -46.90296521,
             -23.52850473
           ]
-        ],
+        ]
+      ],
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "planned_geometry": {
+      "value": [
         [
           [
             -46.81587759,
@@ -811,7 +818,13 @@
       "alternatives": []
     },
     "length_km": {
-      "value": 22.389,
+      "value": 15.542,
+      "source": "geosampa",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "planned_length_km": {
+      "value": 6.846,
       "source": "geosampa",
       "confidence": "E",
       "alternatives": []

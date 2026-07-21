@@ -59,14 +59,14 @@
       "alternatives": []
     },
     "stations": [
+      "bras",
+      "santa-cecilia",
       "palmeiras-barra-funda",
       "marechal-deodoro",
-      "santa-cecilia",
       "republica",
       "anhangabau",
       "se",
       "pedro-ii",
-      "bras",
       "bresser-mooca",
       "belem",
       "tatuape",
@@ -1536,22 +1536,24 @@
           "value": "22.588 km",
           "source": "gtfs_sptrans",
           "confidence": "A",
-          "note": "shorter alignment, not used"
+          "note": "traçado alternativo, não usado"
         },
         {
           "value": "22.072 km",
           "source": "geosampa",
           "confidence": "A",
-          "note": "clipped at the city limit"
+          "note": "traçado alternativo, não usado"
         }
       ]
     },
+    "planned_geometry": null,
     "length_km": {
       "value": 23.449,
       "source": "osm",
       "confidence": "E",
       "alternatives": []
     },
+    "planned_length_km": null,
     "observed_by": [
       "geosampa",
       "gtfs_sptrans",
@@ -1559,6 +1561,282 @@
     ]
   },
   "stations": [
+    {
+      "id": "bras",
+      "slug": "bras",
+      "name": {
+        "value": "Brás",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "BRÁS",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "BRÁS",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "BRÁS",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "BRÁS",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.5478844,
+          "lon": -46.61590896
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.54402144,
+              "lon": -46.61687708
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "441 m away"
+          },
+          {
+            "value": {
+              "lat": -23.54402144,
+              "lon": -46.61687708
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "441 m away"
+          },
+          {
+            "value": {
+              "lat": -23.54402144,
+              "lon": -46.61687708
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "441 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5478581,
+              "lon": -46.6159196
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "3 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5453263,
+              "lon": -46.6164435
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "290 m away"
+          },
+          {
+            "value": {
+              "lat": -23.54504,
+              "lon": -46.61634
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "319 m away"
+          },
+          {
+            "value": {
+              "lat": -23.547826,
+              "lon": -46.615881
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "7 m away"
+          },
+          {
+            "value": {
+              "lat": -23.545461,
+              "lon": -46.616228
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "271 m away"
+          },
+          {
+            "value": {
+              "lat": -23.545582,
+              "lon": -46.616314
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "259 m away"
+          },
+          {
+            "value": {
+              "lat": -23.547751,
+              "lon": -46.616127
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "27 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-3",
+        "linha-10",
+        "linha-11",
+        "linha-12",
+        "expresso-aeroporto"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "BAS",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1867-02-16",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "1979-03-10",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q9295692",
+        "osm": "node/4117565742",
+        "gtfs_stop_id": "18987",
+        "gtfs_route_id": null,
+        "geosampa_id": "11",
+        "metro_code": "BAS"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "santa-cecilia",
+      "slug": "santa-cecilia",
+      "name": {
+        "value": "Santa Cecília",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "SANTA CECÍLIA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.53963806,
+          "lon": -46.64887956
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5393238,
+              "lon": -46.6489566
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "36 m away"
+          },
+          {
+            "value": {
+              "lat": -23.538711,
+              "lon": -46.649644
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "129 m away"
+          },
+          {
+            "value": {
+              "lat": -23.538095,
+              "lon": -46.649009
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "172 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-3"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "CEC",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1983-12-10",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7419299",
+        "osm": "node/5369269022",
+        "gtfs_stop_id": "18865",
+        "gtfs_route_id": null,
+        "geosampa_id": "16",
+        "metro_code": "CEC"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
     {
       "id": "palmeiras-barra-funda",
       "slug": "palmeiras-barra-funda",
@@ -1885,98 +2163,6 @@
         "gtfs_route_id": null,
         "geosampa_id": "17",
         "metro_code": "DEO"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "santa-cecilia",
-      "slug": "santa-cecilia",
-      "name": {
-        "value": "Santa Cecília",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "SANTA CECÍLIA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.53963806,
-          "lon": -46.64887956
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.5393238,
-              "lon": -46.6489566
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "36 m away"
-          },
-          {
-            "value": {
-              "lat": -23.538711,
-              "lon": -46.649644
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "129 m away"
-          },
-          {
-            "value": {
-              "lat": -23.538095,
-              "lon": -46.649009
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "172 m away"
-          }
-        ]
-      },
-      "lines": [
-        "linha-3"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "CEC",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1983-12-10",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q7419299",
-        "osm": "node/5369269022",
-        "gtfs_stop_id": "18865",
-        "gtfs_route_id": null,
-        "geosampa_id": "16",
-        "metro_code": "CEC"
       },
       "is_interchange": false,
       "observed_by": [
@@ -2425,190 +2611,6 @@
         "metro_code": "PDS"
       },
       "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "bras",
-      "slug": "bras",
-      "name": {
-        "value": "Brás",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "BRÁS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "BRÁS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "BRÁS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "BRÁS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.5478844,
-          "lon": -46.61590896
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.54402144,
-              "lon": -46.61687708
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "441 m away"
-          },
-          {
-            "value": {
-              "lat": -23.54402144,
-              "lon": -46.61687708
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "441 m away"
-          },
-          {
-            "value": {
-              "lat": -23.54402144,
-              "lon": -46.61687708
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "441 m away"
-          },
-          {
-            "value": {
-              "lat": -23.5478581,
-              "lon": -46.6159196
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "3 m away"
-          },
-          {
-            "value": {
-              "lat": -23.5453263,
-              "lon": -46.6164435
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "290 m away"
-          },
-          {
-            "value": {
-              "lat": -23.54504,
-              "lon": -46.61634
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "319 m away"
-          },
-          {
-            "value": {
-              "lat": -23.547826,
-              "lon": -46.615881
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "7 m away"
-          },
-          {
-            "value": {
-              "lat": -23.545461,
-              "lon": -46.616228
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "271 m away"
-          },
-          {
-            "value": {
-              "lat": -23.545582,
-              "lon": -46.616314
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "259 m away"
-          },
-          {
-            "value": {
-              "lat": -23.547751,
-              "lon": -46.616127
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "27 m away"
-          }
-        ]
-      },
-      "lines": [
-        "linha-3",
-        "linha-10",
-        "linha-11",
-        "linha-12",
-        "expresso-aeroporto"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "BAS",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1867-02-16",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "1979-03-10",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q9295692",
-        "osm": "node/4117565742",
-        "gtfs_stop_id": "18987",
-        "gtfs_route_id": null,
-        "geosampa_id": "11",
-        "metro_code": "BAS"
-      },
-      "is_interchange": true,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",

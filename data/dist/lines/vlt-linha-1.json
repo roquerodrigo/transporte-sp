@@ -1620,12 +1620,14 @@
       "confidence": "C",
       "alternatives": []
     },
+    "planned_geometry": null,
     "length_km": {
       "value": 12.054,
       "source": "osm",
       "confidence": "E",
       "alternatives": []
     },
+    "planned_length_km": null,
     "observed_by": [
       "osm"
     ]

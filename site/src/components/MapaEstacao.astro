@@ -1,0 +1,9 @@
+---
+import Mapa from "@components/Mapa.astro";
+
+interface Props {
+  estacao: string;
+}
+---
+
+<Mapa estacao={Astro.props.estacao} altura="18rem" />

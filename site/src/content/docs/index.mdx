@@ -1,0 +1,41 @@
+---
+title: Transporte SP
+description: Base de dados aberta e auditável do transporte de massa metropolitano de São Paulo.
+template: splash
+hero:
+  tagline: >-
+    Metrô, monotrilho, trens metropolitanos, VLT, BRT e as expansões futuras da região
+    metropolitana de São Paulo — reconciliados a partir de fontes oficiais e colaborativas,
+    com a procedência de cada campo declarada.
+  actions:
+    - text: Ver o mapa da rede
+      link: /mapa/
+      icon: right-arrow
+    - text: Todas as linhas
+      link: /linhas/
+      variant: minimal
+---
+
+import Resumo from "@components/Resumo.astro";
+
+<Resumo />
+
+## Por que existe
+
+O dado sobre a rede de São Paulo está espalhado, e cada pedaço tem um buraco diferente:
+
+- o **GeoSampa** tem a geometria e a rede projetada, mas para no limite do município;
+- o **GTFS da SPTrans** tem a ordem das estações e o traçado, mas não tem as Linhas 6 e 17;
+- o **OpenStreetMap** cobre a região inteira, mas é fraco em acessibilidade e não tem BRT;
+- o **Wikidata** tem a sigla oficial das estações, mas erra a linha da maioria dos trens.
+
+Nenhuma delas responde sozinha "quais são todas as linhas e estações da região, onde ficam,
+e o que vem depois". Aqui elas são reunidas, as divergências são resolvidas por regras
+declaradas [campo a campo](/metodologia/), e o que não dá para resolver
+[fica registrado](/divergencias/) em vez de ser escondido.
+
+## Como ler as páginas
+
+Todo valor publicado carrega um selo com a fonte e o nível de confiança — de **A** (fonte
+oficial primária e estruturada) a **E** (inferido por este projeto). O selo fica ao lado do
+valor, não em nota de rodapé, porque saber de onde veio o número é parte do número.

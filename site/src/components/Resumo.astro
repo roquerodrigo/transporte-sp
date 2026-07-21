@@ -1,0 +1,67 @@
+---
+/** Headline counts on the home page, read straight from the dataset. */
+import { network } from "@data/network";
+
+const rail = network.lines.filter((line) => line.mode.value !== "brt");
+const running = rail.filter((line) => ["operational", "partial"].includes(line.status.value));
+const planned = network.lines.filter((line) =>
+  ["planned", "proposed", "under_construction"].includes(line.status.value),
+);
+const kilometres = running.reduce((total, line) => total + (line.length_km?.value ?? 0), 0);
+
+const tiles = [
+  { value: String(running.length), label: "linhas em operação" },
+  { value: String(network.stations.length), label: "estações" },
+  { value: `${Math.round(kilometres)} km`, label: "de rede em operação" },
+  { value: String(planned.length), label: "linhas projetadas ou em obras" },
+];
+---
+
+<div class="resumo">
+  {
+    tiles.map((tile) => (
+      <div class="tile">
+        <strong>{tile.value}</strong>
+        <span>{tile.label}</span>
+      </div>
+    ))
+  }
+</div>
+
+<p class="atualizado">
+  Reconciliado em {network.generated_at} a partir de {network.sources.length} fontes.
+</p>
+
+<style>
+  .resumo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 1rem;
+    margin-block: 2rem 0.5rem;
+  }
+
+  .tile {
+    background: var(--sl-color-gray-7);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .tile strong {
+    display: block;
+    font-size: 1.9rem;
+    line-height: 1.1;
+    color: var(--sl-color-white);
+  }
+
+  .tile span {
+    font-size: 0.85rem;
+    color: var(--sl-color-gray-3);
+  }
+
+  .atualizado {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--sl-color-gray-3);
+  }
+</style>

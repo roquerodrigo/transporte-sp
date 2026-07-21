@@ -1,0 +1,16 @@
+---
+title: Mapa da rede
+description: Traçado real de todas as linhas, com a rede em operação e a rede projetada.
+---
+
+import Mapa from "@components/Mapa.astro";
+
+<Mapa altura="70vh" zoom={9.4} />
+
+O traçado vem do GeoSampa dentro do município e do OpenStreetMap fora dele — a base
+municipal é mais precisa, mas termina na divisa, e várias linhas seguem muito além dela.
+As linhas **tracejadas** são trechos projetados, em obras ou em operação parcial; as
+sólidas estão em operação plena. Um círculo com borda grossa é uma estação de baldeação.
+
+Os mesmos dados estão em [`dados/network.geojson`](../dados/network.geojson), prontos para
+abrir no QGIS ou em qualquer biblioteca de mapa.

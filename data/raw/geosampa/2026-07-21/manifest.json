@@ -1,0 +1,65 @@
+{
+  "corredor_onibus.geojson": {
+    "bytes": 97305,
+    "fetched_at": "2026-07-21T16:23:56+00:00",
+    "licence": "CC-BY-SA-4.0",
+    "sha256": "c3c5b07d22b34ae65ba029140f35e8d37e245816651d6515c5f3daab79a1efea",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs"
+  },
+  "estacao_metro.geojson": {
+    "bytes": 44145,
+    "fetched_at": "2026-07-21T16:23:51+00:00",
+    "licence": "CC-BY-SA-4.0",
+    "sha256": "475bef14e732918ffb7366d3af7ee7e37060fb38aeb426f6d869a1adc468c65a",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs"
+  },
+  "estacao_metro_projetada.geojson": {
+    "bytes": 42094,
+    "fetched_at": "2026-07-21T16:23:52+00:00",
+    "licence": "CC-BY-SA-4.0",
+    "sha256": "9e9bd781c4645beb7049d88f2eaae1c367c923ea6eb38f0313fb440d400ae958",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs"
+  },
+  "estacao_trem.geojson": {
+    "bytes": 51944,
+    "fetched_at": "2026-07-21T16:23:51+00:00",
+    "licence": "CC-BY-SA-4.0",
+    "sha256": "a95cc74c6d80f78954d5fc89ad73601351c50f9eac25240b00958b695c818e76",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs"
+  },
+  "estacao_trem_projetada.geojson": {
+    "bytes": 18884,
+    "fetched_at": "2026-07-21T16:23:55+00:00",
+    "licence": "CC-BY-SA-4.0",
+    "sha256": "afdb7d71179a27bd545b49a4cbfcba7a9c97a1bee7ef6b8b2664450e3883729b",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs"
+  },
+  "linha_metro.geojson": {
+    "bytes": 31445,
+    "fetched_at": "2026-07-21T16:23:55+00:00",
+    "licence": "CC-BY-SA-4.0",
+    "sha256": "026c2be6b06e5dc40d5e4e7bd9f6928eadb8a9ee02d20a823f27f1ac03ac5420",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs"
+  },
+  "linha_metro_projetada.geojson": {
+    "bytes": 215291,
+    "fetched_at": "2026-07-21T16:23:56+00:00",
+    "licence": "CC-BY-SA-4.0",
+    "sha256": "38454ffb0fd04c42791e3822a34deeb80d362ca61520d3c3a8f898d97495fd70",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs"
+  },
+  "linha_trem.geojson": {
+    "bytes": 702676,
+    "fetched_at": "2026-07-21T16:23:56+00:00",
+    "licence": "CC-BY-SA-4.0",
+    "sha256": "b3e765eb7cae06488f339210181d04a42271954930f7e6aee01baadbc9092156",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs"
+  },
+  "linha_trem_projetada.geojson": {
+    "bytes": 27131,
+    "fetched_at": "2026-07-21T16:23:56+00:00",
+    "licence": "CC-BY-SA-4.0",
+    "sha256": "472e9c364b0699274d7340a079e5207e52ac0051100c4160f5c5fe6b20fdb5f7",
+    "url": "http://wfs.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wfs"
+  }
+}

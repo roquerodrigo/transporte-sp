@@ -1,0 +1,38 @@
+---
+/** The sources that fed the current build, with the date of the snapshot actually used. */
+import { CONFIDENCE_LABELS, network } from "@data/network";
+
+const URLS: Record<string, string> = {
+  geosampa: "https://geosampa.prefeitura.sp.gov.br/",
+  gtfs_sptrans: "https://www.sptrans.com.br/desenvolvedores/",
+  osm: "https://www.openstreetmap.org/copyright",
+  wikidata: "https://query.wikidata.org/",
+};
+---
+
+<table>
+  <thead>
+    <tr>
+      <th>Fonte</th>
+      <th>Licença</th>
+      <th>Confiança</th>
+      <th>Coleta usada</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      network.sources.map((source) => (
+        <tr>
+          <td>
+            <a href={URLS[source.id] ?? "#"}>{source.name}</a>
+          </td>
+          <td>{source.licence}</td>
+          <td>
+            {source.confidence} — {CONFIDENCE_LABELS[source.confidence]}
+          </td>
+          <td>{source.fetched_at}</td>
+        </tr>
+      ))
+    }
+  </tbody>
+</table>

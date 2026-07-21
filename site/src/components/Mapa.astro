@@ -1,0 +1,200 @@
+---
+/**
+ * The map, in its three uses: the whole network, one line, one station.
+ *
+ * The basemap is CARTO's raster tiles rather than a vector style, because a vector style
+ * needs either an API key or a self-hosted tile set — neither of which belongs in a static
+ * site meant to be forkable. The network itself is drawn from the project's own GeoJSON.
+ */
+interface Props {
+  /** Only draw this line, and frame the map on it. */
+  linha?: string;
+  /** Centre on this station and mark it. */
+  estacao?: string;
+  centro?: [number, number];
+  zoom?: number;
+  altura?: string;
+  /** Show the projected network alongside the operating one. */
+  futuro?: boolean;
+}
+
+const {
+  linha,
+  estacao,
+  centro = [-46.633, -23.55],
+  zoom = 10,
+  altura = "26rem",
+  futuro = true,
+} = Astro.props;
+
+const dados = `${import.meta.env.BASE_URL}dados/network.geojson`;
+const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
+---
+
+<div
+  class="mapa"
+  id={id}
+  style={`height: ${altura}`}
+  data-fonte={dados}
+  data-linha={linha}
+  data-estacao={estacao}
+  data-centro={JSON.stringify(centro)}
+  data-zoom={zoom}
+  data-futuro={String(futuro)}
+>
+</div>
+
+<noscript>
+  <p>O mapa precisa de JavaScript. Os mesmos dados estão em <code>dados/network.geojson</code>.</p>
+</noscript>
+
+<script>
+  import maplibregl from "maplibre-gl";
+  import "maplibre-gl/dist/maplibre-gl.css";
+
+  const CARTO = {
+    version: 8 as const,
+    sources: {
+      carto: {
+        type: "raster" as const,
+        tiles: [
+          "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png",
+          "https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png",
+        ],
+        tileSize: 256,
+        attribution:
+          '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · ' +
+          '© <a href="https://carto.com/attributions">CARTO</a>',
+      },
+    },
+    layers: [{ id: "carto", type: "raster" as const, source: "carto" }],
+  };
+
+  const DASHED = ["partial", "under_construction", "planned", "proposed"];
+
+  type Feature = GeoJSON.Feature<GeoJSON.Geometry, Record<string, any>>;
+
+  function bounds(features: Feature[]): maplibregl.LngLatBounds | null {
+    let box: maplibregl.LngLatBounds | null = null;
+    const add = (position: number[]) => {
+      const point = position as [number, number];
+      box = box ? box.extend(point) : new maplibregl.LngLatBounds(point, point);
+    };
+    for (const feature of features) {
+      const geometry = feature.geometry;
+      if (geometry.type === "Point") add(geometry.coordinates);
+      if (geometry.type === "MultiLineString") geometry.coordinates.flat().forEach(add);
+      if (geometry.type === "LineString") geometry.coordinates.forEach(add);
+    }
+    return box;
+  }
+
+  async function draw(container: HTMLElement) {
+    const { fonte, linha, estacao, centro, zoom, futuro } = container.dataset;
+    const collection: GeoJSON.FeatureCollection = await fetch(fonte!).then((r) => r.json());
+
+    let features = collection.features as Feature[];
+    if (futuro !== "true") {
+      features = features.filter((feature) => feature.properties.status === "operational");
+    }
+    if (linha) {
+      features = features.filter(
+        (feature) =>
+          feature.properties.id === linha || (feature.properties.lines ?? []).includes(linha),
+      );
+    }
+
+    const focus = estacao
+      ? features.find((feature) => feature.properties.id === estacao)
+      : undefined;
+
+    const map = new maplibregl.Map({
+      container,
+      style: CARTO,
+      center: (((focus?.geometry as GeoJSON.Point)?.coordinates ??
+        JSON.parse(centro!)) as [number, number]),
+      zoom: focus ? 15 : Number(zoom),
+      attributionControl: { compact: true },
+    });
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+
+    map.on("load", () => {
+      map.addSource("rede", { type: "geojson", data: { type: "FeatureCollection", features } });
+
+      map.addLayer({
+        id: "tracado",
+        type: "line",
+        source: "rede",
+        filter: ["==", ["get", "kind"], "line"],
+        layout: { "line-cap": "round", "line-join": "round" },
+        paint: {
+          "line-color": ["coalesce", ["get", "colour"], "#6b7280"],
+          "line-width": ["interpolate", ["linear"], ["zoom"], 8, 1.8, 14, 5],
+          "line-opacity": ["case", ["in", ["get", "status"], ["literal", DASHED]], 0.55, 0.95],
+          "line-dasharray": [
+            "case",
+            ["in", ["get", "status"], ["literal", DASHED]],
+            ["literal", [2, 1.6]],
+            ["literal", [1, 0]],
+          ],
+        },
+      });
+
+      map.addLayer({
+        id: "estacoes",
+        type: "circle",
+        source: "rede",
+        filter: ["==", ["get", "kind"], "station"],
+        paint: {
+          "circle-radius": ["interpolate", ["linear"], ["zoom"], 9, 2.2, 15, 6],
+          "circle-color": "#ffffff",
+          "circle-stroke-width": ["case", ["get", "interchange"], 2.4, 1.4],
+          "circle-stroke-color": "#111827",
+        },
+      });
+
+      if (focus) {
+        map.addLayer({
+          id: "foco",
+          type: "circle",
+          source: "rede",
+          filter: ["==", ["get", "id"], estacao!],
+          paint: {
+            "circle-radius": 9,
+            "circle-color": "#ef4444",
+            "circle-opacity": 0.35,
+            "circle-stroke-width": 2,
+            "circle-stroke-color": "#ef4444",
+          },
+        });
+      } else {
+        const box = bounds(features);
+        if (box) map.fitBounds(box, { padding: 32, maxZoom: 14, animate: false });
+      }
+
+      const popup = new maplibregl.Popup({ closeButton: false, offset: 10 });
+      map.on("mousemove", ["estacoes", "tracado"], (event) => {
+        const feature = event.features?.[0];
+        if (!feature) return;
+        map.getCanvas().style.cursor = "pointer";
+        popup.setLngLat(event.lngLat).setText(String(feature.properties.name)).addTo(map);
+      });
+      map.on("mouseleave", "estacoes", () => {
+        map.getCanvas().style.cursor = "";
+        popup.remove();
+      });
+    });
+  }
+
+  document.querySelectorAll<HTMLElement>(".mapa").forEach(draw);
+</script>
+
+<style>
+  .mapa {
+    width: 100%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-block: 1rem 1.5rem;
+    background: var(--sl-color-gray-6);
+  }
+</style>

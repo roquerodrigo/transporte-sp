@@ -1,0 +1,89 @@
+---
+/** Summary card at the top of a station's page. */
+import Origem from "@components/Origem.astro";
+import {
+  ACCESSIBILITY_LABELS,
+  STATUS_LABELS,
+  stationById,
+  type Sourced,
+  type Station,
+} from "@data/network";
+
+interface Props {
+  estacao: string;
+}
+
+const station = stationById(Astro.props.estacao) as Station;
+const point = station.coordinates.value;
+
+const entries: { label: string; value: string; field?: Sourced<unknown> | null }[] = [
+  { label: "Sigla", value: station.code?.value ?? "—", field: station.code },
+  {
+    label: "Situação",
+    value: STATUS_LABELS[station.status.value] ?? station.status.value,
+    field: station.status,
+  },
+  {
+    label: "Acessibilidade",
+    value: station.accessibility
+      ? (ACCESSIBILITY_LABELS[station.accessibility.value] ?? station.accessibility.value)
+      : "Não informado",
+    field: station.accessibility,
+  },
+  { label: "Inauguração", value: station.opened?.value ?? "—", field: station.opened },
+  {
+    label: "Coordenada",
+    value: `${point.lat.toFixed(5)}, ${point.lon.toFixed(5)}`,
+    field: station.coordinates,
+  },
+  { label: "Baldeação", value: station.is_interchange ? "Sim" : "Não" },
+];
+---
+
+<div class="ficha">
+  <dl>
+    {
+      entries.map((entry) => (
+        <div>
+          <dt>{entry.label}</dt>
+          <dd>
+            {entry.value}
+            {entry.field && <Origem fonte={entry.field.source} nivel={entry.field.confidence} />}
+          </dd>
+        </div>
+      ))
+    }
+  </dl>
+</div>
+
+<style>
+  .ficha {
+    background: var(--sl-color-gray-7);
+    border-radius: 0.4rem;
+    padding: 0.9rem 1.1rem;
+    margin-block: 1rem 1.5rem;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 0.9rem 1.4rem;
+    margin: 0;
+  }
+
+  dt {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--sl-color-gray-3);
+  }
+
+  dd {
+    margin: 0.15rem 0 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    font-weight: 600;
+  }
+</style>

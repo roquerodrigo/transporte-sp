@@ -1,0 +1,24 @@
+---
+title: Divergências
+description: O que as fontes discordam e o reconciliador se recusou a resolver em silêncio.
+---
+
+import TabelaDivergencias from "@components/TabelaDivergencias.astro";
+
+Quando duas fontes discordam além de um limiar, o valor escolhido é publicado normalmente —
+mas a leitura descartada não some. Ela fica aqui, com quem disse o quê.
+
+Vale distinguir dois casos que parecem iguais:
+
+- **Coordenada.** Fontes diferentes colocam a mesma estação em pontos diferentes da mesma
+  plataforma. Até 250 m isso é só onde cada levantamento fincou o ponto; acima disso, algo
+  está errado em alguma delas.
+- **Traçado.** Quase sempre é **cobertura**, não desacordo: o GeoSampa termina na divisa do
+  município. Por isso um traçado do GeoSampa mais curto que o do OpenStreetMap não é
+  reportado como divergência — só o contrário.
+
+<TabelaDivergencias />
+
+Achou um erro nas fontes colaborativas? Corrigir no
+[OpenStreetMap](https://www.openstreetmap.org/) ou no [Wikidata](https://www.wikidata.org/)
+melhora este projeto e todos os outros que consomem os mesmos dados.

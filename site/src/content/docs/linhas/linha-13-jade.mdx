@@ -1,0 +1,35 @@
+---
+title: "Linha 13 - Jade"
+description: "Trem metropolitano · Em operação · 52.003 km"
+sidebar: {"order": 13}
+---
+
+import FichaLinha from "@components/FichaLinha.astro";
+import MapaLinha from "@components/MapaLinha.astro";
+
+<FichaLinha linha="linha-13" />
+
+<MapaLinha linha="linha-13" />
+
+## Estações
+
+| # | Estação | Sigla | Situação | Baldeação |
+| --: | --- | --- | --- | --- |
+| 1 | [Eng. Goulart](/linhas/linha-12-safira/eng-goulart/) | — | Em operação | [Linha 12 - Safira](/linhas/linha-12-safira/) |
+| 2 | [Guarulhos-Cecap](/linhas/linha-13-jade/guarulhos-cecap/) | GCE | Em operação | [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
+| 3 | [Aeroporto-Guarulhos](/linhas/linha-13-jade/aeroporto-guarulhos/) | AGU | Em operação | [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
+
+A ordem das estações vem de GTFS SPTrans.
+
+## Procedência
+
+| Campo | Valor | Fonte | Confiança | Outras leituras |
+| --- | --- | --- | --- | --- |
+| Nome | Jade | GeoSampa | A | — |
+| Situação | Em operação | OpenStreetMap | C | — |
+| Número | 13 | GeoSampa | A | — |
+| Cor | #2CA05A | OpenStreetMap | C | #00B352 (GTFS SPTrans) |
+| Modo | Trem metropolitano | OpenStreetMap | C | — |
+| Operadora | Companhia Paulista de Trens Metropolitanos | OpenStreetMap | C | CPTM (GeoSampa) |
+| Extensão | 52.003 km | GeoSampa | E | — |
+| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |

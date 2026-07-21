@@ -1,0 +1,65 @@
+---
+/**
+ * The provenance badge that follows a value everywhere it is shown.
+ *
+ * It is deliberately unmissable: the point of the project is that no number on the page is
+ * anonymous, so the source travels with the value rather than living in a footnote.
+ */
+import { CONFIDENCE_LABELS, SOURCE_LABELS, type Confidence } from "@data/network";
+
+interface Props {
+  fonte: string;
+  nivel: Confidence;
+}
+
+const { fonte, nivel } = Astro.props;
+const label = SOURCE_LABELS[fonte] ?? fonte;
+---
+
+<span class="origem" data-nivel={nivel} title={`Fonte ${label} — ${CONFIDENCE_LABELS[nivel]}`}>
+  <span class="origem-nivel">{nivel}</span>
+  <span class="origem-fonte">{label}</span>
+</span>
+
+<style>
+  .origem {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    font-size: 0.75em;
+    line-height: 1.4;
+    white-space: nowrap;
+    border-radius: 999px;
+    padding: 0.1em 0.55em 0.1em 0.15em;
+    background: var(--sl-color-gray-6);
+    color: var(--sl-color-gray-2);
+    vertical-align: middle;
+  }
+
+  .origem-nivel {
+    display: inline-grid;
+    place-items: center;
+    width: 1.35em;
+    height: 1.35em;
+    border-radius: 999px;
+    font-weight: 700;
+    color: var(--sl-color-black);
+    background: var(--nivel-cor);
+  }
+
+  .origem[data-nivel="A"] {
+    --nivel-cor: #34d399;
+  }
+  .origem[data-nivel="B"] {
+    --nivel-cor: #60a5fa;
+  }
+  .origem[data-nivel="C"] {
+    --nivel-cor: #fbbf24;
+  }
+  .origem[data-nivel="D"] {
+    --nivel-cor: #fb923c;
+  }
+  .origem[data-nivel="E"] {
+    --nivel-cor: #a78bfa;
+  }
+</style>

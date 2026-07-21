@@ -1,0 +1,67 @@
+---
+/** Everything the reconciler refused to resolve silently. */
+import { SOURCE_LABELS, network, lineById, stationById } from "@data/network";
+import conflicts from "../../public/dados/conflicts.json";
+
+interface Conflict {
+  entity: string;
+  entity_id: string;
+  fieldname: string;
+  chosen: unknown;
+  chosen_source: string;
+  rejected: unknown;
+  rejected_source: string;
+  detail: string;
+}
+
+const FIELD_LABELS: Record<string, string> = {
+  coordinates: "Coordenada",
+  geometry: "Traçado",
+  name: "Nome",
+};
+
+const rows = (conflicts as Conflict[]).map((conflict) => {
+  const entity =
+    conflict.entity === "line" ? lineById(conflict.entity_id) : stationById(conflict.entity_id);
+  return { ...conflict, label: entity?.name.value ?? conflict.entity_id };
+});
+
+const source = (id: string) => SOURCE_LABELS[id] ?? id;
+const show = (value: unknown) =>
+  value && typeof value === "object" && "lat" in (value as any)
+    ? `${(value as any).lat.toFixed(5)}, ${(value as any).lon.toFixed(5)}`
+    : String(value);
+---
+
+<p>
+  {rows.length} divergência(s) na reconciliação de {network.generated_at}.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Entidade</th>
+      <th>Campo</th>
+      <th>Publicado</th>
+      <th>Descartado</th>
+      <th>Detalhe</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      rows.map((row) => (
+        <tr>
+          <td>{row.label}</td>
+          <td>{FIELD_LABELS[row.fieldname] ?? row.fieldname}</td>
+          <td>
+            {show(row.chosen)} <em>({source(row.chosen_source)})</em>
+          </td>
+          <td>
+            {show(row.rejected)} <em>({source(row.rejected_source)})</em>
+          </td>
+          <td>{row.detail}</td>
+        </tr>
+      ))
+    }
+  </tbody>
+</table>

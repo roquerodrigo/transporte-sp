@@ -1,0 +1,18 @@
+# Raw snapshot payloads are re-fetchable and large (the GTFS alone is 14 MB per run).
+# The manifests are committed instead: they carry the URL, the SHA-256 and the timestamp,
+# so any snapshot can be fetched again and verified byte for byte.
+# (git cannot re-include a file whose parent directory is excluded, hence the
+# directory-only negation in the middle)
+data/raw/**
+!data/raw/**/
+!data/raw/**/manifest.json
+
+node_modules/
+dist/
+.astro/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env

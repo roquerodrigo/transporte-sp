@@ -1,0 +1,83 @@
+---
+/** Summary card at the top of a line's page. */
+import Origem from "@components/Origem.astro";
+import {
+  MODE_LABELS,
+  STATUS_LABELS,
+  lineById,
+  lineColour,
+  type Line,
+  type Sourced,
+} from "@data/network";
+
+interface Props {
+  linha: string;
+}
+
+const line = lineById(Astro.props.linha) as Line;
+
+const entries: { label: string; value: string; field?: Sourced<unknown> | null }[] = [
+  { label: "Modo", value: MODE_LABELS[line.mode.value] ?? line.mode.value, field: line.mode },
+  {
+    label: "Situação",
+    value: STATUS_LABELS[line.status.value] ?? line.status.value,
+    field: line.status,
+  },
+  { label: "Operadora", value: line.operator?.value ?? "—", field: line.operator },
+  {
+    label: "Extensão",
+    value: line.length_km ? `${line.length_km.value} km` : "—",
+    field: line.length_km,
+  },
+  { label: "Estações", value: line.stations.length ? String(line.stations.length) : "—" },
+];
+---
+
+<div class="ficha" style={`--linha-cor: ${lineColour(line)}`}>
+  <dl>
+    {
+      entries.map((entry) => (
+        <div>
+          <dt>{entry.label}</dt>
+          <dd>
+            {entry.value}
+            {entry.field && <Origem fonte={entry.field.source} nivel={entry.field.confidence} />}
+          </dd>
+        </div>
+      ))
+    }
+  </dl>
+</div>
+
+<style>
+  .ficha {
+    border-left: 0.35rem solid var(--linha-cor);
+    background: var(--sl-color-gray-7);
+    border-radius: 0.4rem;
+    padding: 0.9rem 1.1rem;
+    margin-block: 1rem 1.5rem;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 0.9rem 1.4rem;
+    margin: 0;
+  }
+
+  dt {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--sl-color-gray-3);
+  }
+
+  dd {
+    margin: 0.15rem 0 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    font-weight: 600;
+  }
+</style>

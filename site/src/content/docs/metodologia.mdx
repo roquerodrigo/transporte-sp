@@ -1,0 +1,76 @@
+---
+title: Metodologia
+description: Como as fontes são coletadas, reconciliadas e classificadas por confiança.
+---
+
+## O caminho do dado
+
+1. **Coleta.** Cada fonte é baixada inteira e gravada em `data/raw/<fonte>/<data>/`, junto
+   de um manifesto com a URL, o SHA-256 e o horário. Isso acontece **antes** de qualquer
+   interpretação, então um build continua reprodutível mesmo quando o portal de origem sai
+   do ar — o que, entre os portais públicos de São Paulo, é frequente.
+2. **Normalização.** Cada fonte vira observações num formato comum. Nada é resolvido aqui:
+   se duas fontes discordam, as duas afirmações seguem adiante.
+3. **Reconciliação.** As observações da mesma estação são agrupadas, e cada campo é
+   decidido por uma regra de precedência declarada.
+4. **Publicação.** O resultado sai com a procedência de cada campo, as leituras
+   descartadas, e as divergências que não foram resolvidas.
+
+## Níveis de confiança
+
+| Nível | Significado | Exemplos |
+| --- | --- | --- |
+| **A** | Oficial primária, estruturada | GeoSampa, GTFS SPTrans |
+| **B** | Oficial secundária ou não estruturada | páginas institucionais, sites de concessionária |
+| **C** | Colaborativa | OpenStreetMap, Wikidata |
+| **D** | Imprensa | datas de obra sem fonte oficial |
+| **E** | Inferido por este projeto | ordem deduzida, situação combinada |
+
+O nível descreve **a fonte daquele campo**, não a página inteira: numa mesma estação a
+coordenada pode ser A e a sigla, C.
+
+## Precedência por campo
+
+Não existe uma fonte melhor em tudo, então a ordem é declarada campo a campo:
+
+| Campo | Ordem de precedência | Por quê |
+| --- | --- | --- |
+| Nome | OSM › Wikidata › GTFS › GeoSampa | o GeoSampa escreve tudo em maiúsculas |
+| Coordenada | GeoSampa › OSM › Wikidata › GTFS | levantamento oficial do município |
+| Sigla | Wikidata › OSM | nenhuma fonte oficial publica a sigla de forma estruturada |
+| Acessibilidade | OSM | é a única que registra |
+| Ordem das estações | GTFS › OSM › inferida | só o GTFS declara a sequência |
+| Traçado | o mais extenso | a divergência costuma ser cobertura, não desacordo |
+
+## Como as estações são agrupadas
+
+A mesma plataforma aparece como `CORINTHIANS-ITAQUERA` no GeoSampa, `Corinthians-Itaquera`
+no GTFS, `Corinthians–Itaquera` (com travessão) no OSM e `Estação Corinthians-Itaquera` no
+Wikidata. Casar pelo nome cru não encontra nenhum desses pares, então três regras rodam em
+ordem de quanto se pode confiar nelas:
+
+1. **Mesmo QID do Wikidata** — o único identificador exato que atravessa fontes.
+2. **Nome normalizado igual dentro do raio de casamento** — o caso comum.
+3. **Um nome contido no outro, num raio menor** — pega `Santo André` e
+   `Prefeito Celso Daniel - Santo André`.
+
+Como o casamento é transitivo, uma corrente de quase-acertos pode juntar duas estações
+diferentes; o que fica longe demais do centro do grupo é separado de volta.
+
+Estações de baldeação viram **uma** estação com várias linhas — a Sé chegando pela Linha 1
+e pela Linha 3 é uma estação, não duas.
+
+## Situação combinada
+
+Uma linha que o GeoSampa ainda lista apenas como projetada mas que o OSM já mapeia como
+rota em operação está **parcialmente aberta** — foi o caso das Linhas 6-Laranja e 17-Ouro
+em 2026. A dedução só vale onde o GeoSampa cobre a linha, para não rebaixar o VLT da
+Baixada Santista, que está fora do município e portanto fora do GeoSampa. Onde ela é
+aplicada, a situação é publicada com nível **E** e as duas leituras originais ficam
+registradas.
+
+## O que não entra
+
+Horários e previsão de chegada (não existe GTFS-Realtime público em São Paulo, e a grade
+dos trilhos não está no GTFS), tarifas (mudam por decreto e envelhecem mal) e as linhas de
+ônibus municipais e metropolitanas, que não são transporte de massa sobre corredor próprio.

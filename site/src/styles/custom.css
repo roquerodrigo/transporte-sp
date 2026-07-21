@@ -1,0 +1,20 @@
+:root {
+  --sl-content-width: 55rem;
+}
+
+/* The station and provenance tables are the substance of most pages: give them room and
+   keep them scrollable on a phone instead of squeezing the columns. */
+.sl-markdown-content table {
+  display: block;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
+.sl-markdown-content th {
+  white-space: nowrap;
+}
+
+.maplibregl-popup-content {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.6rem;
+}

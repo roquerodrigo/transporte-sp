@@ -1,0 +1,52 @@
+---
+title: Fontes
+description: O que cada fonte fornece, sob qual licença, e quando foi coletada.
+---
+
+import TabelaFontes from "@components/TabelaFontes.astro";
+
+<TabelaFontes />
+
+## O que cada uma resolve — e o que não resolve
+
+### GeoSampa — Prefeitura de São Paulo
+
+WFS público, sem cadastro, devolvendo GeoJSON direto e já reprojetado para WGS84. É a única
+fonte estruturada da **rede projetada**: linhas e estações que ainda não existem, com a
+situação de cada uma. Também é a coordenada mais precisa que se consegue.
+
+Limitação decisiva: cobre apenas o **município** de São Paulo. Fora dele — ABC, Guarulhos,
+Osasco, Jundiaí, a Baixada — não há nada, e por isso o traçado das linhas metropolitanas
+vem do OpenStreetMap.
+
+### GTFS SPTrans
+
+Ao contrário do que se costuma repetir, este feed não é só de ônibus: traz as linhas de
+metrô e de trem, com a **ordem das estações por sentido** e o traçado. É a única fonte que
+declara a sequência, e por isso ela manda em toda linha que o feed alcança.
+
+Não traz as Linhas 6-Laranja e 17-Ouro, não tem `parent_station` nem acessibilidade, e as
+rotas de trilho têm uma viagem por sentido — não há grade horária para ler.
+
+### OpenStreetMap
+
+A única cobertura da região metropolitana inteira, e a única que já mapeia o que abriu em
+2026. As relações de rota trazem os pontos de parada **em ordem**, o que dá a sequência das
+linhas ausentes do GTFS.
+
+Fraca em acessibilidade e sem nenhum corredor de BRT da região mapeado como tal.
+
+### Wikidata
+
+Usado para o que nenhuma fonte oficial publica de forma legível por máquina: a **sigla
+oficial** da estação e a data de inauguração.
+
+A cobertura é desigual de propósito no reconciliador: ótima para o metrô, ruim para os
+trens metropolitanos, onde a propriedade de linha costuma apontar para a ferrovia histórica
+em vez da linha comercial. Referências de linha vindas daqui são tratadas como pista, nunca
+como atribuição.
+
+## Atribuição
+
+Os dados publicados derivam do OpenStreetMap (ODbL) e do GeoSampa (CC-BY-SA 4.0), e por
+isso são distribuídos sob **ODbL 1.0**. O código é MIT.

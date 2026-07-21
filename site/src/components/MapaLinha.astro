@@ -1,0 +1,9 @@
+---
+import Mapa from "@components/Mapa.astro";
+
+interface Props {
+  linha: string;
+}
+---
+
+<Mapa linha={Astro.props.linha} altura="22rem" />

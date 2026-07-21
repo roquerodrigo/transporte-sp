@@ -1,0 +1,63 @@
+name: Refresh data
+
+# The network changes on its own schedule: a line opens a first stretch, an operator is
+# replaced, a station is renamed. A manual pipeline does not survive six months of that, so
+# the sources are re-read weekly and any difference arrives as a pull request to review.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - run: uv sync --dev
+        working-directory: pipeline
+
+      # A source being unreachable is routine — several of the public portals go down for
+      # days. Carry on with whatever was fetched plus the previous snapshots.
+      - name: Fetch the sources
+        run: uv run transporte-sp fetch || true
+        working-directory: pipeline
+
+      - name: Reconcile
+        run: uv run transporte-sp build
+        working-directory: pipeline
+
+      - name: Validate
+        run: uv run transporte-sp validate
+        working-directory: pipeline
+
+      - name: Regenerate the site content
+        run: uv run transporte-sp pages
+        working-directory: pipeline
+
+      - name: Summarise what changed
+        id: summary
+        run: |
+          {
+            echo 'body<<REPORT'
+            echo 'Coleta semanal das fontes. Diferenças em relação ao conjunto publicado:'
+            echo
+            echo '```'
+            git diff --stat -- data site | tail -40
+            echo '```'
+            echo REPORT
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: chore/refresh-data
+          title: "chore(data): weekly source refresh"
+          body: ${{ steps.summary.outputs.body }}
+          commit-message: "chore(data): weekly source refresh"
+          delete-branch: true

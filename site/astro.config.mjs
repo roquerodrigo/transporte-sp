@@ -1,6 +1,8 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
+import { rehypeBasePath } from "./src/plugins/rehype-base-path.mjs";
+
 // `site` and `base` follow the GitHub Pages project URL. Both are overridable so a fork
 // can publish under its own account without editing the config.
 const site = process.env.SITE_URL ?? "https://roquerodrigo.github.io";
@@ -10,6 +12,9 @@ export default defineConfig({
   site,
   base,
   trailingSlash: "always",
+  markdown: {
+    rehypePlugins: [rehypeBasePath(base)],
+  },
   integrations: [
     starlight({
       title: "Transporte SP",

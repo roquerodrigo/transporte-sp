@@ -364,6 +364,10 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
         closeButton: false,
         offset: 12,
         className: "mapa-popup",
+        // MapLibre focuses a popup's content when it opens, which is right for a popup you
+        // clicked open and wrong for one that follows the cursor: it drew a focus ring
+        // around the name on every hover, and stole focus from whatever the reader was on.
+        focusAfterOpen: false,
       });
 
       map.on("mousemove", ["estacoes", "tracado"], (event) => {
@@ -382,8 +386,10 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
         popup.remove();
       });
 
-      // The popup is a hover hint and cannot be reached with the pointer, so the feature
-      // itself is the link: clicking anywhere on a station or a line opens its page.
+      // The popup follows the cursor and cannot be reached with the pointer, so the feature
+      // itself is the link: clicking anywhere on a station or a line opens its page. The map
+      // is a visual aid — reading the network by keyboard goes through the tables and the
+      // search, which cover every line and station.
       map.on("click", ["estacoes", "tracado"], (event) => {
         const feature = alvoDe(event.features as NetworkFeature[] | undefined);
         if (feature) location.href = enderecoDe(feature);

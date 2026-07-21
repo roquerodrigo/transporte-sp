@@ -78,3 +78,33 @@ def test_the_longer_alignment_wins_and_the_clipped_one_is_kept_as_an_alternative
     assert [item.source for item in lines[0].geometry.alternatives] == ["geosampa"]
     # GeoSampa covering less is its documented extent, not a disagreement worth reporting.
     assert conflicts == []
+
+
+def test_a_station_osm_serves_is_running_even_if_geosampa_calls_it_projected():
+    """The station-level counterpart of the `partial` line status."""
+    from transporte_sp.merge.lines import _mark_running
+    from transporte_sp.model import Sourced
+
+    class FakeStation:
+        def __init__(self):
+            self.status = Sourced[str](value="planned", source="geosampa", confidence="A")
+
+    station = FakeStation()
+    _mark_running(["x"], {"x": station})
+    assert station.status.value == "operational"
+    assert station.status.confidence == "E"
+    assert station.status.alternatives[0].value == "planned"
+
+
+def test_a_station_already_running_is_left_alone():
+    from transporte_sp.merge.lines import _mark_running
+    from transporte_sp.model import Sourced
+
+    class FakeStation:
+        def __init__(self):
+            self.status = Sourced[str](value="operational", source="geosampa", confidence="A")
+
+    station = FakeStation()
+    _mark_running(["x"], {"x": station})
+    assert station.status.source == "geosampa"
+    assert station.status.alternatives == []

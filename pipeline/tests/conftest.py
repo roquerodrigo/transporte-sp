@@ -171,13 +171,32 @@ def osm_snapshot(data_dir: Path) -> Path:
                           {"lat": -23.5400, "lon": -46.4850}]},
         ],
     }
+    # Line 6 mirrors the real one: OSM maps the stretch that already runs, while GeoSampa
+    # still lists every station of the line as projected.
+    parcial = {
+        "type": "relation",
+        "id": 300,
+        "tags": {"name": "Linha 6 - Laranja: Brasilândia ⇒ Itaberaba", "ref": "6",
+                 "route": "subway", "operator": "Linha Uni", "network": "Metrô de São Paulo"},
+        "members": [
+            {"type": "node", "ref": 6, "role": "stop", "lat": -23.4900, "lon": -46.6800},
+            {"type": "way", "ref": 60, "role": "",
+             "geometry": [{"lat": -23.4900, "lon": -46.6800},
+                          {"lat": -23.4950, "lon": -46.6750}]},
+        ],
+    }
     tourist = {
         "type": "relation",
         "id": 200,
         "tags": {"name": "Bonde Turístico de Santos", "route": "tram"},
         "members": [],
     }
-    _store(data_dir, "osm", "routes.json", json.dumps({"elements": [route, tourist]}).encode())
+    _store(
+        data_dir,
+        "osm",
+        "routes.json",
+        json.dumps({"elements": [route, parcial, tourist]}).encode(),
+    )
     _store(data_dir, "osm", "stations.json", json.dumps({"elements": [
         {"type": "node", "id": 1, "lat": -23.5423, "lon": -46.4711,
          "tags": {"name": "Corinthians–Itaquera", "railway": "station", "ref": "ITQ",

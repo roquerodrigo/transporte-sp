@@ -82,6 +82,20 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
 
   const DASHED = ["partial", "under_construction", "planned", "proposed"];
 
+  const MODOS: Record<string, string> = {
+    subway: "Metrô",
+    monorail: "Monotrilho",
+    commuter_rail: "Trem metropolitano",
+    intercity_rail: "Trem intercidades",
+    lrt: "VLT",
+    people_mover: "Aeromóvel",
+    brt: "BRT e corredores",
+  };
+
+  const ORDEM_MODOS = [
+    "subway", "monorail", "commuter_rail", "intercity_rail", "lrt", "people_mover", "brt",
+  ];
+
   type NetworkFeature = Feature<Geometry, Record<string, any>>;
 
   function bounds(features: NetworkFeature[]): maplibregl.LngLatBounds | null {
@@ -97,6 +111,46 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
       if (geometry.type === "LineString") geometry.coordinates.forEach(add);
     }
     return box;
+  }
+
+  /**
+   * A checkbox per mode present in the data.
+   *
+   * Built as a MapLibre control rather than markup next to the map so it survives going
+   * full screen — in full screen the map element is the only thing on the page, and
+   * anything outside it disappears.
+   */
+  class ControleModos implements maplibregl.IControl {
+    private readonly container = document.createElement("div");
+
+    constructor(
+      private readonly modos: string[],
+      private readonly aoMudar: (visiveis: Set<string>) => void,
+    ) {}
+
+    onAdd(): HTMLElement {
+      const visiveis = new Set(this.modos);
+      this.container.className = "maplibregl-ctrl maplibregl-ctrl-group filtro-modos";
+      this.container.innerHTML = `<p class="filtro-titulo">Exibir</p>`;
+
+      for (const modo of this.modos) {
+        const label = document.createElement("label");
+        const caixa = document.createElement("input");
+        caixa.type = "checkbox";
+        caixa.checked = true;
+        caixa.addEventListener("change", () => {
+          caixa.checked ? visiveis.add(modo) : visiveis.delete(modo);
+          this.aoMudar(visiveis);
+        });
+        label.append(caixa, document.createTextNode(MODOS[modo] ?? modo));
+        this.container.append(label);
+      }
+      return this.container;
+    }
+
+    onRemove(): void {
+      this.container.remove();
+    }
   }
 
   async function draw(container: HTMLElement) {
@@ -127,6 +181,54 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
       attributionControl: { compact: true },
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    map.addControl(new maplibregl.FullscreenControl(), "top-right");
+
+    // Only offer a filter where there is something to filter: a single line's map has one
+    // mode, and the control would be noise.
+    const modosDe = (feature: NetworkFeature): string[] =>
+      feature.properties.kind === "line"
+        ? [feature.properties.mode]
+        : (feature.properties.modes ?? []);
+    const modos = ORDEM_MODOS.filter((modo) =>
+      features.some((feature) => modosDe(feature).includes(modo)),
+    );
+    let visiveis = new Set(modos);
+    if (!linha && modos.length > 1) {
+      map.addControl(
+        new ControleModos(modos, (selecionados) => {
+          visiveis = selecionados;
+          aplicarFiltro();
+        }),
+        "top-left",
+      );
+    }
+
+    /**
+     * Hide whole modes by filtering the layers, so nothing is re-fetched or rebuilt.
+     *
+     * A line carries one mode; a station carries the modes of every line serving it, so it
+     * stays on the map while any of them is visible. There is no array-intersection
+     * expression in MapLibre, hence the explicit `any` over the selected modes.
+     */
+    const aplicarFiltro = () => {
+      const selecionados = modos.filter((modo) => visiveis.has(modo));
+      if (map.getLayer("tracado")) {
+        map.setFilter("tracado", [
+          "all",
+          ["==", ["get", "kind"], "line"],
+          ["in", ["get", "mode"], ["literal", selecionados]],
+        ]);
+      }
+      if (map.getLayer("estacoes")) {
+        // Built dynamically, so the literal type does not line up with the spec union.
+        const porModo = selecionados.map((modo) => ["in", modo, ["get", "modes"]]);
+        map.setFilter("estacoes", [
+          "all",
+          ["==", ["get", "kind"], "station"],
+          ["any", ...porModo],
+        ] as unknown as maplibregl.FilterSpecification);
+      }
+    };
 
     // Swapping the style drops every custom layer, so they are added again on each change.
     new MutationObserver(() => {
@@ -174,6 +276,9 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
         },
       });
 
+      // Re-applied here because a basemap swap drops the layers and their filters with them.
+      aplicarFiltro();
+
       if (focus) {
         map.addLayer({
           id: "foco",
@@ -213,7 +318,50 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
   document.querySelectorAll<HTMLElement>(".mapa").forEach(draw);
 </script>
 
+<style is:global>
+  /* The mode filter is created by MapLibre at runtime, so it never receives the scope
+     attribute Astro adds to markup in this file — these rules have to be global. */
+  .filtro-modos {
+    padding: 0.5rem 0.65rem;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    background: var(--sl-color-bg);
+    color: var(--sl-color-text);
+    max-width: 12rem;
+  }
+
+  .filtro-modos .filtro-titulo {
+    margin: 0 0 0.3rem;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--sl-color-gray-3);
+  }
+
+  .filtro-modos label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .filtro-modos input {
+    accent-color: var(--sl-color-accent);
+    margin: 0;
+  }
+
+</style>
+
 <style>
+  /* In full screen the map covers the page, so the panel needs the page's own background
+     rather than inheriting whatever sat behind it in the article. */
+  .mapa:fullscreen {
+    border-radius: 0;
+    border: 0;
+  }
+
   .mapa {
     width: 100%;
     border-radius: 0.5rem;

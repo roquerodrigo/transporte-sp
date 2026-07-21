@@ -82,6 +82,7 @@ def geojson(network: Network, simplify_m: float = 0.0) -> dict:
                 },
             }
         )
+    modes_by_line = {line.id: line.mode.value for line in network.lines}
     for station in network.stations:
         features.append(
             {
@@ -96,6 +97,11 @@ def geojson(network: Network, simplify_m: float = 0.0) -> dict:
                     "slug": station.slug,
                     "name": station.name.value,
                     "lines": station.lines,
+                    # The map filters by mode, and a station inherits the modes of the
+                    # lines that serve it — an interchange can be metro and commuter rail.
+                    "modes": sorted(
+                        {modes_by_line[line] for line in station.lines if line in modes_by_line}
+                    ),
                     "status": station.status.value,
                     "code": station.code.value if station.code else None,
                     "interchange": station.is_interchange,

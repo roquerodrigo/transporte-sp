@@ -135,26 +135,7 @@ def _line_page(line: Line, network: Network, stations, canonical) -> str:
         f" · {line.length_km.value} km" if line.length_km else ""
     )
 
-    rows = []
-    for position, station_id in enumerate(line.stations, start=1):
-        station = stations.get(station_id)
-        if station is None:
-            continue
-        owner = canonical.get(station.id)
-        href = f"/linhas/{owner.slug}/{station.slug}/" if owner else ""
-        others = [
-            other for other in station.lines if other != line.id
-        ]
-        rows.append(
-            "| {} | [{}]({}) | {} | {} | {} |".format(
-                position,
-                station.name.value,
-                href,
-                station.code.value if station.code else "—",
-                STATUS_LABELS.get(station.status.value, station.status.value),
-                ", ".join(_line_label(network, other) for other in others) or "—",
-            )
-        )
+    sections = _station_sections(line, network, stations, canonical)
 
     body = [
         _frontmatter(
@@ -173,12 +154,19 @@ def _line_page(line: Line, network: Network, stations, canonical) -> str:
         "## Estações",
         "",
     ]
-    if rows:
+    if sections:
+        for heading, rows in sections:
+            # A line whose stations are all in the same state needs no section headings;
+            # only 6-Laranja, 17-Ouro and the projected lines have more than one.
+            if heading:
+                body += [f"### {heading}", ""]
+            body += [
+                "| # | Estação | Sigla | Situação | Baldeação |",
+                "| --: | --- | --- | --- | --- |",
+                *rows,
+                "",
+            ]
         body += [
-            "| # | Estação | Sigla | Situação | Baldeação |",
-            "| --: | --- | --- | --- | --- |",
-            *rows,
-            "",
             f"A ordem das estações vem de {SOURCE_LABELS.get(line.station_order.source, '—')}."
             if line.station_order
             else "",
@@ -190,6 +178,47 @@ def _line_page(line: Line, network: Network, stations, canonical) -> str:
         )
     body += ["", "## Procedência", "", _provenance_table(line)]
     return "\n".join(body) + "\n"
+
+
+# The order sections appear in when a line mixes them: what runs today comes first.
+STATUS_ORDER = ["operational", "partial", "under_construction", "planned", "proposed", "closed"]
+
+
+def _station_sections(line: Line, network: Network, stations, canonical):
+    """The station table, split by state when the line has more than one.
+
+    Lines 6-Laranja and 17-Ouro run a first stretch while the rest is still being built, and
+    the eight projected lines exist only on paper. Listing forty stations in one table hides
+    exactly the thing a reader is looking for — which of them you can actually board today.
+    """
+    grouped: dict[str, list[str]] = {}
+    for position, station_id in enumerate(line.stations, start=1):
+        station = stations.get(station_id)
+        if station is None:
+            continue
+        owner = canonical.get(station.id)
+        href = f"/linhas/{owner.slug}/{station.slug}/" if owner else ""
+        others = [other for other in station.lines if other != line.id]
+        row = "| {} | [{}]({}) | {} | {} | {} |".format(
+            position,
+            station.name.value,
+            href,
+            station.code.value if station.code else "—",
+            STATUS_LABELS.get(station.status.value, station.status.value),
+            ", ".join(_line_label(network, other) for other in others) or "—",
+        )
+        grouped.setdefault(station.status.value, []).append(row)
+
+    if not grouped:
+        return []
+    order = [status for status in STATUS_ORDER if status in grouped]
+    order += [status for status in grouped if status not in STATUS_ORDER]
+    if len(order) == 1:
+        return [("", grouped[order[0]])]
+    return [
+        (f"{STATUS_LABELS.get(status, status)} ({len(grouped[status])})", grouped[status])
+        for status in order
+    ]
 
 
 def _line_label(network: Network, line_id: str) -> str:
@@ -294,27 +323,59 @@ def _readable(value, fieldname: str = "") -> str:
     return vocabulary.get(text, text) if vocabulary else text
 
 
+# Heaviest mode first: the reader looking for "the metro" should not scroll past 22 bus
+# corridors to find it.
+MODE_ORDER = [
+    "subway",
+    "monorail",
+    "commuter_rail",
+    "intercity_rail",
+    "lrt",
+    "people_mover",
+    "brt",
+]
+
+
 def _index_page(network: Network) -> str:
-    rows = ["| Linha | Modo | Situação | Estações | Extensão |",
-            "| --- | --- | --- | --: | --: |"]
+    """The line index, in a section per mode.
+
+    A single 46-row table mixes six metro lines with 22 bus corridors, which are not the
+    same kind of thing and are almost never looked up together. The sections use the same
+    vocabulary as the filter on the network map.
+    """
+    grouped: dict[str, list[Line]] = {}
     for line in network.lines:
-        number = line.number.value if line.number else None
-        label = f"Linha {number} - {line.name.value}" if number else line.name.value
-        rows.append(
-            f"| [{label}](/linhas/{line.slug}/) | "
-            f"{MODE_LABELS.get(line.mode.value, line.mode.value)} | "
-            f"{STATUS_LABELS.get(line.status.value, line.status.value)} | "
-            f"{len(line.stations) or '—'} | "
-            f"{f'{line.length_km.value} km' if line.length_km else '—'} |"
-        )
+        grouped.setdefault(line.mode.value, []).append(line)
+    order = [mode for mode in MODE_ORDER if mode in grouped]
+    order += [mode for mode in grouped if mode not in MODE_ORDER]
+
+    body = []
+    for mode in order:
+        lines = grouped[mode]
+        body += [
+            f"## {MODE_LABELS.get(mode, mode)} ({len(lines)})",
+            "",
+            "| Linha | Situação | Estações | Extensão |",
+            "| --- | --- | --: | --: |",
+        ]
+        for line in lines:
+            number = line.number.value if line.number else None
+            label = f"Linha {number} - {line.name.value}" if number else line.name.value
+            body.append(
+                f"| [{label}](/linhas/{line.slug}/) | "
+                f"{STATUS_LABELS.get(line.status.value, line.status.value)} | "
+                f"{len(line.stations) or '—'} | "
+                f"{f'{line.length_km.value} km' if line.length_km else '—'} |"
+            )
+        body.append("")
+
     return "\n".join([
         _frontmatter("Linhas", "Todas as linhas de transporte de massa da região metropolitana"),
         "",
         f"{len(network.lines)} linhas e {len(network.stations)} estações, "
         f"reconciliadas em {network.generated_at.isoformat()}.",
         "",
-        *rows,
-        "",
+        *body,
     ]) + "\n"
 
 

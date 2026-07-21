@@ -18,9 +18,21 @@ const linhas = JSON.parse(
   readFileSync(new URL("./src/data/sidebar.json", import.meta.url), "utf8"),
 );
 
+// Station pages used to live under the line that served them. They now sit at
+// `/estacao/<slug>/`, and every previous address is kept working.
+// The generated map is base-agnostic, like every other path the pipeline writes; the
+// destination is prefixed here, where the base is known. Astro resolves the source patterns
+// against the base on its own, but not the targets.
+const redirects = Object.fromEntries(
+  Object.entries(
+    JSON.parse(readFileSync(new URL("./src/data/redirects.json", import.meta.url), "utf8")),
+  ).map(([de, para]) => [de, `${base.replace(/\/$/, "")}${para}/`]),
+);
+
 export default defineConfig({
   site,
   base,
+  redirects,
   trailingSlash: "always",
   markdown: {
     processor: unified({ rehypePlugins: [rehypeBasePath(base)] }),
@@ -67,7 +79,7 @@ export default defineConfig({
       sidebar: [
         { label: "Mapa da rede", link: "/mapa/" },
         { label: "Todas as linhas", link: "/linhas/" },
-        { label: "Linhas e estações", items: linhas },
+        ...linhas,
         {
           label: "Sobre os dados",
           items: [

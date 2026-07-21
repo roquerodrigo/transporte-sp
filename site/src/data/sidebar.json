@@ -1,0 +1,186 @@
+[
+ {
+  "label": "Linha 1 - Azul",
+  "link": "/linhas/linha-1-azul/"
+ },
+ {
+  "label": "Linha 2 - Verde",
+  "link": "/linhas/linha-2-verde/"
+ },
+ {
+  "label": "Linha 3 - Vermelha",
+  "link": "/linhas/linha-3-vermelha/"
+ },
+ {
+  "label": "Linha 4 - Amarela",
+  "link": "/linhas/linha-4-amarela/"
+ },
+ {
+  "label": "Linha 5 - Lilas",
+  "link": "/linhas/linha-5-lilas/"
+ },
+ {
+  "label": "Linha 6 - Laranja",
+  "link": "/linhas/linha-6-laranja/"
+ },
+ {
+  "label": "Linha 7 - Rubi",
+  "link": "/linhas/linha-7-rubi/"
+ },
+ {
+  "label": "Linha 8 - Diamante",
+  "link": "/linhas/linha-8-diamante/"
+ },
+ {
+  "label": "Linha 9 - Esmeralda",
+  "link": "/linhas/linha-9-esmeralda/"
+ },
+ {
+  "label": "Linha 10 - Turquesa",
+  "link": "/linhas/linha-10-turquesa/"
+ },
+ {
+  "label": "Linha 11 - Coral",
+  "link": "/linhas/linha-11-coral/"
+ },
+ {
+  "label": "Linha 12 - Safira",
+  "link": "/linhas/linha-12-safira/"
+ },
+ {
+  "label": "Linha 13 - Jade",
+  "link": "/linhas/linha-13-jade/"
+ },
+ {
+  "label": "Linha 14 - Onix",
+  "link": "/linhas/linha-14-onix/"
+ },
+ {
+  "label": "Linha 15 - Prata",
+  "link": "/linhas/linha-15-prata/"
+ },
+ {
+  "label": "Linha 16 - Violeta",
+  "link": "/linhas/linha-16-violeta/"
+ },
+ {
+  "label": "Linha 17 - Ouro",
+  "link": "/linhas/linha-17-ouro/"
+ },
+ {
+  "label": "Linha 19 - Celeste",
+  "link": "/linhas/linha-19-celeste/"
+ },
+ {
+  "label": "Linha 20 - Rosa",
+  "link": "/linhas/linha-20-rosa/"
+ },
+ {
+  "label": "Linha 22 - Marrom",
+  "link": "/linhas/linha-22-marrom/"
+ },
+ {
+  "label": "Aeromóvel GRU",
+  "link": "/linhas/aeromovel-gru/"
+ },
+ {
+  "label": "Alphaville - Campo Limpo",
+  "link": "/linhas/alphaville-campo-limpo/"
+ },
+ {
+  "label": "Corredor Berrini",
+  "link": "/linhas/corredor-berrini/"
+ },
+ {
+  "label": "Corredor Campo Limpo / Rebouças / Centro",
+  "link": "/linhas/corredor-campo-limpo-reboucas-centro/"
+ },
+ {
+  "label": "Corredor Expresso Tiradentes",
+  "link": "/linhas/corredor-expresso-tiradentes/"
+ },
+ {
+  "label": "Corredor Inajar / Rio Branco / Centro",
+  "link": "/linhas/corredor-inajar-rio-branco-centro/"
+ },
+ {
+  "label": "Corredor Inajar / Rio Branco / Centro - Trecho Rudge",
+  "link": "/linhas/corredor-inajar-rio-branco-centro-trecho-rudge/"
+ },
+ {
+  "label": "Corredor Inajar - Trecho Ordem e Progresso",
+  "link": "/linhas/corredor-inajar-trecho-ordem-e-progresso/"
+ },
+ {
+  "label": "Corredor Itapecerica / João Dias / Santo Amaro",
+  "link": "/linhas/corredor-itapecerica-joao-dias-santo-amaro/"
+ },
+ {
+  "label": "Corredor Itaquera / Líder",
+  "link": "/linhas/corredor-itaquera-lider/"
+ },
+ {
+  "label": "Corredor Jardim Ângela / Guarapiranga / Santo Amaro",
+  "link": "/linhas/corredor-jardim-angela-guarapiranga-santo-amaro/"
+ },
+ {
+  "label": "Corredor Jose Diniz / Ibirapuera / Santa Cruz",
+  "link": "/linhas/corredor-jose-diniz-ibirapuera-santa-cruz/"
+ },
+ {
+  "label": "Corredor Paes de Barros",
+  "link": "/linhas/corredor-paes-de-barros/"
+ },
+ {
+  "label": "Corredor Parelheiros / Rio Bonito / Santo Amaro",
+  "link": "/linhas/corredor-parelheiros-rio-bonito-santo-amaro/"
+ },
+ {
+  "label": "Corredor Pirituba / Lapa / Centro",
+  "link": "/linhas/corredor-pirituba-lapa-centro/"
+ },
+ {
+  "label": "Corredor Ponte Baixa",
+  "link": "/linhas/corredor-ponte-baixa/"
+ },
+ {
+  "label": "Corredor Santo Amaro / 9 de Julho / Centro",
+  "link": "/linhas/corredor-santo-amaro-9-de-julho-centro/"
+ },
+ {
+  "label": "Corredor Santo Amaro / 9 de Julho / Centro - Trecho Cidade Jardim",
+  "link": "/linhas/corredor-santo-amaro-9-de-julho-centro-trecho-cidade-jardim/"
+ },
+ {
+  "label": "Emtu Abd",
+  "link": "/linhas/emtu-abd/"
+ },
+ {
+  "label": "EMTU Alto Tiete",
+  "link": "/linhas/emtu-alto-tiete/"
+ },
+ {
+  "label": "EMTU BRT ABC Paulista",
+  "link": "/linhas/emtu-brt-abc-paulista/"
+ },
+ {
+  "label": "EMTU Corredor Metropolitano Guarulhos - São Paulo",
+  "link": "/linhas/emtu-corredor-metropolitano-guarulhos-sao-paulo/"
+ },
+ {
+  "label": "EMTU Itapevi - São Paulo",
+  "link": "/linhas/emtu-itapevi-sao-paulo/"
+ },
+ {
+  "label": "Expresso Aeroporto",
+  "link": "/linhas/expresso-aeroporto/"
+ },
+ {
+  "label": "Linha L1 - VLT Linha 1",
+  "link": "/linhas/vlt-linha-1/"
+ },
+ {
+  "label": "Linha L2 - VLT Linha 2",
+  "link": "/linhas/vlt-linha-2/"
+ }
+]

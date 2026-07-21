@@ -1,0 +1,16 @@
+---
+/**
+ * Starlight's `<head>`, plus the one script every page needs.
+ *
+ * Overriding `Head` is the least invasive way to load a site-wide script: it renders the
+ * default component untouched and only appends. The active theme overrides sixteen other
+ * components but not this one, so nothing collides.
+ */
+import Default from "@astrojs/starlight/components/Head.astro";
+---
+
+<Default><slot /></Default>
+
+<script>
+  import "../scripts/wrap-tables";
+</script>

@@ -174,8 +174,10 @@ def _display_name(group: list[LineObservation]) -> dict:
         }
     named = _ordered(group, "name")
     winner = named[0]
+    # The bus-corridor names come out of GeoSampa in capitals, like everything else there.
+    name = base_name(winner.name)
     return {
-        "value": base_name(winner.name),
+        "value": title_case(name) if name.isupper() else name,
         "source": winner.source,
         "confidence": confidence(winner.source),
     }

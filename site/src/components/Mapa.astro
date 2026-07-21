@@ -55,23 +55,30 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
   // The GeoJSON types are no longer ambient, so they are imported explicitly.
   import type { Feature, FeatureCollection, Geometry, Point } from "geojson";
 
-  const CARTO = {
-    version: 8 as const,
-    sources: {
-      carto: {
-        type: "raster" as const,
-        tiles: [
-          "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png",
-          "https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png",
-        ],
-        tileSize: 256,
-        attribution:
-          '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · ' +
-          '© <a href="https://carto.com/attributions">CARTO</a>',
+  /** CARTO ships a light and a dark basemap; the map follows whichever theme is active. */
+  const basemap = (dark: boolean) => {
+    const variant = dark ? "dark_all" : "light_all";
+    return {
+      version: 8 as const,
+      sources: {
+        carto: {
+          type: "raster" as const,
+          tiles: ["a", "b"].map(
+            (host) => `https://${host}.basemaps.cartocdn.com/${variant}/{z}/{x}/{y}@2x.png`,
+          ),
+          tileSize: 256,
+          attribution:
+            '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · ' +
+            '© <a href="https://carto.com/attributions">CARTO</a>',
+        },
       },
-    },
-    layers: [{ id: "carto", type: "raster" as const, source: "carto" }],
+      layers: [{ id: "carto", type: "raster" as const, source: "carto" }],
+    };
   };
+
+  const isDark = () =>
+    (document.documentElement.dataset.theme ??
+      (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
 
   const DASHED = ["partial", "under_construction", "planned", "proposed"];
 
@@ -113,7 +120,7 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
 
     const map = new maplibregl.Map({
       container,
-      style: CARTO,
+      style: basemap(isDark()),
       center: (((focus?.geometry as Point)?.coordinates ??
         JSON.parse(centro!)) as [number, number]),
       zoom: focus ? 15 : Number(zoom),
@@ -121,7 +128,18 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
 
-    map.on("load", () => {
+    // Swapping the style drops every custom layer, so they are added again on each change.
+    new MutationObserver(() => {
+      const wanted = basemap(isDark());
+      if (JSON.stringify(map.getStyle().sources) !== JSON.stringify(wanted.sources)) {
+        map.setStyle(wanted, { diff: false });
+      }
+    }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+    // `style.load` fires again after every basemap swap, so the layers are re-added each
+    // time while the framing and the event handlers are set up only once.
+    let primeiraCarga = true;
+    map.on("style.load", () => {
       map.addSource("rede", { type: "geojson", data: { type: "FeatureCollection", features } });
 
       map.addLayer({
@@ -170,10 +188,13 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
             "circle-stroke-color": "#ef4444",
           },
         });
-      } else {
+      } else if (primeiraCarga) {
         const box = bounds(features);
         if (box) map.fitBounds(box, { padding: 32, maxZoom: 14, animate: false });
       }
+
+      if (!primeiraCarga) return;
+      primeiraCarga = false;
 
       const popup = new maplibregl.Popup({ closeButton: false, offset: 10 });
       map.on("mousemove", ["estacoes", "tracado"], (event) => {

@@ -14,10 +14,12 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import shutil
 from pathlib import Path
 
 from transporte_sp.config import PROJECT_ROOT
+from transporte_sp.export.formato import data, numero, quilometros
 from transporte_sp.model import Line, Network, Station
 
 log = logging.getLogger(__name__)
@@ -66,15 +68,16 @@ SOURCE_LABELS = {
 
 
 def write_all(network: Network) -> None:
-    _reset(CONTENT_DIR / "linhas")
-    _reset(CONTENT_DIR / "estacao")
     BUILD_DATA_DIR.mkdir(parents=True, exist_ok=True)
     stations = {station.id: station for station in network.stations}
 
+    escritos: set[Path] = set()
     for line in network.lines:
-        _write(_line_path(line), _line_page(line, network, stations))
+        escritos.add(_write(_line_path(line), _line_page(line, network, stations)))
     for station in network.stations:
-        _write(_station_path(station), _station_page(station, network))
+        escritos.add(_write(_station_path(station), _station_page(station, network)))
+    _prune(CONTENT_DIR / "linhas", escritos)
+    _prune(CONTENT_DIR / "estacao", escritos)
     _write(CONTENT_DIR / "linhas.mdx", _index_page(network))
     _write_sidebar(network)
     _write_redirects(network)
@@ -84,15 +87,27 @@ def write_all(network: Network) -> None:
     )
 
 
-def _reset(directory: Path) -> None:
-    if directory.exists():
-        shutil.rmtree(directory)
-    directory.mkdir(parents=True, exist_ok=True)
+def _prune(directory: Path, kept: set[Path]) -> None:
+    """Delete the pages this run did not write, leaving the rest untouched.
+
+    The directories used to be removed and rebuilt wholesale. That churns the diff on every
+    run — a rename shows up as 400 deletions — and it breaks a running dev server, whose
+    content layer does not recover from having the collection deleted underneath it.
+    """
+    if not directory.is_dir():
+        return
+    for path in directory.rglob("*.mdx"):
+        if path not in kept:
+            path.unlink()
+            log.info("removida página obsoleta: %s", path.name)
 
 
-def _write(path: Path, body: str) -> None:
+def _write(path: Path, body: str) -> Path:
+    """Write *body* only when it differs, so untouched pages keep their timestamp."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(body)
+    if not path.exists() or path.read_text() != body:
+        path.write_text(body)
+    return path
 
 
 def _line_path(line: Line) -> Path:
@@ -130,7 +145,7 @@ def _line_page(line: Line, network: Network, stations) -> str:
     mode = MODE_LABELS.get(line.mode.value, line.mode.value)
     status = STATUS_LABELS.get(line.status.value, line.status.value)
     description = f"{mode} · {status}" + (
-        f" · {line.length_km.value} km" if line.length_km else ""
+        f" · {quilometros(line.length_km.value)}" if line.length_km else ""
     )
 
     sections = _station_sections(line, network, stations)
@@ -140,6 +155,8 @@ def _line_page(line: Line, network: Network, stations) -> str:
         "",
         'import FichaLinha from "@components/FichaLinha.astro";',
         'import MapaLinha from "@components/MapaLinha.astro";',
+        'import Origem from "@components/Origem.astro";',
+        'import Situacao from "@components/Situacao.astro";',
         "",
         f'<FichaLinha linha="{line.id}" />',
         "",
@@ -198,7 +215,7 @@ def _station_sections(line: Line, network: Network, stations):
             station.name.value,
             station_href(station),
             station.code.value if station.code else "—",
-            _unbreakable(STATUS_LABELS.get(station.status.value, station.status.value)),
+            _status_badge(station.status.value),
             ", ".join(_line_label(network, other) for other in others) or "—",
         )
         grouped.setdefault(station.status.value, []).append(row)
@@ -244,7 +261,8 @@ def _planned_without_stations(line: Line, stations) -> str:
         return ""
     return (
         f":::caution[Trecho projetado sem estações]\n"
-        f"Esta linha tem {line.planned_length_km.value} km de traçado projetado, mas nenhuma "
+        f"Esta linha tem {quilometros(line.planned_length_km.value)} de traçado projetado, "
+        f"mas nenhuma "
         f"das fontes consultadas publica as estações desse trecho — o GeoSampa é a única "
         f"que mapeia estações projetadas, e ele termina no limite do município.\n:::"
     )
@@ -267,6 +285,7 @@ def _station_page(station: Station, network: Network) -> str:
         "",
         'import FichaEstacao from "@components/FichaEstacao.astro";',
         'import MapaEstacao from "@components/MapaEstacao.astro";',
+        'import Origem from "@components/Origem.astro";',
         "",
         f'<FichaEstacao estacao="{station.id}" />',
         "",
@@ -291,19 +310,63 @@ def _plain_line_label(network: Network, line_id: str) -> str:
 
 
 def _provenance_table(entity) -> str:
-    rows = ["| Campo | Valor | Fonte | Confiança | Outras leituras |",
-            "| --- | --- | --- | --- | --- |"]
+    """Field, value, where it came from, and what was not used.
+
+    Source and confidence share one column because they are one fact — the badge states
+    both, and it is the same badge the summary card above uses, so the reader learns the
+    scale once.
+    """
+    rows = ["| Campo | Valor | Procedência | Outras leituras |",
+            "| --- | --- | --- | --- |"]
     for label, key, field in _sourced_fields(entity):
-        alternatives = "; ".join(
-            f"{_readable(item.value, key)} ({SOURCE_LABELS.get(item.source, item.source)})"
-            for item in field.alternatives
-        )
         rows.append(
             f"| {label} | {_readable(field.value, key)} | "
-            f"{SOURCE_LABELS.get(field.source, field.source)} | {field.confidence} | "
-            f"{alternatives or '—'} |"
+            f"{_badge(field.source, field.confidence)} | "
+            f"{_alternatives_cell(field, key)} |"
         )
     return "\n".join(rows)
+
+
+def _badge(source: str, confidence: str) -> str:
+    return f'<Origem fonte="{source}" nivel="{confidence}" />'
+
+
+def _status_badge(status: str) -> str:
+    return f'<Situacao valor="{status}" />' 
+
+
+# Past this many readings the cell stops being a list and becomes a wall; a summary carries
+# the same meaning — that the sources disagree, and by how much.
+_MAX_ALTERNATIVES = 3
+
+
+def _alternatives_cell(field, fieldname: str) -> str:
+    """The readings that were not published, as a reader can take them in.
+
+    A four-line interchange collects a coordinate per line per direction: Luz arrives with
+    eight, which stacked one per line makes a table row taller than a phone screen. Beyond a
+    handful they are summarised — how many, how far apart, and from whom. Nothing is lost:
+    every reading is in `network.json`, which the page links to.
+    """
+    leituras = list(field.alternatives)
+    if not leituras:
+        return "—"
+    if len(leituras) <= _MAX_ALTERNATIVES:
+        return "<br />".join(
+            f"{_readable(item.value, fieldname)} {_badge(item.source, item.confidence)}"
+            for item in leituras
+        )
+    vistos: dict[str, str] = {}
+    for item in leituras:
+        vistos.setdefault(item.source, item.confidence)
+    fontes = " ".join(_badge(source, nivel) for source, nivel in sorted(vistos.items()))
+    distancias = [
+        int(match.group(1))
+        for match in (re.search(r"(\d+) m", item.note or "") for item in leituras)
+        if match
+    ]
+    extensao = f", até {numero(max(distancias))} m de distância" if distancias else ""
+    return f"{len(leituras)} leituras{extensao}<br />{fontes}"
 
 
 def _sourced_fields(entity):
@@ -350,8 +413,10 @@ def _readable(value, fieldname: str = "") -> str:
         return f"{latitude:.5f}, {longitude:.5f}"
     if isinstance(value, list):
         return f"{len(value)} trecho(s)"
-    if fieldname == "length_km":
-        return f"{value} km"
+    if fieldname in {"length_km", "planned_length_km"}:
+        return quilometros(value)
+    if fieldname == "opened":
+        return data(value)
     vocabulary = _VALUE_LABELS.get(fieldname)
     text = str(value)
     return vocabulary.get(text, text) if vocabulary else text
@@ -395,17 +460,19 @@ def _index_page(network: Network) -> str:
         for line in lines:
             body.append(
                 f"| [{_line_title(line)}](/linhas/{line.slug}/) | "
-                f"{STATUS_LABELS.get(line.status.value, line.status.value)} | "
-                f"{len(line.stations) or '—'} | "
-                f"{f'{line.length_km.value} km' if line.length_km else '—'} |"
+                f"{_status_badge(line.status.value)} | "
+                f"{numero(len(line.stations)) if line.stations else '—'} | "
+                f"{quilometros(line.length_km.value) if line.length_km else '—'} |"
             )
         body.append("")
 
     return "\n".join([
         _frontmatter("Linhas", "Todas as linhas de transporte de massa da região metropolitana"),
         "",
-        f"{len(network.lines)} linhas e {len(network.stations)} estações, "
-        f"reconciliadas em {network.generated_at.isoformat()}.",
+        'import Situacao from "@components/Situacao.astro";',
+        "",
+        f"{numero(len(network.lines))} linhas e {numero(len(network.stations))} estações, "
+        f"reconciliadas em {data(network.generated_at)}.",
         "",
         *body,
     ]) + "\n"

@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="santa-isabel" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Santa Isabel | Wikidata | C | SANTA ISABEL (GeoSampa) |
-| Coordenada | -23.55468, -46.54542 | GeoSampa | A | -23.55503, -46.54516 (Wikidata) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Santa Isabel | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.55468, -46.54542 | <Origem fonte="geosampa" nivel="A" /> | -23.55503, -46.54516 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

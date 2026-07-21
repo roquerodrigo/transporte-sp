@@ -5,6 +5,7 @@ description: "Estação de Linha 15 - Prata"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jardim-colonial" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jardim Colonial | OpenStreetMap | C | JARDIM COLONIAL (GeoSampa) |
-| Coordenada | -23.59900, -46.46899 | GeoSampa | A | -23.59921, -46.46906 (OpenStreetMap); -23.59916, -46.46908 (Wikidata); -23.59904, -46.46895 (GTFS SPTrans) |
-| Sigla | IGT | Wikidata | C | — |
-| Inauguração | 2021-12-29 | Wikidata | C | — |
-| Situação | Projetada | GeoSampa | A | Em operação (OpenStreetMap); Em operação (GTFS SPTrans) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jardim Colonial | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.59900, -46.46899 | <Origem fonte="geosampa" nivel="A" /> | -23.59921, -46.46906 <Origem fonte="osm" nivel="C" /><br />-23.59916, -46.46908 <Origem fonte="wikidata" nivel="C" /><br />-23.59904, -46.46895 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | IGT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 29/12/2021 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | Em operação <Origem fonte="osm" nivel="C" /> |

@@ -18484,7 +18484,7 @@
         "confidence": "A",
         "alternatives": [
           {
-            "value": "TEODORO SAMPAIO",
+            "value": "CARDEAL ARCOVERDE",
             "source": "geosampa",
             "confidence": "A",
             "note": null
@@ -18506,13 +18506,23 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "120 m away"
+            "note": "120 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56062275,
+              "lon": -46.68664372
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "141 m de distância"
           }
         ]
       },
       "lines": [
         "linha-16",
-        "linha-20"
+        "linha-20",
+        "linha-22"
       ],
       "status": {
         "value": "planned",
@@ -18544,20 +18554,7 @@
         "value": "Oscar Freire",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "OSCAR FREIRE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "OSCAR FREIRE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -18574,7 +18571,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "224 m away"
+            "note": "224 m de distância"
           },
           {
             "value": {
@@ -18583,7 +18580,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "44 m away"
+            "note": "44 m de distância"
           },
           {
             "value": {
@@ -18592,7 +18589,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "39 m away"
+            "note": "39 m de distância"
           },
           {
             "value": {
@@ -18601,7 +18598,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "29 m away"
+            "note": "29 m de distância"
           }
         ]
       },
@@ -18835,26 +18832,7 @@
         "value": "Ana Rosa",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "ANA ROSA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "ANA ROSA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "ANA ROSA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -18871,7 +18849,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "21 m away"
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -18880,7 +18858,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "106 m away"
+            "note": "106 m de distância"
           },
           {
             "value": {
@@ -18889,7 +18867,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           },
           {
             "value": {
@@ -18898,7 +18876,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "20 m away"
+            "note": "20 m de distância"
           },
           {
             "value": {
@@ -18907,7 +18885,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "22 m away"
+            "note": "22 m de distância"
           },
           {
             "value": {
@@ -18916,7 +18894,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "18 m away"
+            "note": "18 m de distância"
           }
         ]
       },
@@ -19024,7 +19002,14 @@
         "value": "Parque da Independência",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "DOM PEDRO I",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
       },
       "coordinates": {
         "value": {
@@ -19033,9 +19018,20 @@
         },
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.57445834,
+              "lon": -46.61072869
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "261 m de distância"
+          }
+        ]
       },
       "lines": [
+        "linha-13",
         "linha-16"
       ],
       "status": {
@@ -19056,7 +19052,7 @@
         "geosampa_id": "211",
         "metro_code": null
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa"
       ]
@@ -19070,7 +19066,7 @@
         "confidence": "A",
         "alternatives": [
           {
-            "value": "SÃO CARLOS",
+            "value": "PARQUE DA MOOCA",
             "source": "geosampa",
             "confidence": "A",
             "note": null
@@ -19092,12 +19088,22 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "122 m away"
+            "note": "122 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56665486,
+              "lon": -46.60412882
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "268 m de distância"
           }
         ]
       },
       "lines": [
         "linha-6",
+        "linha-13",
         "linha-16"
       ],
       "status": {
@@ -19306,20 +19312,7 @@
         "value": "Anália Franco",
         "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "ANÁLIA FRANCO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "ANÁLIA FRANCO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -19336,7 +19329,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "88 m away"
+            "note": "88 m de distância"
           },
           {
             "value": {
@@ -19345,7 +19338,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "54 m away"
+            "note": "54 m de distância"
           }
         ]
       },

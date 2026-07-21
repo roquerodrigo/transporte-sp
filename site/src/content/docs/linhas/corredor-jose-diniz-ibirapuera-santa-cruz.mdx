@@ -1,10 +1,12 @@
 ---
 title: "Corredor Jose Diniz / Ibirapuera / Santa Cruz"
-description: "BRT · Em operação · 10.584 km"
+description: "BRT · Em operação · 10,6 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="corredor-jose-diniz-ibirapuera-santa-cruz" />
 
@@ -16,11 +18,11 @@ Nenhuma fonte consultada publica estações para esta linha — os corredores de
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Corredor Jose Diniz / Ibirapuera / Santa Cruz | GeoSampa | A | — |
-| Situação | Em operação | GeoSampa | A | — |
-| Modo | BRT | GeoSampa | A | — |
-| Operadora | SPTrans | GeoSampa | A | — |
-| Extensão | 10.584 km | GeoSampa | E | — |
-| Ordem das estações | inferido | inferido | E | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Corredor Jose Diniz / Ibirapuera / Santa Cruz | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |
+| Modo | BRT | <Origem fonte="geosampa" nivel="A" /> | — |
+| Operadora | SPTrans | <Origem fonte="geosampa" nivel="A" /> | — |
+| Extensão | 10,6 km | <Origem fonte="geosampa" nivel="E" /> | — |
+| Ordem das estações | inferido | <Origem fonte="pipeline" nivel="E" /> | — |

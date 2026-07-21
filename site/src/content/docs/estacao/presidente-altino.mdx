@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante, Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="presidente-altino" />
 
@@ -17,9 +18,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Presidente Altino | OpenStreetMap | C | PRESIDENTE ALTINO (GeoSampa); PRESIDENTE ALTINO (GeoSampa) |
-| Coordenada | -23.53122, -46.76177 | GeoSampa | A | -23.53122, -46.76177 (GeoSampa); -23.53123, -46.76174 (OpenStreetMap); -23.53125, -46.76175 (Wikidata); -23.53042, -46.76058 (GTFS SPTrans); -23.53025, -46.76068 (GTFS SPTrans) |
-| Sigla | PAL | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Presidente Altino | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.53122, -46.76177 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 155 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | PAL | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

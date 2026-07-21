@@ -910,14 +910,7 @@
         "value": "Dutra",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": [
-          {
-            "value": "DUTRA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -934,7 +927,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "15 m away"
+            "note": "15 m de distância"
           }
         ]
       },
@@ -1324,14 +1317,7 @@
         "value": "Pari",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": [
-          {
-            "value": "PARI",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1348,7 +1334,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "194 m away"
+            "note": "194 m de distância"
           }
         ]
       },
@@ -1386,20 +1372,7 @@
         "value": "São Bento",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "SÃO BENTO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SÃO BENTO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1416,7 +1389,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "167 m away"
+            "note": "167 m de distância"
           },
           {
             "value": {
@@ -1425,7 +1398,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "16 m away"
+            "note": "16 m de distância"
           },
           {
             "value": {
@@ -1434,7 +1407,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "41 m away"
+            "note": "41 m de distância"
           },
           {
             "value": {
@@ -1443,7 +1416,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "4 m away"
+            "note": "4 m de distância"
           }
         ]
       },
@@ -1503,15 +1476,9 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "ANHANGABAÚ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "ANHANGABAÚ",
-            "source": "geosampa",
-            "confidence": "A",
+            "value": "Terminal Bandeira",
+            "source": "wikidata",
+            "confidence": "C",
             "note": null
           }
         ]
@@ -1531,7 +1498,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "212 m away"
+            "note": "212 m de distância"
           },
           {
             "value": {
@@ -1540,7 +1507,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "49 m away"
+            "note": "49 m de distância"
           },
           {
             "value": {
@@ -1549,7 +1516,16 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "47 m away"
+            "note": "47 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.54952,
+              "lon": -46.63956
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "188 m de distância"
           },
           {
             "value": {
@@ -1558,7 +1534,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "36 m away"
+            "note": "36 m de distância"
           }
         ]
       },

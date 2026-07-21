@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="campo-limpo-paulista" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Campo Limpo Paulista | OpenStreetMap | C | CAMPO LIMPO PAULISTA (GeoSampa) |
-| Coordenada | -23.20669, -46.78529 | GeoSampa | A | -23.20669, -46.78542 (OpenStreetMap); -23.20630, -46.78590 (Wikidata); -23.20726, -46.78487 (GTFS SPTrans) |
-| Sigla | CLP | Wikidata | C | — |
-| Inauguração | 1881-01-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Campo Limpo Paulista | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.20669, -46.78529 | <Origem fonte="geosampa" nivel="A" /> | -23.20669, -46.78542 <Origem fonte="osm" nivel="C" /><br />-23.20630, -46.78590 <Origem fonte="wikidata" nivel="C" /><br />-23.20726, -46.78487 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CLP | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/01/1881 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

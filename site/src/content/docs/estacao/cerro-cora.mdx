@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde, Linha 20 - Rosa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="cerro-cora" />
 
@@ -17,8 +18,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Cerro Corá | GeoSampa | A | CERRO CORÁ (GeoSampa) |
-| Coordenada | -23.54074, -46.70155 | GeoSampa | A | -23.54079, -46.70145 (GeoSampa) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Cerro Corá | <Origem fonte="geosampa" nivel="A" /> | — |
+| Coordenada | -23.54074, -46.70155 | <Origem fonte="geosampa" nivel="A" /> | -23.54079, -46.70145 <Origem fonte="geosampa" nivel="A" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

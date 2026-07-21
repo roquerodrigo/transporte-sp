@@ -1,6 +1,7 @@
 ---
 /** Summary card at the top of a station's page. */
 import Origem from "@components/Origem.astro";
+import { data } from "@data/formato";
 import {
   ACCESSIBILITY_LABELS,
   STATUS_LABELS,
@@ -30,7 +31,11 @@ const entries: { label: string; value: string; field?: Sourced<unknown> | null }
       : "Não informado",
     field: station.accessibility,
   },
-  { label: "Inauguração", value: station.opened?.value ?? "—", field: station.opened },
+  {
+    label: "Inauguração",
+    value: station.opened ? data(station.opened.value) : "—",
+    field: station.opened,
+  },
   {
     label: "Coordenada",
     value: `${point.lat.toFixed(5)}, ${point.lon.toFixed(5)}`,
@@ -69,6 +74,19 @@ const entries: { label: string; value: string; field?: Sourced<unknown> | null }
     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
     gap: 0.9rem 1.4rem;
     margin: 0;
+    /* Stretch, not the default: without it the cells align to the bottom of their row, so
+       a value that wraps pushes its own label up and the labels stop lining up. Stretching
+       also gives every cell in a row the same height. */
+    align-items: stretch;
+  }
+
+  /*
+   * Starlight gives every element that follows a sibling a top margin, which reaches the
+   * grid cells here: the first one kept its full height and every other lost a rem of it,
+   * so the leading card was always taller than the rest of its row.
+   */
+  dl > div {
+    margin: 0;
   }
 
   dt {
@@ -78,12 +96,21 @@ const entries: { label: string; value: string; field?: Sourced<unknown> | null }
     color: var(--sl-color-gray-3);
   }
 
+  /*
+   * The badge always sits on its own line. Letting it flow beside the value made the cell
+   * one line for "Metrô" and three for "Projetada", so the card came out ragged and the
+   * rows below it started at a different height on every page.
+   */
   dd {
-    margin: 0.15rem 0 0;
+    /* Starlight indents `dd` by a rem, as a definition list should be — but this is a
+       label-over-value card, not a definition list, and the indent left every value out of
+       line with its own label. */
+    margin: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
     font-weight: 600;
   }
 </style>

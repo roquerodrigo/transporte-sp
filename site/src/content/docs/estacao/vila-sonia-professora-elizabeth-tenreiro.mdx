@@ -5,6 +5,7 @@ description: "Estação de Linha 4 - Amarela"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-sonia-professora-elizabeth-tenreiro" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Sônia - Professora Elizabeth Tenreiro | OpenStreetMap | C | Terminal Intermodal Vila Sônia (Wikidata); Vila Sônia (GTFS SPTrans); VILA SÔNIA (GeoSampa); VILA SÔNIA (GeoSampa) |
-| Coordenada | -23.59342, -46.73476 | GeoSampa | A | -23.59342, -46.73476 (GeoSampa); -23.59343, -46.73481 (OpenStreetMap); -23.59145, -46.73334 (Wikidata); -23.59169, -46.73569 (GTFS SPTrans) |
-| Sigla | VSO | Wikidata | C | — |
-| Inauguração | 2021-12-17 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Sônia - Professora Elizabeth Tenreiro | <Origem fonte="osm" nivel="C" /> | Terminal Intermodal Vila Sônia <Origem fonte="wikidata" nivel="C" /><br />Vila Sônia <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Coordenada | -23.59342, -46.73476 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 262 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | VSO | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 17/12/2021 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

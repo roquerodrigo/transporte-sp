@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="aacd-servidor" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | AACD-Servidor | Wikidata | C | Aacd - Servidor (GTFS SPTrans); AACD-SERVIDOR (GeoSampa) |
-| Coordenada | -23.59764, -46.65180 | GeoSampa | A | -23.59782, -46.65237 (Wikidata); -23.59782, -46.65255 (GTFS SPTrans) |
-| Sigla | SER | Wikidata | C | — |
-| Inauguração | 2018-08-31 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | AACD-Servidor | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.59764, -46.65180 | <Origem fonte="geosampa" nivel="A" /> | -23.59782, -46.65237 <Origem fonte="wikidata" nivel="C" /><br />-23.59782, -46.65255 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | SER | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 31/08/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

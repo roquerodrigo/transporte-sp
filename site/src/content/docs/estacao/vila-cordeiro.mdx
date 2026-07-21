@@ -5,6 +5,7 @@ description: "Estação de Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-cordeiro" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Cordeiro | OpenStreetMap | C | VILA CORDEIRO (GeoSampa) |
-| Coordenada | -23.61542, -46.68898 | GeoSampa | A | -23.61558, -46.68860 (OpenStreetMap); -23.61556, -46.68861 (Wikidata) |
-| Sigla | VCD | Wikidata | C | — |
-| Situação | Em operação | inferido | E | Projetada (GeoSampa); Em operação (OpenStreetMap) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Cordeiro | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.61542, -46.68898 | <Origem fonte="geosampa" nivel="A" /> | -23.61558, -46.68860 <Origem fonte="osm" nivel="C" /><br />-23.61556, -46.68861 <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | VCD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="pipeline" nivel="E" /> | Projetada <Origem fonte="geosampa" nivel="A" /><br />Em operação <Origem fonte="osm" nivel="C" /> |

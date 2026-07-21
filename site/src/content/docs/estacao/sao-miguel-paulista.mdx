@@ -5,6 +5,7 @@ description: "Estação de Linha 12 - Safira, Linha 14 - Onix"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="sao-miguel-paulista" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | São Miguel Paulista | OpenStreetMap | C | SÃO MIGUEL PAULISTA (GeoSampa); SÃO MIGUEL PAULISTA (GeoSampa) |
-| Coordenada | -23.49053, -46.44372 | GeoSampa | A | -23.49048, -46.44184 (GeoSampa); -23.49056, -46.44367 (OpenStreetMap); -23.49063, -46.44164 (Wikidata); -23.49049, -46.44370 (GTFS SPTrans) |
-| Sigla | SMP | Wikidata | C | — |
-| Inauguração | 1934-01-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | São Miguel Paulista | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.49053, -46.44372 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 212 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | SMP | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/01/1934 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

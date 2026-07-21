@@ -5,6 +5,7 @@ description: "Estação de Linha 11 - Coral, Linha 12 - Safira"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="calmon-viana" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Calmon Viana | OpenStreetMap | C | CALMON VIANA (GeoSampa); CALMON VIANA (GeoSampa) |
-| Coordenada | -23.52568, -46.33239 | GeoSampa | A | -23.52568, -46.33239 (GeoSampa); -23.52545, -46.33277 (OpenStreetMap); -23.52545, -46.33277 (Wikidata); -23.52550, -46.33280 (GTFS SPTrans); -23.52520, -46.33350 (GTFS SPTrans) |
-| Sigla | CMV | Wikidata | C | — |
-| Inauguração | 1926-02-07 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Calmon Viana | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.52568, -46.33239 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 126 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | CMV | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 07/02/1926 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

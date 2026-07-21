@@ -1,10 +1,12 @@
 ---
 title: "Linha 15 - Prata"
-description: "Monotrilho · Em operação · 15.026 km"
+description: "Monotrilho · Em operação · 15,0 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-15" />
 
@@ -12,32 +14,33 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 ## Estações
 
-### Em operação (10)
+### Em operação (11)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Vila Prudente](/estacao/vila-prudente/) | VPT | Em operação | [Linha 2 - Verde](/linhas/linha-2-verde/) |
-| 2 | [Oratório](/estacao/oratorio/) | ORT | Em operação | — |
-| 3 | [São Lucas](/estacao/sao-lucas/) | SLU | Em operação | — |
-| 4 | [Camilo Haddad](/estacao/camilo-haddad/) | CAD | Em operação | — |
-| 5 | [Vila Tolstói](/estacao/vila-tolstoi/) | VTL | Em operação | — |
-| 6 | [Vila União](/estacao/vila-uniao/) | VUN | Em operação | — |
-| 7 | [Jardim Planalto](/estacao/jardim-planalto/) | JPL | Em operação | — |
-| 8 | [Sapopemba](/estacao/sapopemba/) | SAP | Em operação | [Linha 14 - Onix](/linhas/linha-14-onix/) |
-| 9 | [Fazenda da Juta](/estacao/fazenda-da-juta/) | FJT | Em operação | — |
-| 10 | [São Mateus](/estacao/sao-mateus/) | MAT | Em operação | — |
+| 1 | [Ipiranga](/estacao/ipiranga/) | IPG | <Situacao valor="operational" /> | [Linha 5 - Lilas](/linhas/linha-5-lilas/), [Linha 10 - Turquesa](/linhas/linha-10-turquesa/) |
+| 2 | [Vila Prudente](/estacao/vila-prudente/) | VPT | <Situacao valor="operational" /> | [Linha 2 - Verde](/linhas/linha-2-verde/) |
+| 3 | [Oratório](/estacao/oratorio/) | ORT | <Situacao valor="operational" /> | — |
+| 4 | [São Lucas](/estacao/sao-lucas/) | SLU | <Situacao valor="operational" /> | — |
+| 5 | [Camilo Haddad](/estacao/camilo-haddad/) | CAD | <Situacao valor="operational" /> | — |
+| 6 | [Vila Tolstói](/estacao/vila-tolstoi/) | VTL | <Situacao valor="operational" /> | — |
+| 7 | [Vila União](/estacao/vila-uniao/) | VUN | <Situacao valor="operational" /> | — |
+| 8 | [Jardim Planalto](/estacao/jardim-planalto/) | JPL | <Situacao valor="operational" /> | — |
+| 9 | [Sapopemba](/estacao/sapopemba/) | SAP | <Situacao valor="operational" /> | [Linha 14 - Onix](/linhas/linha-14-onix/) |
+| 10 | [Fazenda da Juta](/estacao/fazenda-da-juta/) | FJT | <Situacao valor="operational" /> | — |
+| 11 | [São Mateus](/estacao/sao-mateus/) | MAT | <Situacao valor="operational" /> | — |
 
 ### Projetada (7)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 11 | [Jardim Colonial](/estacao/jardim-colonial/) | IGT | Projetada | — |
-| 12 | [Boa Esperança](/estacao/boa-esperanca/) | JEQ | Projetada | — |
-| 13 | [Jacu-Pêssego](/estacao/jacu-pessego/) | JPS | Projetada | — |
-| 14 | [Jardim Marilu](/estacao/jardim-marilu/) | — | Projetada | — |
-| 15 | [Jardim Pedra Branca](/estacao/jardim-pedra-branca/) | — | Projetada | — |
-| 16 | [Cidade Tiradentes](/estacao/cidade-tiradentes/) | — | Projetada | — |
-| 17 | [Hospital Cidade Tiradentes](/estacao/hospital-cidade-tiradentes/) | — | Projetada | — |
+| 12 | [Jardim Colonial](/estacao/jardim-colonial/) | IGT | <Situacao valor="planned" /> | — |
+| 13 | [Boa Esperança](/estacao/boa-esperanca/) | JEQ | <Situacao valor="planned" /> | — |
+| 14 | [Jacu-Pêssego](/estacao/jacu-pessego/) | JPS | <Situacao valor="planned" /> | — |
+| 15 | [Jardim Marilu](/estacao/jardim-marilu/) | — | <Situacao valor="planned" /> | — |
+| 16 | [Jardim Pedra Branca](/estacao/jardim-pedra-branca/) | — | <Situacao valor="planned" /> | — |
+| 17 | [Cidade Tiradentes](/estacao/cidade-tiradentes/) | — | <Situacao valor="planned" /> | — |
+| 18 | [Hospital Cidade Tiradentes](/estacao/hospital-cidade-tiradentes/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de GTFS SPTrans.
 
@@ -45,13 +48,13 @@ A ordem das estações vem de GTFS SPTrans.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Prata | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 15 | GeoSampa | A | — |
-| Cor | #7b9192 | OpenStreetMap | C | #C0C0C0 (GTFS SPTrans) |
-| Modo | Monotrilho | OpenStreetMap | C | Metrô (GeoSampa); Metrô (GTFS SPTrans) |
-| Operadora | Companhia do Metropolitano de São Paulo | OpenStreetMap | C | METRO (GeoSampa) |
-| Extensão | 15.026 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Prata | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 15 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #7b9192 | <Origem fonte="osm" nivel="C" /> | #C0C0C0 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Monotrilho | <Origem fonte="osm" nivel="C" /> | Metrô <Origem fonte="geosampa" nivel="A" /><br />Metrô <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Operadora | Companhia do Metropolitano de São Paulo | <Origem fonte="osm" nivel="C" /> | METRO <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 15,0 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

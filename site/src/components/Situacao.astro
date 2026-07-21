@@ -1,0 +1,18 @@
+---
+/**
+ * The operating state of a line or a station, as a pill.
+ *
+ * Same treatment as the provenance badge, for the same reason: it is a value from a small
+ * closed vocabulary, and a reader scanning a 23-row table takes in a colour far faster than
+ * a word.
+ */
+import { STATUS_LABELS } from "@data/network";
+
+interface Props {
+  valor: string;
+}
+
+const { valor } = Astro.props;
+---
+
+<span class="pill" data-situacao={valor}>{STATUS_LABELS[valor] ?? valor}</span>

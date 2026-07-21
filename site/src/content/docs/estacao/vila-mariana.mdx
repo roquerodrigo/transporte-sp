@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-mariana" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Mariana | OpenStreetMap | C | VILA MARIANA (GeoSampa); VILA MARIANA (GeoSampa) |
-| Coordenada | -23.58911, -46.63465 | GeoSampa | A | -23.58911, -46.63465 (GeoSampa); -23.58915, -46.63466 (OpenStreetMap); -23.58943, -46.63467 (Wikidata); -23.58936, -46.63468 (GTFS SPTrans) |
-| Sigla | VMN | Wikidata | C | — |
-| Acessibilidade | Sem acessibilidade | OpenStreetMap | C | — |
-| Inauguração | 1974-09-14 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Mariana | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.58911, -46.63465 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 36 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | VMN | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Sem acessibilidade | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 14/09/1974 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

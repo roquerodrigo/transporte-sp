@@ -5,6 +5,7 @@ description: "Estação de Linha 11 - Coral"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jose-bonifacio" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | José Bonifácio | OpenStreetMap | C | JOSÉ BONIFÁCIO (GeoSampa) |
-| Coordenada | -23.53906, -46.43151 | GeoSampa | A | -23.53912, -46.43167 (OpenStreetMap); -23.53912, -46.43167 (Wikidata); -23.53912, -46.43168 (GTFS SPTrans) |
-| Sigla | JBO | Wikidata | C | — |
-| Inauguração | 2000-05-27 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | José Bonifácio | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.53906, -46.43151 | <Origem fonte="geosampa" nivel="A" /> | -23.53912, -46.43167 <Origem fonte="osm" nivel="C" /><br />-23.53912, -46.43167 <Origem fonte="wikidata" nivel="C" /><br />-23.53912, -46.43168 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JBO | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 27/05/2000 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

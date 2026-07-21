@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="berrini-casas-bahia" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Berrini - Casas Bahia | OpenStreetMap | C | Berrini (Wikidata); Berrini (GTFS SPTrans); BERRINI (GeoSampa) |
-| Coordenada | -23.60528, -46.69698 | GeoSampa | A | -23.60471, -46.69678 (OpenStreetMap); -23.60469, -46.69678 (Wikidata); -23.60467, -46.69682 (GTFS SPTrans) |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Berrini - Casas Bahia | <Origem fonte="osm" nivel="C" /> | Berrini <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.60528, -46.69698 | <Origem fonte="geosampa" nivel="A" /> | -23.60471, -46.69678 <Origem fonte="osm" nivel="C" /><br />-23.60469, -46.69678 <Origem fonte="wikidata" nivel="C" /><br />-23.60467, -46.69682 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

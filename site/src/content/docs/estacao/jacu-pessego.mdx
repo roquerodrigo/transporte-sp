@@ -5,6 +5,7 @@ description: "Estação de Linha 15 - Prata"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jacu-pessego" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jacu-Pêssego | Wikidata | C | JACU-PÊSSEGO (GeoSampa) |
-| Coordenada | -23.59467, -46.44397 | GeoSampa | A | -23.59470, -46.44360 (Wikidata) |
-| Sigla | JPS | Wikidata | C | — |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jacu-Pêssego | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.59467, -46.44397 | <Origem fonte="geosampa" nivel="A" /> | -23.59470, -46.44360 <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | JPS | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

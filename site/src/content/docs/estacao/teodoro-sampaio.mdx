@@ -1,10 +1,11 @@
 ---
 title: "Teodoro Sampaio"
-description: "Estação de Linha 16 - Violeta, Linha 20 - Rosa"
+description: "Estação de Linha 16 - Violeta, Linha 20 - Rosa, Linha 22 - Marrom"
 ---
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="teodoro-sampaio" />
 
@@ -14,11 +15,12 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 - [Linha 16 - Violeta](/linhas/linha-16-violeta/)
 - [Linha 20 - Rosa](/linhas/linha-20-rosa/)
+- [Linha 22 - Marrom](/linhas/linha-22-marrom/)
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Teodoro Sampaio | GeoSampa | A | TEODORO SAMPAIO (GeoSampa) |
-| Coordenada | -23.56097, -46.68532 | GeoSampa | A | -23.56169, -46.68443 (GeoSampa) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Teodoro Sampaio | <Origem fonte="geosampa" nivel="A" /> | CARDEAL ARCOVERDE <Origem fonte="geosampa" nivel="A" /> |
+| Coordenada | -23.56097, -46.68532 | <Origem fonte="geosampa" nivel="A" /> | -23.56169, -46.68443 <Origem fonte="geosampa" nivel="A" /><br />-23.56062, -46.68664 <Origem fonte="geosampa" nivel="A" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

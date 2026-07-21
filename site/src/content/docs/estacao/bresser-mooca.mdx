@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="bresser-mooca" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Bresser-Mooca | OpenStreetMap | C | Bresser-mooca (GTFS SPTrans); BRESSER-MOOCA (GeoSampa) |
-| Coordenada | -23.54648, -46.60754 | GeoSampa | A | -23.54650, -46.60693 (OpenStreetMap); -23.54636, -46.60715 (Wikidata); -23.54640, -46.60725 (GTFS SPTrans) |
-| Sigla | BRE | Wikidata | C | — |
-| Inauguração | 1980-08-23 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Bresser-Mooca | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54648, -46.60754 | <Origem fonte="geosampa" nivel="A" /> | -23.54650, -46.60693 <Origem fonte="osm" nivel="C" /><br />-23.54636, -46.60715 <Origem fonte="wikidata" nivel="C" /><br />-23.54640, -46.60725 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | BRE | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 23/08/1980 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

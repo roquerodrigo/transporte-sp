@@ -1640,14 +1640,7 @@
         "value": "Terminal Barreiros",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Barreiros",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1664,7 +1657,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           }
         ]
       },
@@ -1732,7 +1725,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "38 m away"
+            "note": "38 m de distância"
           }
         ]
       },
@@ -1798,7 +1791,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "19 m away"
+            "note": "19 m de distância"
           }
         ]
       },
@@ -1866,7 +1859,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "40 m away"
+            "note": "40 m de distância"
           }
         ]
       },
@@ -1927,7 +1920,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "32 m away"
+            "note": "32 m de distância"
           }
         ]
       },
@@ -1988,7 +1981,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           }
         ]
       },
@@ -2049,7 +2042,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "18 m away"
+            "note": "18 m de distância"
           }
         ]
       },
@@ -2110,7 +2103,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "24 m away"
+            "note": "24 m de distância"
           }
         ]
       },
@@ -2171,7 +2164,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "41 m away"
+            "note": "41 m de distância"
           }
         ]
       },
@@ -2232,7 +2225,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "9 m away"
+            "note": "9 m de distância"
           }
         ]
       },
@@ -2300,7 +2293,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           }
         ]
       },
@@ -2366,7 +2359,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "14 m away"
+            "note": "14 m de distância"
           }
         ]
       },
@@ -2432,7 +2425,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "46 m away"
+            "note": "46 m de distância"
           }
         ]
       },
@@ -2493,7 +2486,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "17 m away"
+            "note": "17 m de distância"
           }
         ]
       },
@@ -2537,14 +2530,7 @@
         "value": "Terminal Porto",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Porto",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2561,7 +2547,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "24 m away"
+            "note": "24 m de distância"
           }
         ]
       },

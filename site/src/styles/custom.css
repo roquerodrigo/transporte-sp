@@ -12,15 +12,73 @@
 }
 
 /* Some corridor names run to forty characters and wrap to two lines. The theme gives each
-   sidebar link a fixed height, so a wrapped label overflows onto the next one. */
+   sidebar link a fixed height, so a wrapped label overflows onto the next one.
+   The line height is pinned too: the theme leaves the top-level links and the grouped ones
+   on different values, which made otherwise identical single-line items 32px and 36px. */
 #starlight__sidebar a {
   height: auto;
-  min-height: 2rem;
+  min-height: 2.25rem;
+  line-height: 1.25rem;
 }
 
 /* The theme caps the content column at 640px on `.main-pane`, which `--sl-content-width`
-   cannot reach — the variable only sizes the container inside it. Releasing the cap lets
-   the width set in tables.css apply. */
+   cannot reach — the variable only sizes the container inside it. The cap is replaced by
+   the width we want rather than removed: with no cap the pane grows to the viewport and
+   the container inside it ends up flush against the table of contents, which on an
+   ultra-wide screen leaves the text pinned to the right edge. */
 .main-pane {
+  max-width: var(--sl-content-width);
+}
+
+/*
+ * Past the width the layout was designed for, shift the whole shell to the middle instead
+ * of leaving the sidebar welded to the left edge of a 3440px screen.
+ *
+ * The sidebar is `position: fixed`, so it does not follow a centred parent; both it and the
+ * frame are offset by the same declared amount rather than by `margin: auto`, which the
+ * fixed element cannot see. One variable keeps them aligned.
+ */
+@media (min-width: 105rem) {
+  :root {
+    --deslocamento-central: calc((100vw - 105rem) / 2);
+  }
+
+  .main-frame {
+    max-width: 105rem;
+    margin-inline-start: var(--deslocamento-central);
+  }
+
+  .sidebar-pane {
+    left: var(--deslocamento-central);
+  }
+
+  /* The bar itself stays full-bleed — a navigation strip that stops mid-screen reads as a
+     rendering fault — but its contents line up with everything below. */
+  header > .header {
+    max-width: 105rem;
+    margin-inline: auto;
+  }
+}
+
+/* The splash hero centres its own inner block, so the title and the buttons sat 60px to
+   the right of the tiles and the headings below them — two different left edges on the same
+   page. It fills the column instead, like everything else. */
+.hero > .hero-info {
+  width: 100%;
   max-width: none;
+  /* Below the theme's breakpoint the hero centres itself while the body stays left-aligned,
+     which puts two different left edges on one page. */
+  align-items: flex-start;
+  text-align: start;
+}
+
+/* The map popup is a hover hint: it names what is under the cursor and links to its page,
+   for anyone reaching the map by keyboard or on a touch screen where hover does not exist. */
+.mapa-popup .maplibregl-popup-content a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mapa-popup .maplibregl-popup-content a:hover {
+  text-decoration: underline;
 }

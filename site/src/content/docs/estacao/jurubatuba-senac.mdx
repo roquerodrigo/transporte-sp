@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jurubatuba-senac" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jurubatuba- Senac | OpenStreetMap | C | Jurubatuba (Wikidata); Jurubatuba (GTFS SPTrans); JURUBATUBA (GeoSampa) |
-| Coordenada | -23.67744, -46.70213 | GeoSampa | A | -23.67730, -46.70231 (OpenStreetMap); -23.67742, -46.70220 (Wikidata); -23.67747, -46.70221 (GTFS SPTrans) |
-| Sigla | JUR | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jurubatuba- Senac | <Origem fonte="osm" nivel="C" /> | Jurubatuba <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.67744, -46.70213 | <Origem fonte="geosampa" nivel="A" /> | -23.67730, -46.70231 <Origem fonte="osm" nivel="C" /><br />-23.67742, -46.70220 <Origem fonte="wikidata" nivel="C" /><br />-23.67747, -46.70221 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JUR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -5,6 +5,7 @@ description: "Estação de Linha 6 - Laranja"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="perdizes" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Perdizes | OpenStreetMap | C | PERDIZES (GeoSampa) |
-| Coordenada | -23.53240, -46.67590 | GeoSampa | A | -23.53217, -46.67652 (OpenStreetMap); -23.53250, -46.67583 (Wikidata) |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2026-07-02 | Wikidata | C | — |
-| Situação | Em operação | inferido | E | Projetada (GeoSampa); Em operação (OpenStreetMap) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Perdizes | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.53240, -46.67590 | <Origem fonte="geosampa" nivel="A" /> | -23.53217, -46.67652 <Origem fonte="osm" nivel="C" /><br />-23.53250, -46.67583 <Origem fonte="wikidata" nivel="C" /> |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 02/07/2026 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="pipeline" nivel="E" /> | Projetada <Origem fonte="geosampa" nivel="A" /><br />Em operação <Origem fonte="osm" nivel="C" /> |

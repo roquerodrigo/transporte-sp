@@ -5,6 +5,7 @@ description: "Estação de Linha 10 - Turquesa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="guapituba" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Guapituba | OpenStreetMap | C | GUAPITUBA (GeoSampa) |
-| Coordenada | -23.69203, -46.44885 | GeoSampa | A | -23.69210, -46.44872 (OpenStreetMap); -23.69217, -46.44853 (Wikidata); -23.69132, -46.44926 (GTFS SPTrans) |
-| Sigla | GPT | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Guapituba | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.69203, -46.44885 | <Origem fonte="geosampa" nivel="A" /> | -23.69210, -46.44872 <Origem fonte="osm" nivel="C" /><br />-23.69217, -46.44853 <Origem fonte="wikidata" nivel="C" /><br />-23.69132, -46.44926 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | GPT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

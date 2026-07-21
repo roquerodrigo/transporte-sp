@@ -5,6 +5,7 @@ description: "Estação de Linha 13 - Jade, Expresso Aeroporto"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="aeroporto-guarulhos" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Aeroporto-Guarulhos | OpenStreetMap | C | Aeroporto–Guarulhos (Wikidata); Aeroporto Guarulhos (GTFS SPTrans); AEROPORTO GUARULHOS (GeoSampa) |
-| Coordenada | -23.43306, -46.49381 | GeoSampa | A | -23.43312, -46.49379 (OpenStreetMap); -23.43250, -46.49370 (Wikidata); -23.43367, -46.49373 (GTFS SPTrans) |
-| Sigla | AGU | Wikidata | C | APO (OpenStreetMap) |
-| Inauguração | 2018-03-31 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Aeroporto-Guarulhos | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.43306, -46.49381 | <Origem fonte="geosampa" nivel="A" /> | -23.43312, -46.49379 <Origem fonte="osm" nivel="C" /><br />-23.43250, -46.49370 <Origem fonte="wikidata" nivel="C" /><br />-23.43367, -46.49373 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | AGU | <Origem fonte="wikidata" nivel="C" /> | APO <Origem fonte="osm" nivel="C" /> |
+| Inauguração | 31/03/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

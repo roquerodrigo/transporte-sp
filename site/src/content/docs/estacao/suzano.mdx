@@ -5,6 +5,7 @@ description: "Estação de Linha 11 - Coral"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="suzano" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Suzano | OpenStreetMap | C | SUZANO (GeoSampa) |
-| Coordenada | -23.53398, -46.30803 | GeoSampa | A | -23.53432, -46.30799 (OpenStreetMap); -23.53411, -46.30806 (Wikidata); -23.53352, -46.30923 (GTFS SPTrans) |
-| Sigla | SUZ | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Suzano | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.53398, -46.30803 | <Origem fonte="geosampa" nivel="A" /> | -23.53432, -46.30799 <Origem fonte="osm" nivel="C" /><br />-23.53411, -46.30806 <Origem fonte="wikidata" nivel="C" /><br />-23.53352, -46.30923 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | SUZ | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

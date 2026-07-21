@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="tucuruvi" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Tucuruvi | OpenStreetMap | C | TUCURUVI (GeoSampa) |
-| Coordenada | -23.47998, -46.60315 | GeoSampa | A | -23.48007, -46.60327 (OpenStreetMap); -23.48006, -46.60323 (Wikidata); -23.48005, -46.60321 (GTFS SPTrans) |
-| Sigla | TUC | Wikidata | C | — |
-| Inauguração | 1998-04-29 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Tucuruvi | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.47998, -46.60315 | <Origem fonte="geosampa" nivel="A" /> | -23.48007, -46.60327 <Origem fonte="osm" nivel="C" /><br />-23.48006, -46.60323 <Origem fonte="wikidata" nivel="C" /><br />-23.48005, -46.60321 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | TUC | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 29/04/1998 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

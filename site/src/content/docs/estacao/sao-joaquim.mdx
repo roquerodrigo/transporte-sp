@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul, Linha 6 - Laranja"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="sao-joaquim" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | São Joaquim | OpenStreetMap | C | SÃO JOAQUIM (GeoSampa); SÃO JOAQUIM (GeoSampa) |
-| Coordenada | -23.56191, -46.63870 | GeoSampa | A | -23.56266, -46.63929 (GeoSampa); -23.56160, -46.63861 (OpenStreetMap); -23.56189, -46.63865 (Wikidata); -23.56143, -46.63853 (GTFS SPTrans) |
-| Sigla | JQM | Wikidata | C | — |
-| Inauguração | 1975-02-17 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | São Joaquim | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.56191, -46.63870 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 102 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | JQM | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 17/02/1975 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

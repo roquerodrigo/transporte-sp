@@ -5,6 +5,7 @@ description: "Estação de Linha L1 - VLT Linha 1, Linha L2 - VLT Linha 2"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="pinheiro-machado" />
 
@@ -17,9 +18,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Pinheiro Machado | OpenStreetMap | C | — |
-| Coordenada | -23.96311, -46.34591 | OpenStreetMap | C | -23.96306, -46.34583 (Wikidata) |
-| Inauguração | 2015-06-23 | Wikidata | C | — |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Pinheiro Machado | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.96311, -46.34591 | <Origem fonte="osm" nivel="C" /> | -23.96306, -46.34583 <Origem fonte="wikidata" nivel="C" /> |
+| Inauguração | 23/06/2015 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |

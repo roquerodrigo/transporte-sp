@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="parada-inglesa" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Parada Inglesa | OpenStreetMap | C | PARADA INGLESA (GeoSampa) |
-| Coordenada | -23.48703, -46.60882 | GeoSampa | A | -23.48702, -46.60893 (OpenStreetMap); -23.48702, -46.60884 (OpenStreetMap); -23.48709, -46.60881 (Wikidata); -23.48711, -46.60888 (GTFS SPTrans) |
-| Sigla | PIG | Wikidata | C | — |
-| Inauguração | 1998-04-29 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Parada Inglesa | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.48703, -46.60882 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 11 m de distância<br /><Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | PIG | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 29/04/1998 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

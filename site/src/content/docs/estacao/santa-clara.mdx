@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="santa-clara" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Santa Clara | Wikidata | C | SANTA CLARA (GeoSampa) |
-| Coordenada | -23.57346, -46.56615 | GeoSampa | A | -23.57369, -46.56694 (Wikidata) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Santa Clara | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.57346, -46.56615 | <Origem fonte="geosampa" nivel="A" /> | -23.57369, -46.56694 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

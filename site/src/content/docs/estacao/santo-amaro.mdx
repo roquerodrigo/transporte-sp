@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas, Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="santo-amaro" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Santo Amaro | OpenStreetMap | C | SANTO AMARO (GeoSampa); SANTO AMARO (LINHA 9) (GeoSampa) |
-| Coordenada | -23.65575, -46.72093 | GeoSampa | A | -23.65621, -46.71918 (GeoSampa); -23.65565, -46.72097 (OpenStreetMap); -23.65623, -46.71912 (OpenStreetMap); -23.65569, -46.72043 (Wikidata); -23.65569, -46.72043 (Wikidata); -23.65591, -46.71970 (GTFS SPTrans); -23.65557, -46.72109 (GTFS SPTrans) |
-| Sigla | SAM | Wikidata | C | STA (Wikidata); STA (OpenStreetMap) |
-| Inauguração | 2002-10-20 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Santo Amaro | <Origem fonte="osm" nivel="C" /> | SANTO AMARO (LINHA 9) <Origem fonte="geosampa" nivel="A" /> |
+| Coordenada | -23.65575, -46.72093 | <Origem fonte="geosampa" nivel="A" /> | 6 leituras, até 193 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | SAM | <Origem fonte="wikidata" nivel="C" /> | STA <Origem fonte="wikidata" nivel="C" /> |
+| Inauguração | 20/10/2002 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

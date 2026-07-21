@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="praca-da-arvore" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Praça da Árvore | OpenStreetMap | C | Praça Da Árvore (GTFS SPTrans); PRAÇA DA ÁRVORE (GeoSampa) |
-| Coordenada | -23.61064, -46.63788 | GeoSampa | A | -23.61057, -46.63790 (OpenStreetMap); -23.61058, -46.63786 (Wikidata); -23.61058, -46.63792 (GTFS SPTrans) |
-| Sigla | ARV | Wikidata | C | — |
-| Inauguração | 1974-09-14 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Praça da Árvore | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.61064, -46.63788 | <Origem fonte="geosampa" nivel="A" /> | -23.61057, -46.63790 <Origem fonte="osm" nivel="C" /><br />-23.61058, -46.63786 <Origem fonte="wikidata" nivel="C" /><br />-23.61058, -46.63792 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ARV | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 14/09/1974 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

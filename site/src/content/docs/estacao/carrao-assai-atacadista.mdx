@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="carrao-assai-atacadista" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Carrão – Assaí Atacadista | OpenStreetMap | C | Carrão (Wikidata); Carrão (GTFS SPTrans); CARRÃO (GeoSampa) |
-| Coordenada | -23.53785, -46.56416 | GeoSampa | A | -23.53789, -46.56426 (OpenStreetMap); -23.53760, -46.56351 (Wikidata); -23.53784, -46.56439 (GTFS SPTrans) |
-| Sigla | CAR | Wikidata | C | — |
-| Inauguração | 1986-05-31 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Carrão – Assaí Atacadista | <Origem fonte="osm" nivel="C" /> | Carrão <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.53785, -46.56416 | <Origem fonte="geosampa" nivel="A" /> | -23.53789, -46.56426 <Origem fonte="osm" nivel="C" /><br />-23.53760, -46.56351 <Origem fonte="wikidata" nivel="C" /><br />-23.53784, -46.56439 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CAR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 31/05/1986 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

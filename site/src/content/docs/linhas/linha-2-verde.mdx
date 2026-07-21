@@ -1,10 +1,12 @@
 ---
 title: "Linha 2 - Verde"
-description: "Metrô · Em operação · 14.777 km"
+description: "Metrô · Em operação · 14,8 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-2" />
 
@@ -12,42 +14,43 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 ## Estações
 
-### Em operação (14)
+### Em operação (15)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 13 | [Vila Prudente](/estacao/vila-prudente/) | VPT | Em operação | [Linha 15 - Prata](/linhas/linha-15-prata/) |
-| 14 | [Tamanduateí](/estacao/tamanduatei/) | TTI | Em operação | [Linha 10 - Turquesa](/linhas/linha-10-turquesa/) |
-| 15 | [Sacomã](/estacao/sacoma/) | SAC | Em operação | — |
-| 16 | [Alto do Ipiranga](/estacao/alto-do-ipiranga/) | AIP | Em operação | — |
-| 17 | [Santos - Imigrantes](/estacao/santos-imigrantes/) | IMG | Em operação | — |
-| 18 | [Chácara Klabin](/estacao/chacara-klabin/) | CKB | Em operação | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
-| 19 | [Ana Rosa](/estacao/ana-rosa/) | ANR | Em operação | [Linha 1 - Azul](/linhas/linha-1-azul/), [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
-| 20 | [Paraíso](/estacao/paraiso/) | PSO | Em operação | [Linha 1 - Azul](/linhas/linha-1-azul/) |
-| 21 | [Brigadeiro](/estacao/brigadeiro/) | BGD | Em operação | — |
-| 22 | [Trianon-Masp](/estacao/trianon-masp/) | TRI | Em operação | — |
-| 23 | [Consolação](/estacao/consolacao/) | CNS | Em operação | — |
-| 24 | [Clínicas](/estacao/clinicas/) | CLI | Em operação | — |
-| 25 | [Santuário Nossa Senhora de Fátima - Sumaré](/estacao/santuario-nossa-senhora-de-fatima-sumare/) | SUM | Em operação | [Linha 22 - Marrom](/linhas/linha-22-marrom/) |
-| 26 | [Vila Madalena](/estacao/vila-madalena/) | VMD | Em operação | — |
+| 6 | [Penha - Lojas Besni](/estacao/penha-lojas-besni/) | PEN | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 11 - Coral](/linhas/linha-11-coral/) |
+| 14 | [Vila Prudente](/estacao/vila-prudente/) | VPT | <Situacao valor="operational" /> | [Linha 15 - Prata](/linhas/linha-15-prata/) |
+| 15 | [Tamanduateí](/estacao/tamanduatei/) | TTI | <Situacao valor="operational" /> | [Linha 10 - Turquesa](/linhas/linha-10-turquesa/) |
+| 16 | [Sacomã](/estacao/sacoma/) | SAC | <Situacao valor="operational" /> | — |
+| 17 | [Alto do Ipiranga](/estacao/alto-do-ipiranga/) | AIP | <Situacao valor="operational" /> | — |
+| 18 | [Santos - Imigrantes](/estacao/santos-imigrantes/) | IMG | <Situacao valor="operational" /> | — |
+| 19 | [Chácara Klabin](/estacao/chacara-klabin/) | CKB | <Situacao valor="operational" /> | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
+| 20 | [Ana Rosa](/estacao/ana-rosa/) | ANR | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/), [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
+| 21 | [Paraíso](/estacao/paraiso/) | PSO | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/) |
+| 22 | [Brigadeiro](/estacao/brigadeiro/) | BGD | <Situacao valor="operational" /> | — |
+| 23 | [Trianon-Masp](/estacao/trianon-masp/) | TRI | <Situacao valor="operational" /> | — |
+| 24 | [Consolação](/estacao/consolacao/) | CNS | <Situacao valor="operational" /> | — |
+| 25 | [Clínicas](/estacao/clinicas/) | CLI | <Situacao valor="operational" /> | — |
+| 26 | [Santuário Nossa Senhora de Fátima - Sumaré](/estacao/santuario-nossa-senhora-de-fatima-sumare/) | SUM | <Situacao valor="operational" /> | [Linha 22 - Marrom](/linhas/linha-22-marrom/) |
+| 27 | [Vila Madalena](/estacao/vila-madalena/) | VMD | <Situacao valor="operational" /> | — |
 
 ### Projetada (13)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Dutra](/estacao/dutra/) | — | Projetada | [Linha 19 - Celeste](/linhas/linha-19-celeste/) |
-| 2 | [Ponte Grande](/estacao/ponte-grande/) | — | Projetada | — |
-| 3 | [Paulo Freire](/estacao/paulo-freire/) | — | Projetada | — |
-| 4 | [Tiquatira](/estacao/tiquatira/) | — | Projetada | — |
-| 5 | [Penha de França](/estacao/penha-de-franca/) | — | Projetada | — |
-| 6 | [Aricanduva](/estacao/aricanduva/) | — | Projetada | — |
-| 7 | [Guilherme Giorgi](/estacao/guilherme-giorgi/) | — | Projetada | — |
-| 8 | [Santa Isabel](/estacao/santa-isabel/) | — | Projetada | — |
-| 9 | [Vila Formosa](/estacao/vila-formosa/) | — | Projetada | — |
-| 10 | [Anália Franco](/estacao/analia-franco/) | — | Projetada | [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
-| 11 | [Santa Clara](/estacao/santa-clara/) | — | Projetada | — |
-| 12 | [Orfanato](/estacao/orfanato/) | — | Projetada | — |
-| 27 | [Cerro Corá](/estacao/cerro-cora/) | — | Projetada | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
+| 1 | [Dutra](/estacao/dutra/) | — | <Situacao valor="planned" /> | [Linha 19 - Celeste](/linhas/linha-19-celeste/) |
+| 2 | [Ponte Grande](/estacao/ponte-grande/) | — | <Situacao valor="planned" /> | — |
+| 3 | [Paulo Freire](/estacao/paulo-freire/) | — | <Situacao valor="planned" /> | — |
+| 4 | [Tiquatira](/estacao/tiquatira/) | — | <Situacao valor="planned" /> | [Linha 12 - Safira](/linhas/linha-12-safira/), [Linha 13 - Jade](/linhas/linha-13-jade/) |
+| 5 | [Penha de França](/estacao/penha-de-franca/) | — | <Situacao valor="planned" /> | — |
+| 7 | [Aricanduva](/estacao/aricanduva/) | — | <Situacao valor="planned" /> | — |
+| 8 | [Guilherme Giorgi](/estacao/guilherme-giorgi/) | — | <Situacao valor="planned" /> | — |
+| 9 | [Santa Isabel](/estacao/santa-isabel/) | — | <Situacao valor="planned" /> | — |
+| 10 | [Vila Formosa](/estacao/vila-formosa/) | — | <Situacao valor="planned" /> | — |
+| 11 | [Anália Franco](/estacao/analia-franco/) | — | <Situacao valor="planned" /> | [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
+| 12 | [Santa Clara](/estacao/santa-clara/) | — | <Situacao valor="planned" /> | — |
+| 13 | [Orfanato](/estacao/orfanato/) | — | <Situacao valor="planned" /> | — |
+| 28 | [Cerro Corá](/estacao/cerro-cora/) | — | <Situacao valor="planned" /> | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
 
 A ordem das estações vem de GTFS SPTrans.
 
@@ -55,13 +58,13 @@ A ordem das estações vem de GTFS SPTrans.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Verde | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 2 | GeoSampa | A | — |
-| Cor | #008162 | OpenStreetMap | C | #007E5E (GTFS SPTrans) |
-| Modo | Metrô | OpenStreetMap | C | — |
-| Operadora | Companhia do Metropolitano de São Paulo | OpenStreetMap | C | METRO (GeoSampa) |
-| Extensão | 14.777 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Verde | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 2 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #008162 | <Origem fonte="osm" nivel="C" /> | #007E5E <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Metrô | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | Companhia do Metropolitano de São Paulo | <Origem fonte="osm" nivel="C" /> | METRO <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 14,8 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

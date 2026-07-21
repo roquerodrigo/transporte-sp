@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha, Linha 11 - Coral, Linha 14 - Onix
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="corinthians-itaquera" />
 
@@ -18,10 +19,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Corinthians-Itaquera | OpenStreetMap | C | Terminal Intermodal Corinthians-Itaquera (Wikidata); Corinthians-itaquera (GTFS SPTrans); Corinthians-itaquera (GTFS SPTrans); CORINTHIANS-ITAQUERA (GeoSampa); CORINTHIANS - ITAQUERA (GeoSampa); CORINTHIANS-ITAQUERA (GeoSampa) |
-| Coordenada | -23.54231, -46.47108 | GeoSampa | A | -23.54206, -46.47114 (GeoSampa); -23.54220, -46.47125 (GeoSampa); -23.54230, -46.47121 (OpenStreetMap); -23.54221, -46.47116 (Wikidata); -23.54241, -46.47196 (GTFS SPTrans); -23.54199, -46.47127 (GTFS SPTrans) |
-| Sigla | ITQ | Wikidata | C | — |
-| Inauguração | 1988-11-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Corinthians-Itaquera | <Origem fonte="osm" nivel="C" /> | Terminal Intermodal Corinthians-Itaquera <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.54231, -46.47108 | <Origem fonte="geosampa" nivel="A" /> | 6 leituras, até 91 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | ITQ | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/11/1988 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

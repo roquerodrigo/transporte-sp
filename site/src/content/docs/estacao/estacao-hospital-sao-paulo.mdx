@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="estacao-hospital-sao-paulo" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Estação Hospital São Paulo | OpenStreetMap | C | Hospital São Paulo (Wikidata); Hospital São Paulo (GTFS SPTrans); HOSPITAL SÃO PAULO (GeoSampa) |
-| Coordenada | -23.59816, -46.64536 | GeoSampa | A | -23.59851, -46.64558 (OpenStreetMap); -23.59838, -46.64559 (Wikidata); -23.59838, -46.64561 (GTFS SPTrans) |
-| Sigla | HSP | Wikidata | C | — |
-| Inauguração | 2018-09-28 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Estação Hospital São Paulo | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.59816, -46.64536 | <Origem fonte="geosampa" nivel="A" /> | -23.59851, -46.64558 <Origem fonte="osm" nivel="C" /><br />-23.59838, -46.64559 <Origem fonte="wikidata" nivel="C" /><br />-23.59838, -46.64561 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | HSP | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 28/09/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

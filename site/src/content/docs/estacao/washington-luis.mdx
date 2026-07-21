@@ -5,6 +5,7 @@ description: "Estação de Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="washington-luis" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Washington Luís | OpenStreetMap | C | WASHINGTON LUIS (GeoSampa) |
-| Coordenada | -23.63427, -46.66863 | GeoSampa | A | -23.63440, -46.66832 (OpenStreetMap); -23.63472, -46.66833 (Wikidata) |
-| Sigla | JDA | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Situação | Projetada | GeoSampa | A | Em operação (OpenStreetMap) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Washington Luís | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.63427, -46.66863 | <Origem fonte="geosampa" nivel="A" /> | -23.63440, -46.66832 <Origem fonte="osm" nivel="C" /><br />-23.63472, -46.66833 <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | JDA | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | Em operação <Origem fonte="osm" nivel="C" /> |

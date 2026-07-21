@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas, Alphaville - Campo Limpo"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="campo-limpo" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Campo Limpo | OpenStreetMap | C | CAMPO LIMPO (GeoSampa); CAMPO LIMPO (GeoSampa) |
-| Coordenada | -23.64938, -46.75896 | GeoSampa | A | -23.64880, -46.75897 (GeoSampa); -23.64929, -46.75895 (OpenStreetMap); -23.64937, -46.75915 (Wikidata); -23.64899, -46.75888 (GTFS SPTrans) |
-| Sigla | CPL | Wikidata | C | — |
-| Inauguração | 2002-10-20 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Campo Limpo | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.64938, -46.75896 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 65 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | CPL | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 20/10/2002 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="itapevi" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Itapevi | OpenStreetMap | C | ITAPEVI (GeoSampa) |
-| Coordenada | -23.54614, -46.93569 | GeoSampa | A | -23.54553, -46.93526 (OpenStreetMap); -23.54554, -46.93525 (Wikidata); -23.54573, -46.93542 (GTFS SPTrans) |
-| Sigla | IPV | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Itapevi | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54614, -46.93569 | <Origem fonte="geosampa" nivel="A" /> | -23.54553, -46.93526 <Origem fonte="osm" nivel="C" /><br />-23.54554, -46.93525 <Origem fonte="wikidata" nivel="C" /><br />-23.54573, -46.93542 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | IPV | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

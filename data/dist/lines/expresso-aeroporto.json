@@ -50,9 +50,6 @@
     },
     "stations": [
       "palmeiras-barra-funda",
-      "luz",
-      "bras",
-      "guarulhos-cecap",
       "aeroporto-guarulhos"
     ],
     "station_order": {
@@ -2408,69 +2405,9 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "Palmeiras - Barra Funda",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "Palmeiras-Barra Funda (Metrô)",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
             "value": "Terminal Intermodal Palmeiras-Barra Funda",
             "source": "wikidata",
             "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "Palmeiras - Barra Funda",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "Palmeiras - Barra Funda",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "Palmeiras - Barra Funda",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PALMEIRAS-BARRA FUNDA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PALMEIRAS - BARRA FUNDA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PALMEIRAS - BARRA FUNDA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PALMEIRAS - BARRA FUNDA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PALMEIRAS - BARRA FUNDA",
-            "source": "geosampa",
-            "confidence": "A",
             "note": null
           }
         ]
@@ -2490,34 +2427,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "43 m away"
-          },
-          {
-            "value": {
-              "lat": -23.5255841,
-              "lon": -46.66751601
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "43 m away"
-          },
-          {
-            "value": {
-              "lat": -23.5255841,
-              "lon": -46.66751601
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "43 m away"
-          },
-          {
-            "value": {
-              "lat": -23.5255841,
-              "lon": -46.66751601
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "43 m away"
+            "note": "43 m de distância"
           },
           {
             "value": {
@@ -2526,7 +2436,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "56 m away"
+            "note": "56 m de distância"
           },
           {
             "value": {
@@ -2535,7 +2445,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "10 m away"
+            "note": "10 m de distância"
           },
           {
             "value": {
@@ -2544,16 +2454,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "49 m away"
-          },
-          {
-            "value": {
-              "lat": -23.525505,
-              "lon": -46.667358
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "49 m away"
+            "note": "49 m de distância"
           },
           {
             "value": {
@@ -2562,7 +2463,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "46 m away"
+            "note": "46 m de distância"
           },
           {
             "value": {
@@ -2571,7 +2472,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "110 m away"
+            "note": "110 m de distância"
           },
           {
             "value": {
@@ -2580,7 +2481,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "84 m away"
+            "note": "84 m de distância"
           },
           {
             "value": {
@@ -2589,7 +2490,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "64 m away"
+            "note": "64 m de distância"
           }
         ]
       },
@@ -2643,490 +2544,13 @@
       ]
     },
     {
-      "id": "luz",
-      "slug": "luz",
-      "name": {
-        "value": "Luz",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.53690231,
-          "lon": -46.63367028
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.53615475,
-              "lon": -46.6344918
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "118 m away"
-          },
-          {
-            "value": {
-              "lat": -23.53496082,
-              "lon": -46.63511522
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "261 m away"
-          },
-          {
-            "value": {
-              "lat": -23.53496082,
-              "lon": -46.63511522
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "261 m away"
-          },
-          {
-            "value": {
-              "lat": -23.5353887,
-              "lon": -46.6344383
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "186 m away"
-          },
-          {
-            "value": {
-              "lat": -23.537629,
-              "lon": -46.63361
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "81 m away"
-          },
-          {
-            "value": {
-              "lat": -23.5366,
-              "lon": -46.6343
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "72 m away"
-          },
-          {
-            "value": {
-              "lat": -23.535103,
-              "lon": -46.635436
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "269 m away"
-          },
-          {
-            "value": {
-              "lat": -23.535297,
-              "lon": -46.634703
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "207 m away"
-          },
-          {
-            "value": {
-              "lat": -23.536598,
-              "lon": -46.634502
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "91 m away"
-          }
-        ]
-      },
-      "lines": [
-        "linha-1",
-        "linha-4",
-        "linha-7",
-        "linha-11",
-        "expresso-aeroporto"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "LUZ",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1975-09-26",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q15243160",
-        "osm": "node/5368677484",
-        "gtfs_stop_id": "18872",
-        "gtfs_route_id": null,
-        "geosampa_id": "42",
-        "metro_code": "LUZ"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "bras",
-      "slug": "bras",
-      "name": {
-        "value": "Brás",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "BRÁS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "BRÁS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "BRÁS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "BRÁS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.5478844,
-          "lon": -46.61590896
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.54402144,
-              "lon": -46.61687708
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "441 m away"
-          },
-          {
-            "value": {
-              "lat": -23.54402144,
-              "lon": -46.61687708
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "441 m away"
-          },
-          {
-            "value": {
-              "lat": -23.54402144,
-              "lon": -46.61687708
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "441 m away"
-          },
-          {
-            "value": {
-              "lat": -23.5478581,
-              "lon": -46.6159196
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "3 m away"
-          },
-          {
-            "value": {
-              "lat": -23.5453263,
-              "lon": -46.6164435
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "290 m away"
-          },
-          {
-            "value": {
-              "lat": -23.54504,
-              "lon": -46.61634
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "319 m away"
-          },
-          {
-            "value": {
-              "lat": -23.547826,
-              "lon": -46.615881
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "7 m away"
-          },
-          {
-            "value": {
-              "lat": -23.545461,
-              "lon": -46.616228
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "271 m away"
-          },
-          {
-            "value": {
-              "lat": -23.545582,
-              "lon": -46.616314
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "259 m away"
-          },
-          {
-            "value": {
-              "lat": -23.547751,
-              "lon": -46.616127
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "27 m away"
-          }
-        ]
-      },
-      "lines": [
-        "linha-3",
-        "linha-10",
-        "linha-11",
-        "linha-12",
-        "expresso-aeroporto"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "BAS",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1867-02-16",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "1979-03-10",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q9295692",
-        "osm": "node/4117565742",
-        "gtfs_stop_id": "18987",
-        "gtfs_route_id": null,
-        "geosampa_id": "11",
-        "metro_code": "BAS"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "guarulhos-cecap",
-      "slug": "guarulhos-cecap",
-      "name": {
-        "value": "Guarulhos-Cecap",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Guarulhos Cecap",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "GUARULHOS CECAP",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.44744138,
-          "lon": -46.4936932
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.447414,
-              "lon": -46.4937465
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "6 m away"
-          },
-          {
-            "value": {
-              "lat": -23.448611,
-              "lon": -46.493333
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "135 m away"
-          },
-          {
-            "value": {
-              "lat": -23.44808,
-              "lon": -46.493539
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "73 m away"
-          }
-        ]
-      },
-      "lines": [
-        "linha-13",
-        "expresso-aeroporto"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "GCE",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "GRC",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "2018-03-31",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q18475595",
-        "osm": "way/572795481",
-        "gtfs_stop_id": "1814712",
-        "gtfs_route_id": null,
-        "geosampa_id": "3018",
-        "metro_code": "GRC"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
       "id": "aeroporto-guarulhos",
       "slug": "aeroporto-guarulhos",
       "name": {
         "value": "Aeroporto-Guarulhos",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Aeroporto–Guarulhos",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "Aeroporto Guarulhos",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "AEROPORTO GUARULHOS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -3143,7 +2567,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "7 m away"
+            "note": "7 m de distância"
           },
           {
             "value": {
@@ -3152,7 +2576,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "63 m away"
+            "note": "63 m de distância"
           },
           {
             "value": {
@@ -3161,7 +2585,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "68 m away"
+            "note": "68 m de distância"
           }
         ]
       },

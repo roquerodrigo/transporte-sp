@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="villa-lobos-jaguare" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Villa Lobos - Jaguaré | OpenStreetMap | C | Villa Lobos-Jaguaré (Wikidata); Villa Lobos- Jaguaré (GTFS SPTrans); VILLA-LOBOS - JAGUARÉ (GeoSampa) |
-| Coordenada | -23.54602, -46.73282 | GeoSampa | A | -23.54599, -46.73285 (OpenStreetMap); -23.54603, -46.73281 (Wikidata); -23.54672, -46.73208 (GTFS SPTrans) |
-| Sigla | JAG | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Villa Lobos - Jaguaré | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54602, -46.73282 | <Origem fonte="geosampa" nivel="A" /> | -23.54599, -46.73285 <Origem fonte="osm" nivel="C" /><br />-23.54603, -46.73281 <Origem fonte="wikidata" nivel="C" /><br />-23.54672, -46.73208 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JAG | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

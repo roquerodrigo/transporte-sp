@@ -1883,14 +1883,7 @@
         "value": "Terminal Barreiros",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Barreiros",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1907,7 +1900,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           }
         ]
       },
@@ -1975,7 +1968,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "38 m away"
+            "note": "38 m de distância"
           }
         ]
       },
@@ -2041,7 +2034,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "19 m away"
+            "note": "19 m de distância"
           }
         ]
       },
@@ -2109,7 +2102,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "40 m away"
+            "note": "40 m de distância"
           }
         ]
       },
@@ -2170,7 +2163,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "32 m away"
+            "note": "32 m de distância"
           }
         ]
       },
@@ -2231,7 +2224,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           }
         ]
       },
@@ -2292,7 +2285,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "18 m away"
+            "note": "18 m de distância"
           }
         ]
       },
@@ -2353,7 +2346,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "24 m away"
+            "note": "24 m de distância"
           }
         ]
       },
@@ -2414,7 +2407,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "41 m away"
+            "note": "41 m de distância"
           }
         ]
       },
@@ -2475,7 +2468,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "9 m away"
+            "note": "9 m de distância"
           }
         ]
       },
@@ -2543,7 +2536,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           }
         ]
       },
@@ -2609,7 +2602,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "14 m away"
+            "note": "14 m de distância"
           }
         ]
       },
@@ -2675,7 +2668,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "46 m away"
+            "note": "46 m de distância"
           }
         ]
       },
@@ -2736,7 +2729,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "17 m away"
+            "note": "17 m de distância"
           }
         ]
       },
@@ -2797,7 +2790,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "2 m away"
+            "note": "2 m de distância"
           }
         ]
       },
@@ -2852,7 +2845,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "5 m away"
+            "note": "5 m de distância"
           }
         ]
       },
@@ -2907,7 +2900,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "2 m away"
+            "note": "2 m de distância"
           }
         ]
       },
@@ -2962,7 +2955,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "3 m away"
+            "note": "3 m de distância"
           }
         ]
       },
@@ -3017,7 +3010,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "2 m away"
+            "note": "2 m de distância"
           }
         ]
       },
@@ -3072,7 +3065,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "1 m away"
+            "note": "1 m de distância"
           }
         ]
       },
@@ -3127,7 +3120,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "6 m away"
+            "note": "6 m de distância"
           }
         ]
       },
@@ -3167,7 +3160,7 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "Terminal Valongo",
+            "value": "Rodoviária de Santos",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -3184,12 +3177,21 @@
         "alternatives": [
           {
             "value": {
+              "lat": -23.935388888,
+              "lon": -46.333027777
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "132 m de distância"
+          },
+          {
+            "value": {
               "lat": -23.9349,
               "lon": -46.33301
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "111 m away"
+            "note": "111 m de distância"
           }
         ]
       },
@@ -3207,7 +3209,7 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q131364620",
+        "wikidata": "Q61944822",
         "osm": "node/13743115215",
         "gtfs_stop_id": null,
         "gtfs_route_id": null,

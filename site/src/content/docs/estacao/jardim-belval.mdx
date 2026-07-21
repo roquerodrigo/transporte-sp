@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jardim-belval" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jardim Belval | OpenStreetMap | C | JARDIM BELVAL (GeoSampa) |
-| Coordenada | -23.51399, -46.88928 | GeoSampa | A | -23.51421, -46.88932 (OpenStreetMap); -23.51402, -46.88929 (Wikidata); -23.51431, -46.88929 (GTFS SPTrans) |
-| Sigla | JBE | Wikidata | C | — |
-| Inauguração | 1951-01-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jardim Belval | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.51399, -46.88928 | <Origem fonte="geosampa" nivel="A" /> | -23.51421, -46.88932 <Origem fonte="osm" nivel="C" /><br />-23.51402, -46.88929 <Origem fonte="wikidata" nivel="C" /><br />-23.51431, -46.88929 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | JBE | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/01/1951 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

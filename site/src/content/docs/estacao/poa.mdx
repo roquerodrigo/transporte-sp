@@ -5,6 +5,7 @@ description: "Estação de Linha 11 - Coral"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="poa" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Poá | OpenStreetMap | C | POÁ (GeoSampa) |
-| Coordenada | -23.52541, -46.34363 | GeoSampa | A | -23.52523, -46.34326 (OpenStreetMap); -23.52481, -46.34358 (Wikidata); -23.52521, -46.34325 (GTFS SPTrans) |
-| Sigla | POA | Wikidata | C | — |
-| Inauguração | 1875-11-06 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Poá | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.52541, -46.34363 | <Origem fonte="geosampa" nivel="A" /> | -23.52523, -46.34326 <Origem fonte="osm" nivel="C" /><br />-23.52481, -46.34358 <Origem fonte="wikidata" nivel="C" /><br />-23.52521, -46.34325 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | POA | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 06/11/1875 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

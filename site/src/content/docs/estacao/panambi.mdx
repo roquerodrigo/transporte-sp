@@ -5,6 +5,7 @@ description: "Estação de Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="panambi" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Panambi | Wikidata | C | — |
-| Coordenada | -23.62625, -46.71392 | Wikidata | C | — |
-| Situação | Em operação | inferido | E | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Panambi | <Origem fonte="wikidata" nivel="C" /> | PANAMBY <Origem fonte="geosampa" nivel="A" /> |
+| Coordenada | -23.62691, -46.71445 | <Origem fonte="geosampa" nivel="A" /> | -23.62625, -46.71392 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

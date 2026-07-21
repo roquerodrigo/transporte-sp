@@ -5,6 +5,7 @@ description: "Estação de Aeromóvel GRU"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="estacao-gru-cptm" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Estação GRU CPTM | OpenStreetMap | C | — |
-| Coordenada | -23.43264, -46.49242 | OpenStreetMap | C | — |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Estação GRU CPTM | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.43264, -46.49242 | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |

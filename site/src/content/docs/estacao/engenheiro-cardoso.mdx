@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="engenheiro-cardoso" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Engenheiro Cardoso | OpenStreetMap | C | ENGENHEIRO CARDOSO (GeoSampa) |
-| Coordenada | -23.53523, -46.92858 | GeoSampa | A | -23.53520, -46.92867 (OpenStreetMap); -23.53520, -46.92868 (Wikidata); -23.53524, -46.92829 (GTFS SPTrans) |
-| Sigla | ECD | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Engenheiro Cardoso | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.53523, -46.92858 | <Origem fonte="geosampa" nivel="A" /> | -23.53520, -46.92867 <Origem fonte="osm" nivel="C" /><br />-23.53520, -46.92868 <Origem fonte="wikidata" nivel="C" /><br />-23.53524, -46.92829 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ECD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

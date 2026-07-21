@@ -12,7 +12,7 @@ from __future__ import annotations
 import logging
 import re
 
-from transporte_sp.geo import line_length_km
+from transporte_sp.geo import fraction_new, line_length_km
 from transporte_sp.merge.precedence import (
     GEOMETRY_ORDER,
     GEOMETRY_STRATEGY,
@@ -257,7 +257,7 @@ def _pick_alignment(
         if GEOMETRY_STRATEGY.get(source, "longest") == "concat":
             geometry = [segment for item in parts for segment in item.geometry]
         else:
-            geometry = max((item.geometry for item in parts), key=line_length_km, default=[])
+            geometry = _traversals(parts)
         if geometry:
             candidates.append((source, geometry, line_length_km(geometry)))
     if not candidates:
@@ -305,11 +305,39 @@ def _pick_alignment(
     }
 
 
+# How close an alignment's end has to sit to a station for that station to be its terminus.
+TERMINUS_RADIUS_M = 250.0
+
+# Modes whose lines carry no stations in any source consulted.
+MODOS_SEM_ESTACAO = {"brt"}
+
+# A relation has to cover at least this much ground of its own to count as a branch rather
+# than the same track mapped again.
+NOVO_MINIMO = 0.3
+
+
+def _traversals(parts: list[LineObservation]) -> list:
+    """One geometry per distinct stretch the source maps, opposite directions collapsed.
+
+    OSM keeps a relation per direction, and splits a line with a branch into more: Line 8 is
+    Júlio Prestes ⇔ Itapevi plus Itapevi ⇔ Amador Bueno. Taking simply the longest relation
+    drew the trunk and silently dropped the seven kilometres to Amador Bueno; taking all of
+    them would trace every corridor twice. Each relation is kept only if it runs where the
+    ones already chosen do not.
+    """
+    ordenadas = sorted(parts, key=lambda item: line_length_km(item.geometry), reverse=True)
+    escolhidas: list = []
+    for item in ordenadas:
+        if not escolhidas or fraction_new(item.geometry, escolhidas) >= NOVO_MINIMO:
+            escolhidas.extend(item.geometry)
+    return escolhidas
+
+
 def _alignment_rank(source: str) -> int:
     return GEOMETRY_ORDER.index(source) if source in GEOMETRY_ORDER else len(GEOMETRY_ORDER)
 
 
-def order_stations(lines, stations, clusters, observations) -> None:
+def order_stations(lines, stations, clusters, observations, planned_membership=None) -> None:
     """Give every line its station sequence.
 
     The GTFS is the only source that states the order outright, so it is used wherever it
@@ -347,8 +375,11 @@ def order_stations(lines, stations, clusters, observations) -> None:
             # so its absence there says nothing, and dropping it used to erase the whole
             # planned half of Lines 2, 4, 5 and 13.
             keep = set(sequence)
+            planejadas = planned_membership or {}
             for station in members:
-                if station.id not in keep and station.status.value == "operational":
+                projetada_aqui = line.id in planejadas.get(station.id, set())
+                descartavel = station.status.value == "operational" and not projetada_aqui
+                if station.id not in keep and descartavel:
                     station.lines.remove(line.id)
             ordered = _append_unsequenced(
                 sequence, [s for s in members if line.id in s.lines], by_id, line
@@ -368,6 +399,47 @@ def order_stations(lines, stations, clusters, observations) -> None:
             station = by_id[station_id]
             if line.id not in station.lines:
                 station.lines.append(line.id)
+
+
+def attach_planned_termini(lines, stations, planned_membership: dict) -> None:
+    """Give a projected alignment the station sitting at each of its ends.
+
+    GeoSampa maps a projected line's stations and its alignment in separate layers, and the
+    two do not always agree: Line 20-Rosa is drawn up to Santa Marina, an existing Line 6
+    station, but its projected-station layer stops short of it. Where an alignment ends on
+    top of a station the network already knows, that station is a terminus — published as
+    inferred, and only for the two ends, because a line passing near a station says nothing.
+    """
+    from transporte_sp.geo import chain_parts, distance_m
+    from transporte_sp.merge import stations as station_merge
+
+    for line in lines:
+        if not line.planned_geometry or not line.planned_geometry.value:
+            continue
+        # Bus corridors are mapped as geometry with no stations of their own, so a corridor
+        # ending beside a rail station says where the corridor stops — not that the station
+        # is served by it. Adopting the station there put a BRT line on Tamanduateí.
+        if line.mode.value in MODOS_SEM_ESTACAO:
+            continue
+        polyline = chain_parts(line.planned_geometry.value)
+        if len(polyline) < 2:
+            continue
+        for lon, lat in (polyline[0], polyline[-1]):
+            candidata = min(
+                stations,
+                key=lambda station: distance_m(
+                    lat, lon, station.coordinates.value.lat, station.coordinates.value.lon
+                ),
+            )
+            gap = distance_m(
+                lat, lon, candidata.coordinates.value.lat, candidata.coordinates.value.lon
+            )
+            if gap <= TERMINUS_RADIUS_M and line.id not in candidata.lines:
+                candidata.lines = station_merge.sorted_lines([*candidata.lines, line.id])
+                # Recorded as projected, or the timetable trim would take it straight back
+                # out: the station runs today, but not yet for this line.
+                planned_membership.setdefault(candidata.id, set()).add(line.id)
+                log.info("%s: terminal projetado em %s (%d m)", line.id, candidata.slug, gap)
 
 
 def _mark_running(sequence: list[str], by_id) -> None:

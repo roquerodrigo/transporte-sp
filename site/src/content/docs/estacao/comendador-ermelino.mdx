@@ -5,6 +5,7 @@ description: "Estação de Linha 12 - Safira"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="comendador-ermelino" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Comendador Ermelino | OpenStreetMap | C | COMENDADOR ERMELINO (GeoSampa) |
-| Coordenada | -23.48514, -46.48241 | GeoSampa | A | -23.48511, -46.48229 (OpenStreetMap); -23.48510, -46.48234 (Wikidata); -23.48517, -46.48283 (GTFS SPTrans) |
-| Sigla | ERM | Wikidata | C | — |
-| Inauguração | 1934-01-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Comendador Ermelino | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.48514, -46.48241 | <Origem fonte="geosampa" nivel="A" /> | -23.48511, -46.48229 <Origem fonte="osm" nivel="C" /><br />-23.48510, -46.48234 <Origem fonte="wikidata" nivel="C" /><br />-23.48517, -46.48283 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ERM | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/01/1934 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

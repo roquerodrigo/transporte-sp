@@ -1,0 +1,71 @@
+/*
+ * The pills that carry every closed-vocabulary value on the site: confidence level, source,
+ * operating state.
+ *
+ * The colours live here rather than in each component because the same scale has to look
+ * identical wherever it appears — a level A in a summary card, in a provenance table and on
+ * the sources page is one thing, not three. They are built by mixing the theme's own
+ * semantic colour, so a badge follows whatever theme is active, in light and dark.
+ */
+
+.pill {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3em;
+  font-size: 0.78em;
+  line-height: 1.5;
+  white-space: nowrap;
+  border-radius: 999px;
+  padding: 0.1em 0.6em;
+  font-weight: 600;
+  vertical-align: baseline;
+  background: color-mix(in oklab, var(--pill-cor) 14%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--pill-cor) 25%, transparent);
+  color: var(--pill-cor);
+}
+
+/* A cell can hold several of them; keep them from colliding when the line wraps. */
+.pill + .pill {
+  margin-inline-start: 0.3em;
+}
+
+.pill-separador::after {
+  content: "·";
+  margin-inline-start: 0.3em;
+  opacity: 0.6;
+}
+
+/* Confidence, from official-primary down to inferred. */
+[data-nivel="A"] {
+  --pill-cor: var(--sl-color-green-high);
+}
+[data-nivel="B"] {
+  --pill-cor: var(--sl-color-blue-high);
+}
+[data-nivel="C"] {
+  --pill-cor: var(--sl-color-orange-high);
+}
+[data-nivel="D"] {
+  --pill-cor: var(--sl-color-red-high);
+}
+[data-nivel="E"] {
+  --pill-cor: var(--sl-color-purple-high);
+}
+
+/* Operating state. Green runs, amber is partial or being built, blue is on paper. */
+[data-situacao="operational"] {
+  --pill-cor: var(--sl-color-green-high);
+}
+[data-situacao="partial"],
+[data-situacao="under_construction"] {
+  --pill-cor: var(--sl-color-orange-high);
+}
+[data-situacao="planned"] {
+  --pill-cor: var(--sl-color-blue-high);
+}
+[data-situacao="proposed"] {
+  --pill-cor: var(--sl-color-purple-high);
+}
+[data-situacao="closed"] {
+  --pill-cor: var(--sl-color-red-high);
+}

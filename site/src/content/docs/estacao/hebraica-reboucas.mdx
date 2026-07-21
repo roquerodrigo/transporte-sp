@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda, Linha 22 - Marrom"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="hebraica-reboucas" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Hebraica - Rebouças | OpenStreetMap | C | Hebraica-Rebouças (Wikidata); HEBRAICA - REBOUÇAS (GeoSampa); HEBRAICA-REBOUÇAS (GeoSampa) |
-| Coordenada | -23.57361, -46.69879 | GeoSampa | A | -23.57229, -46.69778 (GeoSampa); -23.57357, -46.69864 (OpenStreetMap); -23.57368, -46.69859 (Wikidata); -23.57382, -46.69863 (GTFS SPTrans) |
-| Sigla | HBR | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Hebraica - Rebouças | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.57361, -46.69879 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 180 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | HBR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

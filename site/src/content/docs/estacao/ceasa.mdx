@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="ceasa" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Ceasa | OpenStreetMap | C | CEASA (GeoSampa) |
-| Coordenada | -23.53742, -46.74261 | GeoSampa | A | -23.53749, -46.74253 (OpenStreetMap); -23.53741, -46.74260 (Wikidata); -23.53837, -46.74154 (GTFS SPTrans) |
-| Sigla | CEA | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Ceasa | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.53742, -46.74261 | <Origem fonte="geosampa" nivel="A" /> | -23.53749, -46.74253 <Origem fonte="osm" nivel="C" /><br />-23.53741, -46.74260 <Origem fonte="wikidata" nivel="C" /><br />-23.53837, -46.74154 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | CEA | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

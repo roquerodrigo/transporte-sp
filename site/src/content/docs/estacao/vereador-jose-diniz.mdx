@@ -5,6 +5,7 @@ description: "Estação de Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vereador-jose-diniz" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vereador José Diniz | OpenStreetMap | C | JOSÉ DINIZ (GeoSampa) |
-| Coordenada | -23.62193, -46.67895 | GeoSampa | A | -23.62206, -46.67888 (OpenStreetMap); -23.62222, -46.67861 (Wikidata) |
-| Sigla | VJD | Wikidata | C | — |
-| Inauguração | 2026-03-31 | Wikidata | C | — |
-| Situação | Em operação | inferido | E | Projetada (GeoSampa); Em operação (OpenStreetMap) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vereador José Diniz | <Origem fonte="osm" nivel="C" /> | JOSÉ DINIZ <Origem fonte="geosampa" nivel="A" /> |
+| Coordenada | -23.62193, -46.67895 | <Origem fonte="geosampa" nivel="A" /> | -23.62206, -46.67888 <Origem fonte="osm" nivel="C" /><br />-23.62222, -46.67861 <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | VJD | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 31/03/2026 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="pipeline" nivel="E" /> | Projetada <Origem fonte="geosampa" nivel="A" /><br />Em operação <Origem fonte="osm" nivel="C" /> |

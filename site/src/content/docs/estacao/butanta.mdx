@@ -5,6 +5,7 @@ description: "Estação de Linha 4 - Amarela"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="butanta" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Butantã | OpenStreetMap | C | BUTANTÃ (GeoSampa) |
-| Coordenada | -23.57199, -46.70824 | GeoSampa | A | -23.57190, -46.70809 (OpenStreetMap); -23.57182, -46.70814 (Wikidata); -23.57187, -46.70805 (GTFS SPTrans) |
-| Sigla | BUT | Wikidata | C | — |
-| Inauguração | 2011-03-28 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Butantã | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.57199, -46.70824 | <Origem fonte="geosampa" nivel="A" /> | -23.57190, -46.70809 <Origem fonte="osm" nivel="C" /><br />-23.57182, -46.70814 <Origem fonte="wikidata" nivel="C" /><br />-23.57187, -46.70805 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | BUT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 28/03/2011 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -1,10 +1,11 @@
 ---
 title: "Tiquatira"
-description: "Estação de Linha 2 - Verde"
+description: "Estação de Linha 2 - Verde, Linha 12 - Safira, Linha 13 - Jade"
 ---
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="tiquatira" />
 
@@ -13,11 +14,13 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 ## Linhas
 
 - [Linha 2 - Verde](/linhas/linha-2-verde/)
+- [Linha 12 - Safira](/linhas/linha-12-safira/)
+- [Linha 13 - Jade](/linhas/linha-13-jade/)
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Tiquatira | GeoSampa | A | — |
-| Coordenada | -23.51781, -46.55098 | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Tiquatira | <Origem fonte="geosampa" nivel="A" /> | GABRIELA MISTRAL <Origem fonte="geosampa" nivel="A" /> |
+| Coordenada | -23.51781, -46.55098 | <Origem fonte="geosampa" nivel="A" /> | -23.51948, -46.55076 <Origem fonte="geosampa" nivel="A" /><br />-23.51938, -46.55081 <Origem fonte="geosampa" nivel="A" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

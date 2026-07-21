@@ -5,6 +5,8 @@ description: "Metrô · Projetada"
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-20" />
 
@@ -12,38 +14,39 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 ## Estações
 
-### Em operação (4)
+### Em operação (6)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 6 | [Fradique Coutinho](/estacao/fradique-coutinho/) | FRA | Em operação | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
-| 10 | [Moema](/estacao/moema/) | MOE | Em operação | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
-| 13 | [Saúde – Ultrafarma](/estacao/saude-ultrafarma/) | SAU | Em operação | [Linha 1 - Azul](/linhas/linha-1-azul/) |
-| 23 | [Prefeito Celso Daniel - Santo André](/estacao/prefeito-celso-daniel-santo-andre/) | SAN | Em operação | [Linha 10 - Turquesa](/linhas/linha-10-turquesa/) |
+| 1 | [Santa Marina](/estacao/santa-marina/) | STM | <Situacao valor="operational" /> | [Linha 6 - Laranja](/linhas/linha-6-laranja/) |
+| 2 | [Lapa](/estacao/lapa/) | LPA | <Situacao valor="operational" /> | [Linha 7 - Rubi](/linhas/linha-7-rubi/) |
+| 7 | [Fradique Coutinho](/estacao/fradique-coutinho/) | FRA | <Situacao valor="operational" /> | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
+| 11 | [Moema](/estacao/moema/) | MOE | <Situacao valor="operational" /> | [Linha 5 - Lilas](/linhas/linha-5-lilas/) |
+| 14 | [Saúde – Ultrafarma](/estacao/saude-ultrafarma/) | SAU | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/) |
+| 24 | [Prefeito Celso Daniel - Santo André](/estacao/prefeito-celso-daniel-santo-andre/) | SAN | <Situacao valor="operational" /> | [Linha 10 - Turquesa](/linhas/linha-10-turquesa/) |
 
-### Projetada (19)
+### Projetada (18)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Lapa](/estacao/lapa/) | LPA | Projetada | — |
-| 2 | [Vila Romana](/estacao/vila-romana/) | — | Projetada | — |
-| 3 | [Cerro Corá](/estacao/cerro-cora/) | — | Projetada | [Linha 2 - Verde](/linhas/linha-2-verde/) |
-| 4 | [Girassol](/estacao/girassol/) | — | Projetada | — |
-| 5 | [Teodoro Sampaio](/estacao/teodoro-sampaio/) | — | Projetada | [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
-| 7 | [Tabapuã](/estacao/tabapua/) | — | Projetada | — |
-| 8 | [Jesuíno Cardoso](/estacao/jesuino-cardoso/) | — | Projetada | — |
-| 9 | [Hélio Pellegrino](/estacao/helio-pellegrino/) | — | Projetada | — |
-| 11 | [Rubem Berta](/estacao/rubem-berta/) | — | Projetada | — |
-| 12 | [Indianópolis](/estacao/indianopolis/) | — | Projetada | — |
-| 14 | [Abraão de Morais](/estacao/abraao-de-morais/) | — | Projetada | — |
-| 15 | [Cursino](/estacao/cursino/) | — | Projetada | — |
-| 16 | [Arlindo Vieira](/estacao/arlindo-vieira/) | — | Projetada | — |
-| 17 | [Liviero](/estacao/liviero/) | — | Projetada | — |
-| 18 | [Taboão-Pauliceia](/estacao/taboao-pauliceia/) | — | Projetada | — |
-| 19 | [Rudge Ramos](/estacao/rudge-ramos/) | — | Projetada | — |
-| 20 | [Afonsina](/estacao/afonsina/) | — | Projetada | — |
-| 21 | [Princípe de Gales](/estacao/principe-de-gales/) | — | Projetada | — |
-| 22 | [Portugal](/estacao/portugal/) | — | Projetada | — |
+| 3 | [Vila Romana](/estacao/vila-romana/) | — | <Situacao valor="planned" /> | — |
+| 4 | [Cerro Corá](/estacao/cerro-cora/) | — | <Situacao valor="planned" /> | [Linha 2 - Verde](/linhas/linha-2-verde/) |
+| 5 | [Girassol](/estacao/girassol/) | — | <Situacao valor="planned" /> | — |
+| 6 | [Teodoro Sampaio](/estacao/teodoro-sampaio/) | — | <Situacao valor="planned" /> | [Linha 16 - Violeta](/linhas/linha-16-violeta/), [Linha 22 - Marrom](/linhas/linha-22-marrom/) |
+| 8 | [Tabapuã](/estacao/tabapua/) | — | <Situacao valor="planned" /> | — |
+| 9 | [Jesuíno Cardoso](/estacao/jesuino-cardoso/) | — | <Situacao valor="planned" /> | — |
+| 10 | [Hélio Pellegrino](/estacao/helio-pellegrino/) | — | <Situacao valor="planned" /> | — |
+| 12 | [Rubem Berta](/estacao/rubem-berta/) | — | <Situacao valor="planned" /> | — |
+| 13 | [Indianópolis](/estacao/indianopolis/) | — | <Situacao valor="planned" /> | — |
+| 15 | [Abraão de Morais](/estacao/abraao-de-morais/) | — | <Situacao valor="planned" /> | — |
+| 16 | [Cursino](/estacao/cursino/) | — | <Situacao valor="planned" /> | — |
+| 17 | [Arlindo Vieira](/estacao/arlindo-vieira/) | — | <Situacao valor="planned" /> | — |
+| 18 | [Liviero](/estacao/liviero/) | — | <Situacao valor="planned" /> | — |
+| 19 | [Taboão-Pauliceia](/estacao/taboao-pauliceia/) | — | <Situacao valor="planned" /> | — |
+| 20 | [Rudge Ramos](/estacao/rudge-ramos/) | — | <Situacao valor="planned" /> | — |
+| 21 | [Afonsina](/estacao/afonsina/) | — | <Situacao valor="planned" /> | — |
+| 22 | [Princípe de Gales](/estacao/principe-de-gales/) | — | <Situacao valor="planned" /> | — |
+| 23 | [Portugal](/estacao/portugal/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de inferido.
 
@@ -51,12 +54,12 @@ A ordem das estações vem de inferido.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Rosa | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
-| Número | 20 | GeoSampa | A | — |
-| Cor | #e75480 | inferido | E | — |
-| Modo | Metrô | GeoSampa | A | — |
-| Operadora | METRO | GeoSampa | A | — |
-| Ordem das estações | inferido | inferido | E | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Rosa | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |
+| Número | 20 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #e75480 | <Origem fonte="pipeline" nivel="E" /> | — |
+| Modo | Metrô | <Origem fonte="geosampa" nivel="A" /> | — |
+| Operadora | METRO | <Origem fonte="geosampa" nivel="A" /> | — |
+| Ordem das estações | inferido | <Origem fonte="pipeline" nivel="E" /> | — |

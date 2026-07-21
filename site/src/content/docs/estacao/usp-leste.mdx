@@ -5,6 +5,7 @@ description: "Estação de Linha 12 - Safira"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="usp-leste" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | USP Leste | OpenStreetMap | C | USP LESTE (GeoSampa) |
-| Coordenada | -23.48548, -46.50071 | GeoSampa | A | -23.48549, -46.50056 (OpenStreetMap); -23.48556, -46.50109 (Wikidata); -23.48569, -46.50308 (GTFS SPTrans) |
-| Sigla | USL | Wikidata | C | — |
-| Inauguração | 2008-01-29 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | USP Leste | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.48548, -46.50071 | <Origem fonte="geosampa" nivel="A" /> | -23.48549, -46.50056 <Origem fonte="osm" nivel="C" /><br />-23.48556, -46.50109 <Origem fonte="wikidata" nivel="C" /><br />-23.48569, -46.50308 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | USL | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 29/01/2008 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="patriarca-vila-re" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Patriarca • Vila Ré | OpenStreetMap | C | Patriarca-Vila Ré (Wikidata); Patriarca (GTFS SPTrans); PATRIARCA (GeoSampa) |
-| Coordenada | -23.53118, -46.50138 | GeoSampa | A | -23.53105, -46.50158 (OpenStreetMap); -23.53117, -46.50159 (Wikidata); -23.53108, -46.50171 (GTFS SPTrans) |
-| Sigla | PCA | Wikidata | C | — |
-| Inauguração | 1988-09-17 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Patriarca • Vila Ré | <Origem fonte="osm" nivel="C" /> | Patriarca <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Coordenada | -23.53118, -46.50138 | <Origem fonte="geosampa" nivel="A" /> | -23.53105, -46.50158 <Origem fonte="osm" nivel="C" /><br />-23.53117, -46.50159 <Origem fonte="wikidata" nivel="C" /><br />-23.53108, -46.50171 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | PCA | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 17/09/1988 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde, Linha 19 - Celeste"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="dutra" />
 
@@ -17,8 +18,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Dutra | GeoSampa | A | DUTRA (GeoSampa) |
-| Coordenada | -23.48766, -46.54623 | GeoSampa | A | -23.48780, -46.54622 (GeoSampa) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Dutra | <Origem fonte="geosampa" nivel="A" /> | — |
+| Coordenada | -23.48766, -46.54623 | <Origem fonte="geosampa" nivel="A" /> | -23.48780, -46.54622 <Origem fonte="geosampa" nivel="A" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

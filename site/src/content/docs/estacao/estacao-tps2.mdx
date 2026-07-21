@@ -5,6 +5,7 @@ description: "Estação de Aeromóvel GRU"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="estacao-tps2" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Estação TPS2 | OpenStreetMap | C | — |
-| Coordenada | -23.42590, -46.48175 | OpenStreetMap | C | — |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Estação TPS2 | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.42590, -46.48175 | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |

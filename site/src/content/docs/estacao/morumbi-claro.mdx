@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda, Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="morumbi-claro" />
 
@@ -17,9 +18,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Morumbi - Claro | OpenStreetMap | C | Morumbi (Wikidata); Morumbi (Wikidata); Morumbi (GTFS SPTrans); MORUMBI (GeoSampa); MORUMBI (GeoSampa) |
-| Coordenada | -23.62185, -46.70182 | GeoSampa | A | -23.62188, -46.70194 (GeoSampa); -23.62159, -46.70164 (OpenStreetMap); -23.62249, -46.70269 (Wikidata); -23.62159, -46.70164 (Wikidata); -23.62152, -46.70166 (GTFS SPTrans) |
-| Sigla | MRB | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Morumbi - Claro | <Origem fonte="osm" nivel="C" /> | Morumbi <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.62185, -46.70182 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 114 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | MRB | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

@@ -5,6 +5,7 @@ description: "Estação de Linha L2 - VLT Linha 2"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="mercado" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Mercado | OpenStreetMap | C | — |
-| Coordenada | -23.94025, -46.31919 | OpenStreetMap | C | -23.94024, -46.31918 (Wikidata) |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Mercado | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.94025, -46.31919 | <Origem fonte="osm" nivel="C" /> | -23.94024, -46.31918 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |

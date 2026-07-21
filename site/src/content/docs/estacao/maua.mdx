@@ -5,6 +5,7 @@ description: "Estação de Linha 10 - Turquesa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="maua" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Mauá | OpenStreetMap | C | MAUÁ (GeoSampa) |
-| Coordenada | -23.66827, -46.46154 | GeoSampa | A | -23.66826, -46.46155 (OpenStreetMap); -23.66810, -46.46162 (Wikidata); -23.66802, -46.46177 (GTFS SPTrans) |
-| Sigla | MAU | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Mauá | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.66827, -46.46154 | <Origem fonte="geosampa" nivel="A" /> | -23.66826, -46.46155 <Origem fonte="osm" nivel="C" /><br />-23.66810, -46.46162 <Origem fonte="wikidata" nivel="C" /><br />-23.66802, -46.46177 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | MAU | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

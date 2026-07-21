@@ -79,7 +79,6 @@
       "brooklin-paulista",
       "chucri-zaidan",
       "morumbi-claro",
-      "panamby",
       "panambi",
       "paraisopolis",
       "americo-maurano",
@@ -1955,18 +1954,6 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": null
-          },
-          {
-            "value": "JABAQUARA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "JABAQUARA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -1985,7 +1972,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "131 m away"
+            "note": "131 m de distância"
           },
           {
             "value": {
@@ -1994,7 +1981,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "17 m away"
+            "note": "17 m de distância"
           },
           {
             "value": {
@@ -2003,7 +1990,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "115 m away"
+            "note": "115 m de distância"
           },
           {
             "value": {
@@ -2012,7 +1999,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "124 m away"
+            "note": "124 m de distância"
           },
           {
             "value": {
@@ -2021,7 +2008,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "50 m away"
+            "note": "50 m de distância"
           }
         ]
       },
@@ -2255,14 +2242,7 @@
         "value": "Washington Luís",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "WASHINGTON LUIS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2279,7 +2259,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "34 m away"
+            "note": "34 m de distância"
           },
           {
             "value": {
@@ -2288,7 +2268,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "59 m away"
+            "note": "59 m de distância"
           }
         ]
       },
@@ -2344,14 +2324,7 @@
         "value": "Vila Cordeiro",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "VILA CORDEIRO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2368,7 +2341,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "42 m away"
+            "note": "42 m de distância"
           },
           {
             "value": {
@@ -2377,7 +2350,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "40 m away"
+            "note": "40 m de distância"
           }
         ]
       },
@@ -2434,20 +2407,7 @@
         "value": "Campo Belo",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "CAMPO BELO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "CAMPO BELO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2464,7 +2424,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "58 m away"
+            "note": "58 m de distância"
           },
           {
             "value": {
@@ -2473,7 +2433,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "42 m away"
+            "note": "42 m de distância"
           },
           {
             "value": {
@@ -2482,7 +2442,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           },
           {
             "value": {
@@ -2491,7 +2451,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "73 m away"
+            "note": "73 m de distância"
           }
         ]
       },
@@ -2578,7 +2538,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "16 m away"
+            "note": "16 m de distância"
           },
           {
             "value": {
@@ -2587,7 +2547,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "48 m away"
+            "note": "48 m de distância"
           }
         ]
       },
@@ -2655,12 +2615,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": null
-          },
-          {
-            "value": "AEROPORTO DE CONGONHAS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -2679,7 +2633,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "56 m away"
+            "note": "56 m de distância"
           },
           {
             "value": {
@@ -2688,7 +2642,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "42 m away"
+            "note": "42 m de distância"
           }
         ]
       },
@@ -2755,14 +2709,7 @@
         "value": "Brooklin Paulista",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "BROOKLIN PAULISTA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2779,7 +2726,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "7 m away"
+            "note": "7 m de distância"
           },
           {
             "value": {
@@ -2788,7 +2735,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "7 m away"
+            "note": "7 m de distância"
           }
         ]
       },
@@ -2847,9 +2794,9 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "CHUCRI ZAIDAN",
-            "source": "geosampa",
-            "confidence": "A",
+            "value": "E.T. Água Espraiada",
+            "source": "wikidata",
+            "confidence": "C",
             "note": null
           }
         ]
@@ -2869,7 +2816,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "52 m away"
+            "note": "52 m de distância"
           },
           {
             "value": {
@@ -2878,7 +2825,16 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "74 m away"
+            "note": "74 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.61369,
+              "lon": -46.69523
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "75 m de distância"
           }
         ]
       },
@@ -2946,30 +2902,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": null
-          },
-          {
-            "value": "Morumbi",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "Morumbi",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "MORUMBI",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "MORUMBI",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -2988,7 +2920,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "12 m away"
+            "note": "12 m de distância"
           },
           {
             "value": {
@@ -2997,7 +2929,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "33 m away"
+            "note": "33 m de distância"
           },
           {
             "value": {
@@ -3006,7 +2938,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "114 m away"
+            "note": "114 m de distância"
           },
           {
             "value": {
@@ -3015,7 +2947,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "34 m away"
+            "note": "34 m de distância"
           },
           {
             "value": {
@@ -3024,7 +2956,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "40 m away"
+            "note": "40 m de distância"
           }
         ]
       },
@@ -3071,13 +3003,20 @@
       ]
     },
     {
-      "id": "panamby",
-      "slug": "panamby",
+      "id": "panambi",
+      "slug": "panambi",
       "name": {
-        "value": "Panamby",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
+        "value": "Panambi",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "PANAMBY",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
       },
       "coordinates": {
         "value": {
@@ -3086,7 +3025,17 @@
         },
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.62625,
+              "lon": -46.71392
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "91 m de distância"
+          }
+        ]
       },
       "lines": [
         "linha-17"
@@ -3102,7 +3051,7 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": null,
+        "wikidata": "Q124059087",
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
@@ -3111,50 +3060,7 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "geosampa"
-      ]
-    },
-    {
-      "id": "panambi",
-      "slug": "panambi",
-      "name": {
-        "value": "Panambi",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.62625,
-          "lon": -46.71392
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q124059087",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
+        "geosampa",
         "wikidata"
       ]
     },
@@ -3297,32 +3203,7 @@
         "value": "São Paulo – Morumbi",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "São Paulo-Morumbi",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "São Paulo - Morumbi",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SÃO PAULO-MORUMBI",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SÃO PAULO-MORUMBI",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -3339,7 +3220,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "49 m away"
+            "note": "49 m de distância"
           },
           {
             "value": {
@@ -3348,7 +3229,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "29 m away"
+            "note": "29 m de distância"
           },
           {
             "value": {
@@ -3357,7 +3238,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "74 m away"
+            "note": "74 m de distância"
           },
           {
             "value": {
@@ -3366,7 +3247,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "46 m away"
+            "note": "46 m de distância"
           }
         ]
       },

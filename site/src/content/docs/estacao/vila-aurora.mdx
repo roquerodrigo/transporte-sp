@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-aurora" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Aurora | OpenStreetMap | C | VILA AURORA (GeoSampa) |
-| Coordenada | -23.43745, -46.74737 | GeoSampa | A | -23.43791, -46.74727 (OpenStreetMap); -23.43773, -46.74730 (Wikidata); -23.43761, -46.74728 (GTFS SPTrans) |
-| Sigla | VAU | Wikidata | C | — |
-| Inauguração | 2013-09-09 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Aurora | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.43745, -46.74737 | <Origem fonte="geosampa" nivel="A" /> | -23.43791, -46.74727 <Origem fonte="osm" nivel="C" /><br />-23.43773, -46.74730 <Origem fonte="wikidata" nivel="C" /><br />-23.43761, -46.74728 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | VAU | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 09/09/2013 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

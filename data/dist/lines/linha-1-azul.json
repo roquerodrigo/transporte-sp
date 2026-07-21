@@ -1353,18 +1353,6 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": null
-          },
-          {
-            "value": "JABAQUARA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "JABAQUARA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -1383,7 +1371,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "131 m away"
+            "note": "131 m de distância"
           },
           {
             "value": {
@@ -1392,7 +1380,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "17 m away"
+            "note": "17 m de distância"
           },
           {
             "value": {
@@ -1401,7 +1389,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "115 m away"
+            "note": "115 m de distância"
           },
           {
             "value": {
@@ -1410,7 +1398,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "124 m away"
+            "note": "124 m de distância"
           },
           {
             "value": {
@@ -1419,7 +1407,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "50 m away"
+            "note": "50 m de distância"
           }
         ]
       },
@@ -1477,14 +1465,7 @@
         "value": "Conceição",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "CONCEIÇÃO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1501,7 +1482,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "41 m away"
+            "note": "41 m de distância"
           },
           {
             "value": {
@@ -1510,7 +1491,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "94 m away"
+            "note": "94 m de distância"
           },
           {
             "value": {
@@ -1519,7 +1500,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "39 m away"
+            "note": "39 m de distância"
           }
         ]
       },
@@ -1569,14 +1550,7 @@
         "value": "São Judas",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "SÃO JUDAS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1593,7 +1567,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "19 m away"
+            "note": "19 m de distância"
           },
           {
             "value": {
@@ -1602,7 +1576,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "17 m away"
+            "note": "17 m de distância"
           },
           {
             "value": {
@@ -1611,7 +1585,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "19 m away"
+            "note": "19 m de distância"
           }
         ]
       },
@@ -1672,24 +1646,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": null
-          },
-          {
-            "value": "Saúde",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SAÚDE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SAÚDE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -1708,7 +1664,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "136 m away"
+            "note": "136 m de distância"
           },
           {
             "value": {
@@ -1717,7 +1673,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "21 m away"
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -1726,7 +1682,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "59 m away"
+            "note": "59 m de distância"
           },
           {
             "value": {
@@ -1735,7 +1691,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "42 m away"
+            "note": "42 m de distância"
           }
         ]
       },
@@ -1793,20 +1749,7 @@
         "value": "Praça da Árvore",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Praça Da Árvore",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PRAÇA DA ÁRVORE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1823,7 +1766,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "8 m away"
+            "note": "8 m de distância"
           },
           {
             "value": {
@@ -1832,7 +1775,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "8 m away"
+            "note": "8 m de distância"
           },
           {
             "value": {
@@ -1841,7 +1784,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "7 m away"
+            "note": "7 m de distância"
           }
         ]
       },
@@ -1891,20 +1834,7 @@
         "value": "Santa Cruz",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "SANTA CRUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SANTA CRUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -1921,7 +1851,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "64 m away"
+            "note": "64 m de distância"
           },
           {
             "value": {
@@ -1930,7 +1860,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "23 m away"
+            "note": "23 m de distância"
           },
           {
             "value": {
@@ -1939,7 +1869,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "100 m away"
+            "note": "100 m de distância"
           },
           {
             "value": {
@@ -1948,7 +1878,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "37 m away"
+            "note": "37 m de distância"
           },
           {
             "value": {
@@ -1957,7 +1887,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "32 m away"
+            "note": "32 m de distância"
           },
           {
             "value": {
@@ -1966,7 +1896,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "43 m away"
+            "note": "43 m de distância"
           }
         ]
       },
@@ -2022,20 +1952,7 @@
         "value": "Vila Mariana",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "VILA MARIANA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "VILA MARIANA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2052,7 +1969,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "0 m away"
+            "note": "0 m de distância"
           },
           {
             "value": {
@@ -2061,7 +1978,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "5 m away"
+            "note": "5 m de distância"
           },
           {
             "value": {
@@ -2070,7 +1987,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "36 m away"
+            "note": "36 m de distância"
           },
           {
             "value": {
@@ -2079,7 +1996,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "28 m away"
+            "note": "28 m de distância"
           }
         ]
       },
@@ -2134,26 +2051,7 @@
         "value": "Ana Rosa",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "ANA ROSA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "ANA ROSA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "ANA ROSA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2170,7 +2068,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "21 m away"
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -2179,7 +2077,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "106 m away"
+            "note": "106 m de distância"
           },
           {
             "value": {
@@ -2188,7 +2086,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           },
           {
             "value": {
@@ -2197,7 +2095,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "20 m away"
+            "note": "20 m de distância"
           },
           {
             "value": {
@@ -2206,7 +2104,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "22 m away"
+            "note": "22 m de distância"
           },
           {
             "value": {
@@ -2215,7 +2113,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "18 m away"
+            "note": "18 m de distância"
           }
         ]
       },
@@ -2279,20 +2177,7 @@
         "value": "Paraíso",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "PARAÍSO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PARAÍSO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2309,7 +2194,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "29 m away"
+            "note": "29 m de distância"
           },
           {
             "value": {
@@ -2318,7 +2203,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "44 m away"
+            "note": "44 m de distância"
           },
           {
             "value": {
@@ -2327,7 +2212,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "107 m away"
+            "note": "107 m de distância"
           },
           {
             "value": {
@@ -2336,7 +2221,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "55 m away"
+            "note": "55 m de distância"
           },
           {
             "value": {
@@ -2345,7 +2230,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "58 m away"
+            "note": "58 m de distância"
           }
         ]
       },
@@ -2402,18 +2287,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": null
-          },
-          {
-            "value": "Vergueiro",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "VERGUEIRO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -2432,7 +2305,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "42 m away"
+            "note": "42 m de distância"
           },
           {
             "value": {
@@ -2441,7 +2314,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "9 m away"
+            "note": "9 m de distância"
           },
           {
             "value": {
@@ -2450,7 +2323,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "44 m away"
+            "note": "44 m de distância"
           }
         ]
       },
@@ -2505,20 +2378,7 @@
         "value": "São Joaquim",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "SÃO JOAQUIM",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SÃO JOAQUIM",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2535,7 +2395,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "102 m away"
+            "note": "102 m de distância"
           },
           {
             "value": {
@@ -2544,7 +2404,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "36 m away"
+            "note": "36 m de distância"
           },
           {
             "value": {
@@ -2553,7 +2413,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "5 m away"
+            "note": "5 m de distância"
           },
           {
             "value": {
@@ -2562,7 +2422,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "55 m away"
+            "note": "55 m de distância"
           }
         ]
       },
@@ -2626,12 +2486,6 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": null
-          },
-          {
-            "value": "JAPÃO-LIBERDADE",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
           }
         ]
       },
@@ -2650,7 +2504,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "26 m away"
+            "note": "26 m de distância"
           },
           {
             "value": {
@@ -2659,7 +2513,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "24 m away"
+            "note": "24 m de distância"
           },
           {
             "value": {
@@ -2668,7 +2522,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "30 m away"
+            "note": "30 m de distância"
           }
         ]
       },
@@ -2718,20 +2572,7 @@
         "value": "Sé",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "SÉ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SÉ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2748,7 +2589,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "10 m away"
+            "note": "10 m de distância"
           },
           {
             "value": {
@@ -2757,7 +2598,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "62 m away"
+            "note": "62 m de distância"
           },
           {
             "value": {
@@ -2766,7 +2607,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "54 m away"
+            "note": "54 m de distância"
           },
           {
             "value": {
@@ -2775,7 +2616,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "50 m away"
+            "note": "50 m de distância"
           },
           {
             "value": {
@@ -2784,7 +2625,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "51 m away"
+            "note": "51 m de distância"
           }
         ]
       },
@@ -2835,20 +2676,7 @@
         "value": "São Bento",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "SÃO BENTO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "SÃO BENTO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -2865,7 +2693,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "167 m away"
+            "note": "167 m de distância"
           },
           {
             "value": {
@@ -2874,7 +2702,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "16 m away"
+            "note": "16 m de distância"
           },
           {
             "value": {
@@ -2883,7 +2711,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "41 m away"
+            "note": "41 m de distância"
           },
           {
             "value": {
@@ -2892,7 +2720,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "4 m away"
+            "note": "4 m de distância"
           }
         ]
       },
@@ -2952,27 +2780,9 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "LUZ",
-            "source": "geosampa",
-            "confidence": "A",
+            "value": "da Luz",
+            "source": "wikidata",
+            "confidence": "C",
             "note": null
           }
         ]
@@ -2992,7 +2802,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "118 m away"
+            "note": "118 m de distância"
           },
           {
             "value": {
@@ -3001,16 +2811,7 @@
             },
             "source": "geosampa",
             "confidence": "A",
-            "note": "261 m away"
-          },
-          {
-            "value": {
-              "lat": -23.53496082,
-              "lon": -46.63511522
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "261 m away"
+            "note": "261 m de distância"
           },
           {
             "value": {
@@ -3019,7 +2820,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "186 m away"
+            "note": "186 m de distância"
           },
           {
             "value": {
@@ -3028,7 +2829,16 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "81 m away"
+            "note": "81 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.53509,
+              "lon": -46.63528
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "260 m de distância"
           },
           {
             "value": {
@@ -3037,7 +2847,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "72 m away"
+            "note": "72 m de distância"
           },
           {
             "value": {
@@ -3046,7 +2856,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "269 m away"
+            "note": "269 m de distância"
           },
           {
             "value": {
@@ -3055,7 +2865,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "207 m away"
+            "note": "207 m de distância"
           },
           {
             "value": {
@@ -3064,7 +2874,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "91 m away"
+            "note": "91 m de distância"
           }
         ]
       },
@@ -3072,8 +2882,7 @@
         "linha-1",
         "linha-4",
         "linha-7",
-        "linha-11",
-        "expresso-aeroporto"
+        "linha-11"
       ],
       "status": {
         "value": "operational",
@@ -3092,7 +2901,14 @@
         "value": "1975-09-26",
         "source": "wikidata",
         "confidence": "C",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "1867-02-16",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
       },
       "address": null,
       "external_ids": {
@@ -3118,14 +2934,7 @@
         "value": "Tiradentes",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "TIRADENTES",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -3142,7 +2951,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "47 m away"
+            "note": "47 m de distância"
           },
           {
             "value": {
@@ -3151,7 +2960,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "29 m away"
+            "note": "29 m de distância"
           },
           {
             "value": {
@@ -3160,7 +2969,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "90 m away"
+            "note": "90 m de distância"
           }
         ]
       },
@@ -3210,14 +3019,7 @@
         "value": "Armênia",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "ARMÊNIA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -3234,7 +3036,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "61 m away"
+            "note": "61 m de distância"
           },
           {
             "value": {
@@ -3243,7 +3045,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "14 m away"
+            "note": "14 m de distância"
           },
           {
             "value": {
@@ -3252,7 +3054,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "22 m away"
+            "note": "22 m de distância"
           },
           {
             "value": {
@@ -3261,7 +3063,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "18 m away"
+            "note": "18 m de distância"
           }
         ]
       },
@@ -3316,26 +3118,7 @@
         "value": "Portuguesa-Tietê",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Portuguesa - Tietê",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "Portuguesa-tietê",
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "PORTUGUESA-TIETÊ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -3352,7 +3135,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "27 m away"
+            "note": "27 m de distância"
           },
           {
             "value": {
@@ -3361,7 +3144,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "7 m away"
+            "note": "7 m de distância"
           },
           {
             "value": {
@@ -3370,7 +3153,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "3 m away"
+            "note": "3 m de distância"
           },
           {
             "value": {
@@ -3379,7 +3162,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "12 m away"
+            "note": "12 m de distância"
           }
         ]
       },
@@ -3434,14 +3217,7 @@
         "value": "Carandiru",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "CARANDIRU",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -3458,7 +3234,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "29 m away"
+            "note": "29 m de distância"
           },
           {
             "value": {
@@ -3467,7 +3243,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "1 m away"
+            "note": "1 m de distância"
           },
           {
             "value": {
@@ -3476,7 +3252,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "43 m away"
+            "note": "43 m de distância"
           },
           {
             "value": {
@@ -3485,7 +3261,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "61 m away"
+            "note": "61 m de distância"
           }
         ]
       },
@@ -3540,20 +3316,7 @@
         "value": "Santana",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Terminal Santana",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "SANTANA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -3570,7 +3333,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "35 m away"
+            "note": "35 m de distância"
           },
           {
             "value": {
@@ -3579,7 +3342,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "11 m away"
+            "note": "11 m de distância"
           },
           {
             "value": {
@@ -3588,7 +3351,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "92 m away"
+            "note": "92 m de distância"
           },
           {
             "value": {
@@ -3597,7 +3360,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "17 m away"
+            "note": "17 m de distância"
           }
         ]
       },
@@ -3656,14 +3419,8 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "Jardim São Paulo-Ayrton Senna",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          },
-          {
-            "value": "Jardim São Paulo-ayrton Senna",
-            "source": "gtfs_sptrans",
+            "value": "AYRTON SENNA-JARDIM SÃO PAULO",
+            "source": "geosampa",
             "confidence": "A",
             "note": null
           }
@@ -3671,12 +3428,21 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.4924029,
-          "lon": -46.6170103
+          "lat": -23.49241655,
+          "lon": -46.61710956
         },
-        "source": "osm",
-        "confidence": "C",
+        "source": "geosampa",
+        "confidence": "A",
         "alternatives": [
+          {
+            "value": {
+              "lat": -23.4924029,
+              "lon": -46.6170103
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "10 m de distância"
+          },
           {
             "value": {
               "lat": -23.492473,
@@ -3684,7 +3450,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "13 m away"
+            "note": "6 m de distância"
           },
           {
             "value": {
@@ -3693,7 +3459,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "51 m away"
+            "note": "43 m de distância"
           }
         ]
       },
@@ -3702,8 +3468,8 @@
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "geosampa",
+        "confidence": "A",
         "alternatives": []
       },
       "code": {
@@ -3730,11 +3496,12 @@
         "osm": "node/4964617785",
         "gtfs_stop_id": "18880",
         "gtfs_route_id": null,
-        "geosampa_id": null,
+        "geosampa_id": "36",
         "metro_code": "JPA"
       },
       "is_interchange": false,
       "observed_by": [
+        "geosampa",
         "gtfs_sptrans",
         "osm",
         "wikidata"
@@ -3747,14 +3514,7 @@
         "value": "Parada Inglesa",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "PARADA INGLESA",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -3771,7 +3531,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "11 m away"
+            "note": "11 m de distância"
           },
           {
             "value": {
@@ -3780,7 +3540,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "3 m away"
+            "note": "3 m de distância"
           },
           {
             "value": {
@@ -3789,7 +3549,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "7 m away"
+            "note": "7 m de distância"
           },
           {
             "value": {
@@ -3798,7 +3558,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "10 m away"
+            "note": "10 m de distância"
           }
         ]
       },
@@ -3848,14 +3608,7 @@
         "value": "Tucuruvi",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "TUCURUVI",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
@@ -3872,7 +3625,7 @@
             },
             "source": "osm",
             "confidence": "C",
-            "note": "16 m away"
+            "note": "16 m de distância"
           },
           {
             "value": {
@@ -3881,7 +3634,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "12 m away"
+            "note": "12 m de distância"
           },
           {
             "value": {
@@ -3890,7 +3643,7 @@
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "10 m away"
+            "note": "10 m de distância"
           }
         ]
       },

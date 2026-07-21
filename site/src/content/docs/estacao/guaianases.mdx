@@ -5,6 +5,7 @@ description: "Estação de Linha 11 - Coral"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="guaianases" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Guaianases | OpenStreetMap | C | GUAIANASES (GeoSampa) |
-| Coordenada | -23.54232, -46.41561 | GeoSampa | A | -23.54233, -46.41570 (OpenStreetMap); -23.54231, -46.41560 (Wikidata); -23.54230, -46.41563 (GTFS SPTrans) |
-| Sigla | GUA | Wikidata | C | — |
-| Inauguração | 2000-05-27 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Guaianases | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54232, -46.41561 | <Origem fonte="geosampa" nivel="A" /> | -23.54233, -46.41570 <Origem fonte="osm" nivel="C" /><br />-23.54231, -46.41560 <Origem fonte="wikidata" nivel="C" /><br />-23.54230, -46.41563 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | GUA | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 27/05/2000 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

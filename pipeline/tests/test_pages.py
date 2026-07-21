@@ -129,3 +129,81 @@ def test_the_index_is_split_by_mode(generated):
     index = (root / "docs" / "linhas.mdx").read_text()
     assert "## Metrô" in index
     assert "## BRT" in index
+
+
+def test_a_handful_of_alternative_readings_is_listed(generated):
+    root, _ = generated
+    body = read_station(root, "corinthians-itaquera")
+    assert '<Origem fonte="geosampa" nivel="A" />' in body
+
+
+def test_the_provenance_column_carries_the_badge(generated):
+    """Source and confidence are one fact and travel as one badge."""
+    root, _ = generated
+    body = read_station(root, "corinthians-itaquera")
+    assert "| Campo | Valor | Procedência | Outras leituras |" in body
+
+
+def test_a_station_state_is_a_badge_not_a_word(generated):
+    root, _ = generated
+    assert '<Situacao valor="operational" />' in read(root, "linha-3-vermelha.mdx")
+
+
+def test_many_alternative_readings_are_summarised():
+    """An interchange collects a coordinate per line per direction; Luz arrives with eight."""
+    from transporte_sp.export import pages
+    from transporte_sp.model import Alternative, Coordinates, Sourced
+
+    leituras = [
+        Alternative(
+            value={"lat": -23.5 - n / 1000, "lon": -46.6},
+            source="gtfs_sptrans" if n % 2 else "osm",
+            confidence="C",
+            note=f"{n * 40} m de distância",
+        )
+        for n in range(1, 9)
+    ]
+    campo = Sourced[Coordinates](
+        value=Coordinates(lat=-23.5, lon=-46.6),
+        source="geosampa",
+        confidence="A",
+        alternatives=leituras,
+    )
+    cell = pages._alternatives_cell(campo, "coordinates")
+    assert cell.startswith("8 leituras")
+    assert "até 320 m de distância" in cell
+    assert '<Origem fonte="gtfs_sptrans" nivel="C" />' in cell
+    assert '<Origem fonte="osm" nivel="C" />' in cell
+
+
+def test_no_alternative_reading_renders_as_a_dash():
+    from transporte_sp.export import pages
+    from transporte_sp.model import Sourced
+
+    campo = Sourced[str](value="x", source="osm", confidence="C")
+    assert pages._alternatives_cell(campo, "name") == "—"
+
+
+def test_numbers_and_dates_are_written_in_brazilian_form():
+    from transporte_sp.export.formato import data, numero, quilometros
+
+    assert numero(1234.5, 1) == "1.234,5"
+    assert numero(371) == "371"
+    assert numero(1371) == "1.371"
+    assert quilometros(12.765) == "12,8 km"
+    assert quilometros(160.9) == "160,9 km"
+    assert data("1974-09-14") == "14/09/1974"
+
+
+def test_an_unparseable_date_is_left_alone():
+    from transporte_sp.export.formato import data
+
+    assert data("em obras") == "em obras"
+
+
+def test_the_provenance_table_uses_the_brazilian_forms(generated):
+    root, _ = generated
+    body = read(root, "linha-3-vermelha.mdx")
+    assert " km |" in body
+    assert not any(linha.startswith("| Extensão") and "." in linha.split("|")[2]
+                   for linha in body.splitlines())

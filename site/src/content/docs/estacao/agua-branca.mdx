@@ -5,6 +5,7 @@ description: "Estação de Linha 6 - Laranja, Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="agua-branca" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Água Branca | Wikidata | C | ÁGUA BRANCA (GeoSampa); ÁGUA BRANCA (GeoSampa) |
-| Coordenada | -23.52144, -46.68904 | GeoSampa | A | -23.52160, -46.68790 (GeoSampa); -23.52130, -46.68930 (Wikidata); -23.52074, -46.68835 (Wikidata); -23.52123, -46.68924 (GTFS SPTrans) |
-| Sigla | ABR | Wikidata | C | — |
-| Inauguração | 1867-02-16 | Wikidata | C | 2026-07-02 (Wikidata) |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Água Branca | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.52144, -46.68904 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 118 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | ABR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 16/02/1867 | <Origem fonte="wikidata" nivel="C" /> | 02/07/2026 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

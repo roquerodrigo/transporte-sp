@@ -1,10 +1,12 @@
 ---
 title: "Linha 5 - Lilas"
-description: "Metrô · Em operação · 19.855 km"
+description: "Metrô · Em operação · 19,9 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-5" />
 
@@ -12,36 +14,37 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 ## Estações
 
-### Em operação (17)
+### Em operação (18)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 3 | [Chácara Klabin](/estacao/chacara-klabin/) | CKB | Em operação | [Linha 2 - Verde](/linhas/linha-2-verde/) |
-| 4 | [Santa Cruz](/estacao/santa-cruz/) | SCZ | Em operação | [Linha 1 - Azul](/linhas/linha-1-azul/) |
-| 5 | [Estação Hospital São Paulo](/estacao/estacao-hospital-sao-paulo/) | HSP | Em operação | — |
-| 6 | [AACD-Servidor](/estacao/aacd-servidor/) | SER | Em operação | — |
-| 7 | [Moema](/estacao/moema/) | MOE | Em operação | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
-| 8 | [Eucaliptos](/estacao/eucaliptos/) | ECT | Em operação | — |
-| 9 | [Campo Belo](/estacao/campo-belo/) | CPB | Em operação | [Linha 17 - Ouro](/linhas/linha-17-ouro/) |
-| 10 | [Brooklin](/estacao/brooklin/) | BCB | Em operação | — |
-| 11 | [Borba Gato](/estacao/borba-gato/) | BGT | Em operação | — |
-| 12 | [Alto da Boa Vista](/estacao/alto-da-boa-vista/) | ABA | Em operação | — |
-| 13 | [Adolfo Pinheiro - Unisa](/estacao/adolfo-pinheiro-unisa/) | ADP | Em operação | — |
-| 14 | [Largo Treze](/estacao/largo-treze/) | LTR | Em operação | — |
-| 15 | [Santo Amaro](/estacao/santo-amaro/) | SAM | Em operação | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
-| 16 | [Giovanni Gronchi](/estacao/giovanni-gronchi/) | GGR | Em operação | — |
-| 17 | [Vila das Belezas](/estacao/vila-das-belezas/) | VBE | Em operação | — |
-| 18 | [Campo Limpo](/estacao/campo-limpo/) | CPL | Em operação | [Alphaville - Campo Limpo](/linhas/alphaville-campo-limpo/) |
-| 19 | [Capão Redondo](/estacao/capao-redondo/) | CPR | Em operação | — |
+| 1 | [Ipiranga](/estacao/ipiranga/) | IPG | <Situacao valor="operational" /> | [Linha 10 - Turquesa](/linhas/linha-10-turquesa/), [Linha 15 - Prata](/linhas/linha-15-prata/) |
+| 4 | [Chácara Klabin](/estacao/chacara-klabin/) | CKB | <Situacao valor="operational" /> | [Linha 2 - Verde](/linhas/linha-2-verde/) |
+| 5 | [Santa Cruz](/estacao/santa-cruz/) | SCZ | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/) |
+| 6 | [Estação Hospital São Paulo](/estacao/estacao-hospital-sao-paulo/) | HSP | <Situacao valor="operational" /> | — |
+| 7 | [AACD-Servidor](/estacao/aacd-servidor/) | SER | <Situacao valor="operational" /> | — |
+| 8 | [Moema](/estacao/moema/) | MOE | <Situacao valor="operational" /> | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
+| 9 | [Eucaliptos](/estacao/eucaliptos/) | ECT | <Situacao valor="operational" /> | — |
+| 10 | [Campo Belo](/estacao/campo-belo/) | CPB | <Situacao valor="operational" /> | [Linha 17 - Ouro](/linhas/linha-17-ouro/) |
+| 11 | [Brooklin](/estacao/brooklin/) | BCB | <Situacao valor="operational" /> | — |
+| 12 | [Borba Gato](/estacao/borba-gato/) | BGT | <Situacao valor="operational" /> | — |
+| 13 | [Alto da Boa Vista](/estacao/alto-da-boa-vista/) | ABA | <Situacao valor="operational" /> | — |
+| 14 | [Adolfo Pinheiro - Unisa](/estacao/adolfo-pinheiro-unisa/) | ADP | <Situacao valor="operational" /> | — |
+| 15 | [Largo Treze](/estacao/largo-treze/) | LTR | <Situacao valor="operational" /> | — |
+| 16 | [Santo Amaro](/estacao/santo-amaro/) | SAM | <Situacao valor="operational" /> | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
+| 17 | [Giovanni Gronchi](/estacao/giovanni-gronchi/) | GGR | <Situacao valor="operational" /> | — |
+| 18 | [Vila das Belezas](/estacao/vila-das-belezas/) | VBE | <Situacao valor="operational" /> | — |
+| 19 | [Campo Limpo](/estacao/campo-limpo/) | CPL | <Situacao valor="operational" /> | [Alphaville - Campo Limpo](/linhas/alphaville-campo-limpo/) |
+| 20 | [Capão Redondo](/estacao/capao-redondo/) | CPR | <Situacao valor="operational" /> | — |
 
 ### Projetada (4)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Bom Pastor](/estacao/bom-pastor/) | — | Projetada | [Linha 13 - Jade](/linhas/linha-13-jade/) |
-| 2 | [Ricardo Jafet](/estacao/ricardo-jafet/) | — | Projetada | — |
-| 20 | [Comendador Sant'Anna](/estacao/comendador-sant-anna/) | — | Projetada | — |
-| 21 | [Terminal Jardim Ângela](/estacao/terminal-jardim-angela/) | — | Projetada | — |
+| 2 | [Bom Pastor](/estacao/bom-pastor/) | — | <Situacao valor="planned" /> | [Linha 13 - Jade](/linhas/linha-13-jade/) |
+| 3 | [Ricardo Jafet](/estacao/ricardo-jafet/) | — | <Situacao valor="planned" /> | — |
+| 21 | [Comendador Sant'Anna](/estacao/comendador-sant-anna/) | — | <Situacao valor="planned" /> | — |
+| 22 | [Terminal Jardim Ângela](/estacao/terminal-jardim-angela/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de GTFS SPTrans.
 
@@ -49,13 +52,13 @@ A ordem das estações vem de GTFS SPTrans.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Lilas | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 5 | GeoSampa | A | — |
-| Cor | #9200C3 | OpenStreetMap | C | #9B3894 (GTFS SPTrans) |
-| Modo | Metrô | OpenStreetMap | C | — |
-| Operadora | ViaMobilidade Linhas 5 e 17 | OpenStreetMap | C | VIAMOBILIDADE (GeoSampa) |
-| Extensão | 19.855 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Lilas | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 5 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #9200C3 | <Origem fonte="osm" nivel="C" /> | #9B3894 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Metrô | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | ViaMobilidade Linhas 5 e 17 | <Origem fonte="osm" nivel="C" /> | VIAMOBILIDADE <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 19,9 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

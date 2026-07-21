@@ -1,6 +1,8 @@
 ---
 /** The sources that fed the current build, with the date of the snapshot actually used. */
-import { CONFIDENCE_LABELS, network } from "@data/network";
+import Nivel from "@components/Nivel.astro";
+import { network } from "@data/network";
+import { data } from "@data/formato";
 
 const URLS: Record<string, string> = {
   geosampa: "https://geosampa.prefeitura.sp.gov.br/",
@@ -28,9 +30,9 @@ const URLS: Record<string, string> = {
           </td>
           <td>{source.licence}</td>
           <td>
-            {source.confidence} — {CONFIDENCE_LABELS[source.confidence]}
+            <Nivel nivel={source.confidence} />
           </td>
-          <td>{source.fetched_at}</td>
+          <td>{data(source.fetched_at)}</td>
         </tr>
       ))
     }

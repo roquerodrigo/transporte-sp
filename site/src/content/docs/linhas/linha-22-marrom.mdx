@@ -5,6 +5,8 @@ description: "Metrô · Projetada"
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-22" />
 
@@ -16,30 +18,30 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Santuário Nossa Senhora de Fátima - Sumaré](/estacao/santuario-nossa-senhora-de-fatima-sumare/) | SUM | Em operação | [Linha 2 - Verde](/linhas/linha-2-verde/) |
-| 3 | [Faria Lima - PagBank](/estacao/faria-lima-pagbank/) | FAL | Em operação | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
-| 4 | [Hebraica - Rebouças](/estacao/hebraica-reboucas/) | HBR | Em operação | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
+| 1 | [Santuário Nossa Senhora de Fátima - Sumaré](/estacao/santuario-nossa-senhora-de-fatima-sumare/) | SUM | <Situacao valor="operational" /> | [Linha 2 - Verde](/linhas/linha-2-verde/) |
+| 3 | [Faria Lima - PagBank](/estacao/faria-lima-pagbank/) | FAL | <Situacao valor="operational" /> | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
+| 4 | [Hebraica - Rebouças](/estacao/hebraica-reboucas/) | HBR | <Situacao valor="operational" /> | [Linha 9 - Esmeralda](/linhas/linha-9-esmeralda/) |
 
 ### Projetada (16)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 2 | [Cardeal Arcoverde](/estacao/cardeal-arcoverde/) | — | Projetada | — |
-| 5 | [Vital Brasil](/estacao/vital-brasil/) | — | Projetada | — |
-| 6 | [Usp-Praça do Relógio](/estacao/usp-praca-do-relogio/) | — | Projetada | — |
-| 7 | [Hospital Universitário](/estacao/hospital-universitario/) | — | Projetada | — |
-| 8 | [Rio Pequeno](/estacao/rio-pequeno/) | — | Projetada | — |
-| 9 | [Jardim Sarah](/estacao/jardim-sarah/) | — | Projetada | — |
-| 10 | [Reserva Raposo](/estacao/reserva-raposo/) | — | Projetada | — |
-| 11 | [Cohab Raposo](/estacao/cohab-raposo/) | — | Projetada | — |
-| 12 | [Santa Maria](/estacao/santa-maria/) | — | Projetada | — |
-| 13 | [Granja Viana](/estacao/granja-viana/) | — | Projetada | — |
-| 14 | [São George](/estacao/sao-george/) | — | Projetada | — |
-| 15 | [Cotia Km 26](/estacao/cotia-km-26/) | — | Projetada | — |
-| 16 | [Parque Alexandra](/estacao/parque-alexandra/) | — | Projetada | — |
-| 17 | [Sabiá](/estacao/sabia/) | — | Projetada | — |
-| 18 | [Portão](/estacao/portao/) | — | Projetada | — |
-| 19 | [Terminal Cotia](/estacao/terminal-cotia/) | — | Projetada | — |
+| 2 | [Teodoro Sampaio](/estacao/teodoro-sampaio/) | — | <Situacao valor="planned" /> | [Linha 16 - Violeta](/linhas/linha-16-violeta/), [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
+| 5 | [Vital Brasil](/estacao/vital-brasil/) | — | <Situacao valor="planned" /> | — |
+| 6 | [Usp-Praça do Relógio](/estacao/usp-praca-do-relogio/) | — | <Situacao valor="planned" /> | — |
+| 7 | [Hospital Universitário](/estacao/hospital-universitario/) | — | <Situacao valor="planned" /> | — |
+| 8 | [Rio Pequeno](/estacao/rio-pequeno/) | — | <Situacao valor="planned" /> | — |
+| 9 | [Jardim Sarah](/estacao/jardim-sarah/) | — | <Situacao valor="planned" /> | — |
+| 10 | [Reserva Raposo](/estacao/reserva-raposo/) | — | <Situacao valor="planned" /> | — |
+| 11 | [Cohab Raposo](/estacao/cohab-raposo/) | — | <Situacao valor="planned" /> | — |
+| 12 | [Santa Maria](/estacao/santa-maria/) | — | <Situacao valor="planned" /> | — |
+| 13 | [Granja Viana](/estacao/granja-viana/) | — | <Situacao valor="planned" /> | — |
+| 14 | [São George](/estacao/sao-george/) | — | <Situacao valor="planned" /> | — |
+| 15 | [Cotia Km 26](/estacao/cotia-km-26/) | — | <Situacao valor="planned" /> | — |
+| 16 | [Parque Alexandra](/estacao/parque-alexandra/) | — | <Situacao valor="planned" /> | — |
+| 17 | [Sabiá](/estacao/sabia/) | — | <Situacao valor="planned" /> | — |
+| 18 | [Portão](/estacao/portao/) | — | <Situacao valor="planned" /> | — |
+| 19 | [Terminal Cotia](/estacao/terminal-cotia/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de inferido.
 
@@ -47,12 +49,12 @@ A ordem das estações vem de inferido.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Marrom | GeoSampa | A | — |
-| Situação | Projetada | GeoSampa | A | — |
-| Número | 22 | GeoSampa | A | — |
-| Cor | #6f4e37 | inferido | E | — |
-| Modo | Metrô | GeoSampa | A | — |
-| Operadora | METRO | GeoSampa | A | — |
-| Ordem das estações | inferido | inferido | E | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Marrom | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |
+| Número | 22 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #6f4e37 | <Origem fonte="pipeline" nivel="E" /> | — |
+| Modo | Metrô | <Origem fonte="geosampa" nivel="A" /> | — |
+| Operadora | METRO | <Origem fonte="geosampa" nivel="A" /> | — |
+| Ordem das estações | inferido | <Origem fonte="pipeline" nivel="E" /> | — |

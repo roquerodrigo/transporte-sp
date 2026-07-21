@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante, Alphaville - Campo Limpo"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="carapicuiba" />
 
@@ -17,9 +18,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Carapicuíba | OpenStreetMap | C | CARAPICUÍBA (GeoSampa); CARAPICUÍBA (GeoSampa) |
-| Coordenada | -23.51854, -46.83542 | GeoSampa | A | -23.51828, -46.83518 (GeoSampa); -23.51854, -46.83528 (OpenStreetMap); -23.51854, -46.83531 (Wikidata); -23.51874, -46.83542 (GTFS SPTrans) |
-| Sigla | CPB | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Carapicuíba | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.51854, -46.83542 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 37 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | CPB | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

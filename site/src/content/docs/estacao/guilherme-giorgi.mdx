@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="guilherme-giorgi" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Guilherme Giorgi | Wikidata | C | GUILHERME GIORGI (GeoSampa) |
-| Coordenada | -23.54761, -46.54171 | GeoSampa | A | -23.54756, -46.54132 (Wikidata) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Guilherme Giorgi | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.54761, -46.54171 | <Origem fonte="geosampa" nivel="A" /> | -23.54756, -46.54132 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -5,6 +5,7 @@ description: "Estação de Linha L1 - VLT Linha 1, Linha L2 - VLT Linha 2"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="nossa-senhora-das-gracas" />
 
@@ -17,9 +18,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Nossa Senhora das Graças | OpenStreetMap | C | — |
-| Coordenada | -23.96632, -46.37633 | OpenStreetMap | C | -23.96611, -46.37611 (Wikidata) |
-| Inauguração | 2014-06-06 | Wikidata | C | — |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Nossa Senhora das Graças | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.96632, -46.37633 | <Origem fonte="osm" nivel="C" /> | -23.96611, -46.37611 <Origem fonte="wikidata" nivel="C" /> |
+| Inauguração | 06/06/2014 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |

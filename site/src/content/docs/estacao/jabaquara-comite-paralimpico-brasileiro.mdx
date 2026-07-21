@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul, Linha 17 - Ouro"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="jabaquara-comite-paralimpico-brasileiro" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Jabaquara - Comitê Paralímpico Brasileiro | OpenStreetMap | C | Terminal Intermodal Jabaquara (Wikidata); Terminal Intermunicipal Jabaquara (Wikidata); Jabaquara (GTFS SPTrans); JABAQUARA (GeoSampa); JABAQUARA (GeoSampa) |
-| Coordenada | -23.64648, -46.64099 | GeoSampa | A | -23.64765, -46.64083 (GeoSampa); -23.64634, -46.64105 (OpenStreetMap); -23.64713, -46.64011 (Wikidata); -23.64556, -46.64167 (Wikidata); -23.64603, -46.64103 (GTFS SPTrans) |
-| Sigla | JAB | Wikidata | C | — |
-| Inauguração | 1974-09-14 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Jabaquara - Comitê Paralímpico Brasileiro | <Origem fonte="osm" nivel="C" /> | Terminal Intermodal Jabaquara <Origem fonte="wikidata" nivel="C" /><br />Terminal Intermunicipal Jabaquara <Origem fonte="wikidata" nivel="C" /><br />Jabaquara <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Coordenada | -23.64648, -46.64099 | <Origem fonte="geosampa" nivel="A" /> | 5 leituras, até 131 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | JAB | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 14/09/1974 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

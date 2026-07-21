@@ -5,6 +5,7 @@ description: "Estação de Linha L2 - VLT Linha 2"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="sao-bento-2" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | São Bento | OpenStreetMap | C | — |
-| Coordenada | -23.93357, -46.33488 | OpenStreetMap | C | -23.93357, -46.33494 (Wikidata) |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | São Bento | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.93357, -46.33488 | <Origem fonte="osm" nivel="C" /> | -23.93357, -46.33494 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |

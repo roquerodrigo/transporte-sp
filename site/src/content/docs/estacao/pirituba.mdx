@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="pirituba" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Pirituba | OpenStreetMap | C | PIRITUBA (GeoSampa) |
-| Coordenada | -23.48852, -46.72603 | GeoSampa | A | -23.48855, -46.72609 (OpenStreetMap); -23.48850, -46.72600 (Wikidata); -23.48846, -46.72606 (GTFS SPTrans) |
-| Sigla | PRT | Wikidata | C | — |
-| Inauguração | 1885-02-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Pirituba | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.48852, -46.72603 | <Origem fonte="geosampa" nivel="A" /> | -23.48855, -46.72609 <Origem fonte="osm" nivel="C" /><br />-23.48850, -46.72600 <Origem fonte="wikidata" nivel="C" /><br />-23.48846, -46.72606 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | PRT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/02/1885 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

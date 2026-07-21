@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="antonio-joao" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Antônio João | OpenStreetMap | C | ANTÔNIO JOÃO (GeoSampa) |
-| Coordenada | -23.51683, -46.85890 | GeoSampa | A | -23.51707, -46.85833 (OpenStreetMap); -23.51688, -46.85872 (Wikidata); -23.51686, -46.85880 (GTFS SPTrans) |
-| Sigla | AJO | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Antônio João | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.51683, -46.85890 | <Origem fonte="geosampa" nivel="A" /> | -23.51707, -46.85833 <Origem fonte="osm" nivel="C" /><br />-23.51688, -46.85872 <Origem fonte="wikidata" nivel="C" /><br />-23.51686, -46.85880 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | AJO | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

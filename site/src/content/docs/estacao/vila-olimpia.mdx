@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="vila-olimpia" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Vila Olímpia | OpenStreetMap | C | VILA OLÍMPIA (GeoSampa) |
-| Coordenada | -23.59345, -46.69285 | GeoSampa | A | -23.59337, -46.69273 (OpenStreetMap); -23.59348, -46.69271 (Wikidata); -23.59318, -46.69287 (GTFS SPTrans) |
-| Sigla | VOL | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Vila Olímpia | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.59345, -46.69285 | <Origem fonte="geosampa" nivel="A" /> | -23.59337, -46.69273 <Origem fonte="osm" nivel="C" /><br />-23.59348, -46.69271 <Origem fonte="wikidata" nivel="C" /><br />-23.59318, -46.69287 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | VOL | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

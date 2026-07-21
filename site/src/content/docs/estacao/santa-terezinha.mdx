@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="santa-terezinha" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Santa Terezinha | OpenStreetMap | C | SANTA TEREZINHA (GeoSampa) |
-| Coordenada | -23.51658, -46.84795 | GeoSampa | A | -23.51662, -46.84796 (OpenStreetMap); -23.51662, -46.84803 (Wikidata); -23.51635, -46.84807 (GTFS SPTrans) |
-| Sigla | STE | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Santa Terezinha | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.51658, -46.84795 | <Origem fonte="geosampa" nivel="A" /> | -23.51662, -46.84796 <Origem fonte="osm" nivel="C" /><br />-23.51662, -46.84803 <Origem fonte="wikidata" nivel="C" /><br />-23.51635, -46.84807 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | STE | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

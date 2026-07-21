@@ -1,10 +1,12 @@
 ---
 title: "Linha 11 - Coral"
-description: "Trem metropolitano · Em operação · 57.737 km"
+description: "Trem metropolitano · Em operação · 57,7 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-11" />
 
@@ -12,32 +14,33 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 ## Estações
 
-### Em operação (16)
+### Em operação (17)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Luz](/estacao/luz/) | LUZ | Em operação | [Linha 1 - Azul](/linhas/linha-1-azul/), [Linha 4 - Amarela](/linhas/linha-4-amarela/), [Linha 7 - Rubi](/linhas/linha-7-rubi/), [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
-| 2 | [Brás](/estacao/bras/) | BAS | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 10 - Turquesa](/linhas/linha-10-turquesa/), [Linha 12 - Safira](/linhas/linha-12-safira/), [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
-| 3 | [Tatuapé](/estacao/tatuape/) | TAT | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 12 - Safira](/linhas/linha-12-safira/) |
-| 4 | [Corinthians-Itaquera](/estacao/corinthians-itaquera/) | ITQ | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 14 - Onix](/linhas/linha-14-onix/) |
-| 5 | [Dom Bosco](/estacao/dom-bosco/) | DOB | Em operação | — |
-| 6 | [José Bonifácio](/estacao/jose-bonifacio/) | JBO | Em operação | — |
-| 7 | [Guaianases](/estacao/guaianases/) | GUA | Em operação | — |
-| 9 | [Antonio Gianetti Neto](/estacao/antonio-gianetti-neto/) | AGN | Em operação | — |
-| 10 | [Ferraz de Vasconcelos](/estacao/ferraz-de-vasconcelos/) | FVC | Em operação | — |
-| 11 | [Poá](/estacao/poa/) | POA | Em operação | — |
-| 12 | [Calmon Viana](/estacao/calmon-viana/) | CMV | Em operação | [Linha 12 - Safira](/linhas/linha-12-safira/) |
-| 13 | [Suzano](/estacao/suzano/) | SUZ | Em operação | — |
-| 14 | [Mogi das Cruzes](/estacao/mogi-das-cruzes/) | MDC | Em operação | — |
-| 15 | [Estudantes](/estacao/estudantes/) | EST | Em operação | — |
-| 16 | [Brás Cubas](/estacao/bras-cubas/) | — | Em operação | — |
-| 17 | [Jundiapeba](/estacao/jundiapeba/) | JPB | Em operação | — |
+| 1 | [Luz](/estacao/luz/) | LUZ | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/), [Linha 4 - Amarela](/linhas/linha-4-amarela/), [Linha 7 - Rubi](/linhas/linha-7-rubi/) |
+| 2 | [Brás](/estacao/bras/) | BAS | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 10 - Turquesa](/linhas/linha-10-turquesa/), [Linha 12 - Safira](/linhas/linha-12-safira/) |
+| 3 | [Tatuapé](/estacao/tatuape/) | TAT | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 12 - Safira](/linhas/linha-12-safira/) |
+| 4 | [Penha - Lojas Besni](/estacao/penha-lojas-besni/) | PEN | <Situacao valor="operational" /> | [Linha 2 - Verde](/linhas/linha-2-verde/), [Linha 3 - Vermelha](/linhas/linha-3-vermelha/) |
+| 5 | [Corinthians-Itaquera](/estacao/corinthians-itaquera/) | ITQ | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 14 - Onix](/linhas/linha-14-onix/) |
+| 6 | [Dom Bosco](/estacao/dom-bosco/) | DOB | <Situacao valor="operational" /> | — |
+| 7 | [José Bonifácio](/estacao/jose-bonifacio/) | JBO | <Situacao valor="operational" /> | — |
+| 8 | [Guaianases](/estacao/guaianases/) | GUA | <Situacao valor="operational" /> | — |
+| 10 | [Antonio Gianetti Neto](/estacao/antonio-gianetti-neto/) | AGN | <Situacao valor="operational" /> | — |
+| 11 | [Ferraz de Vasconcelos](/estacao/ferraz-de-vasconcelos/) | FVC | <Situacao valor="operational" /> | — |
+| 12 | [Poá](/estacao/poa/) | POA | <Situacao valor="operational" /> | — |
+| 13 | [Calmon Viana](/estacao/calmon-viana/) | CMV | <Situacao valor="operational" /> | [Linha 12 - Safira](/linhas/linha-12-safira/) |
+| 14 | [Suzano](/estacao/suzano/) | SUZ | <Situacao valor="operational" /> | — |
+| 15 | [Mogi das Cruzes](/estacao/mogi-das-cruzes/) | MDC | <Situacao valor="operational" /> | — |
+| 16 | [Estudantes](/estacao/estudantes/) | EST | <Situacao valor="operational" /> | — |
+| 17 | [Braz Cubas](/estacao/braz-cubas/) | BCB | <Situacao valor="operational" /> | — |
+| 18 | [Jundiapeba](/estacao/jundiapeba/) | JPB | <Situacao valor="operational" /> | — |
 
 ### Projetada (1)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 8 | [Lajeado](/estacao/lajeado/) | — | Projetada | — |
+| 9 | [Lajeado](/estacao/lajeado/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de GTFS SPTrans.
 
@@ -45,13 +48,13 @@ A ordem das estações vem de GTFS SPTrans.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Coral | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 11 | GeoSampa | A | — |
-| Cor | #FF7F50 | OpenStreetMap | C | #F68368 (GTFS SPTrans) |
-| Modo | Trem metropolitano | OpenStreetMap | C | — |
-| Operadora | Companhia Paulista de Trens Metropolitanos | OpenStreetMap | C | CPTM (GeoSampa) |
-| Extensão | 57.737 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Coral | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 11 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #FF7F50 | <Origem fonte="osm" nivel="C" /> | #F68368 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Trem metropolitano | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | Companhia Paulista de Trens Metropolitanos | <Origem fonte="osm" nivel="C" /> | CPTM <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 57,7 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

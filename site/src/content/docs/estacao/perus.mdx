@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="perus" />
 
@@ -16,9 +17,9 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Perus | OpenStreetMap | C | PERUS (GeoSampa) |
-| Coordenada | -23.40477, -46.75375 | GeoSampa | A | -23.40492, -46.75370 (OpenStreetMap); -23.40405, -46.75447 (GTFS SPTrans) |
-| Sigla | PRU | OpenStreetMap | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Perus | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.40477, -46.75375 | <Origem fonte="geosampa" nivel="A" /> | -23.40492, -46.75370 <Origem fonte="osm" nivel="C" /><br />-23.40405, -46.75447 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | PRU | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

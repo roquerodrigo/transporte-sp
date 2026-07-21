@@ -5,6 +5,7 @@ description: "Estação de Linha 2 - Verde"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="santos-imigrantes" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Santos - Imigrantes | OpenStreetMap | C | Santos-Imigrantes (Wikidata); Santos-imigrantes (GTFS SPTrans); SANTOS-IMIGRANTES (GeoSampa) |
-| Coordenada | -23.59594, -46.62070 | GeoSampa | A | -23.59591, -46.62071 (OpenStreetMap); -23.59594, -46.62074 (Wikidata); -23.59594, -46.62071 (GTFS SPTrans) |
-| Sigla | IMG | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2006-03-30 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Santos - Imigrantes | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.59594, -46.62070 | <Origem fonte="geosampa" nivel="A" /> | -23.59591, -46.62071 <Origem fonte="osm" nivel="C" /><br />-23.59594, -46.62074 <Origem fonte="wikidata" nivel="C" /><br />-23.59594, -46.62071 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | IMG | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 30/03/2006 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -57,6 +57,35 @@ def flatten(geometry: dict) -> list[list[list[float]]]:
     return []
 
 
+def fraction_new(candidate, reference, cell_m: float = 200.0) -> float:
+    """How much of *candidate* runs where *reference* does not, from 0 to 1.
+
+    Used to decide whether an extra route relation is a branch worth drawing or just the
+    same track again. Both are reduced to a grid of cells and compared by lookup, because
+    comparing every point against every other is quadratic and these are whole rail lines.
+    """
+    points = [point for part in candidate for point in part]
+    if not points:
+        return 0.0
+    step = cell_m / 111_320
+    covered = {
+        (round(lon / step), round(lat / step))
+        for part in reference
+        for lon, lat in part
+    }
+    if not covered:
+        return 1.0
+    novos = 0
+    for lon, lat in points:
+        cell_x, cell_y = round(lon / step), round(lat / step)
+        vizinhas = (
+            (cell_x + dx, cell_y + dy) for dx in (-1, 0, 1) for dy in (-1, 0, 1)
+        )
+        if not any(cell in covered for cell in vizinhas):
+            novos += 1
+    return novos / len(points)
+
+
 def chain_parts(parts: list[list[list[float]]]) -> list[list[float]]:
     """Join disjoint line segments into one continuous polyline, end to end.
 

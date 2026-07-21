@@ -5,6 +5,7 @@ description: "Estação de Linha 10 - Turquesa, Linha 19 - Celeste"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="pari" />
 
@@ -17,8 +18,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Pari | GeoSampa | A | PARI (GeoSampa) |
-| Coordenada | -23.53963, -46.62472 | GeoSampa | A | -23.53791, -46.62505 (GeoSampa) |
-| Situação | Projetada | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Pari | <Origem fonte="geosampa" nivel="A" /> | — |
+| Coordenada | -23.53963, -46.62472 | <Origem fonte="geosampa" nivel="A" /> | -23.53791, -46.62505 <Origem fonte="geosampa" nivel="A" /> |
+| Situação | Projetada | <Origem fonte="geosampa" nivel="A" /> | — |

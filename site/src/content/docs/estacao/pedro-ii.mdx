@@ -5,6 +5,7 @@ description: "Estação de Linha 3 - Vermelha"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="pedro-ii" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Pedro II | OpenStreetMap | C | PEDRO II (GeoSampa) |
-| Coordenada | -23.54972, -46.62591 | GeoSampa | A | -23.54970, -46.62598 (OpenStreetMap); -23.54970, -46.62598 (Wikidata); -23.54974, -46.62628 (GTFS SPTrans) |
-| Sigla | PDS | Wikidata | C | — |
-| Inauguração | 1980-08-23 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Pedro II | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54972, -46.62591 | <Origem fonte="geosampa" nivel="A" /> | -23.54970, -46.62598 <Origem fonte="osm" nivel="C" /><br />-23.54970, -46.62598 <Origem fonte="wikidata" nivel="C" /><br />-23.54974, -46.62628 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | PDS | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 23/08/1980 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

@@ -5,6 +5,7 @@ description: "Estação de Linha 8 - Diamante"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="santa-rita" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Santa Rita | OpenStreetMap | C | SANTA RITA (GeoSampa) |
-| Coordenada | -23.54497, -46.94752 | GeoSampa | A | -23.54497, -46.94748 (OpenStreetMap); -23.54489, -46.94778 (Wikidata); -23.54511, -46.94765 (GTFS SPTrans) |
-| Sigla | SRT | Wikidata | C | — |
-| Inauguração | 1950-01-01 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Santa Rita | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.54497, -46.94752 | <Origem fonte="geosampa" nivel="A" /> | -23.54497, -46.94748 <Origem fonte="osm" nivel="C" /><br />-23.54489, -46.94778 <Origem fonte="wikidata" nivel="C" /><br />-23.54511, -46.94765 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | SRT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 01/01/1950 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

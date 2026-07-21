@@ -56,8 +56,15 @@ def build() -> Network:
     network_lines = line_merge.reconcile(line_observations, conflicts)
     network_stations, clusters = station_merge.reconcile(station_observations, conflicts)
 
-    station_merge.assign_lines(network_stations, clusters, network_lines, line_observations)
-    line_merge.order_stations(network_lines, network_stations, clusters, line_observations)
+    planejadas = station_merge.assign_lines(
+        network_stations, clusters, network_lines, line_observations
+    )
+    line_merge.attach_planned_termini(network_lines, network_stations, planejadas)
+    line_merge.order_stations(
+        network_lines, network_stations, clusters, line_observations, planejadas
+    )
+    for station in network_stations:
+        station.lines = station_merge.sorted_lines(station.lines)
     _flag_interchanges(network_stations)
     _measure(network_lines)
 

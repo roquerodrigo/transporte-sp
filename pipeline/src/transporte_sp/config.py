@@ -104,6 +104,15 @@ class Settings:
     # Above this distance the winning coordinate and the runner-up are reported as a
     # conflict. Below it the spread is just where each source puts a long platform.
     coordinate_conflict_m: float = env_float("TSP_COORDINATE_CONFLICT_M", 250.0)
+    # Two projected stations this close are the same place under two working names: the
+    # planning layers name an interchange differently per line — Cardeal Arcoverde and
+    # Teodoro Sampaio, Gabriela Mistral and Tiquatira. Projected coordinates are sketches,
+    # hence the generous radius.
+    planned_match_radius_m: float = env_float("TSP_PLANNED_MATCH_RADIUS_M", 300.0)
+    # When one of the two already exists its coordinate is surveyed, so agreement has to be
+    # much closer. This is what keeps a projected station from swallowing the operating
+    # station down the street.
+    mixed_match_radius_m: float = env_float("TSP_MIXED_MATCH_RADIUS_M", 100.0)
     # Matching is transitive, so a chain of near-misses can pull two genuinely different
     # stations of the same name into one cluster. Observations farther than this from their
     # cluster's medoid are split back out.

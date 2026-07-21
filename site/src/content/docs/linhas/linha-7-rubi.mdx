@@ -1,10 +1,12 @@
 ---
 title: "Linha 7 - Rubi"
-description: "Trem metropolitano · Em operação · 60.334 km"
+description: "Trem metropolitano · Em operação · 60,3 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-7" />
 
@@ -16,30 +18,30 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Baltazar Fidélis](/estacao/baltazar-fidelis/) | BFI | Em operação | — |
-| 2 | [Perus](/estacao/perus/) | PRU | Em operação | — |
-| 3 | [Piqueri](/estacao/piqueri/) | PQR | Em operação | — |
-| 4 | [Lapa (Linha 7)](/estacao/lapa-linha-7/) | LPA | Em operação | — |
-| 5 | [Luz](/estacao/luz/) | LUZ | Em operação | [Linha 1 - Azul](/linhas/linha-1-azul/), [Linha 4 - Amarela](/linhas/linha-4-amarela/), [Linha 11 - Coral](/linhas/linha-11-coral/), [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
-| 7 | [Palmeiras-Barra Funda](/estacao/palmeiras-barra-funda/) | BFU | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 8 - Diamante](/linhas/linha-8-diamante/), [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
-| 8 | [Água Branca](/estacao/agua-branca/) | ABR | Em operação | [Linha 6 - Laranja](/linhas/linha-6-laranja/) |
-| 9 | [Pirituba](/estacao/pirituba/) | PRT | Em operação | — |
-| 10 | [Vila Clarice](/estacao/vila-clarice/) | VCL | Em operação | — |
-| 11 | [Jaraguá](/estacao/jaragua/) | JRG | Em operação | — |
-| 12 | [Vila Aurora](/estacao/vila-aurora/) | VAU | Em operação | — |
-| 13 | [Caieiras](/estacao/caieiras/) | CAI | Em operação | — |
-| 14 | [Franco da Rocha](/estacao/franco-da-rocha/) | FDR | Em operação | — |
-| 15 | [Francisco Morato](/estacao/francisco-morato/) | FMO | Em operação | — |
-| 16 | [Campo Limpo Paulista](/estacao/campo-limpo-paulista/) | CLP | Em operação | — |
-| 17 | [Várzea Paulista](/estacao/varzea-paulista/) | VPL | Em operação | — |
-| 18 | [Jundiaí](/estacao/jundiai/) | JUN | Em operação | — |
-| 19 | [Botujuru](/estacao/botujuru/) | BTJ | Em operação | — |
+| 1 | [Baltazar Fidélis](/estacao/baltazar-fidelis/) | BFI | <Situacao valor="operational" /> | — |
+| 2 | [Perus](/estacao/perus/) | PRU | <Situacao valor="operational" /> | — |
+| 3 | [Piqueri](/estacao/piqueri/) | PQR | <Situacao valor="operational" /> | — |
+| 4 | [Lapa](/estacao/lapa/) | LPA | <Situacao valor="operational" /> | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
+| 5 | [Luz](/estacao/luz/) | LUZ | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/), [Linha 4 - Amarela](/linhas/linha-4-amarela/), [Linha 11 - Coral](/linhas/linha-11-coral/) |
+| 7 | [Palmeiras-Barra Funda](/estacao/palmeiras-barra-funda/) | BFU | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 8 - Diamante](/linhas/linha-8-diamante/), [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
+| 8 | [Água Branca](/estacao/agua-branca/) | ABR | <Situacao valor="operational" /> | [Linha 6 - Laranja](/linhas/linha-6-laranja/) |
+| 9 | [Pirituba](/estacao/pirituba/) | PRT | <Situacao valor="operational" /> | — |
+| 10 | [Vila Clarice](/estacao/vila-clarice/) | VCL | <Situacao valor="operational" /> | — |
+| 11 | [Jaraguá](/estacao/jaragua/) | JRG | <Situacao valor="operational" /> | — |
+| 12 | [Vila Aurora](/estacao/vila-aurora/) | VAU | <Situacao valor="operational" /> | — |
+| 13 | [Caieiras](/estacao/caieiras/) | CAI | <Situacao valor="operational" /> | — |
+| 14 | [Franco da Rocha](/estacao/franco-da-rocha/) | FDR | <Situacao valor="operational" /> | — |
+| 15 | [Francisco Morato](/estacao/francisco-morato/) | FMO | <Situacao valor="operational" /> | — |
+| 16 | [Campo Limpo Paulista](/estacao/campo-limpo-paulista/) | CLP | <Situacao valor="operational" /> | — |
+| 17 | [Várzea Paulista](/estacao/varzea-paulista/) | VPL | <Situacao valor="operational" /> | — |
+| 18 | [Jundiaí](/estacao/jundiai/) | JUN | <Situacao valor="operational" /> | — |
+| 19 | [Botujuru](/estacao/botujuru/) | BTJ | <Situacao valor="operational" /> | — |
 
 ### Projetada (1)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 6 | [Bom Retiro](/estacao/bom-retiro/) | — | Projetada | — |
+| 6 | [Bom Retiro](/estacao/bom-retiro/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de GTFS SPTrans.
 
@@ -47,13 +49,13 @@ A ordem das estações vem de GTFS SPTrans.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Rubi | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 7 | GeoSampa | A | — |
-| Cor | #A8034F | OpenStreetMap | C | #CA016B (GTFS SPTrans) |
-| Modo | Trem metropolitano | OpenStreetMap | C | — |
-| Operadora | TIC Trens | OpenStreetMap | C | CPTM (GeoSampa) |
-| Extensão | 60.334 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Rubi | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 7 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #A8034F | <Origem fonte="osm" nivel="C" /> | #CA016B <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Trem metropolitano | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | TIC Trens | <Origem fonte="osm" nivel="C" /> | CPTM <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 60,3 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

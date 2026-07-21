@@ -5,6 +5,7 @@ description: "Estação de Linha 7 - Rubi"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="franco-da-rocha" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Franco da Rocha | OpenStreetMap | C | Franco da Rocha (1888–2014) (Wikidata); Franco Da Rocha (GTFS SPTrans); FRANCO DA ROCHA (GeoSampa) |
-| Coordenada | -23.32964, -46.72629 | GeoSampa | A | -23.32979, -46.72641 (OpenStreetMap); -23.32979, -46.72642 (Wikidata); -23.32826, -46.72575 (Wikidata); -23.33218, -46.72761 (GTFS SPTrans) |
-| Sigla | FDR | Wikidata | C | — |
-| Inauguração | 2014-05-10 | Wikidata | C | 1888-02-01 (Wikidata) |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Franco da Rocha | <Origem fonte="osm" nivel="C" /> | Franco da Rocha (1888–2014) <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.32964, -46.72629 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 313 m de distância<br /><Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | FDR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 10/05/2014 | <Origem fonte="wikidata" nivel="C" /> | 01/02/1888 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

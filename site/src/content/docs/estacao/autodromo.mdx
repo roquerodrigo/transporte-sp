@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="autodromo" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Autódromo | OpenStreetMap | C | AUTÓDROMO (GeoSampa) |
-| Coordenada | -23.70656, -46.68845 | GeoSampa | A | -23.70598, -46.68832 (OpenStreetMap); -23.70610, -46.68830 (Wikidata); -23.70615, -46.68836 (GTFS SPTrans) |
-| Sigla | AUT | Wikidata | C | — |
-| Inauguração | 2007-10-17 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Autódromo | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.70656, -46.68845 | <Origem fonte="geosampa" nivel="A" /> | -23.70598, -46.68832 <Origem fonte="osm" nivel="C" /><br />-23.70610, -46.68830 <Origem fonte="wikidata" nivel="C" /><br />-23.70615, -46.68836 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | AUT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 17/10/2007 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

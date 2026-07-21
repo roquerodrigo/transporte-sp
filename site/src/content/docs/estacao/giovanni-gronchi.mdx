@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="giovanni-gronchi" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Giovanni Gronchi | OpenStreetMap | C | GIOVANNI GRONCHI (GeoSampa) |
-| Coordenada | -23.64396, -46.73410 | GeoSampa | A | -23.64393, -46.73398 (OpenStreetMap); -23.64396, -46.73425 (Wikidata); -23.64398, -46.73411 (GTFS SPTrans) |
-| Sigla | GGR | Wikidata | C | — |
-| Inauguração | 2002-10-20 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Giovanni Gronchi | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.64396, -46.73410 | <Origem fonte="geosampa" nivel="A" /> | -23.64393, -46.73398 <Origem fonte="osm" nivel="C" /><br />-23.64396, -46.73425 <Origem fonte="wikidata" nivel="C" /><br />-23.64398, -46.73411 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | GGR | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 20/10/2002 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

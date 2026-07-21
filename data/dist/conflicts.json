@@ -17,6 +17,26 @@
   },
   {
     "entity": "station",
+    "entity_id": "anhangabau",
+    "fieldname": "identidade",
+    "chosen": "ANHANGABAÚ",
+    "chosen_source": "pipeline",
+    "rejected": "Terminal Bandeira",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 25 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "ayrton-senna-jardim-sao-paulo",
+    "fieldname": "identidade",
+    "chosen": "AYRTON SENNA-JARDIM SÃO PAULO",
+    "chosen_source": "pipeline",
+    "rejected": "Jardim São Paulo-ayrton Senna",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 43 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
     "entity_id": "bras",
     "fieldname": "coordinates",
     "chosen": {
@@ -81,6 +101,56 @@
   },
   {
     "entity": "station",
+    "entity_id": "bras-cubas",
+    "fieldname": "identidade",
+    "chosen": "BRÁS CUBAS",
+    "chosen_source": "pipeline",
+    "rejected": "Braz Cubas",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 38 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "chacara-do-joquei",
+    "fieldname": "identidade",
+    "chosen": "CHÁCARA DO JÓQUEI",
+    "chosen_source": "pipeline",
+    "rejected": "Chácara do Jockey",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 99 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "chucri-zaidan",
+    "fieldname": "identidade",
+    "chosen": "CHUCRI ZAIDAN",
+    "chosen_source": "pipeline",
+    "rejected": "E.T. Água Espraiada",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 75 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "domingos-de-morais",
+    "fieldname": "identidade",
+    "chosen": "DOMINGOS DE MORAIS",
+    "chosen_source": "pipeline",
+    "rejected": "Domingos De Moraes",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 24 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "engenheiro-goulart",
+    "fieldname": "identidade",
+    "chosen": "ENGENHEIRO GOULART",
+    "chosen_source": "pipeline",
+    "rejected": "Eng. Goulart",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 20 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
     "entity_id": "francisco-morato",
     "fieldname": "coordinates",
     "chosen": {
@@ -110,6 +180,26 @@
     },
     "rejected_source": "gtfs_sptrans",
     "detail": "sources place this station 313 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "general-miguel-costa",
+    "fieldname": "identidade",
+    "chosen": "GENERAL MIGUEL COSTA",
+    "chosen_source": "pipeline",
+    "rejected": "Terminal Metropolitano Luiz Bortolosso",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 84 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "guaruja-civil-metropolitan-aerodrome",
+    "fieldname": "identidade",
+    "chosen": "Guarujá Civil Metropolitan Aerodrome",
+    "chosen_source": "pipeline",
+    "rejected": "Base Aérea de Santos",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 84 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
   },
   {
     "entity": "station",
@@ -148,16 +238,36 @@
     "entity_id": "lapa",
     "fieldname": "coordinates",
     "chosen": {
-      "lat": -23.51794308,
-      "lon": -46.70075443
+      "lat": -23.51773416,
+      "lon": -46.70365872
     },
     "chosen_source": "geosampa",
     "rejected": {
-      "lat": -23.5175952,
-      "lon": -46.7039659
+      "lat": -23.51794308,
+      "lon": -46.70075443
     },
-    "rejected_source": "osm",
-    "detail": "sources place this station 330 m apart"
+    "rejected_source": "geosampa",
+    "detail": "sources place this station 297 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "lapa-linha-7",
+    "fieldname": "identidade",
+    "chosen": "LAPA (LINHA 7)",
+    "chosen_source": "pipeline",
+    "rejected": "Lapa",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 35 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "lapa-linha-8",
+    "fieldname": "identidade",
+    "chosen": "LAPA (LINHA 8)",
+    "chosen_source": "pipeline",
+    "rejected": "Lapa - Senac",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 27 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
   },
   {
     "entity": "station",
@@ -185,11 +295,149 @@
     },
     "chosen_source": "geosampa",
     "rejected": {
+      "lat": -23.53509,
+      "lon": -46.63528
+    },
+    "rejected_source": "wikidata",
+    "detail": "sources place this station 260 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "luz",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.53690231,
+      "lon": -46.63367028
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
       "lat": -23.535103,
       "lon": -46.635436
     },
     "rejected_source": "gtfs_sptrans",
     "detail": "sources place this station 269 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "luz",
+    "fieldname": "identidade",
+    "chosen": "LUZ",
+    "chosen_source": "pipeline",
+    "rejected": "da Luz",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 22 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "mendes-bruno-covas",
+    "fieldname": "identidade",
+    "chosen": "MENDES / BRUNO COVAS",
+    "chosen_source": "pipeline",
+    "rejected": "Bruno Covas-mendes-vila Natal",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 39 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "panamby",
+    "fieldname": "identidade",
+    "chosen": "PANAMBY",
+    "chosen_source": "pipeline",
+    "rejected": "Panambi",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 91 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "parque-da-independencia",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.57670061,
+      "lon": -46.61147852
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.57445834,
+      "lon": -46.61072869
+    },
+    "rejected_source": "geosampa",
+    "detail": "sources place this station 261 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "parque-da-independencia",
+    "fieldname": "identidade",
+    "chosen": "PARQUE DA INDEPENDÊNCIA",
+    "chosen_source": "pipeline",
+    "rejected": "DOM PEDRO I",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 261 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "rodoviaria-de-santos",
+    "fieldname": "identidade",
+    "chosen": "Rodoviária de Santos",
+    "chosen_source": "pipeline",
+    "rejected": "Terminal Valongo",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 54 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "sao-carlos",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.56879016,
+      "lon": -46.60535047
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.56665486,
+      "lon": -46.60412882
+    },
+    "rejected_source": "geosampa",
+    "detail": "sources place this station 268 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "sao-carlos",
+    "fieldname": "identidade",
+    "chosen": "SÃO CARLOS",
+    "chosen_source": "pipeline",
+    "rejected": "PARQUE DA MOOCA",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 268 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "teodoro-sampaio",
+    "fieldname": "identidade",
+    "chosen": "TEODORO SAMPAIO",
+    "chosen_source": "pipeline",
+    "rejected": "CARDEAL ARCOVERDE",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 141 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "tiquatira",
+    "fieldname": "identidade",
+    "chosen": "TIQUATIRA",
+    "chosen_source": "pipeline",
+    "rejected": "GABRIELA MISTRAL",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 187 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "vila-cardoso",
+    "fieldname": "identidade",
+    "chosen": "VILA CARDOSO",
+    "chosen_source": "pipeline",
+    "rejected": "Maristela",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 42 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
   },
   {
     "entity": "station",

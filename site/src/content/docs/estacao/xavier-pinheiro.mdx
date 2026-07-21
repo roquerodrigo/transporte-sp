@@ -5,6 +5,7 @@ description: "Estação de Linha L2 - VLT Linha 2"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="xavier-pinheiro" />
 
@@ -16,8 +17,8 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Xavier Pinheiro | OpenStreetMap | C | — |
-| Coordenada | -23.95076, -46.32078 | OpenStreetMap | C | -23.95074, -46.32078 (Wikidata) |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Xavier Pinheiro | <Origem fonte="osm" nivel="C" /> | — |
+| Coordenada | -23.95076, -46.32078 | <Origem fonte="osm" nivel="C" /> | -23.95074, -46.32078 <Origem fonte="wikidata" nivel="C" /> |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |

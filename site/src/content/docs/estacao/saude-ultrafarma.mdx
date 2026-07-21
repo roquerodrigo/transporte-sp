@@ -5,6 +5,7 @@ description: "Estação de Linha 1 - Azul, Linha 20 - Rosa"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="saude-ultrafarma" />
 
@@ -17,10 +18,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Saúde – Ultrafarma | OpenStreetMap | C | Saúde (Wikidata); Saúde (GTFS SPTrans); SAÚDE (GeoSampa); SAÚDE (GeoSampa) |
-| Coordenada | -23.61861, -46.63924 | GeoSampa | A | -23.61907, -46.64048 (GeoSampa); -23.61843, -46.63920 (OpenStreetMap); -23.61913, -46.63934 (Wikidata); -23.61825, -46.63914 (GTFS SPTrans) |
-| Sigla | SAU | Wikidata | C | — |
-| Inauguração | 1974-09-14 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | Projetada (GeoSampa) |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Saúde – Ultrafarma | <Origem fonte="osm" nivel="C" /> | Saúde <Origem fonte="wikidata" nivel="C" /> |
+| Coordenada | -23.61861, -46.63924 | <Origem fonte="geosampa" nivel="A" /> | 4 leituras, até 136 m de distância<br /><Origem fonte="geosampa" nivel="A" /> <Origem fonte="gtfs_sptrans" nivel="A" /> <Origem fonte="osm" nivel="C" /> <Origem fonte="wikidata" nivel="C" /> |
+| Sigla | SAU | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 14/09/1974 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | Projetada <Origem fonte="geosampa" nivel="A" /> |

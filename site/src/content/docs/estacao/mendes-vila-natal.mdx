@@ -5,6 +5,7 @@ description: "Estação de Linha 9 - Esmeralda"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="mendes-vila-natal" />
 
@@ -16,11 +17,11 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Mendes - Vila Natal | OpenStreetMap | C | Bruno Covas/Mendes-Vila Natal (Wikidata); Bruno Covas-mendes-vila Natal (GTFS SPTrans) |
-| Coordenada | -23.75424, -46.70924 | OpenStreetMap | C | -23.75581, -46.71002 (Wikidata); -23.75462, -46.70939 (GTFS SPTrans) |
-| Sigla | MVN | Wikidata | C | — |
-| Acessibilidade | Acessível | OpenStreetMap | C | — |
-| Inauguração | 2021-08-10 | Wikidata | C | — |
-| Situação | Em operação | OpenStreetMap | C | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Mendes - Vila Natal | <Origem fonte="osm" nivel="C" /> | Bruno Covas/Mendes-Vila Natal <Origem fonte="wikidata" nivel="C" /><br />MENDES / BRUNO COVAS <Origem fonte="geosampa" nivel="A" /> |
+| Coordenada | -23.75429, -46.70928 | <Origem fonte="geosampa" nivel="A" /> | -23.75424, -46.70924 <Origem fonte="osm" nivel="C" /><br />-23.75581, -46.71002 <Origem fonte="wikidata" nivel="C" /><br />-23.75462, -46.70939 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | MVN | <Origem fonte="wikidata" nivel="C" /> | — |
+| Acessibilidade | Acessível | <Origem fonte="osm" nivel="C" /> | — |
+| Inauguração | 10/08/2021 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

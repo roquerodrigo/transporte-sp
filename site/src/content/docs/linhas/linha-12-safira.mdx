@@ -1,10 +1,12 @@
 ---
 title: "Linha 12 - Safira"
-description: "Trem metropolitano · Em operação · 40.934 km"
+description: "Trem metropolitano · Em operação · 40,9 km"
 ---
 
 import FichaLinha from "@components/FichaLinha.astro";
 import MapaLinha from "@components/MapaLinha.astro";
+import Origem from "@components/Origem.astro";
+import Situacao from "@components/Situacao.astro";
 
 <FichaLinha linha="linha-12" />
 
@@ -16,26 +18,26 @@ import MapaLinha from "@components/MapaLinha.astro";
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 1 | [Brás](/estacao/bras/) | BAS | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 10 - Turquesa](/linhas/linha-10-turquesa/), [Linha 11 - Coral](/linhas/linha-11-coral/), [Expresso Aeroporto](/linhas/expresso-aeroporto/) |
-| 2 | [Tatuapé](/estacao/tatuape/) | TAT | Em operação | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 11 - Coral](/linhas/linha-11-coral/) |
-| 4 | [USP Leste](/estacao/usp-leste/) | USL | Em operação | — |
-| 5 | [Comendador Ermelino](/estacao/comendador-ermelino/) | ERM | Em operação | — |
-| 7 | [São Miguel Paulista](/estacao/sao-miguel-paulista/) | SMP | Em operação | [Linha 14 - Onix](/linhas/linha-14-onix/) |
-| 8 | [Itaim Paulista](/estacao/itaim-paulista/) | ITI | Em operação | — |
-| 9 | [Jardim Romano](/estacao/jardim-romano/) | JRO | Em operação | — |
-| 10 | [Eng Manoel Feio](/estacao/eng-manoel-feio/) | — | Em operação | — |
-| 11 | [Itaquaquecetuba](/estacao/itaquaquecetuba/) | IQC | Em operação | — |
-| 12 | [Calmon Viana](/estacao/calmon-viana/) | CMV | Em operação | [Linha 11 - Coral](/linhas/linha-11-coral/) |
-| 13 | [Aracaré](/estacao/aracare/) | ARC | Em operação | — |
-| 14 | [Jardim Helena - Vila Mara](/estacao/jardim-helena-vila-mara/) | JHE | Em operação | — |
-| 15 | [Eng. Goulart](/estacao/eng-goulart/) | — | Em operação | [Linha 13 - Jade](/linhas/linha-13-jade/) |
+| 1 | [Brás](/estacao/bras/) | BAS | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 10 - Turquesa](/linhas/linha-10-turquesa/), [Linha 11 - Coral](/linhas/linha-11-coral/) |
+| 2 | [Tatuapé](/estacao/tatuape/) | TAT | <Situacao valor="operational" /> | [Linha 3 - Vermelha](/linhas/linha-3-vermelha/), [Linha 11 - Coral](/linhas/linha-11-coral/) |
+| 4 | [USP Leste](/estacao/usp-leste/) | USL | <Situacao valor="operational" /> | — |
+| 5 | [Comendador Ermelino](/estacao/comendador-ermelino/) | ERM | <Situacao valor="operational" /> | — |
+| 7 | [São Miguel Paulista](/estacao/sao-miguel-paulista/) | SMP | <Situacao valor="operational" /> | [Linha 14 - Onix](/linhas/linha-14-onix/) |
+| 8 | [Itaim Paulista](/estacao/itaim-paulista/) | ITI | <Situacao valor="operational" /> | — |
+| 9 | [Jardim Romano](/estacao/jardim-romano/) | JRO | <Situacao valor="operational" /> | — |
+| 10 | [Eng Manoel Feio](/estacao/eng-manoel-feio/) | — | <Situacao valor="operational" /> | — |
+| 11 | [Itaquaquecetuba](/estacao/itaquaquecetuba/) | IQC | <Situacao valor="operational" /> | — |
+| 12 | [Calmon Viana](/estacao/calmon-viana/) | CMV | <Situacao valor="operational" /> | [Linha 11 - Coral](/linhas/linha-11-coral/) |
+| 13 | [Aracaré](/estacao/aracare/) | ARC | <Situacao valor="operational" /> | — |
+| 14 | [Jardim Helena - Vila Mara](/estacao/jardim-helena-vila-mara/) | JHE | <Situacao valor="operational" /> | — |
+| 15 | [Engenheiro Goulart](/estacao/engenheiro-goulart/) | EGO | <Situacao valor="operational" /> | [Linha 13 - Jade](/linhas/linha-13-jade/) |
 
 ### Projetada (2)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 3 | [Gabriela Mistral](/estacao/gabriela-mistral/) | — | Projetada | [Linha 13 - Jade](/linhas/linha-13-jade/) |
-| 6 | [União de Vila Nova](/estacao/uniao-de-vila-nova/) | — | Projetada | — |
+| 3 | [Tiquatira](/estacao/tiquatira/) | — | <Situacao valor="planned" /> | [Linha 2 - Verde](/linhas/linha-2-verde/), [Linha 13 - Jade](/linhas/linha-13-jade/) |
+| 6 | [União de Vila Nova](/estacao/uniao-de-vila-nova/) | — | <Situacao valor="planned" /> | — |
 
 A ordem das estações vem de GTFS SPTrans.
 
@@ -43,13 +45,13 @@ A ordem das estações vem de GTFS SPTrans.
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Safira | GeoSampa | A | — |
-| Situação | Em operação | OpenStreetMap | C | — |
-| Número | 12 | GeoSampa | A | — |
-| Cor | #1C146B | OpenStreetMap | C | #133C8D (GTFS SPTrans) |
-| Modo | Trem metropolitano | OpenStreetMap | C | — |
-| Operadora | Companhia Paulista de Trens Metropolitanos | OpenStreetMap | C | CPTM (GeoSampa) |
-| Extensão | 40.934 km | OpenStreetMap | E | — |
-| Ordem das estações | GTFS SPTrans | GTFS SPTrans | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Safira | <Origem fonte="geosampa" nivel="A" /> | — |
+| Situação | Em operação | <Origem fonte="osm" nivel="C" /> | — |
+| Número | 12 | <Origem fonte="geosampa" nivel="A" /> | — |
+| Cor | #1C146B | <Origem fonte="osm" nivel="C" /> | #133C8D <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Modo | Trem metropolitano | <Origem fonte="osm" nivel="C" /> | — |
+| Operadora | Companhia Paulista de Trens Metropolitanos | <Origem fonte="osm" nivel="C" /> | CPTM <Origem fonte="geosampa" nivel="A" /> |
+| Extensão | 40,9 km | <Origem fonte="osm" nivel="E" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

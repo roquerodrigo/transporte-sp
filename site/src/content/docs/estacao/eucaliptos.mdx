@@ -5,6 +5,7 @@ description: "Estação de Linha 5 - Lilas"
 
 import FichaEstacao from "@components/FichaEstacao.astro";
 import MapaEstacao from "@components/MapaEstacao.astro";
+import Origem from "@components/Origem.astro";
 
 <FichaEstacao estacao="eucaliptos" />
 
@@ -16,10 +17,10 @@ import MapaEstacao from "@components/MapaEstacao.astro";
 
 ## Procedência
 
-| Campo | Valor | Fonte | Confiança | Outras leituras |
-| --- | --- | --- | --- | --- |
-| Nome | Eucaliptos | Wikidata | C | EUCALIPTOS (GeoSampa) |
-| Coordenada | -23.61015, -46.66899 | GeoSampa | A | -23.60979, -46.66861 (Wikidata); -23.60984, -46.66865 (GTFS SPTrans) |
-| Sigla | ECT | Wikidata | C | — |
-| Inauguração | 2018-03-02 | Wikidata | C | — |
-| Situação | Em operação | GeoSampa | A | — |
+| Campo | Valor | Procedência | Outras leituras |
+| --- | --- | --- | --- |
+| Nome | Eucaliptos | <Origem fonte="wikidata" nivel="C" /> | — |
+| Coordenada | -23.61015, -46.66899 | <Origem fonte="geosampa" nivel="A" /> | -23.60979, -46.66861 <Origem fonte="wikidata" nivel="C" /><br />-23.60984, -46.66865 <Origem fonte="gtfs_sptrans" nivel="A" /> |
+| Sigla | ECT | <Origem fonte="wikidata" nivel="C" /> | — |
+| Inauguração | 02/03/2018 | <Origem fonte="wikidata" nivel="C" /> | — |
+| Situação | Em operação | <Origem fonte="geosampa" nivel="A" /> | — |

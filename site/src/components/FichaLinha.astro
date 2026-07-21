@@ -31,6 +31,16 @@ const entries: { label: string; value: string; field?: Sourced<unknown> | null }
   },
   { label: "Estações", value: line.stations.length ? String(line.stations.length) : "—" },
 ];
+
+// Only where there is something planned: on a line with no extension the row would read
+// as a missing value rather than as an absence of plans.
+if (line.planned_length_km) {
+  entries.push({
+    label: "Projetado",
+    value: `+ ${line.planned_length_km.value} km`,
+    field: line.planned_length_km,
+  });
+}
 ---
 
 <div class="ficha" style={`--linha-cor: ${lineColour(line)}`}>

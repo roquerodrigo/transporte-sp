@@ -870,12 +870,14 @@
       "confidence": "A",
       "alternatives": []
     },
+    "planned_geometry": null,
     "length_km": {
       "value": 16.106,
       "source": "geosampa",
       "confidence": "E",
       "alternatives": []
     },
+    "planned_length_km": null,
     "observed_by": [
       "geosampa"
     ]

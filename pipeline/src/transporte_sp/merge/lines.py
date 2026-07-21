@@ -13,7 +13,13 @@ import logging
 import re
 
 from transporte_sp.geo import line_length_km
-from transporte_sp.merge.precedence import GEOMETRY_STRATEGY, LINE_FIELDS, confidence, rank
+from transporte_sp.merge.precedence import (
+    GEOMETRY_ORDER,
+    GEOMETRY_STRATEGY,
+    LINE_FIELDS,
+    confidence,
+    rank,
+)
 from transporte_sp.model import Alternative, Conflict, Line, LineObservation, Sourced
 from transporte_sp.naming import line_slug, normalise, slugify
 
@@ -69,6 +75,7 @@ def _build(key: str, group: list[LineObservation], conflicts: list[Conflict]) ->
     display_name = _display_name(group)
     slug = line_slug(number["value"] if number else "", display_name["value"])
 
+    running, planned = _alignments(group, conflicts, key)
     line = Line(
         id=key,
         slug=slug,
@@ -79,7 +86,8 @@ def _build(key: str, group: list[LineObservation], conflicts: list[Conflict]) ->
         or {"value": "subway", "source": "pipeline", "confidence": "E"},
         operator=_first(group, "operator"),
         status=_status(group),
-        geometry=_geometry(group, conflicts, key),
+        geometry=running,
+        planned_geometry=planned,
         observed_by=sorted({observation.source for observation in group}),
     )
     return line
@@ -216,16 +224,31 @@ def _status(group: list[LineObservation]) -> dict:
     return {"value": "operational", "source": winner, "confidence": confidence(winner)}
 
 
-def _geometry(
+def _alignments(
+    group: list[LineObservation], conflicts: list[Conflict], key: str
+) -> tuple[dict | None, dict | None]:
+    """The running alignment and the planned one, kept apart.
+
+    They used to be one: every GeoSampa feature for a line was concatenated, projected
+    layers included, so Line 4 ran three kilometres past Vila Sônia into Taboão da Serra and
+    Line 13 gained forty kilometres of Guarulhos extension — drawn solid, with no station on
+    them, as if you could board there today.
+
+    The running alignment is taken from the source order rather than from whichever is
+    longest. GeoSampa maps the commuter lines track by track, so joining its segments walks
+    the corridor twice; an OSM relation or a GTFS shape is one traversal.
+    """
+    running = [item for item in group if item.status == "operational"]
+    planned = [item for item in group if item.status != "operational"]
+    return (
+        _pick_alignment(running, conflicts, key),
+        _pick_alignment(planned, [], key),
+    )
+
+
+def _pick_alignment(
     group: list[LineObservation], conflicts: list[Conflict], key: str
 ) -> dict | None:
-    """Best available alignment.
-
-    GeoSampa splits a line into segments (join them) while OSM repeats the whole line once
-    per direction (keep one). After that the longest candidate wins, because the usual
-    disagreement is coverage: GeoSampa is clipped at the city limit, so for anything
-    reaching Jundiaí, Mogi or the ABC only OSM has the full alignment.
-    """
     candidates: list[tuple[str, list, float]] = []
     for source in {item.source for item in group}:
         parts = [item for item in group if item.source == source and item.geometry]
@@ -234,15 +257,13 @@ def _geometry(
         if GEOMETRY_STRATEGY.get(source, "longest") == "concat":
             geometry = [segment for item in parts for segment in item.geometry]
         else:
-            geometry = max(
-                (item.geometry for item in parts), key=line_length_km, default=[]
-            )
+            geometry = max((item.geometry for item in parts), key=line_length_km, default=[])
         if geometry:
             candidates.append((source, geometry, line_length_km(geometry)))
     if not candidates:
         return None
 
-    candidates.sort(key=lambda entry: entry[2], reverse=True)
+    candidates.sort(key=lambda entry: _alignment_rank(entry[0]))
     source, geometry, length = candidates[0]
     alternatives = [
         Alternative(
@@ -250,16 +271,18 @@ def _geometry(
             source=other_source,
             confidence=confidence(other_source),
             note=(
-                "clipped at the city limit"
-                if other_source == "geosampa"
-                else "shorter alignment, not used"
+                "traça cada via separadamente"
+                if other_source == "geosampa" and other_length > length * 1.5
+                else "traçado alternativo, não usado"
             ),
         )
         for other_source, _, other_length in candidates[1:]
     ]
     for other_source, _, other_length in candidates[1:]:
-        # GeoSampa covering less than OSM is its documented extent, not a disagreement.
-        if other_source == "geosampa" and other_length < length:
+        # GeoSampa differing is expected: it stops at the city limit in one direction and
+        # doubles back over both tracks in the other. Neither is a disagreement about where
+        # the line runs.
+        if other_source == "geosampa":
             continue
         if other_length and abs(length - other_length) / max(length, other_length) > 0.25:
             conflicts.append(
@@ -271,7 +294,7 @@ def _geometry(
                     chosen_source=source,
                     rejected=f"{other_length} km",
                     rejected_source=other_source,
-                    detail="alignments differ by more than a quarter of their length",
+                    detail="os traçados divergem em mais de um quarto do comprimento",
                 )
             )
     return {
@@ -280,6 +303,10 @@ def _geometry(
         "confidence": confidence(source),
         "alternatives": alternatives,
     }
+
+
+def _alignment_rank(source: str) -> int:
+    return GEOMETRY_ORDER.index(source) if source in GEOMETRY_ORDER else len(GEOMETRY_ORDER)
 
 
 def order_stations(lines, stations, clusters, observations) -> None:
@@ -313,14 +340,19 @@ def order_stations(lines, stations, clusters, observations) -> None:
         members = [station for station in stations if line.id in station.lines]
 
         if from_gtfs and line.status.value == "operational":
-            # The GTFS enumerates the whole operating line, so a station it omits was
-            # attached by a weaker source — usually a historical assignment (Luz and
-            # Palmeiras-Barra Funda still show up on Line 10 in the collaborative sources).
+            # The GTFS enumerates the whole *operating* line, so an operating station it
+            # omits was attached by a weaker source — usually a historical assignment (Luz
+            # and Palmeiras-Barra Funda still show up on Line 10 in the collaborative
+            # sources). A projected station is a different matter: the GTFS lists what runs,
+            # so its absence there says nothing, and dropping it used to erase the whole
+            # planned half of Lines 2, 4, 5 and 13.
             keep = set(sequence)
             for station in members:
-                if station.id not in keep:
+                if station.id not in keep and station.status.value == "operational":
                     station.lines.remove(line.id)
-            ordered = sequence
+            ordered = _append_unsequenced(
+                sequence, [s for s in members if line.id in s.lines], by_id, line
+            )
         else:
             if basis == "osm":
                 _mark_running(sequence, by_id)
@@ -379,8 +411,14 @@ def _append_unsequenced(sequence: list[str], members, by_id, line) -> list[str]:
     """
     if not members:
         return sequence
-    if line.geometry and line.geometry.value:
-        return _order_along(line.geometry.value, sequence, members, by_id)
+    # Both alignments, because the stations being placed are precisely the ones on the
+    # stretch that is not built yet.
+    alignment = [
+        *(line.geometry.value if line.geometry else []),
+        *(line.planned_geometry.value if line.planned_geometry else []),
+    ]
+    if alignment:
+        return _order_along(alignment, sequence, members, by_id)
     return _chain_nearest(sequence, members, by_id)
 
 

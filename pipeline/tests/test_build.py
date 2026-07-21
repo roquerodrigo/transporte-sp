@@ -107,3 +107,11 @@ class TestCli:
         result = CliRunner().invoke(app, ["inspect", "geosampa"])
         assert result.exit_code == 0
         assert "VERMELHA" in result.output
+
+
+def test_a_projected_station_survives_a_gtfs_covered_line(network):
+    """The GTFS lists what runs, so it cannot be used to deny a projected station."""
+    line = next(line for line in network.lines if line.id == "linha-3")
+    assert line.station_order.value == "gtfs_sptrans"
+    stations = {station.id: station for station in network.stations}
+    assert all(stations[station_id] for station_id in line.stations)

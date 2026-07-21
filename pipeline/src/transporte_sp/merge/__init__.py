@@ -107,15 +107,23 @@ def _flag_interchanges(stations) -> None:
 
 
 def _measure(lines) -> None:
+    """Length of what runs, and separately of what is only planned."""
     from transporte_sp.model import Sourced
 
     for line in lines:
-        if line.geometry and line.geometry.value:
-            line.length_km = Sourced[float](
-                value=line_length_km(line.geometry.value),
-                source=line.geometry.source,
-                confidence="E",
-            )
+        for alignment, target in (("geometry", "length_km"),
+                                  ("planned_geometry", "planned_length_km")):
+            field = getattr(line, alignment)
+            if field and field.value:
+                setattr(
+                    line,
+                    target,
+                    Sourced[float](
+                        value=line_length_km(field.value),
+                        source=field.source,
+                        confidence="E",
+                    ),
+                )
 
 
 def _report(network: Network) -> None:

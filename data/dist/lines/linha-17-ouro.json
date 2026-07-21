@@ -72,11 +72,11 @@
       "vila-babilonia",
       "vila-paulista",
       "washington-luis",
+      "vila-cordeiro",
+      "campo-belo",
+      "vereador-jose-diniz",
       "aeroporto-de-congonhas",
       "brooklin-paulista",
-      "vereador-jose-diniz",
-      "campo-belo",
-      "vila-cordeiro",
       "chucri-zaidan",
       "morumbi-claro",
       "panamby",
@@ -93,6 +93,765 @@
       "alternatives": []
     },
     "geometry": {
+      "value": [
+        [
+          [
+            -46.702562,
+            -23.6222759
+          ],
+          [
+            -46.7025046,
+            -23.6222238
+          ]
+        ],
+        [
+          [
+            -46.7025046,
+            -23.6222238
+          ],
+          [
+            -46.7023238,
+            -23.6220778
+          ],
+          [
+            -46.7020903,
+            -23.6218857
+          ],
+          [
+            -46.7018782,
+            -23.6216838
+          ],
+          [
+            -46.7016687,
+            -23.6214633
+          ],
+          [
+            -46.7014771,
+            -23.6212486
+          ],
+          [
+            -46.7013041,
+            -23.6210199
+          ],
+          [
+            -46.7011423,
+            -23.6207921
+          ],
+          [
+            -46.7010019,
+            -23.6205524
+          ]
+        ],
+        [
+          [
+            -46.7010019,
+            -23.6205524
+          ],
+          [
+            -46.7008726,
+            -23.6203021
+          ],
+          [
+            -46.7007126,
+            -23.6198643
+          ],
+          [
+            -46.7006645,
+            -23.619635
+          ],
+          [
+            -46.7006156,
+            -23.619163
+          ],
+          [
+            -46.7005907,
+            -23.6189279
+          ],
+          [
+            -46.7005615,
+            -23.6186524
+          ],
+          [
+            -46.700519,
+            -23.6183773
+          ],
+          [
+            -46.7004538,
+            -23.6180987
+          ],
+          [
+            -46.7003686,
+            -23.6178306
+          ],
+          [
+            -46.7002883,
+            -23.6176883
+          ]
+        ],
+        [
+          [
+            -46.7002883,
+            -23.6176883
+          ],
+          [
+            -46.7001401,
+            -23.6172971
+          ],
+          [
+            -46.6998986,
+            -23.6168808
+          ],
+          [
+            -46.699851,
+            -23.6167485
+          ],
+          [
+            -46.6997949,
+            -23.616551
+          ],
+          [
+            -46.6997378,
+            -23.616327
+          ],
+          [
+            -46.6995654,
+            -23.615547
+          ],
+          [
+            -46.6994937,
+            -23.6152147
+          ],
+          [
+            -46.6993233,
+            -23.614422
+          ],
+          [
+            -46.6992618,
+            -23.6141413
+          ],
+          [
+            -46.6992266,
+            -23.6140114
+          ],
+          [
+            -46.6991973,
+            -23.6139291
+          ],
+          [
+            -46.6991494,
+            -23.6138553
+          ],
+          [
+            -46.6990692,
+            -23.6137718
+          ],
+          [
+            -46.6989671,
+            -23.6136881
+          ],
+          [
+            -46.6988643,
+            -23.6136316
+          ],
+          [
+            -46.6987764,
+            -23.613602
+          ],
+          [
+            -46.6986801,
+            -23.6135784
+          ],
+          [
+            -46.6985243,
+            -23.6135581
+          ],
+          [
+            -46.6983826,
+            -23.6135498
+          ],
+          [
+            -46.698202,
+            -23.6135642
+          ],
+          [
+            -46.6979871,
+            -23.6136073
+          ],
+          [
+            -46.697792,
+            -23.6136528
+          ],
+          [
+            -46.6975387,
+            -23.6137094
+          ],
+          [
+            -46.6972111,
+            -23.613777
+          ],
+          [
+            -46.696567,
+            -23.6139084
+          ],
+          [
+            -46.696173,
+            -23.6139623
+          ],
+          [
+            -46.6958887,
+            -23.6139961
+          ],
+          [
+            -46.6952768,
+            -23.6140797
+          ],
+          [
+            -46.6948627,
+            -23.6141364
+          ],
+          [
+            -46.694517,
+            -23.6141936
+          ],
+          [
+            -46.6938476,
+            -23.6143921
+          ],
+          [
+            -46.6932424,
+            -23.614563
+          ],
+          [
+            -46.6926635,
+            -23.6147383
+          ],
+          [
+            -46.6924166,
+            -23.6148115
+          ],
+          [
+            -46.6921585,
+            -23.6148664
+          ],
+          [
+            -46.6918578,
+            -23.6148984
+          ],
+          [
+            -46.6914826,
+            -23.6149091
+          ],
+          [
+            -46.6909759,
+            -23.6149034
+          ],
+          [
+            -46.6908177,
+            -23.6149083
+          ],
+          [
+            -46.6906873,
+            -23.6149219
+          ],
+          [
+            -46.6905804,
+            -23.6149407
+          ],
+          [
+            -46.6904876,
+            -23.6149675
+          ],
+          [
+            -46.6901466,
+            -23.6150729
+          ]
+        ],
+        [
+          [
+            -46.6901466,
+            -23.6150729
+          ],
+          [
+            -46.6896508,
+            -23.6152296
+          ],
+          [
+            -46.6888868,
+            -23.6154993
+          ],
+          [
+            -46.6883801,
+            -23.6156972
+          ],
+          [
+            -46.6875935,
+            -23.6160495
+          ],
+          [
+            -46.6873077,
+            -23.6161651
+          ],
+          [
+            -46.6869757,
+            -23.6163173
+          ],
+          [
+            -46.686303,
+            -23.6166736
+          ],
+          [
+            -46.6857794,
+            -23.6169837
+          ],
+          [
+            -46.6852731,
+            -23.6172882
+          ],
+          [
+            -46.6848667,
+            -23.6175563
+          ],
+          [
+            -46.6845761,
+            -23.617758
+          ],
+          [
+            -46.6842745,
+            -23.6179664
+          ],
+          [
+            -46.6840456,
+            -23.6181425
+          ],
+          [
+            -46.683256,
+            -23.6187367
+          ],
+          [
+            -46.6829368,
+            -23.6189806
+          ],
+          [
+            -46.6821687,
+            -23.6195531
+          ],
+          [
+            -46.6817565,
+            -23.6198534
+          ],
+          [
+            -46.6813431,
+            -23.6201495
+          ],
+          [
+            -46.6811367,
+            -23.6202848
+          ],
+          [
+            -46.6809086,
+            -23.6204435
+          ],
+          [
+            -46.6805507,
+            -23.6207303
+          ],
+          [
+            -46.6800044,
+            -23.6211517
+          ],
+          [
+            -46.6794542,
+            -23.6215839
+          ],
+          [
+            -46.6787829,
+            -23.6222153
+          ],
+          [
+            -46.678665,
+            -23.6223263
+          ],
+          [
+            -46.6783796,
+            -23.6226117
+          ],
+          [
+            -46.6781657,
+            -23.6228329
+          ],
+          [
+            -46.6780358,
+            -23.6229779
+          ],
+          [
+            -46.6778284,
+            -23.6232321
+          ],
+          [
+            -46.6776887,
+            -23.6234236
+          ],
+          [
+            -46.6774665,
+            -23.6237644
+          ],
+          [
+            -46.6773557,
+            -23.6239516
+          ],
+          [
+            -46.6772205,
+            -23.6241935
+          ],
+          [
+            -46.677032,
+            -23.6245672
+          ],
+          [
+            -46.6767915,
+            -23.6250417
+          ],
+          [
+            -46.6763625,
+            -23.6258458
+          ],
+          [
+            -46.6761772,
+            -23.6261769
+          ],
+          [
+            -46.6759614,
+            -23.6265447
+          ],
+          [
+            -46.6758584,
+            -23.6267081
+          ],
+          [
+            -46.6757513,
+            -23.6268798
+          ],
+          [
+            -46.6754506,
+            -23.6273158
+          ],
+          [
+            -46.6751879,
+            -23.6276612
+          ],
+          [
+            -46.6749355,
+            -23.628015
+          ],
+          [
+            -46.674664,
+            -23.6283753
+          ],
+          [
+            -46.6744341,
+            -23.628681
+          ],
+          [
+            -46.6742356,
+            -23.628929
+          ],
+          [
+            -46.6740865,
+            -23.6290953
+          ],
+          [
+            -46.6738037,
+            -23.6293822
+          ]
+        ],
+        [
+          [
+            -46.6738037,
+            -23.6293822
+          ],
+          [
+            -46.6734775,
+            -23.6297213
+          ],
+          [
+            -46.6734239,
+            -23.6297783
+          ]
+        ],
+        [
+          [
+            -46.6734239,
+            -23.6297783
+          ],
+          [
+            -46.6733103,
+            -23.6298857
+          ],
+          [
+            -46.6731237,
+            -23.6300704
+          ],
+          [
+            -46.6729864,
+            -23.6301906
+          ],
+          [
+            -46.6727486,
+            -23.630379
+          ],
+          [
+            -46.6725152,
+            -23.6306122
+          ]
+        ],
+        [
+          [
+            -46.6725152,
+            -23.6306122
+          ],
+          [
+            -46.6723639,
+            -23.6308294
+          ],
+          [
+            -46.6722942,
+            -23.6309178
+          ],
+          [
+            -46.6716579,
+            -23.6315247
+          ],
+          [
+            -46.6710778,
+            -23.6320907
+          ],
+          [
+            -46.6708624,
+            -23.6322353
+          ],
+          [
+            -46.6706402,
+            -23.6323387
+          ],
+          [
+            -46.670522,
+            -23.6323843
+          ],
+          [
+            -46.6703831,
+            -23.632423
+          ],
+          [
+            -46.6702594,
+            -23.6324382
+          ],
+          [
+            -46.6701449,
+            -23.632426
+          ],
+          [
+            -46.6700225,
+            -23.6323991
+          ],
+          [
+            -46.6699293,
+            -23.632366
+          ],
+          [
+            -46.6698294,
+            -23.6323157
+          ],
+          [
+            -46.6697188,
+            -23.6322403
+          ],
+          [
+            -46.6696161,
+            -23.6321373
+          ]
+        ],
+        [
+          [
+            -46.6696161,
+            -23.6321373
+          ],
+          [
+            -46.6695041,
+            -23.6319815
+          ],
+          [
+            -46.6694471,
+            -23.6318803
+          ],
+          [
+            -46.6693346,
+            -23.6315979
+          ],
+          [
+            -46.6692724,
+            -23.6314495
+          ],
+          [
+            -46.6692037,
+            -23.6312959
+          ],
+          [
+            -46.6691328,
+            -23.6311567
+          ],
+          [
+            -46.6690674,
+            -23.6310337
+          ],
+          [
+            -46.6688959,
+            -23.630743
+          ],
+          [
+            -46.6687292,
+            -23.6304798
+          ],
+          [
+            -46.6686145,
+            -23.6303076
+          ],
+          [
+            -46.6685273,
+            -23.630196
+          ],
+          [
+            -46.6684119,
+            -23.6300681
+          ],
+          [
+            -46.66834,
+            -23.6299951
+          ],
+          [
+            -46.6682451,
+            -23.6299074
+          ],
+          [
+            -46.6681206,
+            -23.6298028
+          ],
+          [
+            -46.6679796,
+            -23.6296965
+          ],
+          [
+            -46.667882,
+            -23.6296339
+          ],
+          [
+            -46.6677581,
+            -23.6295582
+          ],
+          [
+            -46.6676426,
+            -23.6294941
+          ],
+          [
+            -46.6674474,
+            -23.6294118
+          ],
+          [
+            -46.6670522,
+            -23.6292822
+          ],
+          [
+            -46.6668792,
+            -23.62924
+          ],
+          [
+            -46.6665614,
+            -23.6291623
+          ],
+          [
+            -46.666271,
+            -23.6291056
+          ],
+          [
+            -46.6659776,
+            -23.6290411
+          ],
+          [
+            -46.665726,
+            -23.6289739
+          ],
+          [
+            -46.6652213,
+            -23.6288264
+          ],
+          [
+            -46.664697,
+            -23.6286851
+          ],
+          [
+            -46.6642313,
+            -23.6285638
+          ],
+          [
+            -46.663528,
+            -23.6283744
+          ],
+          [
+            -46.6632121,
+            -23.6282871
+          ],
+          [
+            -46.6626498,
+            -23.6281216
+          ],
+          [
+            -46.6624734,
+            -23.6280518
+          ],
+          [
+            -46.6623233,
+            -23.6279644
+          ],
+          [
+            -46.6622309,
+            -23.6278755
+          ],
+          [
+            -46.6621632,
+            -23.6277956
+          ],
+          [
+            -46.6621055,
+            -23.6277126
+          ],
+          [
+            -46.6620301,
+            -23.6275726
+          ],
+          [
+            -46.6619782,
+            -23.6274344
+          ],
+          [
+            -46.6619307,
+            -23.6272895
+          ]
+        ],
+        [
+          [
+            -46.6619307,
+            -23.6272895
+          ],
+          [
+            -46.6617852,
+            -23.6268505
+          ]
+        ]
+      ],
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "planned_geometry": {
       "value": [
         [
           [
@@ -1151,16 +1910,15 @@
       ],
       "source": "geosampa",
       "confidence": "A",
-      "alternatives": [
-        {
-          "value": "5.988 km",
-          "source": "osm",
-          "confidence": "C",
-          "note": "shorter alignment, not used"
-        }
-      ]
+      "alternatives": []
     },
     "length_km": {
+      "value": 5.988,
+      "source": "osm",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "planned_length_km": {
       "value": 17.515,
       "source": "geosampa",
       "confidence": "E",
@@ -1580,6 +2338,311 @@
       ]
     },
     {
+      "id": "vila-cordeiro",
+      "slug": "vila-cordeiro",
+      "name": {
+        "value": "Vila Cordeiro",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "VILA CORDEIRO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.61542393,
+          "lon": -46.68897816
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6155758,
+              "lon": -46.6885977
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "42 m away"
+          },
+          {
+            "value": {
+              "lat": -23.615556,
+              "lon": -46.688611
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "40 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
+          {
+            "value": "operational",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "VCD",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q18475857",
+        "osm": "way/506475778",
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "103",
+        "metro_code": "VCD"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "campo-belo",
+      "slug": "campo-belo",
+      "name": {
+        "value": "Campo Belo",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "CAMPO BELO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "CAMPO BELO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.61897391,
+          "lon": -46.68231888
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.61890843,
+              "lon": -46.68288768
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "58 m away"
+          },
+          {
+            "value": {
+              "lat": -23.6186,
+              "lon": -46.6822652
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "42 m away"
+          },
+          {
+            "value": {
+              "lat": -23.61881,
+              "lon": -46.68251
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "27 m away"
+          },
+          {
+            "value": {
+              "lat": -23.618357,
+              "lon": -46.682067
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "73 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-5",
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "CPB",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "2019-04-08",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q8076578",
+        "osm": "way/698759069",
+        "gtfs_stop_id": "3407190",
+        "gtfs_route_id": null,
+        "geosampa_id": "89",
+        "metro_code": "CPB"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "vereador-jose-diniz",
+      "slug": "vereador-jose-diniz",
+      "name": {
+        "value": "Vereador José Diniz",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "JOSÉ DINIZ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.6219258,
+          "lon": -46.6789536
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6220552,
+              "lon": -46.6788791
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "16 m away"
+          },
+          {
+            "value": {
+              "lat": -23.622222,
+              "lon": -46.678611
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "48 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
+          {
+            "value": "operational",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "VJD",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "2026-03-31",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q19707412",
+        "osm": "way/671909899",
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "101",
+        "metro_code": "VJD"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
       "id": "aeroporto-de-congonhas",
       "slug": "aeroporto-de-congonhas",
       "name": {
@@ -1767,311 +2830,6 @@
         "gtfs_route_id": null,
         "geosampa_id": "100",
         "metro_code": "BPA"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "vereador-jose-diniz",
-      "slug": "vereador-jose-diniz",
-      "name": {
-        "value": "Vereador José Diniz",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "JOSÉ DINIZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.6219258,
-          "lon": -46.6789536
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.6220552,
-              "lon": -46.6788791
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "16 m away"
-          },
-          {
-            "value": {
-              "lat": -23.622222,
-              "lon": -46.678611
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "48 m away"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "ainda projetada nesta fonte"
-          },
-          {
-            "value": "operational",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "VJD",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "2026-03-31",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q19707412",
-        "osm": "way/671909899",
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "101",
-        "metro_code": "VJD"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "campo-belo",
-      "slug": "campo-belo",
-      "name": {
-        "value": "Campo Belo",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "CAMPO BELO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          },
-          {
-            "value": "CAMPO BELO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.61897391,
-          "lon": -46.68231888
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.61890843,
-              "lon": -46.68288768
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "58 m away"
-          },
-          {
-            "value": {
-              "lat": -23.6186,
-              "lon": -46.6822652
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "42 m away"
-          },
-          {
-            "value": {
-              "lat": -23.61881,
-              "lon": -46.68251
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "27 m away"
-          },
-          {
-            "value": {
-              "lat": -23.618357,
-              "lon": -46.682067
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "73 m away"
-          }
-        ]
-      },
-      "lines": [
-        "linha-5",
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "CPB",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": {
-        "value": "full",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "opened": {
-        "value": "2019-04-08",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q8076578",
-        "osm": "way/698759069",
-        "gtfs_stop_id": "3407190",
-        "gtfs_route_id": null,
-        "geosampa_id": "89",
-        "metro_code": "CPB"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "vila-cordeiro",
-      "slug": "vila-cordeiro",
-      "name": {
-        "value": "Vila Cordeiro",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "VILA CORDEIRO",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.61542393,
-          "lon": -46.68897816
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.6155758,
-              "lon": -46.6885977
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "42 m away"
-          },
-          {
-            "value": {
-              "lat": -23.615556,
-              "lon": -46.688611
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "40 m away"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "ainda projetada nesta fonte"
-          },
-          {
-            "value": "operational",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "VCD",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q18475857",
-        "osm": "way/506475778",
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "103",
-        "metro_code": "VCD"
       },
       "is_interchange": false,
       "observed_by": [

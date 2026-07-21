@@ -164,6 +164,8 @@ def _line_page(line: Line, network: Network, stations) -> str:
             f"A ordem das estações vem de {SOURCE_LABELS.get(line.station_order.source, '—')}."
             if line.station_order
             else "",
+            "",
+            _planned_without_stations(line, stations),
         ]
     else:
         body.append(
@@ -220,6 +222,32 @@ def _unbreakable(text: str) -> str:
     every row in a 23-station table for no gain.
     """
     return text.replace(" ", "\u00a0")
+
+
+def _planned_without_stations(line: Line, stations) -> str:
+    """Say so when a projected stretch has an alignment but no stations anywhere.
+
+    It happens where the extension leaves the city: GeoSampa is the only source that maps
+    projected stations and it stops at the municipal boundary, so Line 4 into Taboão da
+    Serra and Line 13 into Guarulhos have kilometres of drawn alignment and nothing on it.
+    Leaving the page silent would read as "this stretch has no stations", which is a
+    different claim from "no source we consulted lists them".
+    """
+    if not line.planned_geometry or not line.planned_length_km:
+        return ""
+    projected = [
+        station_id
+        for station_id in line.stations
+        if station_id in stations and stations[station_id].status.value != "operational"
+    ]
+    if projected:
+        return ""
+    return (
+        f":::caution[Trecho projetado sem estações]\n"
+        f"Esta linha tem {line.planned_length_km.value} km de traçado projetado, mas nenhuma "
+        f"das fontes consultadas publica as estações desse trecho — o GeoSampa é a única "
+        f"que mapeia estações projetadas, e ele termina no limite do município.\n:::"
+    )
 
 
 def _line_label(network: Network, line_id: str) -> str:

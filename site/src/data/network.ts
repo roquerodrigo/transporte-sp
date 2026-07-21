@@ -55,6 +55,7 @@ export interface Line {
   stations: string[];
   station_order?: Sourced<string> | null;
   length_km?: Sourced<number> | null;
+  planned_length_km?: Sourced<number> | null;
   observed_by: string[];
 }
 

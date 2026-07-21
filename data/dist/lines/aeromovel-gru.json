@@ -461,12 +461,14 @@
       "confidence": "C",
       "alternatives": []
     },
+    "planned_geometry": null,
     "length_km": {
       "value": 2.563,
       "source": "osm",
       "confidence": "E",
       "alternatives": []
     },
+    "planned_length_km": null,
     "observed_by": [
       "osm"
     ]

@@ -61,7 +61,8 @@
       "confidence": "E",
       "alternatives": []
     },
-    "geometry": {
+    "geometry": null,
+    "planned_geometry": {
       "value": [
         [
           [
@@ -758,7 +759,8 @@
       "confidence": "A",
       "alternatives": []
     },
-    "length_km": {
+    "length_km": null,
+    "planned_length_km": {
       "value": 17.585,
       "source": "geosampa",
       "confidence": "E",
@@ -937,6 +939,7 @@
         ]
       },
       "lines": [
+        "linha-2",
         "linha-19"
       ],
       "status": {
@@ -957,7 +960,7 @@
         "geosampa_id": "135",
         "metro_code": null
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa"
       ]
@@ -1350,6 +1353,7 @@
         ]
       },
       "lines": [
+        "linha-10",
         "linha-19"
       ],
       "status": {
@@ -1370,7 +1374,7 @@
         "geosampa_id": "165",
         "metro_code": null
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa"
       ]

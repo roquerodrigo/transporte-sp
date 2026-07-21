@@ -64,12 +64,14 @@
       "confidence": "A",
       "alternatives": []
     },
+    "planned_geometry": null,
     "length_km": {
       "value": 0.518,
       "source": "geosampa",
       "confidence": "E",
       "alternatives": []
     },
+    "planned_length_km": null,
     "observed_by": [
       "geosampa"
     ]

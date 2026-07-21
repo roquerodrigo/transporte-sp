@@ -1,0 +1,67 @@
+/*
+ * Tables are the substance of this site: 380 of its 386 pages are a station list or a
+ * provenance table. Starlight's defaults are tuned for prose, so three things are fixed
+ * here — and none of the community themes does any of it.
+ */
+
+/*
+ * The content width is deliberately *not* set here. Starlight's default 45rem is a reading
+ * measure for prose and far too narrow for a six-column station table, but the active theme
+ * already widens it to 67.5rem. Overriding it from here would win the cascade — this file is
+ * unlayered, the theme's rules are not — and would silently make the column narrower than
+ * the theme intends. If the theme is ever dropped, set it back here.
+ */
+
+/*
+ * Starlight makes wide tables scroll with `display: block`, which works visually but strips
+ * the table semantics: screen readers lose `role="table"`, the rows and the header
+ * association. The scrolling is moved to a wrapper so the table can go back to being a
+ * table. The `:has()` guard keeps the old behaviour when the wrapper is absent — no
+ * JavaScript, no wrapper, still scrollable.
+ */
+.sl-markdown-content .tabela-rolavel {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  /* Scrolling regions must be reachable by keyboard; the script sets tabindex to match. */
+  scrollbar-width: thin;
+  scrollbar-color: var(--sl-color-gray-4) transparent;
+}
+
+.sl-markdown-content .tabela-rolavel > table:not(:where(.not-content *)) {
+  display: table;
+  width: 100%;
+  overflow: visible;
+  margin: 0;
+}
+
+.sl-markdown-content table:not(:where(.not-content *)) {
+  font-size: var(--sl-text-sm);
+}
+
+/* A line with 23 stations scrolls well past its own header. */
+.sl-markdown-content .tabela-rolavel thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--sl-color-gray-6);
+  white-space: nowrap;
+}
+
+.sl-markdown-content tbody tr:nth-child(even) {
+  background: color-mix(in oklab, var(--sl-color-gray-6) 45%, transparent);
+}
+
+.sl-markdown-content tbody tr:hover {
+  background: color-mix(in oklab, var(--sl-color-accent-low) 55%, transparent);
+}
+
+.sl-markdown-content :is(th, td) {
+  padding-block: 0.4rem;
+}
+
+@media (max-width: 50rem) {
+  .sl-markdown-content table:not(:where(.not-content *)) {
+    font-size: var(--sl-text-xs);
+  }
+}

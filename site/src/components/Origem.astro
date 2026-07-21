@@ -22,6 +22,12 @@ const label = SOURCE_LABELS[fonte] ?? fonte;
 </span>
 
 <style>
+  /*
+   * The chip is built from Starlight's own semantic colour pairs (`-low` for the surface,
+   * `-high` for the text), which is the same mechanism the asides use. They are already
+   * calibrated for contrast in both light and dark, so the badge follows whatever theme is
+   * active instead of carrying two hard-coded hexes per level.
+   */
   .origem {
     display: inline-flex;
     align-items: center;
@@ -30,36 +36,40 @@ const label = SOURCE_LABELS[fonte] ?? fonte;
     line-height: 1.4;
     white-space: nowrap;
     border-radius: 999px;
-    padding: 0.1em 0.55em 0.1em 0.15em;
-    background: var(--sl-color-gray-6);
-    color: var(--sl-color-gray-2);
+    padding: 0.1em 0.55em;
+    background: var(--nivel-fundo);
+    color: var(--nivel-texto);
     vertical-align: middle;
   }
 
   .origem-nivel {
-    display: inline-grid;
-    place-items: center;
-    width: 1.35em;
-    height: 1.35em;
-    border-radius: 999px;
     font-weight: 700;
-    color: var(--sl-color-black);
-    background: var(--nivel-cor);
+  }
+
+  .origem-nivel::after {
+    content: "·";
+    margin-inline-start: 0.35em;
+    opacity: 0.6;
   }
 
   .origem[data-nivel="A"] {
-    --nivel-cor: #34d399;
+    --nivel-fundo: var(--sl-color-green-low);
+    --nivel-texto: var(--sl-color-green-high);
   }
   .origem[data-nivel="B"] {
-    --nivel-cor: #60a5fa;
+    --nivel-fundo: var(--sl-color-blue-low);
+    --nivel-texto: var(--sl-color-blue-high);
   }
   .origem[data-nivel="C"] {
-    --nivel-cor: #fbbf24;
+    --nivel-fundo: var(--sl-color-orange-low);
+    --nivel-texto: var(--sl-color-orange-high);
   }
   .origem[data-nivel="D"] {
-    --nivel-cor: #fb923c;
+    --nivel-fundo: var(--sl-color-red-low);
+    --nivel-texto: var(--sl-color-red-high);
   }
   .origem[data-nivel="E"] {
-    --nivel-cor: #a78bfa;
+    --nivel-fundo: var(--sl-color-purple-low);
+    --nivel-texto: var(--sl-color-purple-high);
   }
 </style>

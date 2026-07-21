@@ -1,20 +1,12 @@
-:root {
-  --sl-content-width: 55rem;
-}
-
-/* The station and provenance tables are the substance of most pages: give them room and
-   keep them scrollable on a phone instead of squeezing the columns. */
-.sl-markdown-content table {
-  display: block;
-  overflow-x: auto;
-  font-size: 0.9rem;
-}
-
-.sl-markdown-content th {
-  white-space: nowrap;
-}
+/* Site-wide tweaks that are not about tables — those live in tables.css. */
 
 .maplibregl-popup-content {
   font-size: 0.85rem;
   padding: 0.35rem 0.6rem;
+}
+
+/* The map is a block of colour in the middle of the prose; a hairline keeps it from
+   floating against the page background in the light theme. */
+.mapa {
+  border: 1px solid var(--sl-color-hairline);
 }

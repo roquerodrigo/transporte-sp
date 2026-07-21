@@ -56,6 +56,10 @@ jobs:
         run: npx astro check
       - name: Build
         run: npm run build
+      # Almost every page is generated, so a link is never wrong once — an off-by-one in
+      # how they are written breaks hundreds at a time and no other check sees it.
+      - name: Check internal links
+        run: npm run check:links
 
   generated-content-is-current:
     runs-on: ubuntu-latest

@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "check:links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -15,6 +16,7 @@
     "astro": "^5.1.1",
     "maplibre-gl": "^5.0.0",
     "sharp": "^0.33.5",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "unist-util-visit": "^5.0.0"
   }
 }

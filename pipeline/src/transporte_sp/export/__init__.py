@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import shutil
 from pathlib import Path
 
 from transporte_sp.config import settings
@@ -34,7 +35,10 @@ def _write(path: Path, payload) -> None:
 
 
 def _write_per_line(network: Network) -> None:
+    # Rebuilt from scratch: a line dropped from the network must not linger as a stale file.
     directory = settings.dist_dir / "lines"
+    if directory.exists():
+        shutil.rmtree(directory)
     directory.mkdir(parents=True, exist_ok=True)
     stations = {station.id: station for station in network.stations}
     for line in network.lines:

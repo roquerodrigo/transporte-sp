@@ -1,0 +1,5604 @@
+[
+  {
+    "id": "aerodromo-atibaia",
+    "slug": "aerodromo-atibaia",
+    "name": {
+      "value": "Aeródromo Atibaia",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.12833,
+        "lon": -46.57472
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q31202836",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "aerodromo-fazenda-caicara",
+    "slug": "aerodromo-fazenda-caicara",
+    "name": {
+      "value": "Aeródromo Fazenda Caiçara",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -24.070555555,
+        "lon": -46.828888888
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q31203643",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "aerodromo-fazenda-irohy",
+    "slug": "aerodromo-fazenda-irohy",
+    "name": {
+      "value": "Aeródromo Fazenda Irohy",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.565555555,
+        "lon": -46.069444444
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q31204196",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "aerodromo-nascimento-i",
+    "slug": "aerodromo-nascimento-i",
+    "name": {
+      "value": "Aeródromo Nascimento I",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.619444444,
+        "lon": -46.983055555
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q31205678",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "aeroporto-campo-de-marte",
+    "slug": "aeroporto-campo-de-marte",
+    "name": {
+      "value": "Aeroporto Campo de Marte",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.50667,
+        "lon": -46.63389
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q2578866",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "aeroporto-de-congonhas-sao-paulo",
+    "slug": "aeroporto-de-congonhas-sao-paulo",
+    "name": {
+      "value": "Aeroporto de Congonhas/São Paulo",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.62611,
+        "lon": -46.65639
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": {
+      "value": "1936-01-01",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q862401",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "aeroporto-de-itanhaem",
+    "slug": "aeroporto-de-itanhaem",
+    "name": {
+      "value": "Aeroporto de Itanhaém",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -24.16472,
+        "lon": -46.78556
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q20056201",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "aeroporto-internacional-de-sao-paulo-guarulhos",
+    "slug": "aeroporto-internacional-de-sao-paulo-guarulhos",
+    "name": {
+      "value": "Aeroporto Internacional de São Paulo-Guarulhos",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.435555555,
+        "lon": -46.473055555
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": {
+      "value": "1985-01-01",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q385406",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "ambuita",
+    "slug": "ambuita",
+    "name": {
+      "value": "Ambuitá",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "AMBUITÁ",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.53016804,
+        "lon": -46.97270475
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.5302352,
+            "lon": -46.9727718
+          },
+          "source": "osm",
+          "confidence": "C",
+          "note": "10 m away"
+        },
+        {
+          "value": {
+            "lat": -23.529861,
+            "lon": -46.97278
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "35 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": {
+      "value": "AMB",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": {
+      "value": "2025-04-04",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10344486",
+      "osm": "node/13724871811",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "3109",
+      "metro_code": "AMB"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "antiga-estacao-sao-silvestre",
+    "slug": "antiga-estacao-sao-silvestre",
+    "name": {
+      "value": "Antiga estação São Silvestre",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.370714,
+        "lon": -46.0220256
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/1444718627",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "antiga-parada-bom-jesus-e-f-c-b",
+    "slug": "antiga-parada-bom-jesus-e-f-c-b",
+    "name": {
+      "value": "Antiga Parada Bom Jesus E.F.C.B",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.3593657,
+        "lon": -45.9832866
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/1248159824",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "aricanduva",
+    "slug": "aricanduva",
+    "name": {
+      "value": "Aricanduva",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "ARICANDUVA",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.53981942,
+        "lon": -46.54131156
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.5397234,
+            "lon": -46.5411574
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "19 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q19707039",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "113",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "ayrton-senna-jardim-sao-paulo",
+    "slug": "ayrton-senna-jardim-sao-paulo",
+    "name": {
+      "value": "Ayrton Senna-Jardim São Paulo",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.49241655,
+        "lon": -46.61710956
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "36",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "base-aerea-de-santos",
+    "slug": "base-aerea-de-santos",
+    "name": {
+      "value": "Base Aérea de Santos",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.9275,
+        "lon": -46.299167
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q18499978",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "base-aerea-de-sao-paulo",
+    "slug": "base-aerea-de-sao-paulo",
+    "name": {
+      "value": "Base Aérea de São Paulo",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.436791666,
+        "lon": -46.472686111
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q18499979",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "bittencourt",
+    "slug": "bittencourt",
+    "name": {
+      "value": "Bittencourt",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.9394939,
+        "lon": -46.3228019
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.939487,
+            "lon": -46.322806
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "1 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q131364622",
+      "osm": "node/3690034301",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "boa-esperanca",
+    "slug": "boa-esperanca",
+    "name": {
+      "value": "Boa Esperança",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "BOA ESPERANÇA",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.59688099,
+        "lon": -46.45666548
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.59685,
+            "lon": -46.45657
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "10 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": {
+      "value": "JEQ",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q80108300",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "97",
+      "metro_code": "JEQ"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "bom-pastor",
+    "slug": "bom-pastor",
+    "name": {
+      "value": "Bom Pastor",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": "BOM PASTOR",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.58352849,
+        "lon": -46.60770132
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.58352802,
+            "lon": -46.607701
+          },
+          "source": "geosampa",
+          "confidence": "A",
+          "note": "0 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "140",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "bom-retiro",
+    "slug": "bom-retiro",
+    "name": {
+      "value": "Bom Retiro",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.52782005,
+        "lon": -46.64773885
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6044",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "bonsucesso-2",
+    "slug": "bonsucesso-2",
+    "name": {
+      "value": "Bonsucesso",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.42208903,
+        "lon": -46.41330437
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6050",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "braz-cubas",
+    "slug": "braz-cubas",
+    "name": {
+      "value": "Braz Cubas",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.5362598,
+        "lon": -46.225164
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.53624,
+            "lon": -46.22522
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "6 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": {
+      "value": "BCB",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": {
+      "value": "1929-09-13",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10275612",
+      "osm": "node/4975684337",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "BCB"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "campo-grande",
+    "slug": "campo-grande",
+    "name": {
+      "value": "Campo Grande",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.767972,
+        "lon": -46.341611
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": {
+      "value": "SP-1076",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q56347092",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "SP-1076"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "campos-sales",
+    "slug": "campos-sales",
+    "name": {
+      "value": "Campos Sales",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.9443825,
+        "lon": -46.3232719
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.944365,
+            "lon": -46.323284
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "2 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q131364623",
+      "osm": "node/4924878973",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "cangaiba",
+    "slug": "cangaiba",
+    "name": {
+      "value": "Cangaíba",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.50282819,
+        "lon": -46.53602519
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6054",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "carvalho-de-mendonca",
+    "slug": "carvalho-de-mendonca",
+    "name": {
+      "value": "Carvalho de Mendonça",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.9504327,
+        "lon": -46.3237801
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.950474,
+            "lon": -46.32381
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "6 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q131364625",
+      "osm": "node/4835535927",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "cesar-de-souza",
+    "slug": "cesar-de-souza",
+    "name": {
+      "value": "César de Souza",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "Engenheiro César de Sousa",
+          "source": "wikidata",
+          "confidence": "C",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.5041051,
+        "lon": -46.1491125
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.50405,
+            "lon": -46.14919
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "10 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q106544816",
+      "osm": "way/199416562",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "chacara-do-jockey",
+    "slug": "chacara-do-jockey",
+    "name": {
+      "value": "Chácara do Jockey",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.60192,
+        "lon": -46.7429
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q126734956",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "chacara-do-joquei",
+    "slug": "chacara-do-joquei",
+    "name": {
+      "value": "Chácara do Jóquei",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.60154286,
+        "lon": -46.7437824
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "137",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "cidade-tiradentes",
+    "slug": "cidade-tiradentes",
+    "name": {
+      "value": "Cidade Tiradentes",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.58290426,
+        "lon": -46.40948208
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "146",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "colonia",
+    "slug": "colonia",
+    "name": {
+      "value": "Colonia",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.8664043,
+        "lon": -46.6746471
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "node/12051728190",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "comendador-sant-anna",
+    "slug": "comendador-sant-anna",
+    "name": {
+      "value": "Comendador Sant'Anna",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.67152464,
+        "lon": -46.77380712
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "141",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "companhia-paulista-de-estradas-de-ferro",
+    "slug": "companhia-paulista-de-estradas-de-ferro",
+    "name": {
+      "value": "Companhia Paulista de estradas de Ferro",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.1814858,
+        "lon": -46.8822769
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q97183270",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "corredor",
+    "slug": "corredor",
+    "name": {
+      "value": "Corredor",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.4044763,
+        "lon": -46.7884264
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "node/5430168631",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "cubatao",
+    "slug": "cubatao",
+    "name": {
+      "value": "Cubatão",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.891306,
+        "lon": -46.419917
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": {
+      "value": "SP-2995",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q56347326",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "SP-2995"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "da-luz",
+    "slug": "da-luz",
+    "name": {
+      "value": "da Luz",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.53509,
+        "lon": -46.63528
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": {
+      "value": "LUZ",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": {
+      "value": "1867-02-16",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q2983699",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "LUZ"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "demetrio-ribeiro",
+    "slug": "demetrio-ribeiro",
+    "name": {
+      "value": "Demétrio Ribeiro",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.55100342,
+        "lon": -46.57871541
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6059",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "do-valongo",
+    "slug": "do-valongo",
+    "name": {
+      "value": "do Valongo",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.931083333,
+        "lon": -46.333472222
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": {
+      "value": "SP-0611",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": {
+      "value": "1867-02-16",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10276323",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "SP-0611"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "dom-pedro-i",
+    "slug": "dom-pedro-i",
+    "name": {
+      "value": "Dom Pedro I",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.57445834,
+        "lon": -46.61072869
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6062",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "domingos-de-morais",
+    "slug": "domingos-de-morais",
+    "name": {
+      "value": "Domingos de Morais",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.51892954,
+        "lon": -46.72148463
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "3082",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "e-t-agua-espraiada",
+    "slug": "e-t-agua-espraiada",
+    "name": {
+      "value": "E.T. Água Espraiada",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.61369,
+        "lon": -46.69523
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q115625411",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "eldorado",
+    "slug": "eldorado",
+    "name": {
+      "value": "Eldorado",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.764056,
+        "lon": -46.374028
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q56347199",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "empresa-brasileira-de-terminais-portuarios",
+    "slug": "empresa-brasileira-de-terminais-portuarios",
+    "name": {
+      "value": "Empresa Brasileira de Terminais Portuários",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.922,
+        "lon": -46.317
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q5374435",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "engenheiro-goulart",
+    "slug": "engenheiro-goulart",
+    "name": {
+      "value": "Engenheiro Goulart",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "ENGENHEIRO GOULART",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        },
+        {
+          "value": "ENGENHEIRO GOULART",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.49810114,
+        "lon": -46.52010212
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.49810114,
+            "lon": -46.52010212
+          },
+          "source": "geosampa",
+          "confidence": "A",
+          "note": "0 m away"
+        },
+        {
+          "value": {
+            "lat": -23.498095,
+            "lon": -46.5198952
+          },
+          "source": "osm",
+          "confidence": "C",
+          "note": "21 m away"
+        },
+        {
+          "value": {
+            "lat": -23.498056,
+            "lon": -46.52
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "12 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": {
+      "value": "EGO",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": {
+      "value": "1934-01-01",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10275733",
+      "osm": "node/5039552221",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "3105",
+      "metro_code": "EGO"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "engenheiro-manoel-feio",
+    "slug": "engenheiro-manoel-feio",
+    "name": {
+      "value": "Engenheiro Manoel Feio",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "Engenheiro Manuel Feio",
+          "source": "wikidata",
+          "confidence": "C",
+          "note": null
+        },
+        {
+          "value": "ENGENHEIRO MANOEL FEIO",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.47936573,
+        "lon": -46.36838043
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.4792274,
+            "lon": -46.3677777
+          },
+          "source": "osm",
+          "confidence": "C",
+          "note": "63 m away"
+        },
+        {
+          "value": {
+            "lat": -23.479509,
+            "lon": -46.368114
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "31 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": {
+      "value": "EMF",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": {
+      "value": "1934-01-01",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10275731",
+      "osm": "node/4693953605",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "3045",
+      "metro_code": "EMF"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "estacao-de-embu-guacu-rumo-logistica",
+    "slug": "estacao-de-embu-guacu-rumo-logistica",
+    "name": {
+      "value": "Estação De Embu Guaçu - Rumo Logistica",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.8277741,
+        "lon": -46.813276
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/1462444071",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "estacao-de-metro-capao-redondo",
+    "slug": "estacao-de-metro-capao-redondo",
+    "name": {
+      "value": "Estação de Metrô Capão Redondo",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.663829,
+        "lon": -46.7702936
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "node/13633997395",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "estacao-eugenio-de-melo",
+    "slug": "estacao-eugenio-de-melo",
+    "name": {
+      "value": "Estação Eugênio de Melo",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.1384811,
+        "lon": -45.7871961
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/818455473",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "estacao-ferroviaria-atibaia-desativada",
+    "slug": "estacao-ferroviaria-atibaia-desativada",
+    "name": {
+      "value": "Estação Ferroviária Atibaia (desativada)",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "Atibaia",
+          "source": "wikidata",
+          "confidence": "C",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.1152155,
+        "lon": -46.5790892
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.114944444,
+            "lon": -46.580166666
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "114 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q53881712",
+      "osm": "way/589727686",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "estacao-ferroviaria-de-guararema",
+    "slug": "estacao-ferroviaria-de-guararema",
+    "name": {
+      "value": "Estação Ferroviária de Guararema",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.4143188,
+        "lon": -46.0318335
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q106562716",
+      "osm": "way/1121941182",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "estacao-ferroviaria-desativada-aluminio",
+    "slug": "estacao-ferroviaria-desativada-aluminio",
+    "name": {
+      "value": "Estação Ferroviária desativada Alumínio",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.536694,
+        "lon": -47.2590328
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/667944878",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "estacao-ferroviaria-desativada-mailasky",
+    "slug": "estacao-ferroviaria-desativada-mailasky",
+    "name": {
+      "value": "Estação Ferroviária desativada Mailasky",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.5512496,
+        "lon": -47.0845707
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/642893384",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "estacao-ferroviaria-desativada-mairinque",
+    "slug": "estacao-ferroviaria-desativada-mairinque",
+    "name": {
+      "value": "Estação Ferroviária desativada Mairinque",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "Mairinque",
+          "source": "wikidata",
+          "confidence": "C",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.54442,
+        "lon": -47.1833681
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.54446684,
+            "lon": -47.18333643
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "6 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": {
+      "value": "SP-0703",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q59457024",
+      "osm": "way/370042002",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "SP-0703"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "estacao-ferroviaria-desativada-sao-joao-novo",
+    "slug": "estacao-ferroviaria-desativada-sao-joao-novo",
+    "name": {
+      "value": "Estação Ferroviária desativada São João Novo",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.5384811,
+        "lon": -47.0369404
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/360788192",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "estacao-ferroviaria-desativada-sao-roque",
+    "slug": "estacao-ferroviaria-desativada-sao-roque",
+    "name": {
+      "value": "Estação Ferroviária desativada São Roque",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "São Roque",
+          "source": "wikidata",
+          "confidence": "C",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.5364321,
+        "lon": -47.1416663
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.5365,
+            "lon": -47.1417
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "8 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q134942783",
+      "osm": "way/554927767",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "estacao-ferroviaria-itu",
+    "slug": "estacao-ferroviaria-itu",
+    "name": {
+      "value": "Estação ferroviária Itu",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.2568894,
+        "lon": -47.3057481
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "node/4089423730",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "estacao-ferroviaria-salto",
+    "slug": "estacao-ferroviaria-salto",
+    "name": {
+      "value": "Estação ferroviária Salto",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.210177,
+        "lon": -47.2900682
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": {
+      "value": "partial",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "node/5998598568",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "estacao-jundiai",
+    "slug": "estacao-jundiai",
+    "name": {
+      "value": "Estação Jundiaí",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.1854682,
+        "lon": -46.879051
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/1266315554",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "evangelista-de-souza",
+    "slug": "evangelista-de-souza",
+    "name": {
+      "value": "Evangelista de Souza",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.930556,
+        "lon": -46.647778
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": {
+      "value": "SP-0341",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q28680564",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "SP-0341"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "gabriela-mistral",
+    "slug": "gabriela-mistral",
+    "name": {
+      "value": "Gabriela Mistral",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": "GABRIELA MISTRAL",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.51947906,
+        "lon": -46.55076141
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.51938372,
+            "lon": -46.55080718
+          },
+          "source": "geosampa",
+          "confidence": "A",
+          "note": "12 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6049",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "guaiauna",
+    "slug": "guaiauna",
+    "name": {
+      "value": "Guaiaúna",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.53322357,
+        "lon": -46.55347882
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6056",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "guaruja-civil-metropolitan-aerodrome",
+    "slug": "guaruja-civil-metropolitan-aerodrome",
+    "name": {
+      "value": "Guarujá Civil Metropolitan Aerodrome",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.928055555,
+        "lon": -46.299722222
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q113394954",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "guilherme-giorgi",
+    "slug": "guilherme-giorgi",
+    "name": {
+      "value": "Guilherme Giorgi",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "GUILHERME GIORGI",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.54760553,
+        "lon": -46.54170936
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.5475586,
+            "lon": -46.5413155
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "40 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q19707225",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "112",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "hospital-cidade-tiradentes",
+    "slug": "hospital-cidade-tiradentes",
+    "name": {
+      "value": "Hospital Cidade Tiradentes",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.59900172,
+        "lon": -46.4022018
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "147",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "itapura",
+    "slug": "itapura",
+    "name": {
+      "value": "Itapura",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.54866411,
+        "lon": -46.56535596
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6058",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "jacu-pessego",
+    "slug": "jacu-pessego",
+    "name": {
+      "value": "Jacu-Pêssego",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "JACU-PÊSSEGO",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.59467329,
+        "lon": -46.44396576
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.594695,
+            "lon": -46.443597
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "38 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": {
+      "value": "JPS",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q80108302",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "96",
+      "metro_code": "JPS"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "jardim-dos-eucaliptos",
+    "slug": "jardim-dos-eucaliptos",
+    "name": {
+      "value": "Jardim dos Eucaliptos",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.41790992,
+        "lon": -46.49266606
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6053",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "jardim-marilu",
+    "slug": "jardim-marilu",
+    "name": {
+      "value": "Jardim Marilu",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.59425051,
+        "lon": -46.4240772
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "144",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "jardim-pedra-branca",
+    "slug": "jardim-pedra-branca",
+    "name": {
+      "value": "Jardim Pedra Branca",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.58252995,
+        "lon": -46.41523524
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "145",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "jardim-presidente-dutra",
+    "slug": "jardim-presidente-dutra",
+    "name": {
+      "value": "Jardim Presidente Dutra",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.41712376,
+        "lon": -46.42489301
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6051",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "jose-bonifacio-2",
+    "slug": "jose-bonifacio-2",
+    "name": {
+      "value": "José Bonifácio",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.9365161,
+        "lon": -46.3250416
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.936511,
+            "lon": -46.325049
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "1 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q131364621",
+      "osm": "node/3690034826",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "lajeado",
+    "slug": "lajeado",
+    "name": {
+      "value": "Lajeado",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.54702411,
+        "lon": -46.40017668
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6047",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "lapa-senac",
+    "slug": "lapa-senac",
+    "name": {
+      "value": "Lapa - Senac",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.5199813,
+        "lon": -46.6991793
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "node/4592396614",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "luis-carlos",
+    "slug": "luis-carlos",
+    "name": {
+      "value": "Luis Carlos",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.4583851,
+        "lon": -46.0583216
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q106580691",
+      "osm": "way/465929461",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "mendes-bruno-covas",
+    "slug": "mendes-bruno-covas",
+    "name": {
+      "value": "Mendes / Bruno Covas",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.75429067,
+        "lon": -46.70927922
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "3107",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "mineral",
+    "slug": "mineral",
+    "name": {
+      "value": "Mineral",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.3976784,
+        "lon": -46.7718503
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "node/6423182120",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "moreiras",
+    "slug": "moreiras",
+    "name": {
+      "value": "Moreiras",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.4892,
+        "lon": -47.2018
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q136257614",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "orfanato",
+    "slug": "orfanato",
+    "name": {
+      "value": "Orfanato",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "ORFANATO",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.57826416,
+        "lon": -46.5756804
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.5781024,
+            "lon": -46.5761375
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "50 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q84048066",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "107",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "parada-da-onca",
+    "slug": "parada-da-onca",
+    "name": {
+      "value": "Parada da Onça",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.4022752,
+        "lon": -46.7826592
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "node/10264081477",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "parada-ferroviaria-mario-souto",
+    "slug": "parada-ferroviaria-mario-souto",
+    "name": {
+      "value": "Parada ferroviária Mário Souto",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.8785348,
+        "lon": -46.7933048
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/1462444074",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "parada-pirelli",
+    "slug": "parada-pirelli",
+    "name": {
+      "value": "Parada Pirelli",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.66049,
+        "lon": -46.50371
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": {
+      "value": "PIR",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10344493",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "PIR"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "paranapiacaba-expresso-turistico",
+    "slug": "paranapiacaba-expresso-turistico",
+    "name": {
+      "value": "Paranapiacaba (Expresso Turístico)",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "Paranapiacaba",
+          "source": "wikidata",
+          "confidence": "C",
+          "note": null
+        },
+        {
+          "value": "Turística Paranapiacaba",
+          "source": "wikidata",
+          "confidence": "C",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.7766696,
+        "lon": -46.3021665
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.7770189,
+            "lon": -46.3031733
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "110 m away"
+        },
+        {
+          "value": {
+            "lat": -23.776666666,
+            "lon": -46.302222222
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "6 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": {
+      "value": "SP-2654",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q48646471",
+      "osm": "node/1814352342",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "SP-2654"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "parque-da-mooca",
+    "slug": "parque-da-mooca",
+    "name": {
+      "value": "Parque da Mooca",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.56665486,
+        "lon": -46.60412882
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6061",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "paulo-freire",
+    "slug": "paulo-freire",
+    "name": {
+      "value": "Paulo Freire",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.51034338,
+        "lon": -46.55709792
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "133",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "penha-de-franca",
+    "slug": "penha-de-franca",
+    "name": {
+      "value": "Penha de França",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.52318838,
+        "lon": -46.5450966
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "131",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "perus-2",
+    "slug": "perus-2",
+    "name": {
+      "value": "Perus",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.454876135,
+        "lon": -46.738899009
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": {
+      "value": "PRU",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": {
+      "value": "1867-02-16",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q8779091",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "PRU"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "piacaguera",
+    "slug": "piacaguera",
+    "name": {
+      "value": "Piaçaguera",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.851694,
+        "lon": -46.374722
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": {
+      "value": "SP-3009",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q55526632",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": "SP-3009"
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "ponte-grande",
+    "slug": "ponte-grande",
+    "name": {
+      "value": "Ponte Grande",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.49845786,
+        "lon": -46.55094768
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "134",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "porto-de-corumba",
+    "slug": "porto-de-corumba",
+    "name": {
+      "value": "Porto de Corumbá",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.982228,
+        "lon": -46.292606
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q18464509",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "porto-de-santos",
+    "slug": "porto-de-santos",
+    "name": {
+      "value": "Porto de Santos",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.956666666,
+        "lon": -46.310555555
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": {
+      "value": "1892-02-02",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q16460",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "raiz-da-serra",
+    "slug": "raiz-da-serra",
+    "name": {
+      "value": "Raiz da Serra",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.826864,
+        "lon": -46.3614088
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.82686,
+            "lon": -46.361409
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "0 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q56347217",
+      "osm": "node/4557257429",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "ricardo-jafet",
+    "slug": "ricardo-jafet",
+    "name": {
+      "value": "Ricardo Jafet",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.58743664,
+        "lon": -46.61996508
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "139",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "rodoviaria-de-santos",
+    "slug": "rodoviaria-de-santos",
+    "name": {
+      "value": "Rodoviária de Santos",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.935388888,
+        "lon": -46.333027777
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q61944822",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "sabauna",
+    "slug": "sabauna",
+    "name": {
+      "value": "Sabaúna",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.4798485,
+        "lon": -46.0875166
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "way/466377231",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "santa-clara",
+    "slug": "santa-clara",
+    "name": {
+      "value": "Santa Clara",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "SANTA CLARA",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.57346023,
+        "lon": -46.56615012
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.5736919,
+            "lon": -46.5669358
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "84 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q19707018",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "108",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "santa-fe",
+    "slug": "santa-fe",
+    "name": {
+      "value": "Santa Fé",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.401639,
+        "lon": -46.8193835
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": "node/6423182131",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "santa-isabel",
+    "slug": "santa-isabel",
+    "name": {
+      "value": "Santa Isabel",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "SANTA ISABEL",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.55468085,
+        "lon": -46.54542132
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.5550289,
+            "lon": -46.5451629
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "47 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q19707218",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "111",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "sao-joao",
+    "slug": "sao-joao",
+    "name": {
+      "value": "São João",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.41645816,
+        "lon": -46.4569057
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6052",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "sao-jose-dos-campos",
+    "slug": "sao-jose-dos-campos",
+    "name": {
+      "value": "São José dos Campos",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.1738329,
+        "lon": -45.8856664
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q52357187",
+      "osm": "way/370811309",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm"
+    ]
+  },
+  {
+    "id": "sao-paulo-catarina-aeroporto-executivo",
+    "slug": "sao-paulo-catarina-aeroporto-executivo",
+    "name": {
+      "value": "SÃO PAULO CATARINA AEROPORTO EXECUTIVO",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.426944444,
+        "lon": -47.165833333
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q91471433",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "sapucaia",
+    "slug": "sapucaia",
+    "name": {
+      "value": "Sapucaia",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.55353587,
+        "lon": -46.59073559
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6060",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "serra-de-botucatu",
+    "slug": "serra-de-botucatu",
+    "name": {
+      "value": "Serra de Botucatu",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.54098972,
+        "lon": -46.55349169
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6057",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "taboao-da-serra",
+    "slug": "taboao-da-serra",
+    "name": {
+      "value": "Taboão da Serra",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "TABOÃO DA SERRA",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.60757421,
+        "lon": -46.76053788
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.60728,
+            "lon": -46.75924
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "136 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q126709764",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "138",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "tamandare",
+    "slug": "tamandare",
+    "name": {
+      "value": "Tamandaré",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.954499,
+        "lon": -46.322844
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q131364626",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-bandeira",
+    "slug": "terminal-bandeira",
+    "name": {
+      "value": "Terminal Bandeira",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.54952,
+        "lon": -46.63956
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10380606",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-central",
+    "slug": "terminal-central",
+    "name": {
+      "value": "Terminal Central",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.522799377,
+        "lon": -46.198424317
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q108230200",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-integrador-portuario-luiz-antonio-mesquita",
+    "slug": "terminal-integrador-portuario-luiz-antonio-mesquita",
+    "name": {
+      "value": "Terminal Integrador Portuário Luiz Antonio Mesquita",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.87536,
+        "lon": -46.36851
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q51881850",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-jardim-angela",
+    "slug": "terminal-jardim-angela",
+    "name": {
+      "value": "Terminal Jardim Ângela",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "JARDIM ÂNGELA",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.69071139,
+        "lon": -46.77503004
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.6906,
+            "lon": -46.7741
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "96 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10380620",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "142",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-mercado",
+    "slug": "terminal-mercado",
+    "name": {
+      "value": "Terminal Mercado",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.54729,
+        "lon": -46.62903
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10380623",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-metropolitano-luiz-bortolosso",
+    "slug": "terminal-metropolitano-luiz-bortolosso",
+    "name": {
+      "value": "Terminal Metropolitano Luiz Bortolosso",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.524166666,
+        "lon": -46.815861111
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q54690389",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-parque-dom-pedro-ii",
+    "slug": "terminal-parque-dom-pedro-ii",
+    "name": {
+      "value": "Terminal Parque Dom Pedro II",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.547055555,
+        "lon": -46.630083333
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q9086204",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-rodoviario-pedro-fava-cidade-kemel",
+    "slug": "terminal-rodoviario-pedro-fava-cidade-kemel",
+    "name": {
+      "value": "Terminal Rodoviário Pedro Fava - Cidade Kemel",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.51183611,
+        "lon": -46.36596389
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": {
+      "value": "2004-01-01",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10380643",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-rodoviario-tiete",
+    "slug": "terminal-rodoviario-tiete",
+    "name": {
+      "value": "Terminal Rodoviário Tietê",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.516292,
+        "lon": -46.623541
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": {
+      "value": "1982-05-09",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q5244798",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-santo-amaro",
+    "slug": "terminal-santo-amaro",
+    "name": {
+      "value": "Terminal Santo Amaro",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.6542,
+        "lon": -46.7117
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q9086218",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "terminal-turistico-rodoviario-de-guarulhos",
+    "slug": "terminal-turistico-rodoviario-de-guarulhos",
+    "name": {
+      "value": "Terminal Turístico Rodoviário de Guarulhos",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.448555555,
+        "lon": -46.496916666
+      },
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q10380680",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "wikidata"
+    ]
+  },
+  {
+    "id": "tiquatira",
+    "slug": "tiquatira",
+    "name": {
+      "value": "Tiquatira",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.51781154,
+        "lon": -46.55098152
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "132",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "uniao-de-vila-nova",
+    "slug": "uniao-de-vila-nova",
+    "name": {
+      "value": "União de Vila Nova",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.48634917,
+        "lon": -46.46453623
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": null,
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "6048",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  {
+    "id": "universidades-ii",
+    "slug": "universidades-ii",
+    "name": {
+      "value": "Universidades II",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.9474817,
+        "lon": -46.3235769
+      },
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.947104,
+            "lon": -46.323584
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "42 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q131364624",
+      "osm": "node/12396641227",
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": null,
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "osm",
+      "wikidata"
+    ]
+  },
+  {
+    "id": "vila-formosa",
+    "slug": "vila-formosa",
+    "name": {
+      "value": "Vila Formosa",
+      "source": "wikidata",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "VILA FORMOSA",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "coordinates": {
+      "value": {
+        "lat": -23.56230176,
+        "lon": -46.55115864
+      },
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": {
+            "lat": -23.5626565,
+            "lon": -46.5503574
+          },
+          "source": "wikidata",
+          "confidence": "C",
+          "note": "91 m away"
+        }
+      ]
+    },
+    "lines": [],
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "code": null,
+    "accessibility": null,
+    "opened": null,
+    "address": null,
+    "external_ids": {
+      "wikidata": "Q19707420",
+      "osm": null,
+      "gtfs_stop_id": null,
+      "gtfs_route_id": null,
+      "geosampa_id": "110",
+      "metro_code": null
+    },
+    "is_interchange": false,
+    "observed_by": [
+      "geosampa",
+      "wikidata"
+    ]
+  }
+]

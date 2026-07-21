@@ -1,0 +1,78 @@
+{
+  "line": {
+    "id": "corredor-inajar-rio-branco-centro-trecho-rudge",
+    "slug": "corredor-inajar-rio-branco-centro-trecho-rudge",
+    "name": {
+      "value": "CORREDOR INAJAR / RIO BRANCO / CENTRO - TRECHO RUDGE",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "number": null,
+    "colour": null,
+    "mode": {
+      "value": "brt",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "operator": {
+      "value": "SPTrans",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "status": {
+      "value": "operational",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "stations": [],
+    "station_order": {
+      "value": "pipeline",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "geometry": {
+      "value": [
+        [
+          [
+            -46.650567,
+            -23.52298702
+          ],
+          [
+            -46.651384,
+            -23.52170502
+          ],
+          [
+            -46.652092,
+            -23.52058902
+          ],
+          [
+            -46.652664,
+            -23.51945402
+          ],
+          [
+            -46.653007,
+            -23.51891002
+          ]
+        ]
+      ],
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "length_km": {
+      "value": 0.518,
+      "source": "geosampa",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  "stations": []
+}

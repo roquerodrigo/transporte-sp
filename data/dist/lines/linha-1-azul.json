@@ -1,0 +1,3035 @@
+{
+  "line": {
+    "id": "linha-1",
+    "slug": "linha-1-azul",
+    "name": {
+      "value": "Azul",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "number": {
+      "value": "1",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "colour": {
+      "value": "#1266af",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "#0455A1",
+          "source": "gtfs_sptrans",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "mode": {
+      "value": "subway",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "operator": {
+      "value": "Companhia do Metropolitano de São Paulo",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": [
+        {
+          "value": "METRO",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        }
+      ]
+    },
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "stations": [
+      "jabaquara-comite-paralimpico-brasileiro",
+      "conceicao",
+      "sao-judas",
+      "saude-ultrafarma",
+      "praca-da-arvore",
+      "santa-cruz",
+      "vila-mariana",
+      "ana-rosa",
+      "paraiso",
+      "vergueiro-sebrae",
+      "sao-joaquim",
+      "japao-liberdade",
+      "se",
+      "sao-bento",
+      "luz",
+      "tiradentes",
+      "armenia",
+      "portuguesa-tiete",
+      "carandiru",
+      "santana",
+      "jardim-sao-paulo-ayrton-senna",
+      "parada-inglesa",
+      "tucuruvi"
+    ],
+    "station_order": {
+      "value": "gtfs_sptrans",
+      "source": "gtfs_sptrans",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "geometry": {
+      "value": [
+        [
+          [
+            -46.64105,
+            -23.646351
+          ],
+          [
+            -46.641175,
+            -23.645939
+          ],
+          [
+            -46.641148,
+            -23.645421
+          ],
+          [
+            -46.641444,
+            -23.641629
+          ],
+          [
+            -46.64129,
+            -23.638861
+          ],
+          [
+            -46.641239,
+            -23.63504
+          ],
+          [
+            -46.641568,
+            -23.633222
+          ],
+          [
+            -46.641578,
+            -23.632296
+          ],
+          [
+            -46.641239,
+            -23.627352
+          ],
+          [
+            -46.641099,
+            -23.626358
+          ],
+          [
+            -46.640731,
+            -23.625355
+          ],
+          [
+            -46.638021,
+            -23.613119
+          ],
+          [
+            -46.637883,
+            -23.611877
+          ],
+          [
+            -46.637929,
+            -23.610511
+          ],
+          [
+            -46.637872,
+            -23.608673
+          ],
+          [
+            -46.637769,
+            -23.607741
+          ],
+          [
+            -46.636759,
+            -23.604266
+          ],
+          [
+            -46.636627,
+            -23.598453
+          ],
+          [
+            -46.636653,
+            -23.595954
+          ],
+          [
+            -46.636532,
+            -23.592513
+          ],
+          [
+            -46.636283,
+            -23.591971
+          ],
+          [
+            -46.635592,
+            -23.591192
+          ],
+          [
+            -46.635266,
+            -23.59069
+          ],
+          [
+            -46.634683,
+            -23.58943
+          ],
+          [
+            -46.634578,
+            -23.588352
+          ],
+          [
+            -46.634654,
+            -23.587804
+          ],
+          [
+            -46.634983,
+            -23.586917
+          ],
+          [
+            -46.640568,
+            -23.578041
+          ],
+          [
+            -46.640803,
+            -23.577486
+          ],
+          [
+            -46.640884,
+            -23.5767
+          ],
+          [
+            -46.640805,
+            -23.575377
+          ],
+          [
+            -46.639919,
+            -23.571399
+          ],
+          [
+            -46.639924,
+            -23.568034
+          ],
+          [
+            -46.639635,
+            -23.566222
+          ],
+          [
+            -46.638428,
+            -23.560845
+          ],
+          [
+            -46.636255,
+            -23.556839
+          ],
+          [
+            -46.636113,
+            -23.556293
+          ],
+          [
+            -46.633793,
+            -23.551739
+          ],
+          [
+            -46.633553,
+            -23.551121
+          ],
+          [
+            -46.63345,
+            -23.550454
+          ],
+          [
+            -46.633336,
+            -23.547934
+          ],
+          [
+            -46.633754,
+            -23.545126
+          ],
+          [
+            -46.634212,
+            -23.544035
+          ],
+          [
+            -46.634578,
+            -23.539455
+          ],
+          [
+            -46.634561,
+            -23.537945
+          ],
+          [
+            -46.634184,
+            -23.53602
+          ],
+          [
+            -46.635349,
+            -23.535167
+          ],
+          [
+            -46.634123,
+            -23.535876
+          ],
+          [
+            -46.632562,
+            -23.531027
+          ],
+          [
+            -46.631991,
+            -23.52945
+          ],
+          [
+            -46.631628,
+            -23.528677
+          ],
+          [
+            -46.63034,
+            -23.526381
+          ],
+          [
+            -46.629331,
+            -23.525435
+          ],
+          [
+            -46.628924,
+            -23.525157
+          ],
+          [
+            -46.627151,
+            -23.524434
+          ],
+          [
+            -46.62632,
+            -23.523952
+          ],
+          [
+            -46.625874,
+            -23.523445
+          ],
+          [
+            -46.625496,
+            -23.522736
+          ],
+          [
+            -46.625368,
+            -23.521977
+          ],
+          [
+            -46.625152,
+            -23.516435
+          ],
+          [
+            -46.624652,
+            -23.499199
+          ],
+          [
+            -46.624153,
+            -23.498143
+          ],
+          [
+            -46.623251,
+            -23.496871
+          ],
+          [
+            -46.622315,
+            -23.496145
+          ],
+          [
+            -46.616397,
+            -23.492118
+          ],
+          [
+            -46.613531,
+            -23.490054
+          ],
+          [
+            -46.613026,
+            -23.489839
+          ],
+          [
+            -46.611857,
+            -23.489792
+          ],
+          [
+            -46.610933,
+            -23.489447
+          ],
+          [
+            -46.610089,
+            -23.48899
+          ],
+          [
+            -46.609443,
+            -23.488394
+          ],
+          [
+            -46.608179,
+            -23.485711
+          ],
+          [
+            -46.607283,
+            -23.484122
+          ],
+          [
+            -46.606902,
+            -23.483596
+          ],
+          [
+            -46.606576,
+            -23.483181
+          ],
+          [
+            -46.604622,
+            -23.481304
+          ],
+          [
+            -46.603209,
+            -23.480049
+          ]
+        ]
+      ],
+      "source": "gtfs_sptrans",
+      "confidence": "A",
+      "alternatives": [
+        {
+          "value": "20.357 km",
+          "source": "geosampa",
+          "confidence": "A",
+          "note": "clipped at the city limit"
+        },
+        {
+          "value": "20.28 km",
+          "source": "osm",
+          "confidence": "C",
+          "note": "shorter alignment, not used"
+        }
+      ]
+    },
+    "length_km": {
+      "value": 20.552,
+      "source": "gtfs_sptrans",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "observed_by": [
+      "geosampa",
+      "gtfs_sptrans",
+      "osm"
+    ]
+  },
+  "stations": [
+    {
+      "id": "jabaquara-comite-paralimpico-brasileiro",
+      "slug": "jabaquara-comite-paralimpico-brasileiro",
+      "name": {
+        "value": "Jabaquara - Comitê Paralímpico Brasileiro",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Terminal Intermodal Jabaquara",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          },
+          {
+            "value": "Terminal Intermunicipal Jabaquara",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          },
+          {
+            "value": "Jabaquara",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "JABAQUARA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "JABAQUARA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.64648321,
+          "lon": -46.64099088
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.64765489,
+              "lon": -46.6408314
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "131 m away"
+          },
+          {
+            "value": {
+              "lat": -23.6463382,
+              "lon": -46.6410462
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "17 m away"
+          },
+          {
+            "value": {
+              "lat": -23.647134,
+              "lon": -46.640112
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "115 m away"
+          },
+          {
+            "value": {
+              "lat": -23.64555556,
+              "lon": -46.64166667
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "124 m away"
+          },
+          {
+            "value": {
+              "lat": -23.646033,
+              "lon": -46.641028
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "50 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1",
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "JAB",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1974-09-14",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5244789",
+        "osm": "node/4962907887",
+        "gtfs_stop_id": "18852",
+        "gtfs_route_id": null,
+        "geosampa_id": "56",
+        "metro_code": "JAB"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "conceicao",
+      "slug": "conceicao",
+      "name": {
+        "value": "Conceição",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "CONCEIÇÃO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.63537778,
+          "lon": -46.64133216
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6350111,
+              "lon": -46.641295
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "41 m away"
+          },
+          {
+            "value": {
+              "lat": -23.636209,
+              "lon": -46.641142
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "94 m away"
+          },
+          {
+            "value": {
+              "lat": -23.635039,
+              "lon": -46.641239
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "39 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "CON",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1974-09-14",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5158299",
+        "osm": "node/4922664269",
+        "gtfs_stop_id": "18851",
+        "gtfs_route_id": null,
+        "geosampa_id": "55",
+        "metro_code": "CON"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "sao-judas",
+      "slug": "sao-judas",
+      "name": {
+        "value": "São Judas",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "SÃO JUDAS",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.62575151,
+          "lon": -46.6408116
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6255838,
+              "lon": -46.6408171
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "19 m away"
+          },
+          {
+            "value": {
+              "lat": -23.625609,
+              "lon": -46.64075
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "17 m away"
+          },
+          {
+            "value": {
+              "lat": -23.625882,
+              "lon": -46.640936
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "19 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "JUD",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "1974-09-14",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7665592",
+        "osm": "node/5153855592",
+        "gtfs_stop_id": "18853",
+        "gtfs_route_id": null,
+        "geosampa_id": "54",
+        "metro_code": "JUD"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "saude-ultrafarma",
+      "slug": "saude-ultrafarma",
+      "name": {
+        "value": "Saúde – Ultrafarma",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Saúde",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          },
+          {
+            "value": "Saúde",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "SAÚDE",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "SAÚDE",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.61860894,
+          "lon": -46.63923732
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.61906616,
+              "lon": -46.64047921
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "136 m away"
+          },
+          {
+            "value": {
+              "lat": -23.6184261,
+              "lon": -46.639204
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "21 m away"
+          },
+          {
+            "value": {
+              "lat": -23.619133,
+              "lon": -46.639345
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "59 m away"
+          },
+          {
+            "value": {
+              "lat": -23.618245,
+              "lon": -46.639139
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "42 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1",
+        "linha-20"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "SAU",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1974-09-14",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5244817",
+        "osm": "node/5153861350",
+        "gtfs_stop_id": "18854",
+        "gtfs_route_id": null,
+        "geosampa_id": "53",
+        "metro_code": "SAU"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "praca-da-arvore",
+      "slug": "praca-da-arvore",
+      "name": {
+        "value": "Praça da Árvore",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Praça Da Árvore",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "PRAÇA DA ÁRVORE",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.61064181,
+          "lon": -46.63788372
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6105685,
+              "lon": -46.6378999
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "8 m away"
+          },
+          {
+            "value": {
+              "lat": -23.610576,
+              "lon": -46.637861
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "8 m away"
+          },
+          {
+            "value": {
+              "lat": -23.610583,
+              "lon": -46.637918
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "7 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "ARV",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1974-09-14",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7239119",
+        "osm": "node/5153861800",
+        "gtfs_stop_id": "18855",
+        "gtfs_route_id": null,
+        "geosampa_id": "52",
+        "metro_code": "ARV"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "santa-cruz",
+      "slug": "santa-cruz",
+      "name": {
+        "value": "Santa Cruz",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "SANTA CRUZ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "SANTA CRUZ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.59882935,
+          "lon": -46.63668816
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.59847538,
+              "lon": -46.6371774
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "64 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5990348,
+              "lon": -46.6366748
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "23 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5979993,
+              "lon": -46.6370577
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "100 m away"
+          },
+          {
+            "value": {
+              "lat": -23.599162,
+              "lon": -46.636681
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "37 m away"
+          },
+          {
+            "value": {
+              "lat": -23.598541,
+              "lon": -46.636638
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "32 m away"
+          },
+          {
+            "value": {
+              "lat": -23.598445,
+              "lon": -46.636618
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "43 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1",
+        "linha-5"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "SCZ",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "1974-09-14",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7419392",
+        "osm": "node/5153871131",
+        "gtfs_stop_id": "18856",
+        "gtfs_route_id": null,
+        "geosampa_id": "51",
+        "metro_code": "SCZ"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "vila-mariana",
+      "slug": "vila-mariana",
+      "name": {
+        "value": "Vila Mariana",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "VILA MARIANA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "VILA MARIANA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.58910752,
+          "lon": -46.63465092
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.58910752,
+              "lon": -46.63465092
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "0 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5891527,
+              "lon": -46.6346643
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "5 m away"
+          },
+          {
+            "value": {
+              "lat": -23.589431,
+              "lon": -46.634667
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "36 m away"
+          },
+          {
+            "value": {
+              "lat": -23.589359,
+              "lon": -46.634677
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "28 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "VMN",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "none",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "1974-09-14",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5686126",
+        "osm": "node/4964592035",
+        "gtfs_stop_id": "18857",
+        "gtfs_route_id": null,
+        "geosampa_id": "33",
+        "metro_code": "VMN"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "ana-rosa",
+      "slug": "ana-rosa",
+      "name": {
+        "value": "Ana Rosa",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "ANA ROSA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "ANA ROSA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "ANA ROSA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.58135505,
+          "lon": -46.63862748
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.58125706,
+              "lon": -46.63845216
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "21 m away"
+          },
+          {
+            "value": {
+              "lat": -23.58217561,
+              "lon": -46.63916216
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "106 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5814424,
+              "lon": -46.638379
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "27 m away"
+          },
+          {
+            "value": {
+              "lat": -23.58125,
+              "lon": -46.63847
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "20 m away"
+          },
+          {
+            "value": {
+              "lat": -23.581203,
+              "lon": -46.638489
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "22 m away"
+          },
+          {
+            "value": {
+              "lat": -23.581388,
+              "lon": -46.638455
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "18 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1",
+        "linha-2",
+        "linha-16"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "ANR",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "1992-09-12",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q4750505",
+        "osm": "node/4924478010",
+        "gtfs_stop_id": "18860",
+        "gtfs_route_id": null,
+        "geosampa_id": "26",
+        "metro_code": "ANR"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "paraiso",
+      "slug": "paraiso",
+      "name": {
+        "value": "Paraíso",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "PARAÍSO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "PARAÍSO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.5757681,
+          "lon": -46.64105568
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.57572421,
+              "lon": -46.6407738
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "29 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5753859,
+              "lon": -46.6409603
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "44 m away"
+          },
+          {
+            "value": {
+              "lat": -23.574903,
+              "lon": -46.640595
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "107 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5754,
+              "lon": -46.6407
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "55 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5753,
+              "lon": -46.6408
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "58 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1",
+        "linha-2"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "PSO",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1975-02-17",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5244701",
+        "osm": "node/4861900294",
+        "gtfs_stop_id": "18861",
+        "gtfs_route_id": null,
+        "geosampa_id": "25",
+        "metro_code": "PSO"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "vergueiro-sebrae",
+      "slug": "vergueiro-sebrae",
+      "name": {
+        "value": "Vergueiro - Sebrae",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Vergueiro",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          },
+          {
+            "value": "Vergueiro",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "VERGUEIRO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.56891466,
+          "lon": -46.6399368
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5685349,
+              "lon": -46.6399175
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "42 m away"
+          },
+          {
+            "value": {
+              "lat": -23.568958,
+              "lon": -46.63986
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "9 m away"
+          },
+          {
+            "value": {
+              "lat": -23.568521,
+              "lon": -46.639904
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "44 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "VGO",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "1975-02-17",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7921287",
+        "osm": "node/4897835958",
+        "gtfs_stop_id": "18862",
+        "gtfs_route_id": null,
+        "geosampa_id": "47",
+        "metro_code": "VGO"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "sao-joaquim",
+      "slug": "sao-joaquim",
+      "name": {
+        "value": "São Joaquim",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "SÃO JOAQUIM",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "SÃO JOAQUIM",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.56191105,
+          "lon": -46.6386966
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.56265533,
+              "lon": -46.63928844
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "102 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5615965,
+              "lon": -46.6386084
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "36 m away"
+          },
+          {
+            "value": {
+              "lat": -23.561892,
+              "lon": -46.638653
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "5 m away"
+          },
+          {
+            "value": {
+              "lat": -23.561435,
+              "lon": -46.638534
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "55 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1",
+        "linha-6"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "JQM",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1975-02-17",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7665498",
+        "osm": "node/7717276955",
+        "gtfs_stop_id": "18863",
+        "gtfs_route_id": null,
+        "geosampa_id": "46",
+        "metro_code": "JQM"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "japao-liberdade",
+      "slug": "japao-liberdade",
+      "name": {
+        "value": "Japão - Liberdade",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Liberdade",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "JAPÃO-LIBERDADE",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.55497637,
+          "lon": -46.6357338
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5551768,
+              "lon": -46.6356017
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "26 m away"
+          },
+          {
+            "value": {
+              "lat": -23.554772,
+              "lon": -46.635654
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "24 m away"
+          },
+          {
+            "value": {
+              "lat": -23.555211,
+              "lon": -46.635581
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "30 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "LIB",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1975-02-17",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q6541063",
+        "osm": "node/5369277070",
+        "gtfs_stop_id": "18868",
+        "gtfs_route_id": null,
+        "geosampa_id": "45",
+        "metro_code": "LIB"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "se",
+      "slug": "se",
+      "name": {
+        "value": "Sé",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "SÉ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "SÉ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.55092139,
+          "lon": -46.6331346
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.55100043,
+              "lon": -46.63308816
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "10 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5504428,
+              "lon": -46.6334463
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "62 m away"
+          },
+          {
+            "value": {
+              "lat": -23.55059,
+              "lon": -46.633522
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "54 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5505,
+              "lon": -46.633305
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "50 m away"
+          },
+          {
+            "value": {
+              "lat": -23.550611,
+              "lon": -46.633505
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "51 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1",
+        "linha-3"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "PSE",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1978-02-17",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q3132156",
+        "osm": "node/4311073828",
+        "gtfs_stop_id": "18869",
+        "gtfs_route_id": null,
+        "geosampa_id": "13",
+        "metro_code": "PSE"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "sao-bento",
+      "slug": "sao-bento",
+      "name": {
+        "value": "São Bento",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "SÃO BENTO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "SÃO BENTO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.54408415,
+          "lon": -46.63416672
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.54368781,
+              "lon": -46.63574805
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "167 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5440359,
+              "lon": -46.6343167
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "16 m away"
+          },
+          {
+            "value": {
+              "lat": -23.543914,
+              "lon": -46.633806
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "41 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5441,
+              "lon": -46.6342
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "4 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1",
+        "linha-19"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "BTO",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1975-09-26",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7665407",
+        "osm": "node/5369277944",
+        "gtfs_stop_id": "18870",
+        "gtfs_route_id": null,
+        "geosampa_id": "43",
+        "metro_code": "BTO"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "luz",
+      "slug": "luz",
+      "name": {
+        "value": "Luz",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "LUZ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "LUZ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "LUZ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "LUZ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.53690231,
+          "lon": -46.63367028
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.53615475,
+              "lon": -46.6344918
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "118 m away"
+          },
+          {
+            "value": {
+              "lat": -23.53496082,
+              "lon": -46.63511522
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "261 m away"
+          },
+          {
+            "value": {
+              "lat": -23.53496082,
+              "lon": -46.63511522
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "261 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5353887,
+              "lon": -46.6344383
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "186 m away"
+          },
+          {
+            "value": {
+              "lat": -23.537629,
+              "lon": -46.63361
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "81 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5366,
+              "lon": -46.6343
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "72 m away"
+          },
+          {
+            "value": {
+              "lat": -23.535103,
+              "lon": -46.635436
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "269 m away"
+          },
+          {
+            "value": {
+              "lat": -23.535297,
+              "lon": -46.634703
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "207 m away"
+          },
+          {
+            "value": {
+              "lat": -23.536598,
+              "lon": -46.634502
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "91 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1",
+        "linha-4",
+        "linha-7",
+        "linha-11",
+        "expresso-aeroporto"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "LUZ",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1975-09-26",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q15243160",
+        "osm": "node/5368677484",
+        "gtfs_stop_id": "18872",
+        "gtfs_route_id": null,
+        "geosampa_id": "42",
+        "metro_code": "LUZ"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "tiradentes",
+      "slug": "tiradentes",
+      "name": {
+        "value": "Tiradentes",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "TIRADENTES",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.53065813,
+          "lon": -46.6321716
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5309113,
+              "lon": -46.6325376
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "47 m away"
+          },
+          {
+            "value": {
+              "lat": -23.530832,
+              "lon": -46.631963
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "29 m away"
+          },
+          {
+            "value": {
+              "lat": -23.531324,
+              "lon": -46.632672
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "90 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "TRD",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1975-09-26",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7809083",
+        "osm": "node/5153819541",
+        "gtfs_stop_id": "18873",
+        "gtfs_route_id": null,
+        "geosampa_id": "41",
+        "metro_code": "TRD"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "armenia",
+      "slug": "armenia",
+      "name": {
+        "value": "Armênia",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "ARMÊNIA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.5255001,
+          "lon": -46.62933984
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5251483,
+              "lon": -46.6288763
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "61 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5254015,
+              "lon": -46.6292477
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "14 m away"
+          },
+          {
+            "value": {
+              "lat": -23.525392,
+              "lon": -46.629163
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "22 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5254,
+              "lon": -46.6292
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "18 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "PPQ",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "partial",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "1975-09-26",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5244779",
+        "osm": "node/13645261006",
+        "gtfs_stop_id": "18874",
+        "gtfs_route_id": null,
+        "geosampa_id": "40",
+        "metro_code": "PPQ"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "portuguesa-tiete",
+      "slug": "portuguesa-tiete",
+      "name": {
+        "value": "Portuguesa-Tietê",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Portuguesa - Tietê",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          },
+          {
+            "value": "Portuguesa-tietê",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "PORTUGUESA-TIETÊ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.51613134,
+          "lon": -46.62516132
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5162359,
+              "lon": -46.6254001
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "27 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5161299,
+              "lon": -46.6250956
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "7 m away"
+          },
+          {
+            "value": {
+              "lat": -23.516145,
+              "lon": -46.62514
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "3 m away"
+          },
+          {
+            "value": {
+              "lat": -23.51624,
+              "lon": -46.625149
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "12 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "TTE",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "1975-09-26",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7232599",
+        "osm": "node/13645331212",
+        "gtfs_stop_id": "18877",
+        "gtfs_route_id": null,
+        "geosampa_id": "39",
+        "metro_code": "TTE"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "carandiru",
+      "slug": "carandiru",
+      "name": {
+        "value": "Carandiru",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "CARANDIRU",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.50927562,
+          "lon": -46.6249626
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5091285,
+              "lon": -46.6252025
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "29 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5092685,
+              "lon": -46.6249658
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "1 m away"
+          },
+          {
+            "value": {
+              "lat": -23.509662,
+              "lon": -46.624904
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "43 m away"
+          },
+          {
+            "value": {
+              "lat": -23.508727,
+              "lon": -46.624897
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "61 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "CDU",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "partial",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "1975-09-26",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5037696",
+        "osm": "node/13645331213",
+        "gtfs_stop_id": "18878",
+        "gtfs_route_id": null,
+        "geosampa_id": "38",
+        "metro_code": "CDU"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "santana",
+      "slug": "santana",
+      "name": {
+        "value": "Santana",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Terminal Santana",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          },
+          {
+            "value": "SANTANA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.50256893,
+          "lon": -46.62477288
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5024374,
+              "lon": -46.6250887
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "35 m away"
+          },
+          {
+            "value": {
+              "lat": -23.502484,
+              "lon": -46.624727
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "11 m away"
+          },
+          {
+            "value": {
+              "lat": -23.502467,
+              "lon": -46.623874
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "92 m away"
+          },
+          {
+            "value": {
+              "lat": -23.502716,
+              "lon": -46.624716
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "17 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "SAN",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1975-09-26",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "1970-01-01",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q7420037",
+        "osm": "node/13645331214",
+        "gtfs_stop_id": "18879",
+        "gtfs_route_id": null,
+        "geosampa_id": "37",
+        "metro_code": "SAN"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "jardim-sao-paulo-ayrton-senna",
+      "slug": "jardim-sao-paulo-ayrton-senna",
+      "name": {
+        "value": "Jardim São Paulo - Ayrton Senna",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Jardim São Paulo-Ayrton Senna",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          },
+          {
+            "value": "Jardim São Paulo-ayrton Senna",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.4924029,
+          "lon": -46.6170103
+        },
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.492473,
+              "lon": -46.617109
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "13 m away"
+          },
+          {
+            "value": {
+              "lat": -23.492734,
+              "lon": -46.617354
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "51 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "code": {
+        "value": "JPA",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "1998-04-29",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5244694",
+        "osm": "node/4964617785",
+        "gtfs_stop_id": "18880",
+        "gtfs_route_id": null,
+        "geosampa_id": null,
+        "metro_code": "JPA"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "parada-inglesa",
+      "slug": "parada-inglesa",
+      "name": {
+        "value": "Parada Inglesa",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "PARADA INGLESA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.48703268,
+          "lon": -46.60882092
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.4870228,
+              "lon": -46.6089306
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "11 m away"
+          },
+          {
+            "value": {
+              "lat": -23.4870243,
+              "lon": -46.6088445
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "3 m away"
+          },
+          {
+            "value": {
+              "lat": -23.487091,
+              "lon": -46.60881
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "7 m away"
+          },
+          {
+            "value": {
+              "lat": -23.487111,
+              "lon": -46.608877
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "10 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "PIG",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1998-04-29",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5244856",
+        "osm": "node/13645331215",
+        "gtfs_stop_id": "18881",
+        "gtfs_route_id": null,
+        "geosampa_id": "35",
+        "metro_code": "PIG"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "tucuruvi",
+      "slug": "tucuruvi",
+      "name": {
+        "value": "Tucuruvi",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "TUCURUVI",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.47998047,
+          "lon": -46.60315056
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.4800747,
+              "lon": -46.6032701
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "16 m away"
+          },
+          {
+            "value": {
+              "lat": -23.480065,
+              "lon": -46.603226
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "12 m away"
+          },
+          {
+            "value": {
+              "lat": -23.480049,
+              "lon": -46.603209
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "10 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-1"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "TUC",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1998-04-29",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q3309828",
+        "osm": "node/4924472501",
+        "gtfs_stop_id": "18882",
+        "gtfs_route_id": null,
+        "geosampa_id": "34",
+        "metro_code": "TUC"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "line": {
+    "id": "corredor-inajar-trecho-ordem-e-progresso",
+    "slug": "corredor-inajar-trecho-ordem-e-progresso",
+    "name": {
+      "value": "CORREDOR INAJAR - TRECHO ORDEM E PROGRESSO",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "number": null,
+    "colour": null,
+    "mode": {
+      "value": "brt",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "operator": {
+      "value": "SPTrans",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "status": {
+      "value": "operational",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "stations": [],
+    "station_order": {
+      "value": "pipeline",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "geometry": {
+      "value": [
+        [
+          [
+            -46.665831,
+            -23.50940002
+          ],
+          [
+            -46.666295,
+            -23.51203102
+          ],
+          [
+            -46.666592,
+            -23.51388102
+          ],
+          [
+            -46.666837,
+            -23.51588702
+          ],
+          [
+            -46.667156,
+            -23.51785302
+          ],
+          [
+            -46.667393,
+            -23.51970302
+          ],
+          [
+            -46.667185,
+            -23.52111802
+          ],
+          [
+            -46.666986,
+            -23.52152902
+          ]
+        ]
+      ],
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "length_km": {
+      "value": 1.366,
+      "source": "geosampa",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  "stations": []
+}

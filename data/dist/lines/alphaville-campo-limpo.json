@@ -1,0 +1,2161 @@
+{
+  "line": {
+    "id": "ligacao-alphaville-campo-limpo",
+    "slug": "alphaville-campo-limpo",
+    "name": {
+      "value": "Alphaville - Campo Limpo",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "number": null,
+    "colour": null,
+    "mode": {
+      "value": "commuter_rail",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "operator": {
+      "value": "CPTM",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "status": {
+      "value": "planned",
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "stations": [
+      "rio-negro",
+      "araguaia",
+      "tambore",
+      "parque-da-lagoa",
+      "carapicuiba",
+      "brasil",
+      "hospital-geral",
+      "integracao",
+      "sao-pedro",
+      "jardim-roberto",
+      "santo-antonio",
+      "nova-granada",
+      "sanazar",
+      "jardim-d-abril",
+      "monte-belo",
+      "eiras-garcia",
+      "hortensias",
+      "taboao-msp",
+      "donatello",
+      "campo-limpo"
+    ],
+    "station_order": {
+      "value": "pipeline",
+      "source": "pipeline",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "geometry": {
+      "value": [
+        [
+          [
+            -46.84966621,
+            -23.49872856
+          ],
+          [
+            -46.84908118,
+            -23.49868328
+          ],
+          [
+            -46.84846705,
+            -23.49858215
+          ],
+          [
+            -46.84799852,
+            -23.4985191
+          ],
+          [
+            -46.84758371,
+            -23.49845685
+          ],
+          [
+            -46.84717961,
+            -23.49843658
+          ],
+          [
+            -46.84687226,
+            -23.49851238
+          ],
+          [
+            -46.84657772,
+            -23.49861125
+          ],
+          [
+            -46.84639123,
+            -23.49870889
+          ],
+          [
+            -46.84629094,
+            -23.49876394
+          ],
+          [
+            -46.84620695,
+            -23.49881473
+          ],
+          [
+            -46.84608531,
+            -23.49889218
+          ],
+          [
+            -46.84596415,
+            -23.49895584
+          ],
+          [
+            -46.84577009,
+            -23.49905562
+          ],
+          [
+            -46.84560051,
+            -23.49914103
+          ],
+          [
+            -46.84545904,
+            -23.49923073
+          ],
+          [
+            -46.84499724,
+            -23.49952403
+          ],
+          [
+            -46.84445223,
+            -23.49977407
+          ],
+          [
+            -46.84401933,
+            -23.49995297
+          ],
+          [
+            -46.84347392,
+            -23.50009274
+          ],
+          [
+            -46.84297427,
+            -23.50023053
+          ],
+          [
+            -46.84233013,
+            -23.50037436
+          ],
+          [
+            -46.84154499,
+            -23.50057281
+          ],
+          [
+            -46.84094054,
+            -23.50074406
+          ],
+          [
+            -46.84007642,
+            -23.50101008
+          ],
+          [
+            -46.83927458,
+            -23.50120594
+          ],
+          [
+            -46.83756361,
+            -23.50162447
+          ],
+          [
+            -46.83584561,
+            -23.50202512
+          ],
+          [
+            -46.83498157,
+            -23.50222484
+          ],
+          [
+            -46.83403014,
+            -23.50245611
+          ],
+          [
+            -46.8330718,
+            -23.50263233
+          ],
+          [
+            -46.832633,
+            -23.50279883
+          ],
+          [
+            -46.83242573,
+            -23.50309233
+          ],
+          [
+            -46.83251433,
+            -23.50412752
+          ],
+          [
+            -46.83258269,
+            -23.50484279
+          ],
+          [
+            -46.83263933,
+            -23.50560927
+          ],
+          [
+            -46.83286203,
+            -23.50694195
+          ],
+          [
+            -46.83292626,
+            -23.50793771
+          ],
+          [
+            -46.83314664,
+            -23.50944949
+          ],
+          [
+            -46.83327821,
+            -23.51066214
+          ],
+          [
+            -46.83384114,
+            -23.51210939
+          ],
+          [
+            -46.83463669,
+            -23.51354595
+          ],
+          [
+            -46.83567279,
+            -23.5153681
+          ],
+          [
+            -46.83583477,
+            -23.51572289
+          ],
+          [
+            -46.83592737,
+            -23.51607055
+          ],
+          [
+            -46.83599843,
+            -23.51653701
+          ],
+          [
+            -46.83605041,
+            -23.51682193
+          ],
+          [
+            -46.8360501,
+            -23.51714998
+          ],
+          [
+            -46.83603714,
+            -23.51736187
+          ],
+          [
+            -46.8359895,
+            -23.51755876
+          ],
+          [
+            -46.83590642,
+            -23.5177279
+          ],
+          [
+            -46.83570179,
+            -23.51789635
+          ],
+          [
+            -46.83546141,
+            -23.51805822
+          ],
+          [
+            -46.83517442,
+            -23.51826171
+          ],
+          [
+            -46.83382096,
+            -23.51919607
+          ],
+          [
+            -46.83329578,
+            -23.51955074
+          ],
+          [
+            -46.83261708,
+            -23.5197832
+          ],
+          [
+            -46.8319879,
+            -23.51987036
+          ],
+          [
+            -46.83150794,
+            -23.51990057
+          ],
+          [
+            -46.83099504,
+            -23.51995412
+          ],
+          [
+            -46.83048731,
+            -23.52015193
+          ],
+          [
+            -46.83011432,
+            -23.5205614
+          ],
+          [
+            -46.82991154,
+            -23.52090556
+          ],
+          [
+            -46.82978563,
+            -23.52126765
+          ],
+          [
+            -46.82976338,
+            -23.52179228
+          ],
+          [
+            -46.82978923,
+            -23.5222027
+          ],
+          [
+            -46.82982367,
+            -23.52247116
+          ],
+          [
+            -46.82986635,
+            -23.52268714
+          ],
+          [
+            -46.8299115,
+            -23.52303214
+          ],
+          [
+            -46.82999752,
+            -23.52345594
+          ],
+          [
+            -46.83009599,
+            -23.52399388
+          ],
+          [
+            -46.83027613,
+            -23.52479516
+          ],
+          [
+            -46.83048719,
+            -23.52580433
+          ],
+          [
+            -46.83065289,
+            -23.52656823
+          ],
+          [
+            -46.83082917,
+            -23.52687472
+          ],
+          [
+            -46.83107067,
+            -23.52808667
+          ],
+          [
+            -46.83126104,
+            -23.52899428
+          ],
+          [
+            -46.83139809,
+            -23.52954941
+          ],
+          [
+            -46.83161945,
+            -23.53033122
+          ],
+          [
+            -46.83174603,
+            -23.53090403
+          ],
+          [
+            -46.83186701,
+            -23.53130913
+          ],
+          [
+            -46.83196801,
+            -23.5316673
+          ],
+          [
+            -46.83198433,
+            -23.53178592
+          ],
+          [
+            -46.83198636,
+            -23.53192152
+          ],
+          [
+            -46.83193975,
+            -23.53205517
+          ],
+          [
+            -46.83183976,
+            -23.53217799
+          ],
+          [
+            -46.83174129,
+            -23.53227518
+          ],
+          [
+            -46.83167047,
+            -23.53235035
+          ],
+          [
+            -46.83148719,
+            -23.53251163
+          ],
+          [
+            -46.83124214,
+            -23.53271875
+          ],
+          [
+            -46.83100961,
+            -23.53288803
+          ],
+          [
+            -46.83062348,
+            -23.53325052
+          ],
+          [
+            -46.82924138,
+            -23.53451584
+          ],
+          [
+            -46.82825107,
+            -23.53535419
+          ],
+          [
+            -46.82730389,
+            -23.5361836
+          ],
+          [
+            -46.82705384,
+            -23.53625792
+          ],
+          [
+            -46.82670908,
+            -23.53622099
+          ],
+          [
+            -46.82616378,
+            -23.53594006
+          ],
+          [
+            -46.82590341,
+            -23.53570146
+          ],
+          [
+            -46.8245044,
+            -23.53429006
+          ],
+          [
+            -46.8238314,
+            -23.53364645
+          ],
+          [
+            -46.82319417,
+            -23.53294842
+          ],
+          [
+            -46.82243222,
+            -23.53217793
+          ],
+          [
+            -46.82196352,
+            -23.53176683
+          ],
+          [
+            -46.82169951,
+            -23.53155852
+          ],
+          [
+            -46.82140052,
+            -23.53132376
+          ],
+          [
+            -46.82101913,
+            -23.53122215
+          ],
+          [
+            -46.82065388,
+            -23.53122504
+          ],
+          [
+            -46.82030364,
+            -23.53136682
+          ],
+          [
+            -46.82000399,
+            -23.53170483
+          ],
+          [
+            -46.81942944,
+            -23.53259768
+          ],
+          [
+            -46.81886578,
+            -23.53316578
+          ],
+          [
+            -46.81851952,
+            -23.53353213
+          ],
+          [
+            -46.81822027,
+            -23.53389418
+          ],
+          [
+            -46.81787762,
+            -23.53425475
+          ],
+          [
+            -46.8174561,
+            -23.53492817
+          ],
+          [
+            -46.81729006,
+            -23.53518769
+          ],
+          [
+            -46.81715108,
+            -23.53548502
+          ],
+          [
+            -46.81703902,
+            -23.53570992
+          ],
+          [
+            -46.81698966,
+            -23.53585018
+          ],
+          [
+            -46.81673363,
+            -23.53625854
+          ],
+          [
+            -46.81649455,
+            -23.53658137
+          ],
+          [
+            -46.81622397,
+            -23.53699735
+          ],
+          [
+            -46.81592091,
+            -23.53730507
+          ],
+          [
+            -46.81562463,
+            -23.53760327
+          ],
+          [
+            -46.81533847,
+            -23.53778128
+          ],
+          [
+            -46.81502755,
+            -23.53788843
+          ],
+          [
+            -46.81438606,
+            -23.53801922
+          ],
+          [
+            -46.81383595,
+            -23.53817178
+          ],
+          [
+            -46.81354039,
+            -23.53826951
+          ],
+          [
+            -46.81311277,
+            -23.53839523
+          ],
+          [
+            -46.81282319,
+            -23.53848103
+          ],
+          [
+            -46.81270467,
+            -23.53852461
+          ],
+          [
+            -46.81256929,
+            -23.53858767
+          ],
+          [
+            -46.81211907,
+            -23.53890277
+          ],
+          [
+            -46.811672,
+            -23.53944858
+          ],
+          [
+            -46.81141172,
+            -23.53978415
+          ],
+          [
+            -46.81102967,
+            -23.54023752
+          ],
+          [
+            -46.81078609,
+            -23.54051608
+          ],
+          [
+            -46.81049233,
+            -23.54088023
+          ],
+          [
+            -46.81024261,
+            -23.54116866
+          ],
+          [
+            -46.80983847,
+            -23.54163909
+          ],
+          [
+            -46.80955031,
+            -23.54197852
+          ],
+          [
+            -46.80929249,
+            -23.54226702
+          ],
+          [
+            -46.80907521,
+            -23.54259313
+          ],
+          [
+            -46.80848209,
+            -23.54326975
+          ],
+          [
+            -46.80812515,
+            -23.54360401
+          ],
+          [
+            -46.80788993,
+            -23.54378242
+          ],
+          [
+            -46.80763943,
+            -23.54395978
+          ],
+          [
+            -46.80700624,
+            -23.54436487
+          ],
+          [
+            -46.80637848,
+            -23.54469845
+          ],
+          [
+            -46.80554078,
+            -23.54512427
+          ],
+          [
+            -46.80475889,
+            -23.54562481
+          ],
+          [
+            -46.80390521,
+            -23.54621252
+          ],
+          [
+            -46.80308637,
+            -23.54696336
+          ],
+          [
+            -46.80256841,
+            -23.54747881
+          ],
+          [
+            -46.80211723,
+            -23.5480775
+          ],
+          [
+            -46.80179693,
+            -23.54883154
+          ],
+          [
+            -46.80139143,
+            -23.54960009
+          ],
+          [
+            -46.80112792,
+            -23.54997436
+          ],
+          [
+            -46.80086355,
+            -23.55029892
+          ],
+          [
+            -46.80066467,
+            -23.55051611
+          ],
+          [
+            -46.80048414,
+            -23.55072555
+          ],
+          [
+            -46.80002107,
+            -23.55121234
+          ],
+          [
+            -46.79838868,
+            -23.55294433
+          ],
+          [
+            -46.79778287,
+            -23.5535007
+          ],
+          [
+            -46.79759395,
+            -23.55359001
+          ],
+          [
+            -46.79737222,
+            -23.55363053
+          ],
+          [
+            -46.79707794,
+            -23.55362886
+          ],
+          [
+            -46.79678009,
+            -23.55358582
+          ],
+          [
+            -46.79641902,
+            -23.55355421
+          ],
+          [
+            -46.79568107,
+            -23.55348932
+          ],
+          [
+            -46.7948712,
+            -23.55343954
+          ],
+          [
+            -46.79404285,
+            -23.55347643
+          ],
+          [
+            -46.79318674,
+            -23.55359466
+          ],
+          [
+            -46.79246319,
+            -23.55367731
+          ],
+          [
+            -46.79156935,
+            -23.55390489
+          ],
+          [
+            -46.79070185,
+            -23.55416608
+          ],
+          [
+            -46.78968294,
+            -23.55453261
+          ],
+          [
+            -46.78886655,
+            -23.55485285
+          ],
+          [
+            -46.78791808,
+            -23.5552635
+          ],
+          [
+            -46.78670332,
+            -23.55595229
+          ],
+          [
+            -46.78612081,
+            -23.55613501
+          ],
+          [
+            -46.78555604,
+            -23.55643729
+          ],
+          [
+            -46.78489637,
+            -23.55682446
+          ],
+          [
+            -46.78365598,
+            -23.55735999
+          ],
+          [
+            -46.7830035,
+            -23.55763141
+          ],
+          [
+            -46.78261922,
+            -23.55794804
+          ],
+          [
+            -46.78236268,
+            -23.55829233
+          ],
+          [
+            -46.78231472,
+            -23.55865752
+          ],
+          [
+            -46.78242241,
+            -23.55905054
+          ],
+          [
+            -46.78263547,
+            -23.55955315
+          ],
+          [
+            -46.78283894,
+            -23.56022063
+          ],
+          [
+            -46.78302025,
+            -23.56090486
+          ],
+          [
+            -46.7832256,
+            -23.56218145
+          ],
+          [
+            -46.78335864,
+            -23.56285945
+          ],
+          [
+            -46.78346058,
+            -23.56368269
+          ],
+          [
+            -46.78339748,
+            -23.56400311
+          ],
+          [
+            -46.78313572,
+            -23.56440843
+          ],
+          [
+            -46.7827046,
+            -23.56468134
+          ],
+          [
+            -46.78242231,
+            -23.56483403
+          ],
+          [
+            -46.78206106,
+            -23.56503143
+          ],
+          [
+            -46.78168582,
+            -23.56524411
+          ],
+          [
+            -46.78131065,
+            -23.56545796
+          ],
+          [
+            -46.78097356,
+            -23.5656859
+          ],
+          [
+            -46.78005005,
+            -23.56699965
+          ],
+          [
+            -46.77982874,
+            -23.56734842
+          ],
+          [
+            -46.77770935,
+            -23.5702763
+          ],
+          [
+            -46.77738136,
+            -23.57085219
+          ],
+          [
+            -46.7767704,
+            -23.57188051
+          ],
+          [
+            -46.7763193,
+            -23.57262934
+          ],
+          [
+            -46.77587511,
+            -23.57333218
+          ],
+          [
+            -46.77538546,
+            -23.57417677
+          ],
+          [
+            -46.77517037,
+            -23.57463538
+          ],
+          [
+            -46.77404916,
+            -23.57792661
+          ],
+          [
+            -46.77332302,
+            -23.57927331
+          ],
+          [
+            -46.77299588,
+            -23.58024694
+          ],
+          [
+            -46.77267535,
+            -23.58096576
+          ],
+          [
+            -46.77227994,
+            -23.5817395
+          ],
+          [
+            -46.77200292,
+            -23.58244625
+          ],
+          [
+            -46.77169078,
+            -23.58352367
+          ],
+          [
+            -46.77139392,
+            -23.58419677
+          ],
+          [
+            -46.77076191,
+            -23.58475596
+          ],
+          [
+            -46.77011773,
+            -23.58527695
+          ],
+          [
+            -46.76914116,
+            -23.58596568
+          ],
+          [
+            -46.76857505,
+            -23.58653446
+          ],
+          [
+            -46.76848393,
+            -23.58675639
+          ],
+          [
+            -46.76828477,
+            -23.58737538
+          ],
+          [
+            -46.76818379,
+            -23.58808999
+          ],
+          [
+            -46.76805974,
+            -23.58905323
+          ],
+          [
+            -46.76791153,
+            -23.58998998
+          ],
+          [
+            -46.76794548,
+            -23.5904539
+          ],
+          [
+            -46.76803171,
+            -23.59156534
+          ],
+          [
+            -46.76806207,
+            -23.5919113
+          ],
+          [
+            -46.76817412,
+            -23.59230871
+          ],
+          [
+            -46.76840543,
+            -23.59273446
+          ],
+          [
+            -46.76850071,
+            -23.5931951
+          ],
+          [
+            -46.76862883,
+            -23.59374285
+          ],
+          [
+            -46.76862632,
+            -23.59424783
+          ],
+          [
+            -46.76855845,
+            -23.59475029
+          ],
+          [
+            -46.7684858,
+            -23.59530015
+          ],
+          [
+            -46.768392,
+            -23.59578638
+          ],
+          [
+            -46.76815915,
+            -23.59656559
+          ],
+          [
+            -46.76796126,
+            -23.59689147
+          ],
+          [
+            -46.76773239,
+            -23.59746482
+          ],
+          [
+            -46.76692084,
+            -23.59843606
+          ],
+          [
+            -46.76638123,
+            -23.59916576
+          ],
+          [
+            -46.76354246,
+            -23.60558032
+          ],
+          [
+            -46.76288018,
+            -23.60633889
+          ],
+          [
+            -46.76230069,
+            -23.60668024
+          ],
+          [
+            -46.76136937,
+            -23.60717331
+          ],
+          [
+            -46.75714736,
+            -23.60910764
+          ],
+          [
+            -46.75582281,
+            -23.60956277
+          ],
+          [
+            -46.75491218,
+            -23.60992308
+          ],
+          [
+            -46.75407744,
+            -23.61040981
+          ],
+          [
+            -46.75316681,
+            -23.61202803
+          ],
+          [
+            -46.75280808,
+            -23.61359566
+          ],
+          [
+            -46.75247694,
+            -23.61589651
+          ],
+          [
+            -46.754522,
+            -23.62170502
+          ],
+          [
+            -46.757414,
+            -23.62775302
+          ],
+          [
+            -46.75847,
+            -23.63602002
+          ],
+          [
+            -46.758752,
+            -23.64035602
+          ],
+          [
+            -46.75898931,
+            -23.64803459
+          ],
+          [
+            -46.758961,
+            -23.64938402
+          ],
+          [
+            -46.75882375,
+            -23.64985457
+          ],
+          [
+            -46.75865818,
+            -23.65021477
+          ]
+        ]
+      ],
+      "source": "geosampa",
+      "confidence": "A",
+      "alternatives": []
+    },
+    "length_km": {
+      "value": 23.906,
+      "source": "geosampa",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "observed_by": [
+      "geosampa"
+    ]
+  },
+  "stations": [
+    {
+      "id": "rio-negro",
+      "slug": "rio-negro",
+      "name": {
+        "value": "Rio Negro",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.49859524,
+          "lon": -46.84833679
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6018",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "araguaia",
+      "slug": "araguaia",
+      "name": {
+        "value": "Araguaia",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.50138125,
+          "lon": -46.83877077
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6017",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "tambore",
+      "slug": "tambore",
+      "name": {
+        "value": "Tamboré",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.50385695,
+          "lon": -46.83250944
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6016",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "parque-da-lagoa",
+      "slug": "parque-da-lagoa",
+      "name": {
+        "value": "Parque da Lagoa",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.51321594,
+          "lon": -46.83445045
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6015",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "carapicuiba",
+      "slug": "carapicuiba",
+      "name": {
+        "value": "Carapicuíba",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "CARAPICUÍBA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "CARAPICUÍBA",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.51853649,
+          "lon": -46.83541742
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.51828205,
+              "lon": -46.83517674
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "37 m away"
+          },
+          {
+            "value": {
+              "lat": -23.5185372,
+              "lon": -46.8352767
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "14 m away"
+          },
+          {
+            "value": {
+              "lat": -23.51854,
+              "lon": -46.83531
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "11 m away"
+          },
+          {
+            "value": {
+              "lat": -23.518744,
+              "lon": -46.835417
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "23 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8",
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "CPB",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10275630",
+        "osm": "node/4691931326",
+        "gtfs_stop_id": "18956",
+        "gtfs_route_id": null,
+        "geosampa_id": "3078",
+        "metro_code": "CPB"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "brasil",
+      "slug": "brasil",
+      "name": {
+        "value": "Brasil",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.5250664,
+          "lon": -46.83031571
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6013",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "hospital-geral",
+      "slug": "hospital-geral",
+      "name": {
+        "value": "Hospital Geral",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.53542058,
+          "lon": -46.82825544
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6012",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "integracao",
+      "slug": "integracao",
+      "name": {
+        "value": "Integração",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.53302351,
+          "lon": -46.82322771
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6011",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "sao-pedro",
+      "slug": "sao-pedro",
+      "name": {
+        "value": "São Pedro",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.53831058,
+          "lon": -46.81355581
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6010",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "jardim-roberto",
+      "slug": "jardim-roberto",
+      "name": {
+        "value": "Jardim Roberto",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.54430894,
+          "lon": -46.80712493
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6009",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "santo-antonio",
+      "slug": "santo-antonio",
+      "name": {
+        "value": "Santo Antônio",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.55123589,
+          "lon": -46.80002049
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6008",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "nova-granada",
+      "slug": "nova-granada",
+      "name": {
+        "value": "Nova Granada",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.55359588,
+          "lon": -46.79349001
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6007",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "sanazar",
+      "slug": "sanazar",
+      "name": {
+        "value": "Sanazar",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.56221079,
+          "lon": -46.78324318
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6006",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "jardim-d-abril",
+      "slug": "jardim-d-abril",
+      "name": {
+        "value": "Jardim D'Abril",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.57518186,
+          "lon": -46.77498347
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6005",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "monte-belo",
+      "slug": "monte-belo",
+      "name": {
+        "value": "Monte Belo",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.58254806,
+          "lon": -46.77200622
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6004",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "eiras-garcia",
+      "slug": "eiras-garcia",
+      "name": {
+        "value": "Eiras Garcia",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.59089276,
+          "lon": -46.76794443
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6003",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "hortensias",
+      "slug": "hortensias",
+      "name": {
+        "value": "Hortênsias",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.6027927,
+          "lon": -46.76488999
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6002",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "taboao-msp",
+      "slug": "taboao-msp",
+      "name": {
+        "value": "Taboão Msp",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.61040981,
+          "lon": -46.75407744
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6001",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "donatello",
+      "slug": "donatello",
+      "name": {
+        "value": "Donatello",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.62709885,
+          "lon": -46.75712035
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "6019",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "campo-limpo",
+      "slug": "campo-limpo",
+      "name": {
+        "value": "Campo Limpo",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "CAMPO LIMPO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "CAMPO LIMPO",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.64938436,
+          "lon": -46.75896072
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.64880031,
+              "lon": -46.75897162
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "65 m away"
+          },
+          {
+            "value": {
+              "lat": -23.6492871,
+              "lon": -46.7589484
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "11 m away"
+          },
+          {
+            "value": {
+              "lat": -23.649374,
+              "lon": -46.759148
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "19 m away"
+          },
+          {
+            "value": {
+              "lat": -23.648987,
+              "lon": -46.758878
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "45 m away"
+          }
+        ]
+      },
+      "lines": [
+        "linha-5",
+        "ligacao-alphaville-campo-limpo"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "CPL",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "2002-10-20",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q5028448",
+        "osm": "node/8000500360",
+        "gtfs_stop_id": "19044",
+        "gtfs_route_id": null,
+        "geosampa_id": "64",
+        "metro_code": "CPL"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@ data/raw/**
 !data/raw/**/manifest.json
 
 node_modules/
-dist/
+site/dist/
 .astro/
 .venv/
 __pycache__/

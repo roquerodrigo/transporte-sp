@@ -1,0 +1,430 @@
+[
+  {
+    "entity": "line",
+    "entity_id": "linha-10",
+    "fieldname": "geometry",
+    "chosen": "101.666 km",
+    "chosen_source": "geosampa",
+    "rejected": "43.804 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-10",
+    "fieldname": "geometry",
+    "chosen": "101.666 km",
+    "chosen_source": "geosampa",
+    "rejected": "34.583 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-11",
+    "fieldname": "geometry",
+    "chosen": "112.074 km",
+    "chosen_source": "geosampa",
+    "rejected": "57.737 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-11",
+    "fieldname": "geometry",
+    "chosen": "112.074 km",
+    "chosen_source": "geosampa",
+    "rejected": "50.494 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-12",
+    "fieldname": "geometry",
+    "chosen": "78.967 km",
+    "chosen_source": "geosampa",
+    "rejected": "40.934 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-12",
+    "fieldname": "geometry",
+    "chosen": "78.967 km",
+    "chosen_source": "geosampa",
+    "rejected": "34.51 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-13",
+    "fieldname": "geometry",
+    "chosen": "52.003 km",
+    "chosen_source": "geosampa",
+    "rejected": "9.336 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-13",
+    "fieldname": "geometry",
+    "chosen": "52.003 km",
+    "chosen_source": "geosampa",
+    "rejected": "8.818 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-15",
+    "fieldname": "geometry",
+    "chosen": "25.911 km",
+    "chosen_source": "geosampa",
+    "rejected": "15.026 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-15",
+    "fieldname": "geometry",
+    "chosen": "25.911 km",
+    "chosen_source": "geosampa",
+    "rejected": "14.555 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-17",
+    "fieldname": "geometry",
+    "chosen": "17.515 km",
+    "chosen_source": "geosampa",
+    "rejected": "5.988 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-2",
+    "fieldname": "geometry",
+    "chosen": "29.832 km",
+    "chosen_source": "geosampa",
+    "rejected": "15.042 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-2",
+    "fieldname": "geometry",
+    "chosen": "29.832 km",
+    "chosen_source": "geosampa",
+    "rejected": "14.777 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-5",
+    "fieldname": "geometry",
+    "chosen": "27.406 km",
+    "chosen_source": "geosampa",
+    "rejected": "19.943 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-5",
+    "fieldname": "geometry",
+    "chosen": "27.406 km",
+    "chosen_source": "geosampa",
+    "rejected": "19.855 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-6",
+    "fieldname": "geometry",
+    "chosen": "21.025 km",
+    "chosen_source": "geosampa",
+    "rejected": "4.946 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-7",
+    "fieldname": "geometry",
+    "chosen": "130.286 km",
+    "chosen_source": "geosampa",
+    "rejected": "60.711 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-7",
+    "fieldname": "geometry",
+    "chosen": "130.286 km",
+    "chosen_source": "geosampa",
+    "rejected": "60.334 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-8",
+    "fieldname": "geometry",
+    "chosen": "83.211 km",
+    "chosen_source": "geosampa",
+    "rejected": "41.784 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-8",
+    "fieldname": "geometry",
+    "chosen": "83.211 km",
+    "chosen_source": "geosampa",
+    "rejected": "40.789 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-9",
+    "fieldname": "geometry",
+    "chosen": "76.639 km",
+    "chosen_source": "geosampa",
+    "rejected": "40.822 km",
+    "rejected_source": "osm",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "line",
+    "entity_id": "linha-9",
+    "fieldname": "geometry",
+    "chosen": "76.639 km",
+    "chosen_source": "geosampa",
+    "rejected": "36.178 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "alignments differ by more than a quarter of their length"
+  },
+  {
+    "entity": "station",
+    "entity_id": "amador-bueno",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.53050823,
+      "lon": -46.9837556
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.5311,
+      "lon": -46.9863
+    },
+    "rejected_source": "wikidata",
+    "detail": "sources place this station 268 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "bras",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.5478844,
+      "lon": -46.61590896
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.54402144,
+      "lon": -46.61687708
+    },
+    "rejected_source": "geosampa",
+    "detail": "sources place this station 441 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "bras",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.5478844,
+      "lon": -46.61590896
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.5453263,
+      "lon": -46.6164435
+    },
+    "rejected_source": "osm",
+    "detail": "sources place this station 290 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "bras",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.5478844,
+      "lon": -46.61590896
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.54504,
+      "lon": -46.61634
+    },
+    "rejected_source": "wikidata",
+    "detail": "sources place this station 319 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "bras",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.5478844,
+      "lon": -46.61590896
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.545461,
+      "lon": -46.616228
+    },
+    "rejected_source": "gtfs_sptrans",
+    "detail": "sources place this station 271 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "francisco-morato",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.28168485,
+      "lon": -46.74254436
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.284893,
+      "lon": -46.742046
+    },
+    "rejected_source": "gtfs_sptrans",
+    "detail": "sources place this station 360 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "franco-da-rocha",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.32963717,
+      "lon": -46.72629396
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.332181,
+      "lon": -46.727614
+    },
+    "rejected_source": "gtfs_sptrans",
+    "detail": "sources place this station 313 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "higienopolis-mackenzie",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.54895152,
+      "lon": -46.6522614
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.55057735,
+      "lon": -46.65450996
+    },
+    "rejected_source": "geosampa",
+    "detail": "sources place this station 292 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "julio-prestes",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.53259702,
+      "lon": -46.64098402
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.534803,
+      "lon": -46.639587
+    },
+    "rejected_source": "wikidata",
+    "detail": "sources place this station 284 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "lapa",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.51794308,
+      "lon": -46.70075443
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.5175952,
+      "lon": -46.7039659
+    },
+    "rejected_source": "osm",
+    "detail": "sources place this station 330 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "luz",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.53690231,
+      "lon": -46.63367028
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.53496082,
+      "lon": -46.63511522
+    },
+    "rejected_source": "geosampa",
+    "detail": "sources place this station 261 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "luz",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.53690231,
+      "lon": -46.63367028
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.535103,
+      "lon": -46.635436
+    },
+    "rejected_source": "gtfs_sptrans",
+    "detail": "sources place this station 269 m apart"
+  },
+  {
+    "entity": "station",
+    "entity_id": "vila-sonia-professora-elizabeth-tenreiro",
+    "fieldname": "coordinates",
+    "chosen": {
+      "lat": -23.59341763,
+      "lon": -46.73475752
+    },
+    "chosen_source": "geosampa",
+    "rejected": {
+      "lat": -23.59145,
+      "lon": -46.73334
+    },
+    "rejected_source": "wikidata",
+    "detail": "sources place this station 262 m apart"
+  }
+]

@@ -1,0 +1,652 @@
+{
+  "line": {
+    "id": "aeromovel-gru",
+    "slug": "aeromovel-gru",
+    "name": {
+      "value": "Aeromóvel GRU",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "number": null,
+    "colour": null,
+    "mode": {
+      "value": "lrt",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "operator": {
+      "value": "GRU Airport",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "status": {
+      "value": "operational",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "stations": [
+      "estacao-gru-cptm",
+      "estacao-tps1",
+      "estacao-tps2",
+      "estacao-tps3"
+    ],
+    "station_order": {
+      "value": "osm",
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "geometry": {
+      "value": [
+        [
+          [
+            -46.4925352,
+            -23.4325713
+          ],
+          [
+            -46.4925217,
+            -23.4324464
+          ]
+        ],
+        [
+          [
+            -46.4925217,
+            -23.4324464
+          ],
+          [
+            -46.4923444,
+            -23.4308296
+          ],
+          [
+            -46.4923137,
+            -23.4307027
+          ],
+          [
+            -46.4922694,
+            -23.4305936
+          ],
+          [
+            -46.4922226,
+            -23.4305148
+          ],
+          [
+            -46.4921471,
+            -23.4304237
+          ],
+          [
+            -46.4920545,
+            -23.4303416
+          ],
+          [
+            -46.4919503,
+            -23.4302737
+          ],
+          [
+            -46.491834,
+            -23.4302224
+          ],
+          [
+            -46.4917056,
+            -23.4301898
+          ],
+          [
+            -46.4915751,
+            -23.4301786
+          ],
+          [
+            -46.4914585,
+            -23.430177
+          ],
+          [
+            -46.4911208,
+            -23.4302075
+          ],
+          [
+            -46.4908542,
+            -23.4302255
+          ],
+          [
+            -46.4907168,
+            -23.4302137
+          ],
+          [
+            -46.4905821,
+            -23.4301684
+          ],
+          [
+            -46.4904865,
+            -23.4301106
+          ],
+          [
+            -46.4904074,
+            -23.4300416
+          ],
+          [
+            -46.4903479,
+            -23.4299636
+          ],
+          [
+            -46.4903017,
+            -23.4298699
+          ],
+          [
+            -46.4902678,
+            -23.4297712
+          ],
+          [
+            -46.4902434,
+            -23.4296782
+          ]
+        ],
+        [
+          [
+            -46.4902434,
+            -23.4296782
+          ],
+          [
+            -46.4902407,
+            -23.429662
+          ],
+          [
+            -46.4902215,
+            -23.4294924
+          ],
+          [
+            -46.4902055,
+            -23.4293523
+          ]
+        ],
+        [
+          [
+            -46.4902055,
+            -23.4293523
+          ],
+          [
+            -46.4900415,
+            -23.4278045
+          ],
+          [
+            -46.4897117,
+            -23.4247852
+          ],
+          [
+            -46.4896889,
+            -23.4246831
+          ],
+          [
+            -46.4896573,
+            -23.4245969
+          ],
+          [
+            -46.4896111,
+            -23.4245231
+          ],
+          [
+            -46.4895481,
+            -23.4244512
+          ],
+          [
+            -46.4894596,
+            -23.4243793
+          ],
+          [
+            -46.4893389,
+            -23.4243236
+          ],
+          [
+            -46.4892008,
+            -23.4242914
+          ],
+          [
+            -46.4890555,
+            -23.4242902
+          ],
+          [
+            -46.4887632,
+            -23.424319
+          ]
+        ],
+        [
+          [
+            -46.4887632,
+            -23.424319
+          ],
+          [
+            -46.4873138,
+            -23.4244517
+          ],
+          [
+            -46.4859011,
+            -23.4245811
+          ],
+          [
+            -46.485835,
+            -23.4245772
+          ],
+          [
+            -46.4857581,
+            -23.4245638
+          ]
+        ],
+        [
+          [
+            -46.4857581,
+            -23.4245638
+          ],
+          [
+            -46.4852978,
+            -23.4246079
+          ],
+          [
+            -46.4851273,
+            -23.4246397
+          ],
+          [
+            -46.4849981,
+            -23.424689
+          ],
+          [
+            -46.4848588,
+            -23.4247706
+          ],
+          [
+            -46.4847423,
+            -23.4248637
+          ],
+          [
+            -46.4845804,
+            -23.4250474
+          ],
+          [
+            -46.4844141,
+            -23.4252447
+          ],
+          [
+            -46.4843194,
+            -23.4253244
+          ],
+          [
+            -46.4841911,
+            -23.4254059
+          ],
+          [
+            -46.4840132,
+            -23.4254774
+          ],
+          [
+            -46.4838299,
+            -23.4255207
+          ],
+          [
+            -46.4834336,
+            -23.4255797
+          ],
+          [
+            -46.4832156,
+            -23.4256116
+          ],
+          [
+            -46.4830279,
+            -23.4256612
+          ],
+          [
+            -46.4824395,
+            -23.4258421
+          ],
+          [
+            -46.48233,
+            -23.4258724
+          ],
+          [
+            -46.4822435,
+            -23.4258883
+          ],
+          [
+            -46.4821589,
+            -23.4258969
+          ],
+          [
+            -46.4820621,
+            -23.4258906
+          ]
+        ],
+        [
+          [
+            -46.4820621,
+            -23.4258906
+          ],
+          [
+            -46.4817527,
+            -23.4258644
+          ],
+          [
+            -46.4814505,
+            -23.4258393
+          ]
+        ],
+        [
+          [
+            -46.4814505,
+            -23.4258393
+          ],
+          [
+            -46.4814199,
+            -23.4258351
+          ],
+          [
+            -46.4813689,
+            -23.4258252
+          ],
+          [
+            -46.48132,
+            -23.425812
+          ],
+          [
+            -46.4812737,
+            -23.4257963
+          ],
+          [
+            -46.4812234,
+            -23.4257738
+          ],
+          [
+            -46.481118,
+            -23.4257196
+          ],
+          [
+            -46.4809146,
+            -23.4256083
+          ],
+          [
+            -46.4806832,
+            -23.4254763
+          ],
+          [
+            -46.480421,
+            -23.4253641
+          ],
+          [
+            -46.4801408,
+            -23.4252653
+          ],
+          [
+            -46.4797444,
+            -23.4251504
+          ],
+          [
+            -46.4795999,
+            -23.4250853
+          ],
+          [
+            -46.479462,
+            -23.4249907
+          ],
+          [
+            -46.4793668,
+            -23.4249035
+          ],
+          [
+            -46.479271,
+            -23.4247892
+          ],
+          [
+            -46.4791884,
+            -23.4246468
+          ],
+          [
+            -46.4791467,
+            -23.4245136
+          ],
+          [
+            -46.479125,
+            -23.4243743
+          ],
+          [
+            -46.4791281,
+            -23.4242247
+          ],
+          [
+            -46.4791498,
+            -23.4238945
+          ],
+          [
+            -46.4791453,
+            -23.4237712
+          ],
+          [
+            -46.4791267,
+            -23.4236694
+          ],
+          [
+            -46.4790747,
+            -23.4235519
+          ],
+          [
+            -46.4790036,
+            -23.4234582
+          ],
+          [
+            -46.4789031,
+            -23.4233719
+          ],
+          [
+            -46.4787775,
+            -23.4233084
+          ],
+          [
+            -46.478636,
+            -23.4232594
+          ],
+          [
+            -46.4772168,
+            -23.4228756
+          ]
+        ],
+        [
+          [
+            -46.4772168,
+            -23.4228756
+          ],
+          [
+            -46.4770863,
+            -23.4228404
+          ]
+        ]
+      ],
+      "source": "osm",
+      "confidence": "C",
+      "alternatives": []
+    },
+    "length_km": {
+      "value": 2.563,
+      "source": "osm",
+      "confidence": "E",
+      "alternatives": []
+    },
+    "observed_by": [
+      "osm"
+    ]
+  },
+  "stations": [
+    {
+      "id": "estacao-gru-cptm",
+      "slug": "estacao-gru-cptm",
+      "name": {
+        "value": "Estação GRU CPTM",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.4326423,
+          "lon": -46.4924233
+        },
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "lines": [
+        "aeromovel-gru"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": "way/1372115444",
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": null,
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "osm"
+      ]
+    },
+    {
+      "id": "estacao-tps1",
+      "slug": "estacao-tps1",
+      "name": {
+        "value": "Estação TPS1",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.4295164,
+          "lon": -46.4902116
+        },
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "lines": [
+        "aeromovel-gru"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": "way/1327186590",
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": null,
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "osm"
+      ]
+    },
+    {
+      "id": "estacao-tps2",
+      "slug": "estacao-tps2",
+      "name": {
+        "value": "Estação TPS2",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.4259014,
+          "lon": -46.4817504
+        },
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "lines": [
+        "aeromovel-gru"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": "way/1372115437",
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": null,
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "osm"
+      ]
+    },
+    {
+      "id": "estacao-tps3",
+      "slug": "estacao-tps3",
+      "name": {
+        "value": "Estação TPS3",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.422846,
+          "lon": -46.4770815
+        },
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "lines": [
+        "aeromovel-gru"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": "way/1327187939",
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": null,
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "osm"
+      ]
+    }
+  ]
+}

@@ -52,6 +52,9 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
   import maplibregl from "maplibre-gl";
   import "maplibre-gl/dist/maplibre-gl.css";
 
+  // The GeoJSON types are no longer ambient, so they are imported explicitly.
+  import type { Feature, FeatureCollection, Geometry, Point } from "geojson";
+
   const CARTO = {
     version: 8 as const,
     sources: {
@@ -72,9 +75,9 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
 
   const DASHED = ["partial", "under_construction", "planned", "proposed"];
 
-  type Feature = GeoJSON.Feature<GeoJSON.Geometry, Record<string, any>>;
+  type NetworkFeature = Feature<Geometry, Record<string, any>>;
 
-  function bounds(features: Feature[]): maplibregl.LngLatBounds | null {
+  function bounds(features: NetworkFeature[]): maplibregl.LngLatBounds | null {
     let box: maplibregl.LngLatBounds | null = null;
     const add = (position: number[]) => {
       const point = position as [number, number];
@@ -91,9 +94,9 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
 
   async function draw(container: HTMLElement) {
     const { fonte, linha, estacao, centro, zoom, futuro } = container.dataset;
-    const collection: GeoJSON.FeatureCollection = await fetch(fonte!).then((r) => r.json());
+    const collection: FeatureCollection = await fetch(fonte!).then((r) => r.json());
 
-    let features = collection.features as Feature[];
+    let features = collection.features as NetworkFeature[];
     if (futuro !== "true") {
       features = features.filter((feature) => feature.properties.status === "operational");
     }
@@ -111,7 +114,7 @@ const id = `mapa-${Math.random().toString(36).slice(2, 9)}`;
     const map = new maplibregl.Map({
       container,
       style: CARTO,
-      center: (((focus?.geometry as GeoJSON.Point)?.coordinates ??
+      center: (((focus?.geometry as Point)?.coordinates ??
         JSON.parse(centro!)) as [number, number]),
       zoom: focus ? 15 : Number(zoom),
       attributionControl: { compact: true },

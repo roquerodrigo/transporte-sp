@@ -5,12 +5,14 @@
  */
 
 /*
- * The content width is deliberately *not* set here. Starlight's default 45rem is a reading
- * measure for prose and far too narrow for a six-column station table, but the active theme
- * already widens it to 67.5rem. Overriding it from here would win the cascade — this file is
- * unlayered, the theme's rules are not — and would silently make the column narrower than
- * the theme intends. If the theme is ever dropped, set it back here.
+ * Starlight's default 45rem is a reading measure for prose, and themes move it in both
+ * directions — the current one narrows it to 40rem. A six-column station table wraps every
+ * cell at that width, so the width is set here, where it does not change with the theme.
+ * This file is unlayered and therefore wins over any theme's layered rules.
  */
+:root {
+  --sl-content-width: 62rem;
+}
 
 /*
  * Starlight makes wide tables scroll with `display: block`, which works visually but strips

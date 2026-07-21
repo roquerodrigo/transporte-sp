@@ -10,3 +10,17 @@
 .mapa {
   border: 1px solid var(--sl-color-hairline);
 }
+
+/* Some corridor names run to forty characters and wrap to two lines. The theme gives each
+   sidebar link a fixed height, so a wrapped label overflows onto the next one. */
+#starlight__sidebar a {
+  height: auto;
+  min-height: 2rem;
+}
+
+/* The theme caps the content column at 640px on `.main-pane`, which `--sl-content-width`
+   cannot reach — the variable only sizes the container inside it. Releasing the cap lets
+   the width set in tables.css apply. */
+.main-pane {
+  max-width: none;
+}

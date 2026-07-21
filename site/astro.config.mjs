@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { defineConfig } from "astro/config";
 import { unified } from "@astrojs/markdown-remark";
 import starlight from "@astrojs/starlight";
-import pageTheme from "@pelagornis/page";
+import blackTheme from "starlight-theme-black";
 
 import { rehypeBasePath } from "./src/plugins/rehype-base-path.mjs";
 
@@ -27,7 +27,19 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      plugins: [pageTheme()],
+      plugins: [
+        blackTheme({
+          navLinks: [
+            { label: "Mapa da rede", slug: "mapa" },
+            { label: "Linhas", slug: "linhas" },
+            { label: "Metodologia", slug: "metodologia" },
+            { label: "Fontes", slug: "fontes" },
+          ],
+          // The theme offers "open this page in ChatGPT/Claude" buttons. They send the page
+          // to a third party and add nothing to a dataset meant to be read and cited.
+          docs: { showMarkdownActions: false },
+        }),
+      ],
       title: "Transporte SP",
       description:
         "Base de dados aberta e auditável do transporte de massa metropolitano de São Paulo.",
@@ -41,7 +53,17 @@ export default defineConfig({
         },
       ],
       customCss: ["./src/styles/custom.css", "./src/styles/tables.css"],
-      components: { Head: "./src/components/Head.astro" },
+      // Injected here rather than from a `Head` override: themes routinely override
+      // `Head`, and whichever override loses simply does not render.
+      head: [
+        {
+          tag: "script",
+          content: readFileSync(
+            new URL("./src/scripts/wrap-tables.js", import.meta.url),
+            "utf8",
+          ),
+        },
+      ],
       sidebar: [
         { label: "Mapa da rede", link: "/mapa/" },
         { label: "Todas as linhas", link: "/linhas/" },

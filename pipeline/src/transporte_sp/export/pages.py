@@ -204,7 +204,7 @@ def _station_sections(line: Line, network: Network, stations, canonical):
             station.name.value,
             href,
             station.code.value if station.code else "—",
-            STATUS_LABELS.get(station.status.value, station.status.value),
+            _unbreakable(STATUS_LABELS.get(station.status.value, station.status.value)),
             ", ".join(_line_label(network, other) for other in others) or "—",
         )
         grouped.setdefault(station.status.value, []).append(row)
@@ -219,6 +219,15 @@ def _station_sections(line: Line, network: Network, stations, canonical):
         (f"{STATUS_LABELS.get(status, status)} ({len(grouped[status])})", grouped[status])
         for status in order
     ]
+
+
+def _unbreakable(text: str) -> str:
+    """Keep a short label on one line inside a table cell.
+
+    "Em operação" is two words in a narrow column, and letting it wrap doubles the height of
+    every row in a 23-station table for no gain.
+    """
+    return text.replace(" ", "\u00a0")
 
 
 def _line_label(network: Network, line_id: str) -> str:

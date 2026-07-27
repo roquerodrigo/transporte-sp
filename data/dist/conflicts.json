@@ -251,16 +251,6 @@
   },
   {
     "entity": "station",
-    "entity_id": "lapa-linha-7",
-    "fieldname": "identidade",
-    "chosen": "LAPA (LINHA 7)",
-    "chosen_source": "pipeline",
-    "rejected": "Lapa",
-    "rejected_source": "pipeline",
-    "detail": "nomes diferentes a 35 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
-  },
-  {
-    "entity": "station",
     "entity_id": "lapa-linha-8",
     "fieldname": "identidade",
     "chosen": "LAPA (LINHA 8)",

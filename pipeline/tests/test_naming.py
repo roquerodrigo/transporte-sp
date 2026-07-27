@@ -28,6 +28,13 @@ def test_line_number_reads_the_many_ways_sources_write_it():
     assert line_number("VERMELHA") is None
 
 
+def test_line_number_reads_a_route_id_that_runs_into_the_number():
+    """SPTrans splits Line 17-Ouro into one route per operating stretch."""
+    assert line_number("METRÔ17A") == "17"
+    assert line_number("METRÔ17W") == "17"
+    assert line_number("METRÔ 100") is None
+
+
 def test_line_slug_only_prefixes_numbered_lines():
     assert line_slug("4", "Amarela") == "linha-4-amarela"
     assert line_slug("L1", "VLT Linha 1") == "vlt-linha-1"

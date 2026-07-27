@@ -2824,21 +2824,21 @@
           },
           {
             "value": {
-              "lat": -23.53509,
-              "lon": -46.63528
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "260 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.537629,
               "lon": -46.63361
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "81 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.53509,
+              "lon": -46.63528
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "260 m de distância"
           },
           {
             "value": {
@@ -2898,12 +2898,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1867-02-16",
+        "value": "1975-09-26",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1975-09-26",
+            "value": "1867-02-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -2912,7 +2912,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q2983699",
+        "wikidata": "Q15243160",
         "osm": "node/5368677484",
         "gtfs_stop_id": "18872",
         "gtfs_route_id": null,

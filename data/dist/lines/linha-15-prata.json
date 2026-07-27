@@ -2414,7 +2414,7 @@
           },
           {
             "value": {
-              "lat": -23.584447,
+              "lat": -23.58445,
               "lon": -46.581943
             },
             "source": "gtfs_sptrans",
@@ -3324,7 +3324,7 @@
           },
           {
             "value": {
-              "lat": -23.599042,
+              "lat": -23.599045,
               "lon": -46.468949
             },
             "source": "gtfs_sptrans",
@@ -3337,10 +3337,16 @@
         "linha-15"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",

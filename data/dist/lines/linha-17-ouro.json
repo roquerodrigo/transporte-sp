@@ -10,8 +10,8 @@
     },
     "number": {
       "value": "17",
-      "source": "osm",
-      "confidence": "C",
+      "source": "gtfs_sptrans",
+      "confidence": "A",
       "alternatives": []
     },
     "colour": {
@@ -28,6 +28,12 @@
         {
           "value": "subway",
           "source": "geosampa",
+          "confidence": "A",
+          "note": null
+        },
+        {
+          "value": "subway",
+          "source": "gtfs_sptrans",
           "confidence": "A",
           "note": null
         }
@@ -53,6 +59,12 @@
       "alternatives": [
         {
           "value": "operational",
+          "source": "gtfs_sptrans",
+          "confidence": "A",
+          "note": null
+        },
+        {
+          "value": "operational",
           "source": "osm",
           "confidence": "C",
           "note": null
@@ -66,29 +78,29 @@
       ]
     },
     "stations": [
-      "jabaquara-comite-paralimpico-brasileiro",
-      "hospital-saboia",
-      "cidade-leonor",
-      "vila-babilonia",
-      "vila-paulista",
-      "washington-luis",
-      "vila-cordeiro",
-      "campo-belo",
-      "vereador-jose-diniz",
-      "aeroporto-de-congonhas",
-      "brooklin-paulista",
-      "chucri-zaidan",
-      "morumbi-claro",
-      "panambi",
-      "paraisopolis",
-      "americo-maurano",
+      "sao-paulo-morumbi",
       "estadio-morumbi",
-      "sao-paulo-morumbi"
+      "americo-maurano",
+      "paraisopolis",
+      "panambi",
+      "morumbi-claro",
+      "chucri-zaidan",
+      "brooklin-paulista",
+      "aeroporto-de-congonhas",
+      "vereador-jose-diniz",
+      "campo-belo",
+      "vila-cordeiro",
+      "washington-luis",
+      "vila-paulista",
+      "vila-babilonia",
+      "cidade-leonor",
+      "hospital-saboia",
+      "jabaquara-comite-paralimpico-brasileiro"
     ],
     "station_order": {
-      "value": "osm",
-      "source": "osm",
-      "confidence": "C",
+      "value": "gtfs_sptrans",
+      "source": "gtfs_sptrans",
+      "confidence": "A",
       "alternatives": []
     },
     "geometry": {
@@ -848,7 +860,14 @@
       ],
       "source": "osm",
       "confidence": "C",
-      "alternatives": []
+      "alternatives": [
+        {
+          "value": "5.999 km",
+          "source": "gtfs_sptrans",
+          "confidence": "A",
+          "note": "traçado alternativo, não usado"
+        }
+      ]
     },
     "planned_geometry": {
       "value": [
@@ -1925,10 +1944,1343 @@
     },
     "observed_by": [
       "geosampa",
+      "gtfs_sptrans",
       "osm"
     ]
   },
   "stations": [
+    {
+      "id": "sao-paulo-morumbi",
+      "slug": "sao-paulo-morumbi",
+      "name": {
+        "value": "São Paulo – Morumbi",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.58638894,
+          "lon": -46.72383012
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.58682447,
+              "lon": -46.72387692
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "49 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5861368,
+              "lon": -46.7239121
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "29 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.58572,
+              "lon": -46.7238
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "74 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.586132,
+              "lon": -46.723471
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "46 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-4",
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "MBI",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "2018-10-27",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q9290828",
+        "osm": "node/5942913082",
+        "gtfs_stop_id": "1211401",
+        "gtfs_route_id": null,
+        "geosampa_id": "88",
+        "metro_code": "MBI"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "estadio-morumbi",
+      "slug": "estadio-morumbi",
+      "name": {
+        "value": "Estádio Morumbi",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.59693921,
+          "lon": -46.72016712
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "156",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "americo-maurano",
+      "slug": "americo-maurano",
+      "name": {
+        "value": "Américo Maurano",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.6123622,
+          "lon": -46.72092528
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "155",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "paraisopolis",
+      "slug": "paraisopolis",
+      "name": {
+        "value": "Paraisópolis",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.61959005,
+          "lon": -46.7230608
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "154",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "panambi",
+      "slug": "panambi",
+      "name": {
+        "value": "Panambi",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "PANAMBY",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.62690705,
+          "lon": -46.71445464
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.62625,
+              "lon": -46.71392
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "91 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q124059087",
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "153",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "morumbi-claro",
+      "slug": "morumbi-claro",
+      "name": {
+        "value": "Morumbi - Claro",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Morumbi",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.62184508,
+          "lon": -46.70182209
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.62187517,
+              "lon": -46.70193744
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "12 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.6215931,
+              "lon": -46.7016426
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "33 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622486,
+              "lon": -46.70269
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "114 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.621593,
+              "lon": -46.701642
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "34 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.621519,
+              "lon": -46.701657
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "40 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622447,
+              "lon": -46.702799
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "120 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-9",
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "MRB",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10275996",
+        "osm": "node/4143521761",
+        "gtfs_stop_id": "18910",
+        "gtfs_route_id": null,
+        "geosampa_id": "3073",
+        "metro_code": "MRB"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "chucri-zaidan",
+      "slug": "chucri-zaidan",
+      "name": {
+        "value": "Chucri Zaidan",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "E.T. Água Espraiada",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.61376328,
+          "lon": -46.6959582
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6139825,
+              "lon": -46.6955024
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "52 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.613986,
+              "lon": -46.695278
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "74 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.61369,
+              "lon": -46.69523
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "75 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.613987,
+              "lon": -46.695494
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "53 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
+          {
+            "value": "operational",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "CZD",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "2026-03-31",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q18475286",
+        "osm": "way/1494656556",
+        "gtfs_stop_id": "3407224",
+        "gtfs_route_id": null,
+        "geosampa_id": "104",
+        "metro_code": "CZD"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "brooklin-paulista",
+      "slug": "brooklin-paulista",
+      "name": {
+        "value": "Brooklin Paulista",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.62950751,
+          "lon": -46.6736166
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6295585,
+              "lon": -46.673583
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "7 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.629444,
+              "lon": -46.673611
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "7 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.629637,
+              "lon": -46.673561
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "15 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.629594,
+              "lon": -46.673505
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "15 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
+          {
+            "value": "operational",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "BPA",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q18475266",
+        "osm": "way/1494475327",
+        "gtfs_stop_id": "1506221",
+        "gtfs_route_id": null,
+        "geosampa_id": "100",
+        "metro_code": "BPA"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "aeroporto-de-congonhas",
+      "slug": "aeroporto-de-congonhas",
+      "name": {
+        "value": "Aeroporto de Congonhas",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Congonhas",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.62665605,
+          "lon": -46.66150152
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6270021,
+              "lon": -46.6618974
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "56 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.626944,
+              "lon": -46.661764
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "42 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.626925,
+              "lon": -46.661869
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "48 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
+          {
+            "value": "operational",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "CGN",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "2026-03-31",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q18475293",
+        "osm": "way/698751459",
+        "gtfs_stop_id": "1506222",
+        "gtfs_route_id": null,
+        "geosampa_id": "106",
+        "metro_code": "CGN"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "vereador-jose-diniz",
+      "slug": "vereador-jose-diniz",
+      "name": {
+        "value": "Vereador José Diniz",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "JOSÉ DINIZ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.6219258,
+          "lon": -46.6789536
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6220552,
+              "lon": -46.6788791
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "16 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622222,
+              "lon": -46.678611
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "48 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.62209,
+              "lon": -46.678848
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "21 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
+          {
+            "value": "operational",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "VJD",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "2026-03-31",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q19707412",
+        "osm": "way/671909899",
+        "gtfs_stop_id": "1506220",
+        "gtfs_route_id": null,
+        "geosampa_id": "101",
+        "metro_code": "VJD"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "campo-belo",
+      "slug": "campo-belo",
+      "name": {
+        "value": "Campo Belo",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.61897391,
+          "lon": -46.68231888
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.61890843,
+              "lon": -46.68288768
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "58 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.6186,
+              "lon": -46.6822652
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "42 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.61881,
+              "lon": -46.68251
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "27 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.618357,
+              "lon": -46.682067
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "73 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.61854,
+              "lon": -46.683429
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "123 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-5",
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "CPB",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "2019-04-08",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q8076578",
+        "osm": "way/698759069",
+        "gtfs_stop_id": "3407190",
+        "gtfs_route_id": null,
+        "geosampa_id": "89",
+        "metro_code": "CPB"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "vila-cordeiro",
+      "slug": "vila-cordeiro",
+      "name": {
+        "value": "Vila Cordeiro",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.61542393,
+          "lon": -46.68897816
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6155758,
+              "lon": -46.6885977
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "42 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.615556,
+              "lon": -46.688611
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "40 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.615585,
+              "lon": -46.688565
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "46 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
+          {
+            "value": "operational",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "VCD",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q18475857",
+        "osm": "way/506475778",
+        "gtfs_stop_id": "3407225",
+        "gtfs_route_id": null,
+        "geosampa_id": "103",
+        "metro_code": "VCD"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "washington-luis",
+      "slug": "washington-luis",
+      "name": {
+        "value": "Washington Luís",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.63426568,
+          "lon": -46.66862628
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.634398,
+              "lon": -46.6683216
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "34 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.63472222,
+              "lon": -46.66833333
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "59 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.634483,
+              "lon": -46.668348
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "37 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
+          {
+            "value": "operational",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "JDA",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q28680824",
+        "osm": "way/671909903",
+        "gtfs_stop_id": "1506223",
+        "gtfs_route_id": null,
+        "geosampa_id": "99",
+        "metro_code": "JDA"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "vila-paulista",
+      "slug": "vila-paulista",
+      "name": {
+        "value": "Vila Paulista",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.6382988,
+          "lon": -46.66223268
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "152",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "vila-babilonia",
+      "slug": "vila-babilonia",
+      "name": {
+        "value": "Vila Babilônia",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.64380245,
+          "lon": -46.65743748
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "151",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "cidade-leonor",
+      "slug": "cidade-leonor",
+      "name": {
+        "value": "Cidade Leonor",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.650265,
+          "lon": -46.65185676
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "150",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
+    {
+      "id": "hospital-saboia",
+      "slug": "hospital-saboia",
+      "name": {
+        "value": "Hospital Saboia",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.65352335,
+          "lon": -46.64480904
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": null,
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": null,
+        "osm": null,
+        "gtfs_stop_id": null,
+        "gtfs_route_id": null,
+        "geosampa_id": "149",
+        "metro_code": null
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa"
+      ]
+    },
     {
       "id": "jabaquara-comite-paralimpico-brasileiro",
       "slug": "jabaquara-comite-paralimpico-brasileiro",
@@ -2050,1245 +3402,6 @@
         "gtfs_route_id": null,
         "geosampa_id": "56",
         "metro_code": "JAB"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "hospital-saboia",
-      "slug": "hospital-saboia",
-      "name": {
-        "value": "Hospital Saboia",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.65352335,
-          "lon": -46.64480904
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": null,
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "149",
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa"
-      ]
-    },
-    {
-      "id": "cidade-leonor",
-      "slug": "cidade-leonor",
-      "name": {
-        "value": "Cidade Leonor",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.650265,
-          "lon": -46.65185676
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": null,
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "150",
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa"
-      ]
-    },
-    {
-      "id": "vila-babilonia",
-      "slug": "vila-babilonia",
-      "name": {
-        "value": "Vila Babilônia",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.64380245,
-          "lon": -46.65743748
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": null,
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "151",
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa"
-      ]
-    },
-    {
-      "id": "vila-paulista",
-      "slug": "vila-paulista",
-      "name": {
-        "value": "Vila Paulista",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.6382988,
-          "lon": -46.66223268
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": null,
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "152",
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa"
-      ]
-    },
-    {
-      "id": "washington-luis",
-      "slug": "washington-luis",
-      "name": {
-        "value": "Washington Luís",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.63426568,
-          "lon": -46.66862628
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.634398,
-              "lon": -46.6683216
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "34 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.63472222,
-              "lon": -46.66833333
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "59 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": "operational",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "JDA",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": {
-        "value": "full",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q28680824",
-        "osm": "way/671909903",
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "99",
-        "metro_code": "JDA"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "vila-cordeiro",
-      "slug": "vila-cordeiro",
-      "name": {
-        "value": "Vila Cordeiro",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.61542393,
-          "lon": -46.68897816
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.6155758,
-              "lon": -46.6885977
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "42 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.615556,
-              "lon": -46.688611
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "40 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "ainda projetada nesta fonte"
-          },
-          {
-            "value": "operational",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "VCD",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q18475857",
-        "osm": "way/506475778",
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "103",
-        "metro_code": "VCD"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "campo-belo",
-      "slug": "campo-belo",
-      "name": {
-        "value": "Campo Belo",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.61897391,
-          "lon": -46.68231888
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.61890843,
-              "lon": -46.68288768
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "58 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.6186,
-              "lon": -46.6822652
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "42 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.61881,
-              "lon": -46.68251
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "27 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.618357,
-              "lon": -46.682067
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "73 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-5",
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "CPB",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": {
-        "value": "full",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "opened": {
-        "value": "2019-04-08",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q8076578",
-        "osm": "way/698759069",
-        "gtfs_stop_id": "3407190",
-        "gtfs_route_id": null,
-        "geosampa_id": "89",
-        "metro_code": "CPB"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "vereador-jose-diniz",
-      "slug": "vereador-jose-diniz",
-      "name": {
-        "value": "Vereador José Diniz",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "JOSÉ DINIZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.6219258,
-          "lon": -46.6789536
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.6220552,
-              "lon": -46.6788791
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "16 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.622222,
-              "lon": -46.678611
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "48 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "ainda projetada nesta fonte"
-          },
-          {
-            "value": "operational",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "VJD",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "2026-03-31",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q19707412",
-        "osm": "way/671909899",
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "101",
-        "metro_code": "VJD"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "aeroporto-de-congonhas",
-      "slug": "aeroporto-de-congonhas",
-      "name": {
-        "value": "Aeroporto de Congonhas",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Congonhas",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.62665605,
-          "lon": -46.66150152
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.6270021,
-              "lon": -46.6618974
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "56 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.626944,
-              "lon": -46.661764
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "42 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "ainda projetada nesta fonte"
-          },
-          {
-            "value": "operational",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "CGN",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": {
-        "value": "full",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "opened": {
-        "value": "2026-03-31",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q18475293",
-        "osm": "way/698751459",
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "106",
-        "metro_code": "CGN"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "brooklin-paulista",
-      "slug": "brooklin-paulista",
-      "name": {
-        "value": "Brooklin Paulista",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.62950751,
-          "lon": -46.6736166
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.6295585,
-              "lon": -46.673583
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "7 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.629444,
-              "lon": -46.673611
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "7 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "ainda projetada nesta fonte"
-          },
-          {
-            "value": "operational",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "BPA",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q18475266",
-        "osm": "way/1494475327",
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "100",
-        "metro_code": "BPA"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "chucri-zaidan",
-      "slug": "chucri-zaidan",
-      "name": {
-        "value": "Chucri Zaidan",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "E.T. Água Espraiada",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.61376328,
-          "lon": -46.6959582
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.6139825,
-              "lon": -46.6955024
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "52 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.613986,
-              "lon": -46.695278
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "74 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.61369,
-              "lon": -46.69523
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "75 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "ainda projetada nesta fonte"
-          },
-          {
-            "value": "operational",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "CZD",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "2026-03-31",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q18475286",
-        "osm": "way/1494656556",
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "104",
-        "metro_code": "CZD"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "morumbi-claro",
-      "slug": "morumbi-claro",
-      "name": {
-        "value": "Morumbi - Claro",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Morumbi",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.62184508,
-          "lon": -46.70182209
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.62187517,
-              "lon": -46.70193744
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "12 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.6215931,
-              "lon": -46.7016426
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "33 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.622486,
-              "lon": -46.70269
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "114 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.621593,
-              "lon": -46.701642
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "34 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.621519,
-              "lon": -46.701657
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "40 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-9",
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "MRB",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q10275996",
-        "osm": "node/4143521761",
-        "gtfs_stop_id": "18910",
-        "gtfs_route_id": null,
-        "geosampa_id": "3073",
-        "metro_code": "MRB"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "panambi",
-      "slug": "panambi",
-      "name": {
-        "value": "Panambi",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "PANAMBY",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.62690705,
-          "lon": -46.71445464
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.62625,
-              "lon": -46.71392
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "91 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q124059087",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "153",
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "paraisopolis",
-      "slug": "paraisopolis",
-      "name": {
-        "value": "Paraisópolis",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.61959005,
-          "lon": -46.7230608
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": null,
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "154",
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa"
-      ]
-    },
-    {
-      "id": "americo-maurano",
-      "slug": "americo-maurano",
-      "name": {
-        "value": "Américo Maurano",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.6123622,
-          "lon": -46.72092528
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": null,
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "155",
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa"
-      ]
-    },
-    {
-      "id": "estadio-morumbi",
-      "slug": "estadio-morumbi",
-      "name": {
-        "value": "Estádio Morumbi",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.59693921,
-          "lon": -46.72016712
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": null,
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": "156",
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa"
-      ]
-    },
-    {
-      "id": "sao-paulo-morumbi",
-      "slug": "sao-paulo-morumbi",
-      "name": {
-        "value": "São Paulo – Morumbi",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.58638894,
-          "lon": -46.72383012
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.58682447,
-              "lon": -46.72387692
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "49 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5861368,
-              "lon": -46.7239121
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "29 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.58572,
-              "lon": -46.7238
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "74 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.586132,
-              "lon": -46.723471
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "46 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-4",
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "MBI",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "2018-10-27",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q9290828",
-        "osm": "node/5942913082",
-        "gtfs_stop_id": "1211401",
-        "gtfs_route_id": null,
-        "geosampa_id": "88",
-        "metro_code": "MBI"
       },
       "is_interchange": true,
       "observed_by": [

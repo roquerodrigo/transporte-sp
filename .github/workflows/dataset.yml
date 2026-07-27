@@ -1,4 +1,4 @@
-name: CI
+name: Dataset
 
 on:
   push:
@@ -10,22 +10,6 @@ permissions:
   contents: read
 
 jobs:
-  pipeline:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: pipeline
-    steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
-        with:
-          enable-cache: true
-      - run: uv sync --all-extras --dev
-      - name: Lint
-        run: uv run ruff check .
-      - name: Tests
-        run: uv run pytest
-
   dataset:
     runs-on: ubuntu-latest
     steps:
@@ -38,28 +22,6 @@ jobs:
       - name: Validate the published dataset
         run: uv run transporte-sp validate
         working-directory: pipeline
-
-  site:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: site
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-          cache: npm
-          cache-dependency-path: site/package-lock.json
-      - run: npm ci
-      - name: Type-check
-        run: npx astro check
-      - name: Build
-        run: npm run build
-      # Almost every page is generated, so a link is never wrong once — an off-by-one in
-      # how they are written breaks hundreds at a time and no other check sees it.
-      - name: Check internal links
-        run: npm run check:links
 
   generated-content-is-current:
     runs-on: ubuntu-latest

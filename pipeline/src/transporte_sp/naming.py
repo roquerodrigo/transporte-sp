@@ -58,14 +58,20 @@ def line_slug(number: str, name: str) -> str:
     return slugify(f"linha-{number}-{name}") if number.isdigit() else slugify(name)
 
 
-_LINE_NUMBER = re.compile(r"\bL?0*(\d{1,2})\b", re.IGNORECASE)
+# The number does not always sit between separators. SPTrans writes most of its rail routes
+# as ``METRÔ L4``, but the stretches of Line 17-Ouro as ``METRÔ17A`` and ``METRÔ17W`` — no
+# separator before the digits, a letter for the stretch after them. Requiring a word
+# boundary on both sides read those as unnumbered and published each stretch as a line of
+# its own. The operator prefix stands in for the opening boundary, and the closing one is
+# only a guard against reading a longer number short.
+_LINE_NUMBER = re.compile(r"(?:\b|(?<=metro)|(?<=cptm))L?0*(\d{1,2})(?!\d)", re.IGNORECASE)
 
 
 def line_number(text: str) -> str | None:
-    """Pull the line number out of free-form references like ``METRÔ L4`` or ``CPTM L07``.
+    """Pull the line number out of free-form references like ``METRÔ L4`` or ``METRÔ17A``.
 
-    >>> line_number("CPTM L07"), line_number("LINHA 4 - AMARELA"), line_number("VERMELHA")
-    ('7', '4', None)
+    >>> line_number("CPTM L07"), line_number("METRÔ17A"), line_number("VERMELHA")
+    ('7', '17', None)
     """
     match = _LINE_NUMBER.search(unidecode(text))
     return str(int(match.group(1))) if match else None

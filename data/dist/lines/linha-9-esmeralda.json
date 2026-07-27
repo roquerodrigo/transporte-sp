@@ -3307,6 +3307,15 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "40 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622447,
+              "lon": -46.702799
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "120 m de distância"
           }
         ]
       },

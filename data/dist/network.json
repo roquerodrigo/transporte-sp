@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21",
+  "generated_at": "2026-07-27",
   "bbox": [
     -47.6,
     -24.2,
@@ -13,7 +13,7 @@
       "url": "",
       "licence": "CC-BY-SA-4.0",
       "confidence": "A",
-      "fetched_at": "2026-07-21",
+      "fetched_at": "2026-07-27",
       "sha256": null
     },
     {
@@ -22,7 +22,7 @@
       "url": "",
       "licence": "public-record (Lei 12.527/2011)",
       "confidence": "A",
-      "fetched_at": "2026-07-21",
+      "fetched_at": "2026-07-27",
       "sha256": null
     },
     {
@@ -31,7 +31,7 @@
       "url": "",
       "licence": "ODbL-1.0",
       "confidence": "C",
-      "fetched_at": "2026-07-21",
+      "fetched_at": "2026-07-27",
       "sha256": null
     },
     {
@@ -40,7 +40,7 @@
       "url": "",
       "licence": "CC0-1.0",
       "confidence": "C",
-      "fetched_at": "2026-07-21",
+      "fetched_at": "2026-07-27",
       "sha256": null
     }
   ],
@@ -7126,8 +7126,8 @@
       },
       "number": {
         "value": "6",
-        "source": "osm",
-        "confidence": "C",
+        "source": "gtfs_sptrans",
+        "confidence": "A",
         "alternatives": []
       },
       "colour": {
@@ -7160,6 +7160,12 @@
         "source": "pipeline",
         "confidence": "E",
         "alternatives": [
+          {
+            "value": "operational",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -7198,9 +7204,9 @@
         "sao-carlos"
       ],
       "station_order": {
-        "value": "osm",
-        "source": "osm",
-        "confidence": "C",
+        "value": "gtfs_sptrans",
+        "source": "gtfs_sptrans",
+        "confidence": "A",
         "alternatives": []
       },
       "geometry": {
@@ -7534,7 +7540,14 @@
         ],
         "source": "osm",
         "confidence": "C",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "4.94 km",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "traçado alternativo, não usado"
+          }
+        ]
       },
       "planned_geometry": {
         "value": [
@@ -11999,6 +12012,7 @@
       },
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm"
       ]
     },
@@ -16647,6 +16661,10 @@
               -23.5258987
             ],
             [
+              -46.666649,
+              -23.5258662
+            ],
+            [
               -46.6666679,
               -23.5258647
             ],
@@ -19163,6 +19181,10 @@
             [
               -46.6686771,
               -23.5257419
+            ],
+            [
+              -46.668647,
+              -23.5257442
             ],
             [
               -46.6674923,
@@ -31941,7 +31963,7 @@
         "alternatives": []
       },
       "operator": {
-        "value": "Companhia Paulista de Trens Metropolitanos",
+        "value": "Trivia Trens",
         "source": "osm",
         "confidence": "C",
         "alternatives": [
@@ -55283,8 +55305,8 @@
       },
       "number": {
         "value": "17",
-        "source": "osm",
-        "confidence": "C",
+        "source": "gtfs_sptrans",
+        "confidence": "A",
         "alternatives": []
       },
       "colour": {
@@ -55301,6 +55323,12 @@
           {
             "value": "subway",
             "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "subway",
+            "source": "gtfs_sptrans",
             "confidence": "A",
             "note": null
           }
@@ -55326,6 +55354,12 @@
         "alternatives": [
           {
             "value": "operational",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "operational",
             "source": "osm",
             "confidence": "C",
             "note": null
@@ -55339,29 +55373,29 @@
         ]
       },
       "stations": [
-        "jabaquara-comite-paralimpico-brasileiro",
-        "hospital-saboia",
-        "cidade-leonor",
-        "vila-babilonia",
-        "vila-paulista",
-        "washington-luis",
-        "vila-cordeiro",
-        "campo-belo",
-        "vereador-jose-diniz",
-        "aeroporto-de-congonhas",
-        "brooklin-paulista",
-        "chucri-zaidan",
-        "morumbi-claro",
-        "panambi",
-        "paraisopolis",
-        "americo-maurano",
+        "sao-paulo-morumbi",
         "estadio-morumbi",
-        "sao-paulo-morumbi"
+        "americo-maurano",
+        "paraisopolis",
+        "panambi",
+        "morumbi-claro",
+        "chucri-zaidan",
+        "brooklin-paulista",
+        "aeroporto-de-congonhas",
+        "vereador-jose-diniz",
+        "campo-belo",
+        "vila-cordeiro",
+        "washington-luis",
+        "vila-paulista",
+        "vila-babilonia",
+        "cidade-leonor",
+        "hospital-saboia",
+        "jabaquara-comite-paralimpico-brasileiro"
       ],
       "station_order": {
-        "value": "osm",
-        "source": "osm",
-        "confidence": "C",
+        "value": "gtfs_sptrans",
+        "source": "gtfs_sptrans",
+        "confidence": "A",
         "alternatives": []
       },
       "geometry": {
@@ -56121,7 +56155,14 @@
         ],
         "source": "osm",
         "confidence": "C",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "5.999 km",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "traçado alternativo, não usado"
+          }
+        ]
       },
       "planned_geometry": {
         "value": [
@@ -57198,6 +57239,7 @@
       },
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm"
       ]
     },
@@ -75973,7 +76015,7 @@
         "alternatives": []
       },
       "operator": {
-        "value": "Companhia Paulista de Trens Metropolitanos",
+        "value": "Trivia Trens",
         "source": "osm",
         "confidence": "C",
         "alternatives": [
@@ -82313,6 +82355,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "42 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.626925,
+              "lon": -46.661869
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "48 m de distância"
           }
         ]
       },
@@ -82360,7 +82411,7 @@
       "external_ids": {
         "wikidata": "Q18475293",
         "osm": "way/698751459",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "1506222",
         "gtfs_route_id": null,
         "geosampa_id": "106",
         "metro_code": "CGN"
@@ -82368,6 +82419,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -82376,8 +82428,8 @@
       "id": "aeroporto-guarulhos",
       "slug": "aeroporto-guarulhos",
       "name": {
-        "value": "Aeroporto-Guarulhos",
-        "source": "osm",
+        "value": "Aeroporto–Guarulhos",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
@@ -82389,15 +82441,6 @@
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
-          {
-            "value": {
-              "lat": -23.4331198,
-              "lon": -46.4937946
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "7 m de distância"
-          },
           {
             "value": {
               "lat": -23.4325,
@@ -82432,14 +82475,7 @@
         "value": "AGU",
         "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "APO",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "accessibility": null,
       "opened": {
@@ -82451,17 +82487,16 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q18475239",
-        "osm": "node/4396786293",
+        "osm": null,
         "gtfs_stop_id": "1814713",
         "gtfs_route_id": null,
         "geosampa_id": "3024",
-        "metro_code": "APO"
+        "metro_code": "AGU"
       },
       "is_interchange": true,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
-        "osm",
         "wikidata"
       ]
     },
@@ -82561,6 +82596,15 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "30 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.52055,
+              "lon": -46.688138
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "135 m de distância"
           }
         ]
       },
@@ -85573,6 +85617,24 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "7 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.629637,
+              "lon": -46.673561
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "15 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.629594,
+              "lon": -46.673505
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "15 m de distância"
           }
         ]
       },
@@ -85610,7 +85672,7 @@
       "external_ids": {
         "wikidata": "Q18475266",
         "osm": "way/1494475327",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "1506221",
         "gtfs_route_id": null,
         "geosampa_id": "100",
         "metro_code": "BPA"
@@ -85618,6 +85680,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -86082,6 +86145,15 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "73 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.61854,
+              "lon": -46.683429
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "123 m de distância"
           }
         ]
       },
@@ -87231,6 +87303,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "75 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.613987,
+              "lon": -46.695494
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "53 m de distância"
           }
         ]
       },
@@ -87273,7 +87354,7 @@
       "external_ids": {
         "wikidata": "Q18475286",
         "osm": "way/1494656556",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "3407224",
         "gtfs_route_id": null,
         "geosampa_id": "104",
         "metro_code": "CZD"
@@ -87281,6 +87362,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -90269,6 +90351,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "103 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.501756,
+              "lon": -46.693714
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "38 m de distância"
           }
         ]
       },
@@ -90316,7 +90407,7 @@
       "external_ids": {
         "wikidata": "Q25448241",
         "osm": "way/529088751",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "2914646",
         "gtfs_route_id": null,
         "geosampa_id": "125",
         "metro_code": "FRE"
@@ -90324,6 +90415,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -93268,7 +93360,7 @@
           },
           {
             "value": {
-              "lat": -23.599042,
+              "lat": -23.599045,
               "lon": -46.468949
             },
             "source": "gtfs_sptrans",
@@ -93281,10 +93373,16 @@
         "linha-15"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -94511,6 +94609,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "69 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.493626,
+              "lon": -46.691468
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "59 m de distância"
           }
         ]
       },
@@ -94558,7 +94665,7 @@
       "external_ids": {
         "wikidata": "Q26257444",
         "osm": "way/529088943",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "2914645",
         "gtfs_route_id": null,
         "geosampa_id": "126",
         "metro_code": "JPI"
@@ -94566,6 +94673,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -96665,6 +96773,15 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "40 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622447,
+              "lon": -46.702799
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "120 m de distância"
           }
         ]
       },
@@ -98691,6 +98808,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "12 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.53208,
+              "lon": -46.676621
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "82 m de distância"
           }
         ]
       },
@@ -98733,7 +98859,7 @@
       "external_ids": {
         "wikidata": "Q30926628",
         "osm": "way/529093495",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "6114516",
         "gtfs_route_id": null,
         "geosampa_id": "121",
         "metro_code": null
@@ -98741,6 +98867,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -101601,6 +101728,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "15 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.514102,
+              "lon": -46.691658
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "47 m de distância"
           }
         ]
       },
@@ -101649,7 +101785,7 @@
       "external_ids": {
         "wikidata": "Q41344200",
         "osm": "way/529089113",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "2914647",
         "gtfs_route_id": null,
         "geosampa_id": "124",
         "metro_code": "STM"
@@ -101657,6 +101793,7 @@
       "is_interchange": true,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -103849,6 +103986,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "56 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.527248,
+              "lon": -46.683295
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "27 m de distância"
           }
         ]
       },
@@ -103891,7 +104037,7 @@
       "external_ids": {
         "wikidata": "Q28679219",
         "osm": "way/826549219",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "6114515",
         "gtfs_route_id": null,
         "geosampa_id": "122",
         "metro_code": null
@@ -103899,6 +104045,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -105876,6 +106023,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "48 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.62209,
+              "lon": -46.678848
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "21 m de distância"
           }
         ]
       },
@@ -105918,7 +106074,7 @@
       "external_ids": {
         "wikidata": "Q19707412",
         "osm": "way/671909899",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "1506220",
         "gtfs_route_id": null,
         "geosampa_id": "101",
         "metro_code": "VJD"
@@ -105926,6 +106082,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -106353,6 +106510,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "40 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.615585,
+              "lon": -46.688565
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "46 m de distância"
           }
         ]
       },
@@ -106390,7 +106556,7 @@
       "external_ids": {
         "wikidata": "Q18475857",
         "osm": "way/506475778",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "3407225",
         "gtfs_route_id": null,
         "geosampa_id": "103",
         "metro_code": "VCD"
@@ -106398,6 +106564,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -107184,7 +107351,7 @@
           },
           {
             "value": {
-              "lat": -23.584447,
+              "lat": -23.58445,
               "lon": -46.581943
             },
             "source": "gtfs_sptrans",
@@ -107742,6 +107909,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "59 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.634483,
+              "lon": -46.668348
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "37 m de distância"
           }
         ]
       },
@@ -107749,10 +107925,16 @@
         "linha-17"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -107778,7 +107960,7 @@
       "external_ids": {
         "wikidata": "Q28680824",
         "osm": "way/671909903",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "1506223",
         "gtfs_route_id": null,
         "geosampa_id": "99",
         "metro_code": "JDA"
@@ -107786,6 +107968,7 @@
       "is_interchange": false,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -111315,16 +111498,6 @@
       },
       "rejected_source": "geosampa",
       "detail": "sources place this station 297 m apart"
-    },
-    {
-      "entity": "station",
-      "entity_id": "lapa-linha-7",
-      "fieldname": "identidade",
-      "chosen": "LAPA (LINHA 7)",
-      "chosen_source": "pipeline",
-      "rejected": "Lapa",
-      "rejected_source": "pipeline",
-      "detail": "nomes diferentes a 35 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
     },
     {
       "entity": "station",

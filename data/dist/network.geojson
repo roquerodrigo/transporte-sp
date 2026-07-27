@@ -15880,6 +15880,10 @@
               -23.5258987
             ],
             [
+              -46.666649,
+              -23.5258662
+            ],
+            [
               -46.6666679,
               -23.5258647
             ],
@@ -18396,6 +18400,10 @@
             [
               -46.6686771,
               -23.5257419
+            ],
+            [
+              -46.668647,
+              -23.5257442
             ],
             [
               -46.6674923,
@@ -31235,7 +31243,7 @@
         "colour": "#2CA05A",
         "mode": "commuter_rail",
         "status": "operational",
-        "operator": "Companhia Paulista de Trens Metropolitanos",
+        "operator": "Trivia Trens",
         "length_km": 9.336
       }
     },
@@ -31833,7 +31841,7 @@
         "colour": "#2CA05A",
         "mode": "commuter_rail",
         "status": "planned",
-        "operator": "Companhia Paulista de Trens Metropolitanos",
+        "operator": "Trivia Trens",
         "length_km": 36.01
       }
     },
@@ -75205,7 +75213,7 @@
         "colour": null,
         "mode": "commuter_rail",
         "status": "partial",
-        "operator": "Companhia Paulista de Trens Metropolitanos",
+        "operator": "Trivia Trens",
         "length_km": 29.081
       }
     },
@@ -75747,7 +75755,7 @@
         "colour": null,
         "mode": "commuter_rail",
         "status": "planned",
-        "operator": "Companhia Paulista de Trens Metropolitanos",
+        "operator": "Trivia Trens",
         "length_km": 28.065
       }
     },
@@ -79344,7 +79352,7 @@
         "kind": "station",
         "id": "aeroporto-guarulhos",
         "slug": "aeroporto-guarulhos",
-        "name": "Aeroporto-Guarulhos",
+        "name": "Aeroporto–Guarulhos",
         "lines": [
           "linha-13",
           "expresso-aeroporto"
@@ -83144,7 +83152,7 @@
         "modes": [
           "monorail"
         ],
-        "status": "planned",
+        "status": "operational",
         "code": "IGT",
         "interchange": false
       }
@@ -88285,7 +88293,7 @@
         "modes": [
           "monorail"
         ],
-        "status": "planned",
+        "status": "operational",
         "code": "JDA",
         "interchange": false
       }

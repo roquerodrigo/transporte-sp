@@ -17,7 +17,7 @@
       "alternatives": []
     },
     "operator": {
-      "value": "Companhia Paulista de Trens Metropolitanos",
+      "value": "Trivia Trens",
       "source": "osm",
       "confidence": "C",
       "alternatives": [
@@ -2547,8 +2547,8 @@
       "id": "aeroporto-guarulhos",
       "slug": "aeroporto-guarulhos",
       "name": {
-        "value": "Aeroporto-Guarulhos",
-        "source": "osm",
+        "value": "Aeroporto–Guarulhos",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
@@ -2560,15 +2560,6 @@
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
-          {
-            "value": {
-              "lat": -23.4331198,
-              "lon": -46.4937946
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "7 m de distância"
-          },
           {
             "value": {
               "lat": -23.4325,
@@ -2603,14 +2594,7 @@
         "value": "AGU",
         "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "APO",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "accessibility": null,
       "opened": {
@@ -2622,17 +2606,16 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q18475239",
-        "osm": "node/4396786293",
+        "osm": null,
         "gtfs_stop_id": "1814713",
         "gtfs_route_id": null,
         "geosampa_id": "3024",
-        "metro_code": "APO"
+        "metro_code": "AGU"
       },
       "is_interchange": true,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
-        "osm",
         "wikidata"
       ]
     }

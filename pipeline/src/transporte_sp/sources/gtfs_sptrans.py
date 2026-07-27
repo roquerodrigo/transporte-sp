@@ -1,13 +1,16 @@
 """GTFS from SPTrans — published under the access-to-information act, no sign-up.
 
 Contrary to the common belief that this feed only covers buses, it carries the rail
-network too: 6 metro routes and 7 commuter-rail routes, with the **station order per
-direction** and 26 shapes tracing the real alignment. That ordering is what neither
-GeoSampa nor OSM gives cleanly, and it is the reason this source exists in the pipeline.
+network too: 9 metro routes and 7 commuter-rail routes, with the **station order per
+direction** and shapes tracing the real alignment. That ordering is what neither GeoSampa
+nor OSM gives cleanly, and it is the reason this source exists in the pipeline.
 
-Known gaps: Line 6-Laranja and Line 17-Ouro are absent (both opened partially in 2026),
-there is no ``parent_station``/``wheelchair_boarding``, and the rail routes carry a single
-trip per direction, so there is no timetable to read.
+A line is not always one route. The stretches of Line 17-Ouro that opened in 2026 arrive as
+``METRÔ17A`` and ``METRÔ17W``, and only the line number in the ``route_id`` says they are
+the same line.
+
+Known gaps: there is no ``parent_station``/``wheelchair_boarding``, and the rail routes
+carry a single trip per direction, so there is no timetable to read.
 """
 
 from __future__ import annotations

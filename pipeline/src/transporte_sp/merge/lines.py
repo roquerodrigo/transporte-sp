@@ -341,9 +341,9 @@ def order_stations(lines, stations, clusters, observations, planned_membership=N
     """Give every line its station sequence.
 
     The GTFS is the only source that states the order outright, so it is used wherever it
-    reaches. For the lines it does not cover — 6-Laranja, 17-Ouro, the VLT, the airport
-    people mover — the order comes from the ordered stop members of the OSM route relation,
-    matched to stations by position.
+    reaches. For the lines it does not cover — the VLT, the airport people mover — the order
+    comes from the ordered stop members of the OSM route relation, matched to stations by
+    position.
     """
     from transporte_sp.merge import nearest
 
@@ -367,6 +367,12 @@ def order_stations(lines, stations, clusters, observations, planned_membership=N
         basis = "gtfs_sptrans" if from_gtfs else ("osm" if sequence else "pipeline")
         members = [station for station in stations if line.id in station.lines]
 
+        # Both bases list only what runs, so both promote. Doing it before the trim below is
+        # what keeps the two consistent: the stations promoted here are exactly the ones the
+        # sequence holds, and those are the ones the trim keeps.
+        if basis in {"gtfs_sptrans", "osm"}:
+            _mark_running(sequence, by_id)
+
         if from_gtfs and line.status.value == "operational":
             # The GTFS enumerates the whole *operating* line, so an operating station it
             # omits was attached by a weaker source — usually a historical assignment (Luz
@@ -385,8 +391,6 @@ def order_stations(lines, stations, clusters, observations, planned_membership=N
                 sequence, [s for s in members if line.id in s.lines], by_id, line
             )
         else:
-            if basis == "osm":
-                _mark_running(sequence, by_id)
             ordered = _append_unsequenced(sequence, members, by_id, line)
 
         line.stations = ordered
@@ -443,13 +447,15 @@ def attach_planned_termini(lines, stations, planned_membership: dict) -> None:
 
 
 def _mark_running(sequence: list[str], by_id) -> None:
-    """A station OSM maps as a stop on a live route is open, whatever GeoSampa still says.
+    """A station sequenced on a live route is open, whatever GeoSampa still says.
 
     This is the station-level counterpart of the ``partial`` line status. GeoSampa lists
     every station of Lines 6-Laranja and 17-Ouro in its *projected* layer, including the
-    stretch that started running in 2026, and its layer wins the precedence for status. OSM
-    only puts a stop in a route relation once the route serves it, so a station reached this
-    way is running — published as inferred, with GeoSampa's reading kept as the alternative.
+    stretch that started running in 2026, and its layer wins the precedence for status.
+    Neither source that gives a sequence carries a station before the route serves it: OSM
+    adds a stop to the relation once it opens, and the GTFS is a timetable of what runs. A
+    station reached either way is running — published as inferred, with GeoSampa's reading
+    kept as the alternative.
     """
     for station_id in sequence:
         station = by_id.get(station_id)
@@ -549,12 +555,24 @@ def _gap(station, point: tuple[float, float]) -> float:
 
 
 def _from_gtfs(group, index) -> list[str]:
-    for observation in group:
-        if observation.source != "gtfs_sptrans" or not observation.station_refs:
-            continue
-        ordered = [index[ref].id for ref in observation.station_refs if ref in index]
-        return _dedupe_preserving(ordered)
-    return []
+    """The station order the GTFS states, over every route the line reaches the feed as.
+
+    One line is not always one route: SPTrans publishes Line 17-Ouro as ``METRÔ17A`` and
+    ``METRÔ17W``, one route per operating stretch. Reading only the first left the other
+    stretch out of the sequence — and therefore out of the set of stations the trim against
+    the timetable is allowed to keep. The longest route leads, so it is the one that decides
+    which way round the line runs.
+    """
+    sequences = sorted(
+        (
+            [index[ref].id for ref in observation.station_refs if ref in index]
+            for observation in group
+            if observation.source == "gtfs_sptrans" and observation.station_refs
+        ),
+        key=len,
+        reverse=True,
+    )
+    return _dedupe_preserving([station_id for sequence in sequences for station_id in sequence])
 
 
 def _from_stop_points(group, stations, clusters, nearest) -> list[str]:

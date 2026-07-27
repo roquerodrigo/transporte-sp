@@ -3337,10 +3337,16 @@
         "linha-15"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",

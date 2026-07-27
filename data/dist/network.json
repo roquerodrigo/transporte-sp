@@ -55305,8 +55305,8 @@
       },
       "number": {
         "value": "17",
-        "source": "osm",
-        "confidence": "C",
+        "source": "gtfs_sptrans",
+        "confidence": "A",
         "alternatives": []
       },
       "colour": {
@@ -55323,6 +55323,12 @@
           {
             "value": "subway",
             "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "subway",
+            "source": "gtfs_sptrans",
             "confidence": "A",
             "note": null
           }
@@ -55348,6 +55354,12 @@
         "alternatives": [
           {
             "value": "operational",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": null
+          },
+          {
+            "value": "operational",
             "source": "osm",
             "confidence": "C",
             "note": null
@@ -55361,29 +55373,29 @@
         ]
       },
       "stations": [
-        "jabaquara-comite-paralimpico-brasileiro",
-        "hospital-saboia",
-        "cidade-leonor",
-        "vila-babilonia",
-        "vila-paulista",
-        "washington-luis",
-        "vila-cordeiro",
-        "campo-belo",
-        "vereador-jose-diniz",
-        "aeroporto-de-congonhas",
-        "brooklin-paulista",
-        "chucri-zaidan",
-        "morumbi-claro",
-        "panambi",
-        "paraisopolis",
-        "americo-maurano",
+        "sao-paulo-morumbi",
         "estadio-morumbi",
-        "sao-paulo-morumbi"
+        "americo-maurano",
+        "paraisopolis",
+        "panambi",
+        "morumbi-claro",
+        "chucri-zaidan",
+        "brooklin-paulista",
+        "aeroporto-de-congonhas",
+        "vereador-jose-diniz",
+        "campo-belo",
+        "vila-cordeiro",
+        "washington-luis",
+        "vila-paulista",
+        "vila-babilonia",
+        "cidade-leonor",
+        "hospital-saboia",
+        "jabaquara-comite-paralimpico-brasileiro"
       ],
       "station_order": {
-        "value": "osm",
-        "source": "osm",
-        "confidence": "C",
+        "value": "gtfs_sptrans",
+        "source": "gtfs_sptrans",
+        "confidence": "A",
         "alternatives": []
       },
       "geometry": {
@@ -56143,7 +56155,14 @@
         ],
         "source": "osm",
         "confidence": "C",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "5.999 km",
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "traçado alternativo, não usado"
+          }
+        ]
       },
       "planned_geometry": {
         "value": [
@@ -57220,6 +57239,7 @@
       },
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm"
       ]
     },
@@ -62405,222 +62425,6 @@
       "planned_length_km": null,
       "observed_by": [
         "osm"
-      ]
-    },
-    {
-      "id": "aeroporto-de-congonhas-morumbi",
-      "slug": "aeroporto-de-congonhas-morumbi",
-      "name": {
-        "value": "Aeroporto de Congonhas - Morumbi",
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "number": null,
-      "colour": null,
-      "mode": {
-        "value": "subway",
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "operator": null,
-      "status": {
-        "value": "operational",
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "stations": [
-        "morumbi-claro",
-        "chucri-zaidan",
-        "vila-cordeiro",
-        "campo-belo",
-        "vereador-jose-diniz",
-        "brooklin-paulista",
-        "aeroporto-de-congonhas"
-      ],
-      "station_order": {
-        "value": "gtfs_sptrans",
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "geometry": {
-        "value": [
-          [
-            [
-              -46.702846,
-              -23.622462
-            ],
-            [
-              -46.701834,
-              -23.621602
-            ],
-            [
-              -46.701043,
-              -23.620571
-            ],
-            [
-              -46.700691,
-              -23.619635
-            ],
-            [
-              -46.700452,
-              -23.618025
-            ],
-            [
-              -46.700162,
-              -23.61727
-            ],
-            [
-              -46.699947,
-              -23.616912
-            ],
-            [
-              -46.699779,
-              -23.616354
-            ],
-            [
-              -46.699214,
-              -23.613891
-            ],
-            [
-              -46.698983,
-              -23.613659
-            ],
-            [
-              -46.698785,
-              -23.613573
-            ],
-            [
-              -46.698215,
-              -23.613532
-            ],
-            [
-              -46.694575,
-              -23.614136
-            ],
-            [
-              -46.692091,
-              -23.61484
-            ],
-            [
-              -46.690564,
-              -23.614915
-            ],
-            [
-              -46.689232,
-              -23.615327
-            ],
-            [
-              -46.687291,
-              -23.616123
-            ],
-            [
-              -46.685016,
-              -23.6174
-            ],
-            [
-              -46.679444,
-              -23.62153
-            ],
-            [
-              -46.678402,
-              -23.622504
-            ],
-            [
-              -46.677877,
-              -23.623096
-            ],
-            [
-              -46.677373,
-              -23.623825
-            ],
-            [
-              -46.675957,
-              -23.626447
-            ],
-            [
-              -46.67455,
-              -23.628466
-            ],
-            [
-              -46.673586,
-              -23.629562
-            ],
-            [
-              -46.673419,
-              -23.629652
-            ],
-            [
-              -46.670983,
-              -23.63201
-            ],
-            [
-              -46.670612,
-              -23.632297
-            ],
-            [
-              -46.670089,
-              -23.632372
-            ],
-            [
-              -46.669728,
-              -23.632197
-            ],
-            [
-              -46.669524,
-              -23.631958
-            ],
-            [
-              -46.66903,
-              -23.63091
-            ],
-            [
-              -46.668703,
-              -23.630398
-            ],
-            [
-              -46.668267,
-              -23.629888
-            ],
-            [
-              -46.667836,
-              -23.629582
-            ],
-            [
-              -46.667021,
-              -23.629252
-            ],
-            [
-              -46.662533,
-              -23.628039
-            ],
-            [
-              -46.662217,
-              -23.627782
-            ],
-            [
-              -46.661866,
-              -23.626914
-            ]
-          ]
-        ],
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "planned_geometry": null,
-      "length_km": {
-        "value": 5.999,
-        "source": "gtfs_sptrans",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "planned_length_km": null,
-      "observed_by": [
-        "gtfs_sptrans"
       ]
     },
     {
@@ -82097,77 +81901,6 @@
       "observed_by": [
         "osm"
       ]
-    },
-    {
-      "id": "washington-luis-brooklin-paulista",
-      "slug": "washington-luis-brooklin-paulista",
-      "name": {
-        "value": "Washington Luís - Brooklin Paulista",
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "number": null,
-      "colour": null,
-      "mode": {
-        "value": "subway",
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "operator": null,
-      "status": {
-        "value": "operational",
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "stations": [
-        "brooklin-paulista",
-        "washington-luis"
-      ],
-      "station_order": {
-        "value": "gtfs_sptrans",
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "geometry": {
-        "value": [
-          [
-            [
-              -46.673586,
-              -23.629562
-            ],
-            [
-              -46.670418,
-              -23.632642
-            ],
-            [
-              -46.669753,
-              -23.63359
-            ],
-            [
-              -46.668336,
-              -23.634489
-            ]
-          ]
-        ],
-        "source": "gtfs_sptrans",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "planned_geometry": null,
-      "length_km": {
-        "value": 0.771,
-        "source": "gtfs_sptrans",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "planned_length_km": null,
-      "observed_by": [
-        "gtfs_sptrans"
-      ]
     }
   ],
   "stations": [
@@ -82635,8 +82368,7 @@
         ]
       },
       "lines": [
-        "linha-17",
-        "aeroporto-de-congonhas-morumbi"
+        "linha-17"
       ],
       "status": {
         "value": "operational",
@@ -82684,7 +82416,7 @@
         "geosampa_id": "106",
         "metro_code": "CGN"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -85907,9 +85639,7 @@
         ]
       },
       "lines": [
-        "linha-17",
-        "aeroporto-de-congonhas-morumbi",
-        "washington-luis-brooklin-paulista"
+        "linha-17"
       ],
       "status": {
         "value": "operational",
@@ -85947,7 +85677,7 @@
         "geosampa_id": "100",
         "metro_code": "BPA"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -86429,8 +86159,7 @@
       },
       "lines": [
         "linha-5",
-        "linha-17",
-        "aeroporto-de-congonhas-morumbi"
+        "linha-17"
       ],
       "status": {
         "value": "operational",
@@ -87587,8 +87316,7 @@
         ]
       },
       "lines": [
-        "linha-17",
-        "aeroporto-de-congonhas-morumbi"
+        "linha-17"
       ],
       "status": {
         "value": "operational",
@@ -87631,7 +87359,7 @@
         "geosampa_id": "104",
         "metro_code": "CZD"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -90639,10 +90367,16 @@
         "linha-6"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -93639,10 +93373,16 @@
         "linha-15"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -94885,10 +94625,16 @@
         "linha-6"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -95990,21 +95736,21 @@
           },
           {
             "value": {
-              "lat": -23.53509,
-              "lon": -46.63528
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "260 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.537629,
               "lon": -46.63361
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "81 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.53509,
+              "lon": -46.63528
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "260 m de distância"
           },
           {
             "value": {
@@ -96064,12 +95810,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1867-02-16",
+        "value": "1975-09-26",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1975-09-26",
+            "value": "1867-02-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -96078,7 +95824,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q2983699",
+        "wikidata": "Q15243160",
         "osm": "node/5368677484",
         "gtfs_stop_id": "18872",
         "gtfs_route_id": null,
@@ -97041,8 +96787,7 @@
       },
       "lines": [
         "linha-9",
-        "linha-17",
-        "aeroporto-de-congonhas-morumbi"
+        "linha-17"
       ],
       "status": {
         "value": "operational",
@@ -97786,12 +97531,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1988-12-17",
+        "value": "1988-12-18",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1988-12-18",
+            "value": "1988-12-17",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -99079,10 +98824,16 @@
         "linha-6"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -99349,21 +99100,21 @@
           },
           {
             "value": {
-              "lat": -23.56649,
-              "lon": -46.70304
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "157 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.56726,
               "lon": -46.70193
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "25 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56649,
+              "lon": -46.70304
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "157 m de distância"
           },
           {
             "value": {
@@ -99408,12 +99159,12 @@
         "alternatives": []
       },
       "opened": {
-        "value": "1957-01-25",
+        "value": "2011-05-16",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "2011-05-16",
+            "value": "1957-01-25",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -101994,10 +101745,16 @@
         "linha-20"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -104245,10 +104002,16 @@
         "linha-6"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -106273,8 +106036,7 @@
         ]
       },
       "lines": [
-        "linha-17",
-        "aeroporto-de-congonhas-morumbi"
+        "linha-17"
       ],
       "status": {
         "value": "operational",
@@ -106317,7 +106079,7 @@
         "geosampa_id": "101",
         "metro_code": "VJD"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -106761,8 +106523,7 @@
         ]
       },
       "lines": [
-        "linha-17",
-        "aeroporto-de-congonhas-morumbi"
+        "linha-17"
       ],
       "status": {
         "value": "operational",
@@ -106800,7 +106561,7 @@
         "geosampa_id": "103",
         "metro_code": "VCD"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -108161,14 +107922,19 @@
         ]
       },
       "lines": [
-        "linha-17",
-        "washington-luis-brooklin-paulista"
+        "linha-17"
       ],
       "status": {
-        "value": "planned",
-        "source": "geosampa",
-        "confidence": "A",
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
           {
             "value": "operational",
             "source": "osm",
@@ -108199,7 +107965,7 @@
         "geosampa_id": "99",
         "metro_code": "JDA"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",

@@ -2736,12 +2736,22 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "73 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.61854,
+              "lon": -46.683429
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "123 m de distância"
           }
         ]
       },
       "lines": [
         "linha-5",
-        "linha-17"
+        "linha-17",
+        "aeroporto-de-congonhas-morumbi"
       ],
       "status": {
         "value": "operational",

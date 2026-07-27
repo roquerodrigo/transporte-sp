@@ -2040,6 +2040,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "15 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.514102,
+              "lon": -46.691658
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "47 m de distância"
           }
         ]
       },
@@ -2048,16 +2057,10 @@
         "linha-20"
       ],
       "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
+        "value": "planned",
+        "source": "geosampa",
+        "confidence": "A",
         "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "ainda projetada nesta fonte"
-          },
           {
             "value": "operational",
             "source": "osm",
@@ -2088,7 +2091,7 @@
       "external_ids": {
         "wikidata": "Q41344200",
         "osm": "way/529089113",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "2914647",
         "gtfs_route_id": null,
         "geosampa_id": "124",
         "metro_code": "STM"
@@ -2096,6 +2099,7 @@
       "is_interchange": true,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]

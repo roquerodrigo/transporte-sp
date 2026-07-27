@@ -15880,6 +15880,10 @@
               -23.5258987
             ],
             [
+              -46.666649,
+              -23.5258662
+            ],
+            [
               -46.6666679,
               -23.5258647
             ],
@@ -18396,6 +18400,10 @@
             [
               -46.6686771,
               -23.5257419
+            ],
+            [
+              -46.668647,
+              -23.5257442
             ],
             [
               -46.6674923,
@@ -31235,7 +31243,7 @@
         "colour": "#2CA05A",
         "mode": "commuter_rail",
         "status": "operational",
-        "operator": "Companhia Paulista de Trens Metropolitanos",
+        "operator": "Trivia Trens",
         "length_km": 9.336
       }
     },
@@ -31833,7 +31841,7 @@
         "colour": "#2CA05A",
         "mode": "commuter_rail",
         "status": "planned",
-        "operator": "Companhia Paulista de Trens Metropolitanos",
+        "operator": "Trivia Trens",
         "length_km": 36.01
       }
     },
@@ -60624,6 +60632,184 @@
         "coordinates": [
           [
             [
+              -46.702846,
+              -23.622462
+            ],
+            [
+              -46.701834,
+              -23.621602
+            ],
+            [
+              -46.701043,
+              -23.620571
+            ],
+            [
+              -46.700691,
+              -23.619635
+            ],
+            [
+              -46.700452,
+              -23.618025
+            ],
+            [
+              -46.700162,
+              -23.61727
+            ],
+            [
+              -46.699947,
+              -23.616912
+            ],
+            [
+              -46.699779,
+              -23.616354
+            ],
+            [
+              -46.699214,
+              -23.613891
+            ],
+            [
+              -46.698983,
+              -23.613659
+            ],
+            [
+              -46.698785,
+              -23.613573
+            ],
+            [
+              -46.698215,
+              -23.613532
+            ],
+            [
+              -46.694575,
+              -23.614136
+            ],
+            [
+              -46.692091,
+              -23.61484
+            ],
+            [
+              -46.690564,
+              -23.614915
+            ],
+            [
+              -46.689232,
+              -23.615327
+            ],
+            [
+              -46.687291,
+              -23.616123
+            ],
+            [
+              -46.685016,
+              -23.6174
+            ],
+            [
+              -46.679444,
+              -23.62153
+            ],
+            [
+              -46.678402,
+              -23.622504
+            ],
+            [
+              -46.677877,
+              -23.623096
+            ],
+            [
+              -46.677373,
+              -23.623825
+            ],
+            [
+              -46.675957,
+              -23.626447
+            ],
+            [
+              -46.67455,
+              -23.628466
+            ],
+            [
+              -46.673586,
+              -23.629562
+            ],
+            [
+              -46.673419,
+              -23.629652
+            ],
+            [
+              -46.670983,
+              -23.63201
+            ],
+            [
+              -46.670612,
+              -23.632297
+            ],
+            [
+              -46.670089,
+              -23.632372
+            ],
+            [
+              -46.669728,
+              -23.632197
+            ],
+            [
+              -46.669524,
+              -23.631958
+            ],
+            [
+              -46.66903,
+              -23.63091
+            ],
+            [
+              -46.668703,
+              -23.630398
+            ],
+            [
+              -46.668267,
+              -23.629888
+            ],
+            [
+              -46.667836,
+              -23.629582
+            ],
+            [
+              -46.667021,
+              -23.629252
+            ],
+            [
+              -46.662533,
+              -23.628039
+            ],
+            [
+              -46.662217,
+              -23.627782
+            ],
+            [
+              -46.661866,
+              -23.626914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "line",
+        "id": "aeroporto-de-congonhas-morumbi",
+        "slug": "aeroporto-de-congonhas-morumbi",
+        "name": "Aeroporto de Congonhas - Morumbi",
+        "number": null,
+        "colour": null,
+        "mode": "subway",
+        "status": "operational",
+        "operator": null,
+        "length_km": 5.999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
               -46.84966621,
               -23.49872856
             ],
@@ -75205,7 +75391,7 @@
         "colour": null,
         "mode": "commuter_rail",
         "status": "partial",
-        "operator": "Companhia Paulista de Trens Metropolitanos",
+        "operator": "Trivia Trens",
         "length_km": 29.081
       }
     },
@@ -75747,7 +75933,7 @@
         "colour": null,
         "mode": "commuter_rail",
         "status": "planned",
-        "operator": "Companhia Paulista de Trens Metropolitanos",
+        "operator": "Trivia Trens",
         "length_km": 28.065
       }
     },
@@ -79134,6 +79320,44 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -46.673586,
+              -23.629562
+            ],
+            [
+              -46.670418,
+              -23.632642
+            ],
+            [
+              -46.669753,
+              -23.63359
+            ],
+            [
+              -46.668336,
+              -23.634489
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "line",
+        "id": "washington-luis-brooklin-paulista",
+        "slug": "washington-luis-brooklin-paulista",
+        "name": "Washington Luís - Brooklin Paulista",
+        "number": null,
+        "colour": null,
+        "mode": "subway",
+        "status": "operational",
+        "operator": null,
+        "length_km": 0.771
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Point",
         "coordinates": [
           -46.64924784,
@@ -79321,14 +79545,16 @@
         "slug": "aeroporto-de-congonhas",
         "name": "Aeroporto de Congonhas",
         "lines": [
-          "linha-17"
+          "linha-17",
+          "aeroporto-de-congonhas-morumbi"
         ],
         "modes": [
-          "monorail"
+          "monorail",
+          "subway"
         ],
         "status": "operational",
         "code": "CGN",
-        "interchange": false
+        "interchange": true
       }
     },
     {
@@ -79344,7 +79570,7 @@
         "kind": "station",
         "id": "aeroporto-guarulhos",
         "slug": "aeroporto-guarulhos",
-        "name": "Aeroporto-Guarulhos",
+        "name": "Aeroporto–Guarulhos",
         "lines": [
           "linha-13",
           "expresso-aeroporto"
@@ -80412,14 +80638,17 @@
         "slug": "brooklin-paulista",
         "name": "Brooklin Paulista",
         "lines": [
-          "linha-17"
+          "linha-17",
+          "aeroporto-de-congonhas-morumbi",
+          "washington-luis-brooklin-paulista"
         ],
         "modes": [
-          "monorail"
+          "monorail",
+          "subway"
         ],
         "status": "operational",
         "code": "BPA",
-        "interchange": false
+        "interchange": true
       }
     },
     {
@@ -80564,7 +80793,8 @@
         "name": "Campo Belo",
         "lines": [
           "linha-5",
-          "linha-17"
+          "linha-17",
+          "aeroporto-de-congonhas-morumbi"
         ],
         "modes": [
           "monorail",
@@ -80920,14 +81150,16 @@
         "slug": "chucri-zaidan",
         "name": "Chucri Zaidan",
         "lines": [
-          "linha-17"
+          "linha-17",
+          "aeroporto-de-congonhas-morumbi"
         ],
         "modes": [
-          "monorail"
+          "monorail",
+          "subway"
         ],
         "status": "operational",
         "code": "CZD",
-        "interchange": false
+        "interchange": true
       }
     },
     {
@@ -82034,7 +82266,7 @@
         "modes": [
           "subway"
         ],
-        "status": "operational",
+        "status": "planned",
         "code": "FRE",
         "interchange": false
       }
@@ -83669,7 +83901,7 @@
         "modes": [
           "subway"
         ],
-        "status": "operational",
+        "status": "planned",
         "code": "JPI",
         "interchange": false
       }
@@ -84375,11 +84607,13 @@
         "name": "Morumbi - Claro",
         "lines": [
           "linha-9",
-          "linha-17"
+          "linha-17",
+          "aeroporto-de-congonhas-morumbi"
         ],
         "modes": [
           "commuter_rail",
-          "monorail"
+          "monorail",
+          "subway"
         ],
         "status": "operational",
         "code": "MRB",
@@ -85147,7 +85381,7 @@
         "modes": [
           "subway"
         ],
-        "status": "operational",
+        "status": "planned",
         "code": null,
         "interchange": false
       }
@@ -86206,7 +86440,7 @@
         "modes": [
           "subway"
         ],
-        "status": "operational",
+        "status": "planned",
         "code": "STM",
         "interchange": true
       }
@@ -86897,7 +87131,7 @@
         "modes": [
           "subway"
         ],
-        "status": "operational",
+        "status": "planned",
         "code": null,
         "interchange": false
       }
@@ -87628,14 +87862,16 @@
         "slug": "vereador-jose-diniz",
         "name": "Vereador José Diniz",
         "lines": [
-          "linha-17"
+          "linha-17",
+          "aeroporto-de-congonhas-morumbi"
         ],
         "modes": [
-          "monorail"
+          "monorail",
+          "subway"
         ],
         "status": "operational",
         "code": "VJD",
-        "interchange": false
+        "interchange": true
       }
     },
     {
@@ -87803,14 +88039,16 @@
         "slug": "vila-cordeiro",
         "name": "Vila Cordeiro",
         "lines": [
-          "linha-17"
+          "linha-17",
+          "aeroporto-de-congonhas-morumbi"
         ],
         "modes": [
-          "monorail"
+          "monorail",
+          "subway"
         ],
         "status": "operational",
         "code": "VCD",
-        "interchange": false
+        "interchange": true
       }
     },
     {
@@ -88280,14 +88518,16 @@
         "slug": "washington-luis",
         "name": "Washington Luís",
         "lines": [
-          "linha-17"
+          "linha-17",
+          "washington-luis-brooklin-paulista"
         ],
         "modes": [
-          "monorail"
+          "monorail",
+          "subway"
         ],
         "status": "planned",
         "code": "JDA",
-        "interchange": false
+        "interchange": true
       }
     },
     {

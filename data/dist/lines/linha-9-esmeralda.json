@@ -3307,12 +3307,22 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "40 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622447,
+              "lon": -46.702799
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "120 m de distância"
           }
         ]
       },
       "lines": [
         "linha-9",
-        "linha-17"
+        "linha-17",
+        "aeroporto-de-congonhas-morumbi"
       ],
       "status": {
         "value": "operational",
@@ -4004,21 +4014,21 @@
           },
           {
             "value": {
-              "lat": -23.56726,
-              "lon": -46.70193
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "25 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.56649,
               "lon": -46.70304
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "157 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56726,
+              "lon": -46.70193
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "25 m de distância"
           },
           {
             "value": {
@@ -4063,12 +4073,12 @@
         "alternatives": []
       },
       "opened": {
-        "value": "2011-05-16",
+        "value": "1957-01-25",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1957-01-25",
+            "value": "2011-05-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null

@@ -14,28 +14,28 @@ import Situacao from "@components/Situacao.astro";
 
 ## Estações
 
-### Em operação (8)
+### Em operação (3)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
-| 3 | [SESC-Pompeia](/estacao/sesc-pompeia/) | — | <Situacao valor="operational" /> | — |
 | 4 | [Água Branca](/estacao/agua-branca/) | ABR | <Situacao valor="operational" /> | [Linha 7 - Rubi](/linhas/linha-7-rubi/) |
-| 5 | [Santa Marina](/estacao/santa-marina/) | STM | <Situacao valor="operational" /> | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
-| 6 | [Freguesia do Ó](/estacao/freguesia-do-o/) | FRE | <Situacao valor="operational" /> | — |
-| 7 | [João Paulo I](/estacao/joao-paulo-i/) | JPI | <Situacao valor="operational" /> | — |
-| 11 | [Perdizes](/estacao/perdizes/) | — | <Situacao valor="operational" /> | — |
 | 14 | [Higienópolis-Mackenzie](/estacao/higienopolis-mackenzie/) | HIG | <Situacao valor="operational" /> | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
 | 17 | [São Joaquim](/estacao/sao-joaquim/) | JQM | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/) |
 
-### Projetada (13)
+### Projetada (18)
 
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
 | 1 | [Velha Campinas](/estacao/velha-campinas/) | — | <Situacao valor="planned" /> | — |
 | 2 | [Morro Grande](/estacao/morro-grande/) | — | <Situacao valor="planned" /> | — |
+| 3 | [SESC-Pompeia](/estacao/sesc-pompeia/) | — | <Situacao valor="planned" /> | — |
+| 5 | [Santa Marina](/estacao/santa-marina/) | STM | <Situacao valor="planned" /> | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
+| 6 | [Freguesia do Ó](/estacao/freguesia-do-o/) | FRE | <Situacao valor="planned" /> | — |
+| 7 | [João Paulo I](/estacao/joao-paulo-i/) | JPI | <Situacao valor="planned" /> | — |
 | 8 | [Brasilândia](/estacao/brasilandia/) | — | <Situacao valor="planned" /> | — |
 | 9 | [Maristela](/estacao/maristela/) | — | <Situacao valor="planned" /> | — |
 | 10 | [Itaberaba / Hospital Vila Penteado](/estacao/itaberaba-hospital-vila-penteado/) | ITB | <Situacao valor="planned" /> | — |
+| 11 | [Perdizes](/estacao/perdizes/) | — | <Situacao valor="planned" /> | — |
 | 12 | [PUC-Cardoso de Almeida](/estacao/puc-cardoso-de-almeida/) | — | <Situacao valor="planned" /> | — |
 | 13 | [FAAP-Pacaembu](/estacao/faap-pacaembu/) | — | <Situacao valor="planned" /> | — |
 | 15 | [14 Bis – Saracura](/estacao/14-bis-saracura/) | — | <Situacao valor="planned" /> | — |
@@ -45,7 +45,7 @@ import Situacao from "@components/Situacao.astro";
 | 20 | [Vila Monumento](/estacao/vila-monumento/) | — | <Situacao valor="planned" /> | — |
 | 21 | [São Carlos](/estacao/sao-carlos/) | — | <Situacao valor="planned" /> | [Linha 13 - Jade](/linhas/linha-13-jade/), [Linha 16 - Violeta](/linhas/linha-16-violeta/) |
 
-A ordem das estações vem de OpenStreetMap.
+A ordem das estações vem de GTFS SPTrans.
 
 
 
@@ -54,10 +54,10 @@ A ordem das estações vem de OpenStreetMap.
 | Campo | Valor | Procedência | Outras leituras |
 | --- | --- | --- | --- |
 | Nome | Laranja | <Origem fonte="geosampa" nivel="A" /> | — |
-| Situação | Operação parcial | <Origem fonte="pipeline" nivel="E" /> | Em operação <Origem fonte="osm" nivel="C" /><br />Projetada <Origem fonte="geosampa" nivel="A" /> |
-| Número | 6 | <Origem fonte="osm" nivel="C" /> | — |
+| Situação | Operação parcial | <Origem fonte="pipeline" nivel="E" /> | Em operação <Origem fonte="gtfs_sptrans" nivel="A" /><br />Em operação <Origem fonte="osm" nivel="C" /><br />Projetada <Origem fonte="geosampa" nivel="A" /> |
+| Número | 6 | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |
 | Cor | #F96815 | <Origem fonte="osm" nivel="C" /> | — |
 | Modo | Metrô | <Origem fonte="osm" nivel="C" /> | — |
 | Operadora | Companhia do Metropolitano de São Paulo | <Origem fonte="osm" nivel="C" /> | LINHAUNI <Origem fonte="geosampa" nivel="A" /> |
 | Extensão | 4,9 km | <Origem fonte="osm" nivel="E" /> | — |
-| Ordem das estações | OpenStreetMap | <Origem fonte="osm" nivel="C" /> | — |
+| Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

@@ -2269,11 +2269,21 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "59 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.634483,
+              "lon": -46.668348
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "37 m de distância"
           }
         ]
       },
       "lines": [
-        "linha-17"
+        "linha-17",
+        "washington-luis-brooklin-paulista"
       ],
       "status": {
         "value": "planned",
@@ -2305,14 +2315,15 @@
       "external_ids": {
         "wikidata": "Q28680824",
         "osm": "way/671909903",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "1506223",
         "gtfs_route_id": null,
         "geosampa_id": "99",
         "metro_code": "JDA"
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -2351,11 +2362,21 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "40 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.615585,
+              "lon": -46.688565
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "46 m de distância"
           }
         ]
       },
       "lines": [
-        "linha-17"
+        "linha-17",
+        "aeroporto-de-congonhas-morumbi"
       ],
       "status": {
         "value": "operational",
@@ -2388,14 +2409,15 @@
       "external_ids": {
         "wikidata": "Q18475857",
         "osm": "way/506475778",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "3407225",
         "gtfs_route_id": null,
         "geosampa_id": "103",
         "metro_code": "VCD"
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -2452,12 +2474,22 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "73 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.61854,
+              "lon": -46.683429
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "123 m de distância"
           }
         ]
       },
       "lines": [
         "linha-5",
-        "linha-17"
+        "linha-17",
+        "aeroporto-de-congonhas-morumbi"
       ],
       "status": {
         "value": "operational",
@@ -2548,11 +2580,21 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "48 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.62209,
+              "lon": -46.678848
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "21 m de distância"
           }
         ]
       },
       "lines": [
-        "linha-17"
+        "linha-17",
+        "aeroporto-de-congonhas-morumbi"
       ],
       "status": {
         "value": "operational",
@@ -2590,14 +2632,15 @@
       "external_ids": {
         "wikidata": "Q19707412",
         "osm": "way/671909899",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "1506220",
         "gtfs_route_id": null,
         "geosampa_id": "101",
         "metro_code": "VJD"
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -2643,11 +2686,21 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "42 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.626925,
+              "lon": -46.661869
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "48 m de distância"
           }
         ]
       },
       "lines": [
-        "linha-17"
+        "linha-17",
+        "aeroporto-de-congonhas-morumbi"
       ],
       "status": {
         "value": "operational",
@@ -2690,14 +2743,15 @@
       "external_ids": {
         "wikidata": "Q18475293",
         "osm": "way/698751459",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "1506222",
         "gtfs_route_id": null,
         "geosampa_id": "106",
         "metro_code": "CGN"
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -2736,11 +2790,31 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "7 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.629637,
+              "lon": -46.673561
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "15 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.629594,
+              "lon": -46.673505
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "15 m de distância"
           }
         ]
       },
       "lines": [
-        "linha-17"
+        "linha-17",
+        "aeroporto-de-congonhas-morumbi",
+        "washington-luis-brooklin-paulista"
       ],
       "status": {
         "value": "operational",
@@ -2773,14 +2847,15 @@
       "external_ids": {
         "wikidata": "Q18475266",
         "osm": "way/1494475327",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "1506221",
         "gtfs_route_id": null,
         "geosampa_id": "100",
         "metro_code": "BPA"
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -2835,11 +2910,21 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "75 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.613987,
+              "lon": -46.695494
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "53 m de distância"
           }
         ]
       },
       "lines": [
-        "linha-17"
+        "linha-17",
+        "aeroporto-de-congonhas-morumbi"
       ],
       "status": {
         "value": "operational",
@@ -2877,14 +2962,15 @@
       "external_ids": {
         "wikidata": "Q18475286",
         "osm": "way/1494656556",
-        "gtfs_stop_id": null,
+        "gtfs_stop_id": "3407224",
         "gtfs_route_id": null,
         "geosampa_id": "104",
         "metro_code": "CZD"
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa",
+        "gtfs_sptrans",
         "osm",
         "wikidata"
       ]
@@ -2957,12 +3043,22 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "40 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622447,
+              "lon": -46.702799
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "120 m de distância"
           }
         ]
       },
       "lines": [
         "linha-9",
-        "linha-17"
+        "linha-17",
+        "aeroporto-de-congonhas-morumbi"
       ],
       "status": {
         "value": "operational",

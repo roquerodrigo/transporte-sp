@@ -4967,12 +4967,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1988-12-18",
+        "value": "1988-12-17",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1988-12-17",
+            "value": "1988-12-18",
             "source": "wikidata",
             "confidence": "C",
             "note": null

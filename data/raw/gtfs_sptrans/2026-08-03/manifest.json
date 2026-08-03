@@ -1,0 +1,9 @@
+{
+  "gtfs.zip": {
+    "bytes": 14216598,
+    "fetched_at": "2026-08-03T08:52:58+00:00",
+    "licence": "public-record (Lei 12.527/2011)",
+    "sha256": "a805b20e15ee80cc75191e367b390353876218004b0e65f91864f3454f9e8f2d",
+    "url": "https://www.sptrans.com.br/umbraco/Surface/PerfilDesenvolvedor/BaixarGTFS"
+  }
+}

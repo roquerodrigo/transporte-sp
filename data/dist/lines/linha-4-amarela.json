@@ -1064,21 +1064,21 @@
           },
           {
             "value": {
-              "lat": -23.537629,
-              "lon": -46.63361
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "81 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.53509,
               "lon": -46.63528
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "260 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.537629,
+              "lon": -46.63361
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "81 m de distância"
           },
           {
             "value": {
@@ -1138,12 +1138,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1975-09-26",
+        "value": "1867-02-16",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1867-02-16",
+            "value": "1975-09-26",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -1152,7 +1152,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q15243160",
+        "wikidata": "Q2983699",
         "osm": "node/5368677484",
         "gtfs_stop_id": "18872",
         "gtfs_route_id": null,
@@ -1848,21 +1848,21 @@
           },
           {
             "value": {
-              "lat": -23.56726,
-              "lon": -46.70193
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "25 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.56649,
               "lon": -46.70304
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "157 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56726,
+              "lon": -46.70193
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "25 m de distância"
           },
           {
             "value": {
@@ -1907,12 +1907,12 @@
         "alternatives": []
       },
       "opened": {
-        "value": "2011-05-16",
+        "value": "1957-01-25",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1957-01-25",
+            "value": "2011-05-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null

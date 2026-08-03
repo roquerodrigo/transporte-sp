@@ -18,7 +18,14 @@
       "value": "#F96815",
       "source": "osm",
       "confidence": "C",
-      "alternatives": []
+      "alternatives": [
+        {
+          "value": "#FF6600",
+          "source": "gtfs_sptrans",
+          "confidence": "A",
+          "note": null
+        }
+      ]
     },
     "mode": {
       "value": "subway",

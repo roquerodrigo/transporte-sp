@@ -18,7 +18,14 @@
       "value": "#DE7C00",
       "source": "osm",
       "confidence": "C",
-      "alternatives": []
+      "alternatives": [
+        {
+          "value": "#D48500",
+          "source": "gtfs_sptrans",
+          "confidence": "A",
+          "note": null
+        }
+      ]
     },
     "mode": {
       "value": "monorail",

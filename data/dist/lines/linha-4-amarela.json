@@ -1848,21 +1848,21 @@
           },
           {
             "value": {
-              "lat": -23.56649,
-              "lon": -46.70304
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "157 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.56726,
               "lon": -46.70193
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "25 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56649,
+              "lon": -46.70304
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "157 m de distância"
           },
           {
             "value": {
@@ -1907,12 +1907,12 @@
         "alternatives": []
       },
       "opened": {
-        "value": "1957-01-25",
+        "value": "2011-05-16",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "2011-05-16",
+            "value": "1957-01-25",
             "source": "wikidata",
             "confidence": "C",
             "note": null

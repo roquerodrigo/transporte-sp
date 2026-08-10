@@ -3405,21 +3405,21 @@
           },
           {
             "value": {
-              "lat": -23.59447,
-              "lon": -46.587932
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "239 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.592412,
               "lon": -46.589685
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "60 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.59447,
+              "lon": -46.587932
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "239 m de distância"
           },
           {
             "value": {
@@ -3461,12 +3461,12 @@
         "alternatives": []
       },
       "code": {
-        "value": "TTI",
+        "value": "TMD",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "TMD",
+            "value": "TTI",
             "source": "wikidata",
             "confidence": "C",
             "note": null

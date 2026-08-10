@@ -4891,12 +4891,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1988-12-17",
+        "value": "1988-12-18",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1988-12-18",
+            "value": "1988-12-17",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -5482,21 +5482,21 @@
           },
           {
             "value": {
-              "lat": -23.32979,
-              "lon": -46.72642
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "21 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.32825645,
               "lon": -46.7257481
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "163 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.32979,
+              "lon": -46.72642
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -5526,12 +5526,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "2014-05-10",
+        "value": "1888-02-01",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1888-02-01",
+            "value": "2014-05-10",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -5540,7 +5540,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q48855762",
+        "wikidata": "Q8778987",
         "osm": "node/6666778888",
         "gtfs_stop_id": "18925",
         "gtfs_route_id": null,

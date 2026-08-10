@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03",
+  "generated_at": "2026-08-10",
   "bbox": [
     -47.6,
     -24.2,
@@ -13,7 +13,7 @@
       "url": "",
       "licence": "CC-BY-SA-4.0",
       "confidence": "A",
-      "fetched_at": "2026-08-03",
+      "fetched_at": "2026-08-10",
       "sha256": null
     },
     {
@@ -22,7 +22,7 @@
       "url": "",
       "licence": "public-record (Lei 12.527/2011)",
       "confidence": "A",
-      "fetched_at": "2026-08-03",
+      "fetched_at": "2026-08-10",
       "sha256": null
     },
     {
@@ -31,7 +31,7 @@
       "url": "",
       "licence": "ODbL-1.0",
       "confidence": "C",
-      "fetched_at": "2026-08-03",
+      "fetched_at": "2026-08-10",
       "sha256": null
     },
     {
@@ -40,7 +40,7 @@
       "url": "",
       "licence": "CC0-1.0",
       "confidence": "C",
-      "fetched_at": "2026-08-03",
+      "fetched_at": "2026-08-10",
       "sha256": null
     }
   ],
@@ -79197,8 +79197,8 @@
               -23.9685037
             ],
             [
-              -46.3700351,
-              -23.9686061
+              -46.3700355,
+              -23.9686063
             ],
             [
               -46.3696476,
@@ -80807,8 +80807,8 @@
               -23.9685037
             ],
             [
-              -46.3700351,
-              -23.9686061
+              -46.3700355,
+              -23.9686063
             ],
             [
               -46.3696476,
@@ -90258,21 +90258,21 @@
           },
           {
             "value": {
-              "lat": -23.32979,
-              "lon": -46.72642
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "21 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.32825645,
               "lon": -46.7257481
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "163 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.32979,
+              "lon": -46.72642
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -90302,12 +90302,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "2014-05-10",
+        "value": "1888-02-01",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1888-02-01",
+            "value": "2014-05-10",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -90316,7 +90316,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q48855762",
+        "wikidata": "Q8778987",
         "osm": "node/6666778888",
         "gtfs_stop_id": "18925",
         "gtfs_route_id": null,
@@ -96763,21 +96763,21 @@
           },
           {
             "value": {
-              "lat": -23.622486,
-              "lon": -46.70269
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "114 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.621593,
               "lon": -46.701642
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "34 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622486,
+              "lon": -46.70269
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "114 m de distância"
           },
           {
             "value": {
@@ -97545,12 +97545,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1988-12-17",
+        "value": "1988-12-18",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1988-12-18",
+            "value": "1988-12-17",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -99114,21 +99114,21 @@
           },
           {
             "value": {
-              "lat": -23.56649,
-              "lon": -46.70304
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "157 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.56726,
               "lon": -46.70193
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "25 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56649,
+              "lon": -46.70304
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "157 m de distância"
           },
           {
             "value": {
@@ -99173,12 +99173,12 @@
         "alternatives": []
       },
       "opened": {
-        "value": "1957-01-25",
+        "value": "2011-05-16",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "2011-05-16",
+            "value": "1957-01-25",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -104508,21 +104508,21 @@
           },
           {
             "value": {
-              "lat": -23.59447,
-              "lon": -46.587932
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "239 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.592412,
               "lon": -46.589685
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "60 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.59447,
+              "lon": -46.587932
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "239 m de distância"
           },
           {
             "value": {
@@ -104564,12 +104564,12 @@
         "alternatives": []
       },
       "code": {
-        "value": "TTI",
+        "value": "TMD",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "TMD",
+            "value": "TTI",
             "source": "wikidata",
             "confidence": "C",
             "note": null

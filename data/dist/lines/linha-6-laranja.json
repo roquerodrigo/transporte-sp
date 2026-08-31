@@ -5122,21 +5122,21 @@
           },
           {
             "value": {
-              "lat": -23.5213,
-              "lon": -46.6893
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "30 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.52074,
               "lon": -46.68835
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "105 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5213,
+              "lon": -46.6893
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "30 m de distância"
           },
           {
             "value": {
@@ -5183,12 +5183,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1867-02-16",
+        "value": "2026-07-02",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "2026-07-02",
+            "value": "1867-02-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -5197,7 +5197,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q8842747",
+        "wikidata": "Q85817186",
         "osm": null,
         "gtfs_stop_id": "18919",
         "gtfs_route_id": null,
@@ -5934,12 +5934,12 @@
           },
           {
             "value": {
-              "lat": -23.5489592,
-              "lon": -46.6523049
+              "lat": -23.548687,
+              "lon": -46.6523419
             },
             "source": "osm",
             "confidence": "C",
-            "note": "5 m de distância"
+            "note": "31 m de distância"
           },
           {
             "value": {
@@ -6008,7 +6008,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q8779002",
-        "osm": "node/5356426230",
+        "osm": "way/555252628",
         "gtfs_stop_id": "4406630",
         "gtfs_route_id": null,
         "geosampa_id": "86",

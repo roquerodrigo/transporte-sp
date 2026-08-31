@@ -53,6 +53,7 @@
       "alternatives": []
     },
     "stations": [
+      "palmeiras-barra-funda",
       "luz",
       "bras",
       "tatuape",
@@ -68,7 +69,7 @@
       "calmon-viana",
       "suzano",
       "mogi-das-cruzes",
-      "estudantes",
+      "estacao-estudantes",
       "braz-cubas",
       "jundiapeba"
     ],
@@ -498,6 +499,10 @@
           [
             -46.228833,
             -23.5374037
+          ],
+          [
+            -46.2288763,
+            -23.5374135
           ],
           [
             -46.2323356,
@@ -3019,7 +3024,7 @@
       "confidence": "C",
       "alternatives": [
         {
-          "value": "50.494 km",
+          "value": "54.103 km",
           "source": "gtfs_sptrans",
           "confidence": "A",
           "note": "traçado alternativo, não usado"
@@ -3047,6 +3052,164 @@
     ]
   },
   "stations": [
+    {
+      "id": "palmeiras-barra-funda",
+      "slug": "palmeiras-barra-funda",
+      "name": {
+        "value": "Palmeiras-Barra Funda",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Terminal Intermodal Palmeiras-Barra Funda",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.52594769,
+          "lon": -46.66737276
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5255841,
+              "lon": -46.66751601
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "43 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5254616,
+              "lon": -46.6675134
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "56 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5259743,
+              "lon": -46.6674683
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "10 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525505,
+              "lon": -46.667358
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "49 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525556,
+              "lon": -46.667222
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "46 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525317,
+              "lon": -46.666547
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "110 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525592,
+              "lon": -46.666651
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "84 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525703,
+              "lon": -46.666803
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "64 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525282,
+              "lon": -46.667175
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "77 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-3",
+        "linha-7",
+        "linha-8",
+        "linha-10",
+        "linha-11",
+        "expresso-aeroporto"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "BFU",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1988-12-18",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "1988-12-17",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q3293864",
+        "osm": "node/4593540897",
+        "gtfs_stop_id": "18920",
+        "gtfs_route_id": null,
+        "geosampa_id": "18",
+        "metro_code": "BFU"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
     {
       "id": "luz",
       "slug": "luz",
@@ -3100,12 +3263,21 @@
           },
           {
             "value": {
-              "lat": -23.53509,
-              "lon": -46.63528
+              "lat": -23.5365882,
+              "lon": -46.6332566
             },
-            "source": "wikidata",
+            "source": "osm",
             "confidence": "C",
-            "note": "260 m de distância"
+            "note": "55 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5361768,
+              "lon": -46.6352915
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "184 m de distância"
           },
           {
             "value": {
@@ -3115,6 +3287,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "81 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.53509,
+              "lon": -46.63528
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "260 m de distância"
           },
           {
             "value": {
@@ -3136,15 +3317,6 @@
           },
           {
             "value": {
-              "lat": -23.535297,
-              "lon": -46.634703
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "207 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.536598,
               "lon": -46.634502
             },
@@ -3157,7 +3329,7 @@
       "lines": [
         "linha-1",
         "linha-4",
-        "linha-7",
+        "linha-10",
         "linha-11"
       ],
       "status": {
@@ -3174,12 +3346,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1867-02-16",
+        "value": "1975-09-26",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1975-09-26",
+            "value": "1867-02-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -3188,7 +3360,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q2983699",
+        "wikidata": "Q15243160",
         "osm": "node/5368677484",
         "gtfs_stop_id": "18872",
         "gtfs_route_id": null,
@@ -4528,10 +4700,10 @@
       ]
     },
     {
-      "id": "estudantes",
-      "slug": "estudantes",
+      "id": "estacao-estudantes",
+      "slug": "estacao-estudantes",
       "name": {
-        "value": "Estudantes",
+        "value": "Estação Estudantes",
         "source": "osm",
         "confidence": "C",
         "alternatives": []

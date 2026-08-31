@@ -2824,12 +2824,21 @@
           },
           {
             "value": {
-              "lat": -23.53509,
-              "lon": -46.63528
+              "lat": -23.5365882,
+              "lon": -46.6332566
             },
-            "source": "wikidata",
+            "source": "osm",
             "confidence": "C",
-            "note": "260 m de distância"
+            "note": "55 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5361768,
+              "lon": -46.6352915
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "184 m de distância"
           },
           {
             "value": {
@@ -2839,6 +2848,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "81 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.53509,
+              "lon": -46.63528
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "260 m de distância"
           },
           {
             "value": {
@@ -2860,15 +2878,6 @@
           },
           {
             "value": {
-              "lat": -23.535297,
-              "lon": -46.634703
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "207 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.536598,
               "lon": -46.634502
             },
@@ -2881,7 +2890,7 @@
       "lines": [
         "linha-1",
         "linha-4",
-        "linha-7",
+        "linha-10",
         "linha-11"
       ],
       "status": {
@@ -2898,12 +2907,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1867-02-16",
+        "value": "1975-09-26",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1975-09-26",
+            "value": "1867-02-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -2912,7 +2921,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q2983699",
+        "wikidata": "Q15243160",
         "osm": "node/5368677484",
         "gtfs_stop_id": "18872",
         "gtfs_route_id": null,

@@ -57,7 +57,6 @@
       "perus",
       "piqueri",
       "lapa",
-      "luz",
       "bom-retiro",
       "palmeiras-barra-funda",
       "agua-branca",
@@ -4206,7 +4205,7 @@
       "confidence": "C",
       "alternatives": [
         {
-          "value": "60.711 km",
+          "value": "57.101 km",
           "source": "gtfs_sptrans",
           "confidence": "A",
           "note": "traçado alternativo, não usado"
@@ -4574,162 +4573,6 @@
       ]
     },
     {
-      "id": "luz",
-      "slug": "luz",
-      "name": {
-        "value": "Luz",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "da Luz",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.53690231,
-          "lon": -46.63367028
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.53615475,
-              "lon": -46.6344918
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "118 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.53496082,
-              "lon": -46.63511522
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "261 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5353887,
-              "lon": -46.6344383
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "186 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.53509,
-              "lon": -46.63528
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "260 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.537629,
-              "lon": -46.63361
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "81 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5366,
-              "lon": -46.6343
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "72 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.535103,
-              "lon": -46.635436
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "269 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.535297,
-              "lon": -46.634703
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "207 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.536598,
-              "lon": -46.634502
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "91 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-1",
-        "linha-4",
-        "linha-7",
-        "linha-11"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "LUZ",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1867-02-16",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "1975-09-26",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q2983699",
-        "osm": "node/5368677484",
-        "gtfs_stop_id": "18872",
-        "gtfs_route_id": null,
-        "geosampa_id": "42",
-        "metro_code": "LUZ"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
       "id": "bom-retiro",
       "slug": "bom-retiro",
       "name": {
@@ -4868,6 +4711,15 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "64 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525282,
+              "lon": -46.667175
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "77 m de distância"
           }
         ]
       },
@@ -4875,6 +4727,8 @@
         "linha-3",
         "linha-7",
         "linha-8",
+        "linha-10",
+        "linha-11",
         "expresso-aeroporto"
       ],
       "status": {
@@ -4891,12 +4745,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1988-12-17",
+        "value": "1988-12-18",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1988-12-18",
+            "value": "1988-12-17",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -4948,21 +4802,21 @@
           },
           {
             "value": {
-              "lat": -23.5213,
-              "lon": -46.6893
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "30 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.52074,
               "lon": -46.68835
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "105 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5213,
+              "lon": -46.6893
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "30 m de distância"
           },
           {
             "value": {
@@ -5009,12 +4863,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1867-02-16",
+        "value": "2026-07-02",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "2026-07-02",
+            "value": "1867-02-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -5023,7 +4877,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q8842747",
+        "wikidata": "Q85817186",
         "osm": null,
         "gtfs_stop_id": "18919",
         "gtfs_route_id": null,
@@ -5482,21 +5336,21 @@
           },
           {
             "value": {
-              "lat": -23.32979,
-              "lon": -46.72642
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "21 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.32825645,
               "lon": -46.7257481
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "163 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.32979,
+              "lon": -46.72642
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -5526,12 +5380,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "2014-05-10",
+        "value": "1888-02-01",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1888-02-01",
+            "value": "2014-05-10",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -5540,7 +5394,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q48855762",
+        "wikidata": "Q8778987",
         "osm": "node/6666778888",
         "gtfs_stop_id": "18925",
         "gtfs_route_id": null,

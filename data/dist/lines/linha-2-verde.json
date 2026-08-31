@@ -2212,15 +2212,6 @@
           },
           {
             "value": {
-              "lat": -23.59447,
-              "lon": -46.587932
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "239 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.592412,
               "lon": -46.589685
             },
@@ -2236,6 +2227,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "228 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.59447,
+              "lon": -46.587932
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "239 m de distância"
           },
           {
             "value": {
@@ -2268,12 +2268,12 @@
         "alternatives": []
       },
       "code": {
-        "value": "TTI",
+        "value": "TMD",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "TMD",
+            "value": "TTI",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -3118,12 +3118,12 @@
         "alternatives": [
           {
             "value": {
-              "lat": -23.557818,
-              "lon": -46.6605373
+              "lat": -23.5570068,
+              "lon": -46.6616117
             },
             "source": "osm",
             "confidence": "C",
-            "note": "94 m de distância"
+            "note": "49 m de distância"
           },
           {
             "value": {
@@ -3170,7 +3170,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q2994646",
-        "osm": "node/5159984416",
+        "osm": "way/817292044",
         "gtfs_stop_id": "18850",
         "gtfs_route_id": null,
         "geosampa_id": "22",

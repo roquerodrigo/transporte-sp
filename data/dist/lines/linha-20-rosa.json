@@ -2462,12 +2462,12 @@
           },
           {
             "value": {
-              "lat": -23.5662284,
-              "lon": -46.6841386
+              "lat": -23.566389,
+              "lon": -46.6840567
             },
             "source": "osm",
             "confidence": "C",
-            "note": "7 m de distância"
+            "note": "27 m de distância"
           },
           {
             "value": {
@@ -2512,12 +2512,7 @@
         "confidence": "C",
         "alternatives": []
       },
-      "accessibility": {
-        "value": "full",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
+      "accessibility": null,
       "opened": {
         "value": "2014-11-15",
         "source": "wikidata",
@@ -2527,7 +2522,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q5477606",
-        "osm": "node/5148119198",
+        "osm": "way/312911288",
         "gtfs_stop_id": "6311368",
         "gtfs_route_id": null,
         "geosampa_id": "85",

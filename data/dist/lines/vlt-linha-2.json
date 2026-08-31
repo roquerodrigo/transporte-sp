@@ -766,8 +766,8 @@
             -23.9685037
           ],
           [
-            -46.3700351,
-            -23.9686061
+            -46.3700355,
+            -23.9686063
           ],
           [
             -46.3696476,
@@ -1556,8 +1556,8 @@
             -23.9512045
           ],
           [
-            -46.3207816,
-            -23.9507612
+            -46.3207668,
+            -23.9506086
           ],
           [
             -46.3207595,
@@ -1572,20 +1572,32 @@
             -23.9493004
           ],
           [
-            -46.3205089,
-            -23.9481035
+            -46.3205729,
+            -23.9487018
           ],
           [
-            -46.3204548,
-            -23.9475569
+            -46.320542,
+            -23.9484021
           ],
           [
-            -46.3204171,
-            -23.9471758
+            -46.3205196,
+            -23.9481029
           ],
           [
-            -46.3203942,
-            -23.946944
+            -46.3204763,
+            -23.9475532
+          ],
+          [
+            -46.3204136,
+            -23.9468006
+          ],
+          [
+            -46.320408,
+            -23.9467624
+          ],
+          [
+            -46.3203301,
+            -23.9463313
           ],
           [
             -46.3202918,
@@ -1624,8 +1636,8 @@
             -23.9408848
           ],
           [
-            -46.3191926,
-            -23.9402466
+            -46.3191571,
+            -23.9401063
           ],
           [
             -46.3190284,
@@ -1656,8 +1668,8 @@
             -23.9377917
           ],
           [
-            -46.3183861,
-            -23.9368031
+            -46.3183908,
+            -23.9368209
           ],
           [
             -46.3184138,
@@ -1668,32 +1680,32 @@
             -23.9367328
           ],
           [
-            -46.3187696,
-            -23.9366796
+            -46.3191951,
+            -23.9365961
           ],
           [
             -46.3197353,
             -23.9364901
           ],
           [
-            -46.3207883,
+            -46.320788,
             -23.9362659
           ],
           [
-            -46.3215539,
-            -23.9361206
+            -46.3215517,
+            -23.9361209
           ],
           [
             -46.3224272,
             -23.935954
           ],
           [
-            -46.3231732,
-            -23.9358006
+            -46.3229724,
+            -23.9358424
           ],
           [
-            -46.3238602,
-            -23.9356616
+            -46.3231732,
+            -23.9358006
           ],
           [
             -46.3244588,
@@ -1865,7 +1877,7 @@
     },
     "planned_geometry": null,
     "length_km": {
-      "value": 15.345,
+      "value": 15.344,
       "source": "osm",
       "confidence": "E",
       "alternatives": []
@@ -2777,8 +2789,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.9507612,
-          "lon": -46.3207816
+          "lat": -23.9506086,
+          "lon": -46.3207668
         },
         "source": "osm",
         "confidence": "C",
@@ -2790,7 +2802,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "2 m de distância"
+            "note": "15 m de distância"
           }
         ]
       },
@@ -2832,8 +2844,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.946944,
-          "lon": -46.3203942
+          "lat": -23.9468006,
+          "lon": -46.3204136
         },
         "source": "osm",
         "confidence": "C",
@@ -2845,7 +2857,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "5 m de distância"
+            "note": "13 m de distância"
           }
         ]
       },
@@ -2881,36 +2893,26 @@
       "slug": "mercado",
       "name": {
         "value": "Mercado",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9402466,
-          "lon": -46.3191926
+          "lat": -23.940235,
+          "lon": -46.31918
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.940235,
-              "lon": -46.31918
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "2 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -2919,7 +2921,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364614",
-        "osm": "node/12396988316",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -2927,7 +2929,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -2936,36 +2937,26 @@
       "slug": "paqueta",
       "name": {
         "value": "Paquetá",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9366796,
-          "lon": -46.3187696
+          "lat": -23.936675,
+          "lon": -46.318794
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.936675,
-              "lon": -46.318794
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "3 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -2974,7 +2965,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364615",
-        "osm": "node/12396988312",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -2982,7 +2973,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -2991,36 +2981,26 @@
       "slug": "poupatempo",
       "name": {
         "value": "Poupatempo",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9356616,
-          "lon": -46.3238602
+          "lat": -23.935665,
+          "lon": -46.323879
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.935665,
-              "lon": -46.323879
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "2 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -3029,7 +3009,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364617",
-        "osm": "node/12396988308",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -3037,7 +3017,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -3177,21 +3156,21 @@
         "alternatives": [
           {
             "value": {
-              "lat": -23.935388888,
-              "lon": -46.333027777
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "132 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.9349,
               "lon": -46.33301
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "111 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.935388888,
+              "lon": -46.333027777
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "132 m de distância"
           }
         ]
       },
@@ -3209,7 +3188,7 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q61944822",
+        "wikidata": "Q131364620",
         "osm": "node/13743115215",
         "gtfs_stop_id": null,
         "gtfs_route_id": null,

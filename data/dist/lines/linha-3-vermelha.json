@@ -1533,7 +1533,7 @@
       "confidence": "C",
       "alternatives": [
         {
-          "value": "22.588 km",
+          "value": "22.586 km",
           "source": "gtfs_sptrans",
           "confidence": "A",
           "note": "traçado alternativo, não usado"
@@ -1881,6 +1881,15 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "64 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525282,
+              "lon": -46.667175
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "77 m de distância"
           }
         ]
       },
@@ -1888,6 +1897,8 @@
         "linha-3",
         "linha-7",
         "linha-8",
+        "linha-10",
+        "linha-11",
         "expresso-aeroporto"
       ],
       "status": {
@@ -1904,12 +1915,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1988-12-17",
+        "value": "1988-12-18",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1988-12-18",
+            "value": "1988-12-17",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -2046,12 +2057,12 @@
           },
           {
             "value": {
-              "lat": -23.5440945,
-              "lon": -46.642665
+              "lat": -23.5430171,
+              "lon": -46.6439543
             },
             "source": "osm",
             "confidence": "C",
-            "note": "54 m de distância"
+            "note": "127 m de distância"
           },
           {
             "value": {
@@ -2108,7 +2119,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q7314773",
-        "osm": "node/4311953410",
+        "osm": "way/421146631",
         "gtfs_stop_id": "18866",
         "gtfs_route_id": null,
         "geosampa_id": "15",

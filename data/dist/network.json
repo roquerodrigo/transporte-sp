@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03",
+  "generated_at": "2026-08-31",
   "bbox": [
     -47.6,
     -24.2,
@@ -13,7 +13,7 @@
       "url": "",
       "licence": "CC-BY-SA-4.0",
       "confidence": "A",
-      "fetched_at": "2026-08-03",
+      "fetched_at": "2026-08-31",
       "sha256": null
     },
     {
@@ -22,7 +22,7 @@
       "url": "",
       "licence": "public-record (Lei 12.527/2011)",
       "confidence": "A",
-      "fetched_at": "2026-08-03",
+      "fetched_at": "2026-08-31",
       "sha256": null
     },
     {
@@ -31,7 +31,7 @@
       "url": "",
       "licence": "ODbL-1.0",
       "confidence": "C",
-      "fetched_at": "2026-08-03",
+      "fetched_at": "2026-08-31",
       "sha256": null
     },
     {
@@ -40,7 +40,7 @@
       "url": "",
       "licence": "CC0-1.0",
       "confidence": "C",
-      "fetched_at": "2026-08-03",
+      "fetched_at": "2026-08-31",
       "sha256": null
     }
   ],
@@ -4153,7 +4153,7 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "22.588 km",
+            "value": "22.586 km",
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "traçado alternativo, não usado"
@@ -12081,7 +12081,6 @@
         "perus",
         "piqueri",
         "lapa",
-        "luz",
         "bom-retiro",
         "palmeiras-barra-funda",
         "agua-branca",
@@ -16230,7 +16229,7 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "60.711 km",
+            "value": "57.101 km",
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "traçado alternativo, não usado"
@@ -23458,6 +23457,8 @@
         "prefeito-saladino",
         "ipiranga",
         "juventus-mooca",
+        "palmeiras-barra-funda",
+        "luz",
         "pari",
         "bras",
         "tamanduatei",
@@ -26247,7 +26248,7 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "34.583 km",
+            "value": "40.797 km",
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "traçado alternativo, não usado"
@@ -26328,6 +26329,7 @@
         "alternatives": []
       },
       "stations": [
+        "palmeiras-barra-funda",
         "luz",
         "bras",
         "tatuape",
@@ -26343,7 +26345,7 @@
         "calmon-viana",
         "suzano",
         "mogi-das-cruzes",
-        "estudantes",
+        "estacao-estudantes",
         "braz-cubas",
         "jundiapeba"
       ],
@@ -26773,6 +26775,10 @@
             [
               -46.228833,
               -23.5374037
+            ],
+            [
+              -46.2288763,
+              -23.5374135
             ],
             [
               -46.2323356,
@@ -29294,7 +29300,7 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "50.494 km",
+            "value": "54.103 km",
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "traçado alternativo, não usado"
@@ -79197,8 +79203,8 @@
               -23.9685037
             ],
             [
-              -46.3700351,
-              -23.9686061
+              -46.3700355,
+              -23.9686063
             ],
             [
               -46.3696476,
@@ -80807,8 +80813,8 @@
               -23.9685037
             ],
             [
-              -46.3700351,
-              -23.9686061
+              -46.3700355,
+              -23.9686063
             ],
             [
               -46.3696476,
@@ -81597,8 +81603,8 @@
               -23.9512045
             ],
             [
-              -46.3207816,
-              -23.9507612
+              -46.3207668,
+              -23.9506086
             ],
             [
               -46.3207595,
@@ -81613,20 +81619,32 @@
               -23.9493004
             ],
             [
-              -46.3205089,
-              -23.9481035
+              -46.3205729,
+              -23.9487018
             ],
             [
-              -46.3204548,
-              -23.9475569
+              -46.320542,
+              -23.9484021
             ],
             [
-              -46.3204171,
-              -23.9471758
+              -46.3205196,
+              -23.9481029
             ],
             [
-              -46.3203942,
-              -23.946944
+              -46.3204763,
+              -23.9475532
+            ],
+            [
+              -46.3204136,
+              -23.9468006
+            ],
+            [
+              -46.320408,
+              -23.9467624
+            ],
+            [
+              -46.3203301,
+              -23.9463313
             ],
             [
               -46.3202918,
@@ -81665,8 +81683,8 @@
               -23.9408848
             ],
             [
-              -46.3191926,
-              -23.9402466
+              -46.3191571,
+              -23.9401063
             ],
             [
               -46.3190284,
@@ -81697,8 +81715,8 @@
               -23.9377917
             ],
             [
-              -46.3183861,
-              -23.9368031
+              -46.3183908,
+              -23.9368209
             ],
             [
               -46.3184138,
@@ -81709,32 +81727,32 @@
               -23.9367328
             ],
             [
-              -46.3187696,
-              -23.9366796
+              -46.3191951,
+              -23.9365961
             ],
             [
               -46.3197353,
               -23.9364901
             ],
             [
-              -46.3207883,
+              -46.320788,
               -23.9362659
             ],
             [
-              -46.3215539,
-              -23.9361206
+              -46.3215517,
+              -23.9361209
             ],
             [
               -46.3224272,
               -23.935954
             ],
             [
-              -46.3231732,
-              -23.9358006
+              -46.3229724,
+              -23.9358424
             ],
             [
-              -46.3238602,
-              -23.9356616
+              -46.3231732,
+              -23.9358006
             ],
             [
               -46.3244588,
@@ -81906,7 +81924,7 @@
       },
       "planned_geometry": null,
       "length_km": {
-        "value": 15.345,
+        "value": 15.344,
         "source": "osm",
         "confidence": "E",
         "alternatives": []
@@ -82586,21 +82604,21 @@
           },
           {
             "value": {
-              "lat": -23.5213,
-              "lon": -46.6893
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "30 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.52074,
               "lon": -46.68835
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "105 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5213,
+              "lon": -46.6893
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "30 m de distância"
           },
           {
             "value": {
@@ -82647,12 +82665,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1867-02-16",
+        "value": "2026-07-02",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "2026-07-02",
+            "value": "1867-02-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -82661,7 +82679,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q8842747",
+        "wikidata": "Q85817186",
         "osm": null,
         "gtfs_stop_id": "18919",
         "gtfs_route_id": null,
@@ -88191,12 +88209,12 @@
         "alternatives": [
           {
             "value": {
-              "lat": -23.557818,
-              "lon": -46.6605373
+              "lat": -23.5570068,
+              "lon": -46.6616117
             },
             "source": "osm",
             "confidence": "C",
-            "note": "94 m de distância"
+            "note": "49 m de distância"
           },
           {
             "value": {
@@ -88243,7 +88261,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q2994646",
-        "osm": "node/5159984416",
+        "osm": "way/817292044",
         "gtfs_stop_id": "18850",
         "gtfs_route_id": null,
         "geosampa_id": "22",
@@ -89224,6 +89242,100 @@
       ]
     },
     {
+      "id": "estacao-estudantes",
+      "slug": "estacao-estudantes",
+      "name": {
+        "value": "Estação Estudantes",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.51565434,
+          "lon": -46.18486317
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5157403,
+              "lon": -46.1850496
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "21 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.51574,
+              "lon": -46.18505
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "21 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.51676957,
+              "lon": -46.185633231
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "147 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.515696,
+              "lon": -46.18493
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "8 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-11"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "EST",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1976-11-10",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10275745",
+        "osm": "node/4975769521",
+        "gtfs_stop_id": "18981",
+        "gtfs_route_id": null,
+        "geosampa_id": "3046",
+        "metro_code": "EST"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
       "id": "estacao-gru-cptm",
       "slug": "estacao-gru-cptm",
       "name": {
@@ -89529,100 +89641,6 @@
       ]
     },
     {
-      "id": "estudantes",
-      "slug": "estudantes",
-      "name": {
-        "value": "Estudantes",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.51565434,
-          "lon": -46.18486317
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.5157403,
-              "lon": -46.1850496
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "21 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.51574,
-              "lon": -46.18505
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "21 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.51676957,
-              "lon": -46.185633231
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "147 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.515696,
-              "lon": -46.18493
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "8 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-11"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "EST",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1976-11-10",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q10275745",
-        "osm": "node/4975769521",
-        "gtfs_stop_id": "18981",
-        "gtfs_route_id": null,
-        "geosampa_id": "3046",
-        "metro_code": "EST"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
       "id": "eucaliptos",
       "slug": "eucaliptos",
       "name": {
@@ -89787,12 +89805,12 @@
           },
           {
             "value": {
-              "lat": -23.5672551,
-              "lon": -46.6939585
+              "lat": -23.5668879,
+              "lon": -46.6934101
             },
             "source": "osm",
             "confidence": "C",
-            "note": "11 m de distância"
+            "note": "66 m de distância"
           },
           {
             "value": {
@@ -89847,7 +89865,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q5435213",
-        "osm": "node/5153876863",
+        "osm": "way/683908721",
         "gtfs_stop_id": "6311285",
         "gtfs_route_id": null,
         "geosampa_id": "82",
@@ -90059,12 +90077,12 @@
           },
           {
             "value": {
-              "lat": -23.5662284,
-              "lon": -46.6841386
+              "lat": -23.566389,
+              "lon": -46.6840567
             },
             "source": "osm",
             "confidence": "C",
-            "note": "7 m de distância"
+            "note": "27 m de distância"
           },
           {
             "value": {
@@ -90109,12 +90127,7 @@
         "confidence": "C",
         "alternatives": []
       },
-      "accessibility": {
-        "value": "full",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
+      "accessibility": null,
       "opened": {
         "value": "2014-11-15",
         "source": "wikidata",
@@ -90124,7 +90137,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q5477606",
-        "osm": "node/5148119198",
+        "osm": "way/312911288",
         "gtfs_stop_id": "6311368",
         "gtfs_route_id": null,
         "geosampa_id": "85",
@@ -90258,21 +90271,21 @@
           },
           {
             "value": {
-              "lat": -23.32979,
-              "lon": -46.72642
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "21 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.32825645,
               "lon": -46.7257481
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "163 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.32979,
+              "lon": -46.72642
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -90302,12 +90315,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "2014-05-10",
+        "value": "1888-02-01",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1888-02-01",
+            "value": "2014-05-10",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -90316,7 +90329,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q48855762",
+        "wikidata": "Q8778987",
         "osm": "node/6666778888",
         "gtfs_stop_id": "18925",
         "gtfs_route_id": null,
@@ -91553,12 +91566,12 @@
           },
           {
             "value": {
-              "lat": -23.5489592,
-              "lon": -46.6523049
+              "lat": -23.548687,
+              "lon": -46.6523419
             },
             "source": "osm",
             "confidence": "C",
-            "note": "5 m de distância"
+            "note": "31 m de distância"
           },
           {
             "value": {
@@ -91627,7 +91640,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q8779002",
-        "osm": "node/5356426230",
+        "osm": "way/555252628",
         "gtfs_stop_id": "4406630",
         "gtfs_route_id": null,
         "geosampa_id": "86",
@@ -92242,21 +92255,21 @@
           },
           {
             "value": {
-              "lat": -23.5825036,
-              "lon": -46.5965849
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "7 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.582592,
               "lon": -46.596944
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "32 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5825036,
+              "lon": -46.5965849
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "7 m de distância"
           },
           {
             "value": {
@@ -95750,12 +95763,21 @@
           },
           {
             "value": {
-              "lat": -23.53509,
-              "lon": -46.63528
+              "lat": -23.5365882,
+              "lon": -46.6332566
             },
-            "source": "wikidata",
+            "source": "osm",
             "confidence": "C",
-            "note": "260 m de distância"
+            "note": "55 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5361768,
+              "lon": -46.6352915
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "184 m de distância"
           },
           {
             "value": {
@@ -95765,6 +95787,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "81 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.53509,
+              "lon": -46.63528
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "260 m de distância"
           },
           {
             "value": {
@@ -95786,15 +95817,6 @@
           },
           {
             "value": {
-              "lat": -23.535297,
-              "lon": -46.634703
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "207 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.536598,
               "lon": -46.634502
             },
@@ -95807,7 +95829,7 @@
       "lines": [
         "linha-1",
         "linha-4",
-        "linha-7",
+        "linha-10",
         "linha-11"
       ],
       "status": {
@@ -95824,12 +95846,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1867-02-16",
+        "value": "1975-09-26",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1975-09-26",
+            "value": "1867-02-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -95838,7 +95860,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q2983699",
+        "wikidata": "Q15243160",
         "osm": "node/5368677484",
         "gtfs_stop_id": "18872",
         "gtfs_route_id": null,
@@ -96360,36 +96382,26 @@
       "slug": "mercado",
       "name": {
         "value": "Mercado",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9402466,
-          "lon": -46.3191926
+          "lat": -23.940235,
+          "lon": -46.31918
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.940235,
-              "lon": -46.31918
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "2 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -96398,7 +96410,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364614",
-        "osm": "node/12396988316",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -96406,7 +96418,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -96763,21 +96774,21 @@
           },
           {
             "value": {
-              "lat": -23.622486,
-              "lon": -46.70269
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "114 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.621593,
               "lon": -46.701642
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "34 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622486,
+              "lon": -46.70269
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "114 m de distância"
           },
           {
             "value": {
@@ -97522,6 +97533,15 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "64 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525282,
+              "lon": -46.667175
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "77 m de distância"
           }
         ]
       },
@@ -97529,6 +97549,8 @@
         "linha-3",
         "linha-7",
         "linha-8",
+        "linha-10",
+        "linha-11",
         "expresso-aeroporto"
       ],
       "status": {
@@ -97545,12 +97567,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1988-12-17",
+        "value": "1988-12-18",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1988-12-18",
+            "value": "1988-12-17",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -97641,36 +97663,26 @@
       "slug": "paqueta",
       "name": {
         "value": "Paquetá",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9366796,
-          "lon": -46.3187696
+          "lat": -23.936675,
+          "lon": -46.318794
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.936675,
-              "lon": -46.318794
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "3 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -97679,7 +97691,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364615",
-        "osm": "node/12396988312",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -97687,7 +97699,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -98425,12 +98436,12 @@
         "alternatives": [
           {
             "value": {
-              "lat": -23.555315,
-              "lon": -46.6619477
+              "lat": -23.5553423,
+              "lon": -46.6622406
             },
             "source": "osm",
             "confidence": "C",
-            "note": "36 m de distância"
+            "note": "30 m de distância"
           },
           {
             "value": {
@@ -98467,12 +98478,7 @@
         "confidence": "C",
         "alternatives": []
       },
-      "accessibility": {
-        "value": "full",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
+      "accessibility": null,
       "opened": {
         "value": "2010-05-25",
         "source": "wikidata",
@@ -98482,7 +98488,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q8779085",
-        "osm": "node/5148131318",
+        "osm": "way/817292043",
         "gtfs_stop_id": "2600672",
         "gtfs_route_id": null,
         "geosampa_id": "81",
@@ -99114,21 +99120,21 @@
           },
           {
             "value": {
-              "lat": -23.56649,
-              "lon": -46.70304
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "157 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.56726,
               "lon": -46.70193
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "25 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56649,
+              "lon": -46.70304
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "157 m de distância"
           },
           {
             "value": {
@@ -99173,12 +99179,12 @@
         "alternatives": []
       },
       "opened": {
-        "value": "1957-01-25",
+        "value": "2011-05-16",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "2011-05-16",
+            "value": "1957-01-25",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -99683,36 +99689,26 @@
       "slug": "poupatempo",
       "name": {
         "value": "Poupatempo",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9356616,
-          "lon": -46.3238602
+          "lat": -23.935665,
+          "lon": -46.323879
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.935665,
-              "lon": -46.323879
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "2 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -99721,7 +99717,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364617",
-        "osm": "node/12396988308",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -99729,7 +99725,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -100467,12 +100462,12 @@
           },
           {
             "value": {
-              "lat": -23.5440945,
-              "lon": -46.642665
+              "lat": -23.5430171,
+              "lon": -46.6439543
             },
             "source": "osm",
             "confidence": "C",
-            "note": "54 m de distância"
+            "note": "127 m de distância"
           },
           {
             "value": {
@@ -100529,7 +100524,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q7314773",
-        "osm": "node/4311953410",
+        "osm": "way/421146631",
         "gtfs_stop_id": "18866",
         "gtfs_route_id": null,
         "geosampa_id": "15",
@@ -102174,12 +102169,12 @@
         "alternatives": []
       },
       "code": {
-        "value": "SAM",
+        "value": "STA",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "STA",
+            "value": "SAM",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -104508,15 +104503,6 @@
           },
           {
             "value": {
-              "lat": -23.59447,
-              "lon": -46.587932
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "239 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.592412,
               "lon": -46.589685
             },
@@ -104532,6 +104518,15 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "228 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.59447,
+              "lon": -46.587932
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "239 m de distância"
           },
           {
             "value": {
@@ -104564,12 +104559,12 @@
         "alternatives": []
       },
       "code": {
-        "value": "TTI",
+        "value": "TMD",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "TMD",
+            "value": "TTI",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -105437,8 +105432,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.946944,
-          "lon": -46.3203942
+          "lat": -23.9468006,
+          "lon": -46.3204136
         },
         "source": "osm",
         "confidence": "C",
@@ -105450,7 +105445,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "5 m de distância"
+            "note": "13 m de distância"
           }
         ]
       },
@@ -105726,21 +105721,21 @@
         "alternatives": [
           {
             "value": {
-              "lat": -23.935388888,
-              "lon": -46.333027777
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "132 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.9349,
               "lon": -46.33301
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "111 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.935388888,
+              "lon": -46.333027777
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "132 m de distância"
           }
         ]
       },
@@ -105758,7 +105753,7 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q61944822",
+        "wikidata": "Q131364620",
         "osm": "node/13743115215",
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
@@ -108059,8 +108054,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.9507612,
-          "lon": -46.3207816
+          "lat": -23.9506086,
+          "lon": -46.3207668
         },
         "source": "osm",
         "confidence": "C",
@@ -108072,7 +108067,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "2 m de distância"
+            "note": "15 m de distância"
           }
         ]
       },
@@ -108105,352 +108100,6 @@
     }
   ],
   "unmatched": [
-    {
-      "id": "aerodromo-atibaia",
-      "slug": "aerodromo-atibaia",
-      "name": {
-        "value": "Aeródromo Atibaia",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.12833,
-          "lon": -46.57472
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q31202836",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "aerodromo-fazenda-caicara",
-      "slug": "aerodromo-fazenda-caicara",
-      "name": {
-        "value": "Aeródromo Fazenda Caiçara",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -24.070555555,
-          "lon": -46.828888888
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q31203643",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "aerodromo-fazenda-irohy",
-      "slug": "aerodromo-fazenda-irohy",
-      "name": {
-        "value": "Aeródromo Fazenda Irohy",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.565555555,
-          "lon": -46.069444444
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q31204196",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "aerodromo-nascimento-i",
-      "slug": "aerodromo-nascimento-i",
-      "name": {
-        "value": "Aeródromo Nascimento I",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.619444444,
-          "lon": -46.983055555
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q31205678",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "aeroporto-campo-de-marte",
-      "slug": "aeroporto-campo-de-marte",
-      "name": {
-        "value": "Aeroporto Campo de Marte",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.50667,
-          "lon": -46.63389
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q2578866",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "aeroporto-de-congonhas-sao-paulo",
-      "slug": "aeroporto-de-congonhas-sao-paulo",
-      "name": {
-        "value": "Aeroporto de Congonhas/São Paulo",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.62611,
-          "lon": -46.65639
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": {
-        "value": "1936-01-01",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q862401",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "aeroporto-de-itanhaem",
-      "slug": "aeroporto-de-itanhaem",
-      "name": {
-        "value": "Aeroporto de Itanhaém",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -24.16472,
-          "lon": -46.78556
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q20056201",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "aeroporto-internacional-de-sao-paulo-guarulhos",
-      "slug": "aeroporto-internacional-de-sao-paulo-guarulhos",
-      "name": {
-        "value": "Aeroporto Internacional de São Paulo-Guarulhos",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.435555555,
-          "lon": -46.473055555
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": {
-        "value": "1985-01-01",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q385406",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
     {
       "id": "ambuita",
       "slug": "ambuita",
@@ -108606,48 +108255,6 @@
       "is_interchange": false,
       "observed_by": [
         "osm"
-      ]
-    },
-    {
-      "id": "base-aerea-de-sao-paulo",
-      "slug": "base-aerea-de-sao-paulo",
-      "name": {
-        "value": "Base Aérea de São Paulo",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.436791666,
-          "lon": -46.472686111
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q18499979",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
       ]
     },
     {
@@ -109172,48 +108779,6 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q56347199",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "empresa-brasileira-de-terminais-portuarios",
-      "slug": "empresa-brasileira-de-terminais-portuarios",
-      "name": {
-        "value": "Empresa Brasileira de Terminais Portuários",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.922,
-          "lon": -46.317
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q5374435",
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
@@ -109963,65 +109528,6 @@
       ]
     },
     {
-      "id": "guaruja-civil-metropolitan-aerodrome",
-      "slug": "guaruja-civil-metropolitan-aerodrome",
-      "name": {
-        "value": "Guarujá Civil Metropolitan Aerodrome",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Base Aérea de Santos",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.928055555,
-          "lon": -46.299722222
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.9275,
-              "lon": -46.299167
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "84 m de distância"
-          }
-        ]
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q113394954",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
       "id": "jose-bonifacio-2",
       "slug": "jose-bonifacio-2",
       "name": {
@@ -110511,95 +110017,6 @@
       ]
     },
     {
-      "id": "porto-de-corumba",
-      "slug": "porto-de-corumba",
-      "name": {
-        "value": "Porto de Corumbá",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.982228,
-          "lon": -46.292606
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q18464509",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "porto-de-santos",
-      "slug": "porto-de-santos",
-      "name": {
-        "value": "Porto de Santos",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.956666666,
-          "lon": -46.310555555
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": {
-        "value": "1892-02-02",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q16460",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
       "id": "raiz-da-serra",
       "slug": "raiz-da-serra",
       "name": {
@@ -110779,48 +110196,6 @@
       ]
     },
     {
-      "id": "sao-paulo-catarina-aeroporto-executivo",
-      "slug": "sao-paulo-catarina-aeroporto-executivo",
-      "name": {
-        "value": "SÃO PAULO CATARINA AEROPORTO EXECUTIVO",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.426944444,
-          "lon": -47.165833333
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q91471433",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
       "id": "tamandare",
       "slug": "tamandare",
       "name": {
@@ -110893,48 +110268,6 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q108230200",
-        "osm": null,
-        "gtfs_stop_id": null,
-        "gtfs_route_id": null,
-        "geosampa_id": null,
-        "metro_code": null
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "wikidata"
-      ]
-    },
-    {
-      "id": "terminal-integrador-portuario-luiz-antonio-mesquita",
-      "slug": "terminal-integrador-portuario-luiz-antonio-mesquita",
-      "name": {
-        "value": "Terminal Integrador Portuário Luiz Antonio Mesquita",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.87536,
-          "lon": -46.36851
-        },
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "lines": [],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": []
-      },
-      "code": null,
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q51881850",
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
@@ -111457,16 +110790,6 @@
     },
     {
       "entity": "station",
-      "entity_id": "guaruja-civil-metropolitan-aerodrome",
-      "fieldname": "identidade",
-      "chosen": "Guarujá Civil Metropolitan Aerodrome",
-      "chosen_source": "pipeline",
-      "rejected": "Base Aérea de Santos",
-      "rejected_source": "pipeline",
-      "detail": "nomes diferentes a 84 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
-    },
-    {
-      "entity": "station",
       "entity_id": "higienopolis-mackenzie",
       "fieldname": "coordinates",
       "chosen": {
@@ -111629,16 +110952,6 @@
     },
     {
       "entity": "station",
-      "entity_id": "rodoviaria-de-santos",
-      "fieldname": "identidade",
-      "chosen": "Rodoviária de Santos",
-      "chosen_source": "pipeline",
-      "rejected": "Terminal Valongo",
-      "rejected_source": "pipeline",
-      "detail": "nomes diferentes a 54 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
-    },
-    {
-      "entity": "station",
       "entity_id": "sao-carlos",
       "fieldname": "coordinates",
       "chosen": {
@@ -111672,6 +110985,16 @@
       "rejected": "CARDEAL ARCOVERDE",
       "rejected_source": "pipeline",
       "detail": "nomes diferentes a 141 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+    },
+    {
+      "entity": "station",
+      "entity_id": "terminal-valongo",
+      "fieldname": "identidade",
+      "chosen": "Terminal Valongo",
+      "chosen_source": "pipeline",
+      "rejected": "Rodoviária de Santos",
+      "rejected_source": "pipeline",
+      "detail": "nomes diferentes a 54 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
     },
     {
       "entity": "station",

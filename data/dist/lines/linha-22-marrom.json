@@ -2160,12 +2160,12 @@
           },
           {
             "value": {
-              "lat": -23.5672551,
-              "lon": -46.6939585
+              "lat": -23.5668879,
+              "lon": -46.6934101
             },
             "source": "osm",
             "confidence": "C",
-            "note": "11 m de distância"
+            "note": "66 m de distância"
           },
           {
             "value": {
@@ -2220,7 +2220,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q5435213",
-        "osm": "node/5153876863",
+        "osm": "way/683908721",
         "gtfs_stop_id": "6311285",
         "gtfs_route_id": null,
         "geosampa_id": "82",

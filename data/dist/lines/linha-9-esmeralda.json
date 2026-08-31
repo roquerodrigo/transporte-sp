@@ -3283,21 +3283,21 @@
           },
           {
             "value": {
-              "lat": -23.622486,
-              "lon": -46.70269
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "114 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.621593,
               "lon": -46.701642
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "34 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622486,
+              "lon": -46.70269
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "114 m de distância"
           },
           {
             "value": {
@@ -4013,21 +4013,21 @@
           },
           {
             "value": {
-              "lat": -23.56649,
-              "lon": -46.70304
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "157 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.56726,
               "lon": -46.70193
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "25 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.56649,
+              "lon": -46.70304
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "157 m de distância"
           },
           {
             "value": {
@@ -4072,12 +4072,12 @@
         "alternatives": []
       },
       "opened": {
-        "value": "1957-01-25",
+        "value": "2011-05-16",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "2011-05-16",
+            "value": "1957-01-25",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -4556,12 +4556,12 @@
         "alternatives": []
       },
       "code": {
-        "value": "SAM",
+        "value": "STA",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "STA",
+            "value": "SAM",
             "source": "wikidata",
             "confidence": "C",
             "note": null

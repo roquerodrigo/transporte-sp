@@ -1,5 +1,7 @@
 # transporte-sp
 
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white&style=for-the-badge)](https://github.com/sponsors/roquerodrigo)
+
 Base de dados aberta e auditável do **transporte de massa metropolitano de São Paulo** —
 metrô, monotrilho, trens metropolitanos, intercidades, VLT, BRT e corredores — com uma
 página por linha e por estação, um mapa com o traçado real e um JSON estruturado.
@@ -92,6 +94,10 @@ limiar não é resolvida em silêncio — vai para `conflicts.json`.
 ## Fontes
 
 Ver [`NOTICE.md`](./NOTICE.md) para a lista completa, com licença e atribuição de cada uma.
+
+## Apoie o projeto
+
+Esta base de dados é desenvolvida e mantida em tempo pessoal. Se for útil para você, considere [patrocinar o trabalho](https://github.com/sponsors/roquerodrigo) — é o que mantém o desenvolvimento, os testes e as publicações acontecendo.
 
 ## Licença
 

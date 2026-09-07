@@ -193,16 +193,6 @@
   },
   {
     "entity": "station",
-    "entity_id": "guaruja-civil-metropolitan-aerodrome",
-    "fieldname": "identidade",
-    "chosen": "Guarujá Civil Metropolitan Aerodrome",
-    "chosen_source": "pipeline",
-    "rejected": "Base Aérea de Santos",
-    "rejected_source": "pipeline",
-    "detail": "nomes diferentes a 84 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
-  },
-  {
-    "entity": "station",
     "entity_id": "higienopolis-mackenzie",
     "fieldname": "coordinates",
     "chosen": {
@@ -365,16 +355,6 @@
   },
   {
     "entity": "station",
-    "entity_id": "rodoviaria-de-santos",
-    "fieldname": "identidade",
-    "chosen": "Rodoviária de Santos",
-    "chosen_source": "pipeline",
-    "rejected": "Terminal Valongo",
-    "rejected_source": "pipeline",
-    "detail": "nomes diferentes a 54 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
-  },
-  {
-    "entity": "station",
     "entity_id": "sao-carlos",
     "fieldname": "coordinates",
     "chosen": {
@@ -408,6 +388,16 @@
     "rejected": "CARDEAL ARCOVERDE",
     "rejected_source": "pipeline",
     "detail": "nomes diferentes a 141 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "terminal-valongo",
+    "fieldname": "identidade",
+    "chosen": "Terminal Valongo",
+    "chosen_source": "pipeline",
+    "rejected": "Rodoviária de Santos",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 54 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
   },
   {
     "entity": "station",

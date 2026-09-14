@@ -14,12 +14,7 @@
       "confidence": "C",
       "alternatives": []
     },
-    "colour": {
-      "value": "#F26A21",
-      "source": "osm",
-      "confidence": "C",
-      "alternatives": []
-    },
+    "colour": null,
     "mode": {
       "value": "lrt",
       "source": "osm",
@@ -70,414 +65,6 @@
     },
     "geometry": {
       "value": [
-        [
-          [
-            -46.4095586,
-            -23.9607534
-          ],
-          [
-            -46.4095568,
-            -23.960776
-          ],
-          [
-            -46.4095555,
-            -23.9608007
-          ],
-          [
-            -46.4090639,
-            -23.9607742
-          ],
-          [
-            -46.4090654,
-            -23.9607513
-          ],
-          [
-            -46.409067,
-            -23.9607268
-          ],
-          [
-            -46.4095586,
-            -23.9607534
-          ]
-        ],
-        [
-          [
-            -46.398189,
-            -23.9616468
-          ],
-          [
-            -46.3981933,
-            -23.9616798
-          ],
-          [
-            -46.398197,
-            -23.9617089
-          ],
-          [
-            -46.3976481,
-            -23.9617676
-          ],
-          [
-            -46.3976449,
-            -23.9617423
-          ],
-          [
-            -46.3976401,
-            -23.9617053
-          ],
-          [
-            -46.398189,
-            -23.9616468
-          ]
-        ],
-        [
-          [
-            -46.387918,
-            -23.9626365
-          ],
-          [
-            -46.3879212,
-            -23.9626593
-          ],
-          [
-            -46.3879249,
-            -23.9626862
-          ],
-          [
-            -46.3874549,
-            -23.9627415
-          ],
-          [
-            -46.3874511,
-            -23.9627146
-          ],
-          [
-            -46.3874479,
-            -23.9626918
-          ],
-          [
-            -46.387918,
-            -23.9626365
-          ]
-        ],
-        [
-          [
-            -46.38107,
-            -23.9645812
-          ],
-          [
-            -46.3810777,
-            -23.9645981
-          ],
-          [
-            -46.3810858,
-            -23.9646159
-          ],
-          [
-            -46.3806394,
-            -23.9647855
-          ],
-          [
-            -46.3806309,
-            -23.9647669
-          ],
-          [
-            -46.3806236,
-            -23.9647508
-          ],
-          [
-            -46.38107,
-            -23.9645812
-          ]
-        ],
-        [
-          [
-            -46.3765428,
-            -23.9662074
-          ],
-          [
-            -46.3765528,
-            -23.9662352
-          ],
-          [
-            -46.3765677,
-            -23.9662636
-          ],
-          [
-            -46.3761108,
-            -23.9664326
-          ],
-          [
-            -46.3760934,
-            -23.9664044
-          ],
-          [
-            -46.3760825,
-            -23.9663769
-          ],
-          [
-            -46.3765428,
-            -23.9662074
-          ]
-        ],
-        [
-          [
-            -46.3710819,
-            -23.9681864
-          ],
-          [
-            -46.3711066,
-            -23.9682421
-          ],
-          [
-            -46.3709309,
-            -23.9683072
-          ],
-          [
-            -46.3706509,
-            -23.968411
-          ],
-          [
-            -46.370637,
-            -23.9683818
-          ],
-          [
-            -46.3706262,
-            -23.9683552
-          ],
-          [
-            -46.3710819,
-            -23.9681864
-          ]
-        ],
-        [
-          [
-            -46.3626048,
-            -23.9684414
-          ],
-          [
-            -46.3625955,
-            -23.9684688
-          ],
-          [
-            -46.3625876,
-            -23.9684921
-          ],
-          [
-            -46.3621464,
-            -23.9683652
-          ],
-          [
-            -46.3621607,
-            -23.9683246
-          ],
-          [
-            -46.3626048,
-            -23.9684414
-          ]
-        ],
-        [
-          [
-            -46.3579664,
-            -23.96758
-          ],
-          [
-            -46.3579317,
-            -23.9676068
-          ],
-          [
-            -46.3575932,
-            -23.9673009
-          ],
-          [
-            -46.3576138,
-            -23.9672825
-          ],
-          [
-            -46.3576333,
-            -23.9672651
-          ],
-          [
-            -46.3579664,
-            -23.96758
-          ]
-        ],
-        [
-          [
-            -46.3527232,
-            -23.9656183
-          ],
-          [
-            -46.3527125,
-            -23.9656425
-          ],
-          [
-            -46.3527024,
-            -23.9656656
-          ],
-          [
-            -46.3522517,
-            -23.9654999
-          ],
-          [
-            -46.3522612,
-            -23.9654783
-          ],
-          [
-            -46.3522726,
-            -23.9654526
-          ],
-          [
-            -46.3527232,
-            -23.9656183
-          ]
-        ],
-        [
-          [
-            -46.3461536,
-            -23.9630976
-          ],
-          [
-            -46.3461517,
-            -23.9631191
-          ],
-          [
-            -46.3461496,
-            -23.9631424
-          ],
-          [
-            -46.3456603,
-            -23.9631173
-          ],
-          [
-            -46.3456615,
-            -23.9630976
-          ],
-          [
-            -46.3456629,
-            -23.9630739
-          ],
-          [
-            -46.3461536,
-            -23.9630976
-          ]
-        ],
-        [
-          [
-            -46.3391199,
-            -23.9616924
-          ],
-          [
-            -46.3391011,
-            -23.9617341
-          ],
-          [
-            -46.3386463,
-            -23.9615556
-          ],
-          [
-            -46.3386543,
-            -23.9615377
-          ],
-          [
-            -46.3386621,
-            -23.9615203
-          ],
-          [
-            -46.3391199,
-            -23.9616924
-          ]
-        ],
-        [
-          [
-            -46.3333813,
-            -23.9595909
-          ],
-          [
-            -46.3333697,
-            -23.9596166
-          ],
-          [
-            -46.3333589,
-            -23.9596407
-          ],
-          [
-            -46.3329177,
-            -23.9594745
-          ],
-          [
-            -46.3329286,
-            -23.9594503
-          ],
-          [
-            -46.3329401,
-            -23.9594248
-          ],
-          [
-            -46.3333813,
-            -23.9595909
-          ]
-        ],
-        [
-          [
-            -46.3286358,
-            -23.9578205
-          ],
-          [
-            -46.3286238,
-            -23.957847
-          ],
-          [
-            -46.3286132,
-            -23.9578705
-          ],
-          [
-            -46.3281763,
-            -23.9577054
-          ],
-          [
-            -46.3281871,
-            -23.9576814
-          ],
-          [
-            -46.3281989,
-            -23.9576554
-          ],
-          [
-            -46.3286358,
-            -23.9578205
-          ]
-        ],
-        [
-          [
-            -46.3242314,
-            -23.9575469
-          ],
-          [
-            -46.324233,
-            -23.9575631
-          ],
-          [
-            -46.3242346,
-            -23.9575793
-          ],
-          [
-            -46.3232458,
-            -23.9576606
-          ],
-          [
-            -46.3232442,
-            -23.9576442
-          ],
-          [
-            -46.3232426,
-            -23.9576282
-          ],
-          [
-            -46.3242314,
-            -23.9575469
-          ]
-        ],
         [
           [
             -46.4093388,
@@ -1092,14 +679,6 @@
           [
             -46.3459369,
             -23.9631382
-          ],
-          [
-            -46.3458633,
-            -23.9631358
-          ],
-          [
-            -46.3457894,
-            -23.9631334
           ],
           [
             -46.3456569,
@@ -1865,7 +1444,7 @@
     },
     "planned_geometry": null,
     "length_km": {
-      "value": 15.345,
+      "value": 13.699,
       "source": "osm",
       "confidence": "E",
       "alternatives": []
@@ -1905,7 +1484,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -1931,7 +1509,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -1973,7 +1551,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2004,7 +1581,7 @@
         "geosampa_id": null,
         "metro_code": "MMO"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2039,7 +1616,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2065,7 +1641,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2107,7 +1683,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2133,7 +1708,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2168,7 +1743,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2194,7 +1768,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2229,7 +1803,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2255,7 +1828,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2290,7 +1863,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2316,7 +1888,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2351,7 +1923,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2377,7 +1948,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2412,7 +1983,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2438,7 +2008,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2473,7 +2043,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2499,7 +2068,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2541,7 +2110,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2572,7 +2140,7 @@
         "geosampa_id": null,
         "metro_code": "BCA"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2607,7 +2175,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2638,7 +2205,7 @@
         "geosampa_id": null,
         "metro_code": "SP-4720"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2673,7 +2240,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2699,7 +2265,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2734,7 +2300,6 @@
         ]
       },
       "lines": [
-        "vlt-linha-1",
         "vlt-linha-2"
       ],
       "status": {
@@ -2760,7 +2325,7 @@
         "geosampa_id": null,
         "metro_code": null
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "osm",
         "wikidata"
@@ -2777,8 +2342,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.9507612,
-          "lon": -46.3207816
+          "lat": -23.9506086,
+          "lon": -46.3207668
         },
         "source": "osm",
         "confidence": "C",
@@ -2790,7 +2355,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "2 m de distância"
+            "note": "15 m de distância"
           }
         ]
       },
@@ -2832,8 +2397,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.946944,
-          "lon": -46.3203942
+          "lat": -23.9468006,
+          "lon": -46.3204136
         },
         "source": "osm",
         "confidence": "C",
@@ -2845,7 +2410,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "5 m de distância"
+            "note": "13 m de distância"
           }
         ]
       },
@@ -2881,36 +2446,26 @@
       "slug": "mercado",
       "name": {
         "value": "Mercado",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9402466,
-          "lon": -46.3191926
+          "lat": -23.940235,
+          "lon": -46.31918
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.940235,
-              "lon": -46.31918
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "2 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -2919,7 +2474,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364614",
-        "osm": "node/12396988316",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -2927,7 +2482,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -2936,36 +2490,26 @@
       "slug": "paqueta",
       "name": {
         "value": "Paquetá",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9366796,
-          "lon": -46.3187696
+          "lat": -23.936675,
+          "lon": -46.318794
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.936675,
-              "lon": -46.318794
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "3 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -2974,7 +2518,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364615",
-        "osm": "node/12396988312",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -2982,7 +2526,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -2991,36 +2534,26 @@
       "slug": "poupatempo",
       "name": {
         "value": "Poupatempo",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9356616,
-          "lon": -46.3238602
+          "lat": -23.935665,
+          "lon": -46.323879
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.935665,
-              "lon": -46.323879
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "2 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -3029,7 +2562,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364617",
-        "osm": "node/12396988308",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -3037,7 +2570,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -3177,21 +2709,21 @@
         "alternatives": [
           {
             "value": {
-              "lat": -23.935388888,
-              "lon": -46.333027777
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "132 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.9349,
               "lon": -46.33301
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "111 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.935388888,
+              "lon": -46.333027777
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "132 m de distância"
           }
         ]
       },
@@ -3209,7 +2741,7 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q61944822",
+        "wikidata": "Q131364620",
         "osm": "node/13743115215",
         "gtfs_stop_id": null,
         "gtfs_route_id": null,

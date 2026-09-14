@@ -19,10 +19,10 @@ import Situacao from "@components/Situacao.astro";
 | # | Estação | Sigla | Situação | Baldeação |
 | --: | --- | --- | --- | --- |
 | 3 | [SESC-Pompeia](/estacao/sesc-pompeia/) | — | <Situacao valor="operational" /> | — |
-| 4 | [Água Branca](/estacao/agua-branca/) | ABR | <Situacao valor="operational" /> | [Linha 7 - Rubi](/linhas/linha-7-rubi/) |
-| 5 | [Santa Marina](/estacao/santa-marina/) | STM | <Situacao valor="operational" /> | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
-| 6 | [Freguesia do Ó](/estacao/freguesia-do-o/) | FRE | <Situacao valor="operational" /> | — |
-| 7 | [João Paulo I](/estacao/joao-paulo-i/) | JPI | <Situacao valor="operational" /> | — |
+| 4 | [João Paulo I](/estacao/joao-paulo-i/) | JPI | <Situacao valor="operational" /> | — |
+| 8 | [Freguesia do Ó](/estacao/freguesia-do-o/) | FRE | <Situacao valor="operational" /> | — |
+| 9 | [Santa Marina](/estacao/santa-marina/) | STM | <Situacao valor="operational" /> | [Linha 20 - Rosa](/linhas/linha-20-rosa/) |
+| 10 | [Água Branca](/estacao/agua-branca/) | ABR | <Situacao valor="operational" /> | [Linha 7 - Rubi](/linhas/linha-7-rubi/) |
 | 11 | [Perdizes](/estacao/perdizes/) | — | <Situacao valor="operational" /> | — |
 | 14 | [Higienópolis-Mackenzie](/estacao/higienopolis-mackenzie/) | HIG | <Situacao valor="operational" /> | [Linha 4 - Amarela](/linhas/linha-4-amarela/) |
 | 17 | [São Joaquim](/estacao/sao-joaquim/) | JQM | <Situacao valor="operational" /> | [Linha 1 - Azul](/linhas/linha-1-azul/) |
@@ -33,9 +33,9 @@ import Situacao from "@components/Situacao.astro";
 | --: | --- | --- | --- | --- |
 | 1 | [Velha Campinas](/estacao/velha-campinas/) | — | <Situacao valor="planned" /> | — |
 | 2 | [Morro Grande](/estacao/morro-grande/) | — | <Situacao valor="planned" /> | — |
-| 8 | [Brasilândia](/estacao/brasilandia/) | — | <Situacao valor="planned" /> | — |
-| 9 | [Maristela](/estacao/maristela/) | — | <Situacao valor="planned" /> | — |
-| 10 | [Itaberaba / Hospital Vila Penteado](/estacao/itaberaba-hospital-vila-penteado/) | ITB | <Situacao valor="planned" /> | — |
+| 5 | [Brasilândia](/estacao/brasilandia/) | — | <Situacao valor="planned" /> | — |
+| 6 | [Maristela](/estacao/maristela/) | — | <Situacao valor="planned" /> | — |
+| 7 | [Itaberaba / Hospital Vila Penteado](/estacao/itaberaba-hospital-vila-penteado/) | ITB | <Situacao valor="planned" /> | — |
 | 12 | [PUC-Cardoso de Almeida](/estacao/puc-cardoso-de-almeida/) | — | <Situacao valor="planned" /> | — |
 | 13 | [FAAP-Pacaembu](/estacao/faap-pacaembu/) | — | <Situacao valor="planned" /> | — |
 | 15 | [14 Bis – Saracura](/estacao/14-bis-saracura/) | — | <Situacao valor="planned" /> | — |
@@ -54,10 +54,10 @@ A ordem das estações vem de GTFS SPTrans.
 | Campo | Valor | Procedência | Outras leituras |
 | --- | --- | --- | --- |
 | Nome | Laranja | <Origem fonte="geosampa" nivel="A" /> | — |
-| Situação | Operação parcial | <Origem fonte="pipeline" nivel="E" /> | Em operação <Origem fonte="gtfs_sptrans" nivel="A" /><br />Em operação <Origem fonte="osm" nivel="C" /><br />Projetada <Origem fonte="geosampa" nivel="A" /> |
+| Situação | Operação parcial | <Origem fonte="pipeline" nivel="E" /> | Em operação <Origem fonte="gtfs_sptrans" nivel="A" /><br />Projetada <Origem fonte="geosampa" nivel="A" /> |
 | Número | 6 | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |
-| Cor | #F96815 | <Origem fonte="osm" nivel="C" /> | #FF6600 <Origem fonte="gtfs_sptrans" nivel="A" /> |
-| Modo | Metrô | <Origem fonte="osm" nivel="C" /> | — |
-| Operadora | Companhia do Metropolitano de São Paulo | <Origem fonte="osm" nivel="C" /> | LINHAUNI <Origem fonte="geosampa" nivel="A" /> |
-| Extensão | 4,9 km | <Origem fonte="osm" nivel="E" /> | — |
+| Cor | #FF6600 | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |
+| Modo | Metrô | <Origem fonte="geosampa" nivel="A" /> | — |
+| Operadora | LINHAUNI | <Origem fonte="geosampa" nivel="A" /> | — |
+| Extensão | 4,9 km | <Origem fonte="gtfs_sptrans" nivel="E" /> | — |
 | Ordem das estações | GTFS SPTrans | <Origem fonte="gtfs_sptrans" nivel="A" /> | — |

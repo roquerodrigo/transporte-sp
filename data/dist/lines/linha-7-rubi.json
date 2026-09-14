@@ -57,7 +57,6 @@
       "perus",
       "piqueri",
       "lapa",
-      "luz",
       "bom-retiro",
       "palmeiras-barra-funda",
       "agua-branca",
@@ -99,7 +98,19 @@
           [
             -46.688462,
             -23.5214015
+          ]
+        ],
+        [
+          [
+            -46.688462,
+            -23.5214015
           ],
+          [
+            -46.6884039,
+            -23.5214009
+          ]
+        ],
+        [
           [
             -46.6884039,
             -23.5214009
@@ -155,10 +166,6 @@
         ],
         [
           [
-            -46.726335,
-            -23.4884715
-          ],
-          [
             -46.7260511,
             -23.4886478
           ],
@@ -173,6 +180,16 @@
           [
             -46.7254755,
             -23.4890058
+          ]
+        ],
+        [
+          [
+            -46.726335,
+            -23.4884715
+          ],
+          [
+            -46.7260511,
+            -23.4886478
           ]
         ],
         [
@@ -757,8 +774,8 @@
             -23.5039094
           ],
           [
-            -46.7150162,
-            -23.5038104
+            -46.714962,
+            -23.5024159
           ],
           [
             -46.7149506,
@@ -841,26 +858,6 @@
             -23.4969822
           ],
           [
-            -46.7182716,
-            -23.4959977
-          ]
-        ],
-        [
-          [
-            -46.7182716,
-            -23.4959977
-          ],
-          [
-            -46.7183145,
-            -23.4959485
-          ]
-        ],
-        [
-          [
-            -46.7183145,
-            -23.4959485
-          ],
-          [
             -46.7187514,
             -23.4954484
           ],
@@ -939,27 +936,19 @@
           [
             -46.7260338,
             -23.4886213
-          ],
-          [
-            -46.7260452,
-            -23.4886142
           ]
         ],
         [
           [
-            -46.7260452,
-            -23.4886142
+            -46.7260338,
+            -23.4886213
           ],
           [
-            -46.7261021,
-            -23.488579
+            -46.7261133,
+            -23.488572
           ]
         ],
         [
-          [
-            -46.7261021,
-            -23.488579
-          ],
           [
             -46.7261133,
             -23.488572
@@ -975,46 +964,6 @@
           [
             -46.7270116,
             -23.4879764
-          ],
-          [
-            -46.7271273,
-            -23.4878773
-          ]
-        ],
-        [
-          [
-            -46.7271273,
-            -23.4878773
-          ],
-          [
-            -46.7272133,
-            -23.4878035
-          ]
-        ],
-        [
-          [
-            -46.7272133,
-            -23.4878035
-          ],
-          [
-            -46.7272248,
-            -23.4877936
-          ]
-        ],
-        [
-          [
-            -46.7272248,
-            -23.4877936
-          ],
-          [
-            -46.7272893,
-            -23.4877383
-          ]
-        ],
-        [
-          [
-            -46.7272893,
-            -23.4877383
           ],
           [
             -46.7273148,
@@ -4206,7 +4155,7 @@
       "confidence": "C",
       "alternatives": [
         {
-          "value": "60.711 km",
+          "value": "57.101 km",
           "source": "gtfs_sptrans",
           "confidence": "A",
           "note": "traçado alternativo, não usado"
@@ -4574,162 +4523,6 @@
       ]
     },
     {
-      "id": "luz",
-      "slug": "luz",
-      "name": {
-        "value": "Luz",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "da Luz",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.53690231,
-          "lon": -46.63367028
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.53615475,
-              "lon": -46.6344918
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "118 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.53496082,
-              "lon": -46.63511522
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "261 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5353887,
-              "lon": -46.6344383
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "186 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.53509,
-              "lon": -46.63528
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "260 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.537629,
-              "lon": -46.63361
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "81 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5366,
-              "lon": -46.6343
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "72 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.535103,
-              "lon": -46.635436
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "269 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.535297,
-              "lon": -46.634703
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "207 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.536598,
-              "lon": -46.634502
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "91 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-1",
-        "linha-4",
-        "linha-7",
-        "linha-11"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "LUZ",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1867-02-16",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "1975-09-26",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q2983699",
-        "osm": "node/5368677484",
-        "gtfs_stop_id": "18872",
-        "gtfs_route_id": null,
-        "geosampa_id": "42",
-        "metro_code": "LUZ"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
       "id": "bom-retiro",
       "slug": "bom-retiro",
       "name": {
@@ -4868,6 +4661,15 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "64 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525282,
+              "lon": -46.667175
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "77 m de distância"
           }
         ]
       },
@@ -4875,6 +4677,8 @@
         "linha-3",
         "linha-7",
         "linha-8",
+        "linha-10",
+        "linha-11",
         "expresso-aeroporto"
       ],
       "status": {
@@ -4891,12 +4695,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1988-12-17",
+        "value": "1988-12-18",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1988-12-18",
+            "value": "1988-12-17",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -4925,7 +4729,7 @@
       "slug": "agua-branca",
       "name": {
         "value": "Água Branca",
-        "source": "wikidata",
+        "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
@@ -4945,6 +4749,15 @@
             "source": "geosampa",
             "confidence": "A",
             "note": "118 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5205656,
+              "lon": -46.688096
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "137 m de distância"
           },
           {
             "value": {
@@ -5007,7 +4820,12 @@
         "confidence": "C",
         "alternatives": []
       },
-      "accessibility": null,
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
       "opened": {
         "value": "1867-02-16",
         "source": "wikidata",
@@ -5024,7 +4842,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q8842747",
-        "osm": null,
+        "osm": "way/529091895",
         "gtfs_stop_id": "18919",
         "gtfs_route_id": null,
         "geosampa_id": "3034",
@@ -5034,6 +4852,7 @@
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
+        "osm",
         "wikidata"
       ]
     },
@@ -5482,21 +5301,21 @@
           },
           {
             "value": {
-              "lat": -23.32979,
-              "lon": -46.72642
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "21 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.32825645,
               "lon": -46.7257481
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "163 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.32979,
+              "lon": -46.72642
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -5526,12 +5345,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "2014-05-10",
+        "value": "1888-02-01",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1888-02-01",
+            "value": "2014-05-10",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -5540,7 +5359,7 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q48855762",
+        "wikidata": "Q8778987",
         "osm": "node/6666778888",
         "gtfs_stop_id": "18925",
         "gtfs_route_id": null,

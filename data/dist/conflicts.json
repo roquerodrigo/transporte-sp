@@ -1,5 +1,15 @@
 [
   {
+    "entity": "line",
+    "entity_id": "linha-1",
+    "fieldname": "geometry",
+    "chosen": "30.563 km",
+    "chosen_source": "osm",
+    "rejected": "20.552 km",
+    "rejected_source": "gtfs_sptrans",
+    "detail": "os traçados divergem em mais de um quarto do comprimento"
+  },
+  {
     "entity": "station",
     "entity_id": "amador-bueno",
     "fieldname": "coordinates",
@@ -193,16 +203,6 @@
   },
   {
     "entity": "station",
-    "entity_id": "guaruja-civil-metropolitan-aerodrome",
-    "fieldname": "identidade",
-    "chosen": "Guarujá Civil Metropolitan Aerodrome",
-    "chosen_source": "pipeline",
-    "rejected": "Base Aérea de Santos",
-    "rejected_source": "pipeline",
-    "detail": "nomes diferentes a 84 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
-  },
-  {
-    "entity": "station",
     "entity_id": "higienopolis-mackenzie",
     "fieldname": "coordinates",
     "chosen": {
@@ -365,16 +365,6 @@
   },
   {
     "entity": "station",
-    "entity_id": "rodoviaria-de-santos",
-    "fieldname": "identidade",
-    "chosen": "Rodoviária de Santos",
-    "chosen_source": "pipeline",
-    "rejected": "Terminal Valongo",
-    "rejected_source": "pipeline",
-    "detail": "nomes diferentes a 54 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
-  },
-  {
-    "entity": "station",
     "entity_id": "sao-carlos",
     "fieldname": "coordinates",
     "chosen": {
@@ -408,6 +398,16 @@
     "rejected": "CARDEAL ARCOVERDE",
     "rejected_source": "pipeline",
     "detail": "nomes diferentes a 141 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
+  },
+  {
+    "entity": "station",
+    "entity_id": "terminal-valongo",
+    "fieldname": "identidade",
+    "chosen": "Terminal Valongo",
+    "chosen_source": "pipeline",
+    "rejected": "Rodoviária de Santos",
+    "rejected_source": "pipeline",
+    "detail": "nomes diferentes a 54 m: tratados como a mesma estação, porque as camadas de planejamento nomeiam uma baldeação por linha"
   },
   {
     "entity": "station",

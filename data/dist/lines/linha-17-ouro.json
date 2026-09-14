@@ -114,8 +114,8 @@
       "value": [
         [
           [
-            -46.702562,
-            -23.6222759
+            -46.7027719,
+            -23.6224492
           ],
           [
             -46.7025046,
@@ -1938,7 +1938,7 @@
       "alternatives": []
     },
     "length_km": {
-      "value": 5.988,
+      "value": 6.017,
       "source": "osm",
       "confidence": "E",
       "alternatives": []
@@ -2296,21 +2296,21 @@
           },
           {
             "value": {
-              "lat": -23.622486,
-              "lon": -46.70269
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "114 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.621593,
               "lon": -46.701642
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "34 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622486,
+              "lon": -46.70269
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "114 m de distância"
           },
           {
             "value": {

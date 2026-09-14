@@ -2276,21 +2276,21 @@
           },
           {
             "value": {
-              "lat": -23.5825036,
-              "lon": -46.5965849
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "7 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.582592,
               "lon": -46.596944
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "32 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5825036,
+              "lon": -46.5965849
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "7 m de distância"
           },
           {
             "value": {

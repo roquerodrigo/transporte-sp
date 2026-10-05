@@ -2078,7 +2078,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "140",
+        "geosampa_id": "1546",
         "metro_code": null
       },
       "is_interchange": true,
@@ -2122,7 +2122,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "139",
+        "geosampa_id": "1545",
         "metro_code": null
       },
       "is_interchange": false,
@@ -3343,12 +3343,12 @@
         "alternatives": []
       },
       "code": {
-        "value": "SAM",
+        "value": "STA",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "STA",
+            "value": "SAM",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -3772,7 +3772,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "141",
+        "geosampa_id": "1547",
         "metro_code": null
       },
       "is_interchange": false,
@@ -3826,7 +3826,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "142",
+        "geosampa_id": "1548",
         "metro_code": null
       },
       "is_interchange": false,

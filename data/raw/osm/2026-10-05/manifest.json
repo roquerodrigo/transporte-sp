@@ -1,0 +1,16 @@
+{
+  "routes.json": {
+    "bytes": 1126607,
+    "fetched_at": "2026-10-05T12:44:17+00:00",
+    "licence": "ODbL-1.0",
+    "sha256": "aff4a619db4f82cb11325590fb3ae420ba812af69c3cb3f47ed6ffb9df51949a",
+    "url": "https://overpass-api.de/api/interpreter"
+  },
+  "stations.json": {
+    "bytes": 126822,
+    "fetched_at": "2026-10-05T12:44:25+00:00",
+    "licence": "ODbL-1.0",
+    "sha256": "c254889c28e364d24df3fbbbb3096c93d369a0d14d435992b9c075efb5e8c443",
+    "url": "https://overpass-api.de/api/interpreter"
+  }
+}

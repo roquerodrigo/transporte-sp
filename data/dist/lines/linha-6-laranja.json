@@ -444,6 +444,164 @@
       "value": [
         [
           [
+            -46.70138791,
+            -23.46363677
+          ],
+          [
+            -46.70200994,
+            -23.46283414
+          ],
+          [
+            -46.70245696,
+            -23.46230171
+          ],
+          [
+            -46.70269326,
+            -23.46208635
+          ],
+          [
+            -46.7029133,
+            -23.46192371
+          ],
+          [
+            -46.70314913,
+            -23.46178113
+          ],
+          [
+            -46.70339861,
+            -23.46165991
+          ],
+          [
+            -46.70365946,
+            -23.46156116
+          ],
+          [
+            -46.70392931,
+            -23.46148577
+          ],
+          [
+            -46.70420573,
+            -23.46143443
+          ],
+          [
+            -46.70448618,
+            -23.4614076
+          ],
+          [
+            -46.70479326,
+            -23.46140655
+          ],
+          [
+            -46.7052931,
+            -23.46145841
+          ],
+          [
+            -46.70696365,
+            -23.46172394
+          ],
+          [
+            -46.70840246,
+            -23.46195354
+          ],
+          [
+            -46.70901028,
+            -23.46203813
+          ],
+          [
+            -46.70938125,
+            -23.4620649
+          ],
+          [
+            -46.70966027,
+            -23.46207076
+          ],
+          [
+            -46.7099273,
+            -23.4620652
+          ],
+          [
+            -46.71027445,
+            -23.46204751
+          ],
+          [
+            -46.71139118,
+            -23.46198297
+          ],
+          [
+            -46.71249057,
+            -23.46191943
+          ],
+          [
+            -46.71358997,
+            -23.46185588
+          ],
+          [
+            -46.71468936,
+            -23.46179233
+          ],
+          [
+            -46.7151308,
+            -23.46176112
+          ],
+          [
+            -46.71537278,
+            -23.46173164
+          ],
+          [
+            -46.71567833,
+            -23.46167216
+          ],
+          [
+            -46.71597679,
+            -23.46158739
+          ],
+          [
+            -46.71626569,
+            -23.46147802
+          ],
+          [
+            -46.71654267,
+            -23.46134496
+          ],
+          [
+            -46.71680543,
+            -23.46118929
+          ],
+          [
+            -46.71705183,
+            -23.4610123
+          ],
+          [
+            -46.71727983,
+            -23.46081545
+          ],
+          [
+            -46.71748757,
+            -23.46060034
+          ],
+          [
+            -46.71767332,
+            -23.46036876
+          ],
+          [
+            -46.71785849,
+            -23.4600895
+          ],
+          [
+            -46.71861112,
+            -23.45879812
+          ],
+          [
+            -46.71920475,
+            -23.45777553
+          ],
+          [
+            -46.71979838,
+            -23.45675294
+          ]
+        ],
+        [
+          [
             -46.69992654,
             -23.46544755
           ],
@@ -4725,164 +4883,6 @@
             -46.63588562,
             -23.5633443
           ]
-        ],
-        [
-          [
-            -46.70138791,
-            -23.46363677
-          ],
-          [
-            -46.70200994,
-            -23.46283414
-          ],
-          [
-            -46.70245696,
-            -23.46230171
-          ],
-          [
-            -46.70269326,
-            -23.46208635
-          ],
-          [
-            -46.7029133,
-            -23.46192371
-          ],
-          [
-            -46.70314913,
-            -23.46178113
-          ],
-          [
-            -46.70339861,
-            -23.46165991
-          ],
-          [
-            -46.70365946,
-            -23.46156116
-          ],
-          [
-            -46.70392931,
-            -23.46148577
-          ],
-          [
-            -46.70420573,
-            -23.46143443
-          ],
-          [
-            -46.70448618,
-            -23.4614076
-          ],
-          [
-            -46.70479326,
-            -23.46140655
-          ],
-          [
-            -46.7052931,
-            -23.46145841
-          ],
-          [
-            -46.70696365,
-            -23.46172394
-          ],
-          [
-            -46.70840246,
-            -23.46195354
-          ],
-          [
-            -46.70901028,
-            -23.46203813
-          ],
-          [
-            -46.70938125,
-            -23.4620649
-          ],
-          [
-            -46.70966027,
-            -23.46207076
-          ],
-          [
-            -46.7099273,
-            -23.4620652
-          ],
-          [
-            -46.71027445,
-            -23.46204751
-          ],
-          [
-            -46.71139118,
-            -23.46198297
-          ],
-          [
-            -46.71249057,
-            -23.46191943
-          ],
-          [
-            -46.71358997,
-            -23.46185588
-          ],
-          [
-            -46.71468936,
-            -23.46179233
-          ],
-          [
-            -46.7151308,
-            -23.46176112
-          ],
-          [
-            -46.71537278,
-            -23.46173164
-          ],
-          [
-            -46.71567833,
-            -23.46167216
-          ],
-          [
-            -46.71597679,
-            -23.46158739
-          ],
-          [
-            -46.71626569,
-            -23.46147802
-          ],
-          [
-            -46.71654267,
-            -23.46134496
-          ],
-          [
-            -46.71680543,
-            -23.46118929
-          ],
-          [
-            -46.71705183,
-            -23.4610123
-          ],
-          [
-            -46.71727983,
-            -23.46081545
-          ],
-          [
-            -46.71748757,
-            -23.46060034
-          ],
-          [
-            -46.71767332,
-            -23.46036876
-          ],
-          [
-            -46.71785849,
-            -23.4600895
-          ],
-          [
-            -46.71861112,
-            -23.45879812
-          ],
-          [
-            -46.71920475,
-            -23.45777553
-          ],
-          [
-            -46.71979838,
-            -23.45675294
-          ]
         ]
       ],
       "source": "geosampa",
@@ -4944,7 +4944,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "197",
+        "geosampa_id": "1603",
         "metro_code": null
       },
       "is_interchange": false,
@@ -4988,7 +4988,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "196",
+        "geosampa_id": "1602",
         "metro_code": null
       },
       "is_interchange": false,
@@ -5083,7 +5083,7 @@
         "osm": "way/826549219",
         "gtfs_stop_id": "6114515",
         "gtfs_route_id": null,
-        "geosampa_id": "122",
+        "geosampa_id": "1528",
         "metro_code": null
       },
       "is_interchange": false,
@@ -5099,7 +5099,7 @@
       "slug": "agua-branca",
       "name": {
         "value": "Água Branca",
-        "source": "wikidata",
+        "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
@@ -5119,6 +5119,15 @@
             "source": "geosampa",
             "confidence": "A",
             "note": "118 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5205656,
+              "lon": -46.688096
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "137 m de distância"
           },
           {
             "value": {
@@ -5181,7 +5190,12 @@
         "confidence": "C",
         "alternatives": []
       },
-      "accessibility": null,
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
       "opened": {
         "value": "1867-02-16",
         "source": "wikidata",
@@ -5198,7 +5212,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q8842747",
-        "osm": null,
+        "osm": "way/529091895",
         "gtfs_stop_id": "18919",
         "gtfs_route_id": null,
         "geosampa_id": "3034",
@@ -5208,6 +5222,7 @@
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
+        "osm",
         "wikidata"
       ]
     },
@@ -5304,7 +5319,7 @@
         "osm": "way/529089113",
         "gtfs_stop_id": "2914647",
         "gtfs_route_id": null,
-        "geosampa_id": "124",
+        "geosampa_id": "1530",
         "metro_code": "STM"
       },
       "is_interchange": true,
@@ -5407,7 +5422,7 @@
         "osm": "way/529088751",
         "gtfs_stop_id": "2914646",
         "gtfs_route_id": null,
-        "geosampa_id": "125",
+        "geosampa_id": "1531",
         "metro_code": "FRE"
       },
       "is_interchange": false,
@@ -5510,7 +5525,7 @@
         "osm": "way/529088943",
         "gtfs_stop_id": "2914645",
         "gtfs_route_id": null,
-        "geosampa_id": "126",
+        "geosampa_id": "1532",
         "metro_code": "JPI"
       },
       "is_interchange": false,
@@ -5567,7 +5582,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "129",
+        "geosampa_id": "1535",
         "metro_code": null
       },
       "is_interchange": false,
@@ -5629,7 +5644,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "128",
+        "geosampa_id": "1534",
         "metro_code": null
       },
       "is_interchange": false,
@@ -5689,7 +5704,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "127",
+        "geosampa_id": "1533",
         "metro_code": "ITB"
       },
       "is_interchange": false,
@@ -5785,7 +5800,7 @@
         "osm": "way/529093495",
         "gtfs_stop_id": "6114516",
         "gtfs_route_id": null,
-        "geosampa_id": "121",
+        "geosampa_id": "1527",
         "metro_code": null
       },
       "is_interchange": false,
@@ -5842,7 +5857,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "120",
+        "geosampa_id": "1526",
         "metro_code": null
       },
       "is_interchange": false,
@@ -5897,7 +5912,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "119",
+        "geosampa_id": "1525",
         "metro_code": null
       },
       "is_interchange": false,
@@ -5934,12 +5949,12 @@
           },
           {
             "value": {
-              "lat": -23.5489592,
-              "lon": -46.6523049
+              "lat": -23.548687,
+              "lon": -46.6523419
             },
             "source": "osm",
             "confidence": "C",
-            "note": "5 m de distância"
+            "note": "31 m de distância"
           },
           {
             "value": {
@@ -6008,7 +6023,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q8779002",
-        "osm": "node/5356426230",
+        "osm": "way/555252628",
         "gtfs_stop_id": "4406630",
         "gtfs_route_id": null,
         "geosampa_id": "86",
@@ -6075,7 +6090,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "117",
+        "geosampa_id": "1523",
         "metro_code": null
       },
       "is_interchange": false,
@@ -6130,7 +6145,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "116",
+        "geosampa_id": "1522",
         "metro_code": null
       },
       "is_interchange": false,
@@ -6167,12 +6182,12 @@
           },
           {
             "value": {
-              "lat": -23.5615965,
-              "lon": -46.6386084
+              "lat": -23.5618155,
+              "lon": -46.6386573
             },
             "source": "osm",
             "confidence": "C",
-            "note": "36 m de distância"
+            "note": "11 m de distância"
           },
           {
             "value": {
@@ -6185,12 +6200,12 @@
           },
           {
             "value": {
-              "lat": -23.561435,
-              "lon": -46.638534
+              "lat": -23.561473,
+              "lon": -46.63858
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "55 m de distância"
+            "note": "50 m de distância"
           }
         ]
       },
@@ -6277,7 +6292,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "198",
+        "geosampa_id": "1604",
         "metro_code": null
       },
       "is_interchange": false,
@@ -6321,7 +6336,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "199",
+        "geosampa_id": "1605",
         "metro_code": null
       },
       "is_interchange": false,
@@ -6365,7 +6380,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "200",
+        "geosampa_id": "1606",
         "metro_code": null
       },
       "is_interchange": false,
@@ -6437,7 +6452,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "201",
+        "geosampa_id": "1607",
         "metro_code": null
       },
       "is_interchange": true,

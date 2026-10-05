@@ -873,7 +873,7 @@
       "confidence": "C",
       "alternatives": [
         {
-          "value": "15.042 km",
+          "value": "15.04 km",
           "source": "gtfs_sptrans",
           "confidence": "A",
           "note": "traçado alternativo, não usado"
@@ -1293,7 +1293,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "135",
+        "geosampa_id": "1541",
         "metro_code": null
       },
       "is_interchange": true,
@@ -1337,7 +1337,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "134",
+        "geosampa_id": "1540",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1381,7 +1381,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "133",
+        "geosampa_id": "1539",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1453,7 +1453,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "132",
+        "geosampa_id": "1538",
         "metro_code": null
       },
       "is_interchange": true,
@@ -1497,7 +1497,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "131",
+        "geosampa_id": "1537",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1670,7 +1670,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "113",
+        "geosampa_id": "1519",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1725,7 +1725,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "112",
+        "geosampa_id": "1518",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1780,7 +1780,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "111",
+        "geosampa_id": "1517",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1835,7 +1835,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "110",
+        "geosampa_id": "1516",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1900,7 +1900,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "109",
+        "geosampa_id": "1515",
         "metro_code": null
       },
       "is_interchange": true,
@@ -1955,7 +1955,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "108",
+        "geosampa_id": "1514",
         "metro_code": null
       },
       "is_interchange": false,
@@ -2010,7 +2010,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "107",
+        "geosampa_id": "1513",
         "metro_code": null
       },
       "is_interchange": false,
@@ -2203,12 +2203,12 @@
           },
           {
             "value": {
-              "lat": -23.5927867,
-              "lon": -46.5895167
+              "lat": -23.592782,
+              "lon": -46.5895106
             },
             "source": "osm",
             "confidence": "C",
-            "note": "18 m de distância"
+            "note": "19 m de distância"
           },
           {
             "value": {
@@ -2749,12 +2749,12 @@
           },
           {
             "value": {
-              "lat": -23.581203,
-              "lon": -46.638489
+              "lat": -23.581204,
+              "lon": -46.638496
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "22 m de distância"
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -3118,12 +3118,12 @@
         "alternatives": [
           {
             "value": {
-              "lat": -23.557818,
-              "lon": -46.6605373
+              "lat": -23.5570068,
+              "lon": -46.6616117
             },
             "source": "osm",
             "confidence": "C",
-            "note": "94 m de distância"
+            "note": "49 m de distância"
           },
           {
             "value": {
@@ -3170,7 +3170,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q2994646",
-        "osm": "node/5159984416",
+        "osm": "way/817292044",
         "gtfs_stop_id": "18850",
         "gtfs_route_id": null,
         "geosampa_id": "22",
@@ -3526,7 +3526,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "130",
+        "geosampa_id": "1536",
         "metro_code": null
       },
       "is_interchange": true,

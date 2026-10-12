@@ -93,10 +93,10 @@
       "morumbi-claro",
       "chucri-zaidan",
       "brooklin-paulista",
-      "aeroporto-de-congonhas",
-      "vereador-jose-diniz",
-      "campo-belo",
       "vila-cordeiro",
+      "campo-belo",
+      "vereador-jose-diniz",
+      "aeroporto-de-congonhas",
       "washington-luis",
       "vila-paulista",
       "vila-babilonia",
@@ -880,6 +880,276 @@
       "value": [
         [
           [
+            -46.6408314,
+            -23.64764681
+          ],
+          [
+            -46.6409844,
+            -23.64801087
+          ],
+          [
+            -46.6412058,
+            -23.6483972
+          ],
+          [
+            -46.64147184,
+            -23.64870933
+          ],
+          [
+            -46.64173788,
+            -23.64901106
+          ],
+          [
+            -46.64229408,
+            -23.649448
+          ],
+          [
+            -46.64277144,
+            -23.64977183
+          ],
+          [
+            -46.64312928,
+            -23.65016046
+          ],
+          [
+            -46.64349756,
+            -23.65064291
+          ],
+          [
+            -46.6438896,
+            -23.65104357
+          ],
+          [
+            -46.64421144,
+            -23.65142048
+          ],
+          [
+            -46.644507,
+            -23.65189765
+          ],
+          [
+            -46.64469348,
+            -23.65236887
+          ],
+          [
+            -46.644777,
+            -23.65292254
+          ],
+          [
+            -46.64480904,
+            -23.65352335
+          ],
+          [
+            -46.64491848,
+            -23.65394165
+          ],
+          [
+            -46.64509848,
+            -23.65427734
+          ],
+          [
+            -46.64541384,
+            -23.65453075
+          ],
+          [
+            -46.64574828,
+            -23.65464254
+          ],
+          [
+            -46.64614032,
+            -23.65463067
+          ],
+          [
+            -46.6465068,
+            -23.65450701
+          ],
+          [
+            -46.64780568,
+            -23.65373555
+          ],
+          [
+            -46.648179,
+            -23.65361766
+          ],
+          [
+            -46.64866752,
+            -23.65355864
+          ],
+          [
+            -46.64907936,
+            -23.65335848
+          ],
+          [
+            -46.64936196,
+            -23.65309335
+          ],
+          [
+            -46.64953584,
+            -23.65273408
+          ],
+          [
+            -46.64968992,
+            -23.65243961
+          ],
+          [
+            -46.6498764,
+            -23.65211562
+          ],
+          [
+            -46.65012732,
+            -23.65184456
+          ],
+          [
+            -46.65116916,
+            -23.65093755
+          ],
+          [
+            -46.65154212,
+            -23.65053689
+          ],
+          [
+            -46.65188916,
+            -23.65024241
+          ],
+          [
+            -46.65327192,
+            -23.64845161
+          ],
+          [
+            -46.6535196,
+            -23.6480953
+          ],
+          [
+            -46.65396312,
+            -23.64761235
+          ],
+          [
+            -46.65452256,
+            -23.64716452
+          ],
+          [
+            -46.65581208,
+            -23.64606604
+          ],
+          [
+            -46.65605652,
+            -23.64584213
+          ],
+          [
+            -46.65619152,
+            -23.64563008
+          ],
+          [
+            -46.65631356,
+            -23.6453473
+          ],
+          [
+            -46.656423,
+            -23.64507045
+          ],
+          [
+            -46.65671892,
+            -23.64427519
+          ],
+          [
+            -46.65691152,
+            -23.64405721
+          ],
+          [
+            -46.65716892,
+            -23.64392167
+          ],
+          [
+            -46.65752244,
+            -23.64375678
+          ],
+          [
+            -46.65830724,
+            -23.64331504
+          ],
+          [
+            -46.6586028,
+            -23.64313827
+          ],
+          [
+            -46.65887316,
+            -23.64282597
+          ],
+          [
+            -46.65903372,
+            -23.64261392
+          ],
+          [
+            -46.6599276,
+            -23.64122964
+          ],
+          [
+            -46.66014,
+            -23.64085847
+          ],
+          [
+            -46.6601976,
+            -23.64042249
+          ],
+          [
+            -46.66025556,
+            -23.63994545
+          ],
+          [
+            -46.66034556,
+            -23.63967436
+          ],
+          [
+            -46.66051908,
+            -23.63941515
+          ],
+          [
+            -46.66095,
+            -23.6389851
+          ],
+          [
+            -46.66128444,
+            -23.63878491
+          ],
+          [
+            -46.66189536,
+            -23.63844325
+          ],
+          [
+            -46.66289868,
+            -23.63798961
+          ],
+          [
+            -46.6649244,
+            -23.63671116
+          ],
+          [
+            -46.66592088,
+            -23.63598659
+          ],
+          [
+            -46.66833864,
+            -23.6344667
+          ],
+          [
+            -46.66893696,
+            -23.63404834
+          ],
+          [
+            -46.66981788,
+            -23.6332883
+          ],
+          [
+            -46.6703838,
+            -23.63256965
+          ],
+          [
+            -46.67087088,
+            -23.6320939
+          ]
+        ],
+        [
+          [
             -46.66150152,
             -23.62665605
           ],
@@ -1661,276 +1931,6 @@
             -46.72387692,
             -23.58682447
           ]
-        ],
-        [
-          [
-            -46.6408314,
-            -23.64764681
-          ],
-          [
-            -46.6409844,
-            -23.64801087
-          ],
-          [
-            -46.6412058,
-            -23.6483972
-          ],
-          [
-            -46.64147184,
-            -23.64870933
-          ],
-          [
-            -46.64173788,
-            -23.64901106
-          ],
-          [
-            -46.64229408,
-            -23.649448
-          ],
-          [
-            -46.64277144,
-            -23.64977183
-          ],
-          [
-            -46.64312928,
-            -23.65016046
-          ],
-          [
-            -46.64349756,
-            -23.65064291
-          ],
-          [
-            -46.6438896,
-            -23.65104357
-          ],
-          [
-            -46.64421144,
-            -23.65142048
-          ],
-          [
-            -46.644507,
-            -23.65189765
-          ],
-          [
-            -46.64469348,
-            -23.65236887
-          ],
-          [
-            -46.644777,
-            -23.65292254
-          ],
-          [
-            -46.64480904,
-            -23.65352335
-          ],
-          [
-            -46.64491848,
-            -23.65394165
-          ],
-          [
-            -46.64509848,
-            -23.65427734
-          ],
-          [
-            -46.64541384,
-            -23.65453075
-          ],
-          [
-            -46.64574828,
-            -23.65464254
-          ],
-          [
-            -46.64614032,
-            -23.65463067
-          ],
-          [
-            -46.6465068,
-            -23.65450701
-          ],
-          [
-            -46.64780568,
-            -23.65373555
-          ],
-          [
-            -46.648179,
-            -23.65361766
-          ],
-          [
-            -46.64866752,
-            -23.65355864
-          ],
-          [
-            -46.64907936,
-            -23.65335848
-          ],
-          [
-            -46.64936196,
-            -23.65309335
-          ],
-          [
-            -46.64953584,
-            -23.65273408
-          ],
-          [
-            -46.64968992,
-            -23.65243961
-          ],
-          [
-            -46.6498764,
-            -23.65211562
-          ],
-          [
-            -46.65012732,
-            -23.65184456
-          ],
-          [
-            -46.65116916,
-            -23.65093755
-          ],
-          [
-            -46.65154212,
-            -23.65053689
-          ],
-          [
-            -46.65188916,
-            -23.65024241
-          ],
-          [
-            -46.65327192,
-            -23.64845161
-          ],
-          [
-            -46.6535196,
-            -23.6480953
-          ],
-          [
-            -46.65396312,
-            -23.64761235
-          ],
-          [
-            -46.65452256,
-            -23.64716452
-          ],
-          [
-            -46.65581208,
-            -23.64606604
-          ],
-          [
-            -46.65605652,
-            -23.64584213
-          ],
-          [
-            -46.65619152,
-            -23.64563008
-          ],
-          [
-            -46.65631356,
-            -23.6453473
-          ],
-          [
-            -46.656423,
-            -23.64507045
-          ],
-          [
-            -46.65671892,
-            -23.64427519
-          ],
-          [
-            -46.65691152,
-            -23.64405721
-          ],
-          [
-            -46.65716892,
-            -23.64392167
-          ],
-          [
-            -46.65752244,
-            -23.64375678
-          ],
-          [
-            -46.65830724,
-            -23.64331504
-          ],
-          [
-            -46.6586028,
-            -23.64313827
-          ],
-          [
-            -46.65887316,
-            -23.64282597
-          ],
-          [
-            -46.65903372,
-            -23.64261392
-          ],
-          [
-            -46.6599276,
-            -23.64122964
-          ],
-          [
-            -46.66014,
-            -23.64085847
-          ],
-          [
-            -46.6601976,
-            -23.64042249
-          ],
-          [
-            -46.66025556,
-            -23.63994545
-          ],
-          [
-            -46.66034556,
-            -23.63967436
-          ],
-          [
-            -46.66051908,
-            -23.63941515
-          ],
-          [
-            -46.66095,
-            -23.6389851
-          ],
-          [
-            -46.66128444,
-            -23.63878491
-          ],
-          [
-            -46.66189536,
-            -23.63844325
-          ],
-          [
-            -46.66289868,
-            -23.63798961
-          ],
-          [
-            -46.6649244,
-            -23.63671116
-          ],
-          [
-            -46.66592088,
-            -23.63598659
-          ],
-          [
-            -46.66833864,
-            -23.6344667
-          ],
-          [
-            -46.66893696,
-            -23.63404834
-          ],
-          [
-            -46.66981788,
-            -23.6332883
-          ],
-          [
-            -46.6703838,
-            -23.63256965
-          ],
-          [
-            -46.67087088,
-            -23.6320939
-          ]
         ]
       ],
       "source": "geosampa",
@@ -2094,7 +2094,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "156",
+        "geosampa_id": "1562",
         "metro_code": null
       },
       "is_interchange": false,
@@ -2138,7 +2138,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "155",
+        "geosampa_id": "1561",
         "metro_code": null
       },
       "is_interchange": false,
@@ -2182,7 +2182,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "154",
+        "geosampa_id": "1560",
         "metro_code": null
       },
       "is_interchange": false,
@@ -2243,7 +2243,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "153",
+        "geosampa_id": "1559",
         "metro_code": null
       },
       "is_interchange": false,
@@ -2296,21 +2296,21 @@
           },
           {
             "value": {
-              "lat": -23.622486,
-              "lon": -46.70269
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "114 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.621593,
               "lon": -46.701642
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "34 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.622486,
+              "lon": -46.70269
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "114 m de distância"
           },
           {
             "value": {
@@ -2477,7 +2477,7 @@
         "osm": "way/1494656556",
         "gtfs_stop_id": "3407224",
         "gtfs_route_id": null,
-        "geosampa_id": "104",
+        "geosampa_id": "1510",
         "metro_code": "CZD"
       },
       "is_interchange": false,
@@ -2579,7 +2579,7 @@
         "osm": "way/1494475327",
         "gtfs_stop_id": "1506221",
         "gtfs_route_id": null,
-        "geosampa_id": "100",
+        "geosampa_id": "1506",
         "metro_code": "BPA"
       },
       "is_interchange": false,
@@ -2591,165 +2591,48 @@
       ]
     },
     {
-      "id": "aeroporto-de-congonhas",
-      "slug": "aeroporto-de-congonhas",
+      "id": "vila-cordeiro",
+      "slug": "vila-cordeiro",
       "name": {
-        "value": "Aeroporto de Congonhas",
+        "value": "Vila Cordeiro",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Congonhas",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.62665605,
-          "lon": -46.66150152
+          "lat": -23.61542393,
+          "lon": -46.68897816
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.6270021,
-              "lon": -46.6618974
+              "lat": -23.6155758,
+              "lon": -46.6885977
             },
             "source": "osm",
-            "confidence": "C",
-            "note": "56 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.626944,
-              "lon": -46.661764
-            },
-            "source": "wikidata",
             "confidence": "C",
             "note": "42 m de distância"
           },
           {
             "value": {
-              "lat": -23.626925,
-              "lon": -46.661869
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "48 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-17"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "pipeline",
-        "confidence": "E",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "ainda projetada nesta fonte"
-          },
-          {
-            "value": "operational",
-            "source": "osm",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "code": {
-        "value": "CGN",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": {
-        "value": "full",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "opened": {
-        "value": "2026-03-31",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q18475293",
-        "osm": "way/698751459",
-        "gtfs_stop_id": "1506222",
-        "gtfs_route_id": null,
-        "geosampa_id": "106",
-        "metro_code": "CGN"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "vereador-jose-diniz",
-      "slug": "vereador-jose-diniz",
-      "name": {
-        "value": "Vereador José Diniz",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "JOSÉ DINIZ",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.6219258,
-          "lon": -46.6789536
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.6220552,
-              "lon": -46.6788791
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "16 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.622222,
-              "lon": -46.678611
+              "lat": -23.615556,
+              "lon": -46.688611
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "48 m de distância"
+            "note": "40 m de distância"
           },
           {
             "value": {
-              "lat": -23.62209,
-              "lon": -46.678848
+              "lat": -23.615585,
+              "lon": -46.688565
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "21 m de distância"
+            "note": "46 m de distância"
           }
         ]
       },
@@ -2776,26 +2659,21 @@
         ]
       },
       "code": {
-        "value": "VJD",
+        "value": "VCD",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "accessibility": null,
-      "opened": {
-        "value": "2026-03-31",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
+      "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q19707412",
-        "osm": "way/671909899",
-        "gtfs_stop_id": "1506220",
+        "wikidata": "Q18475857",
+        "osm": "way/506475778",
+        "gtfs_stop_id": "3407225",
         "gtfs_route_id": null,
-        "geosampa_id": "101",
-        "metro_code": "VJD"
+        "geosampa_id": "1509",
+        "metro_code": "VCD"
       },
       "is_interchange": false,
       "observed_by": [
@@ -2922,48 +2800,55 @@
       ]
     },
     {
-      "id": "vila-cordeiro",
-      "slug": "vila-cordeiro",
+      "id": "vereador-jose-diniz",
+      "slug": "vereador-jose-diniz",
       "name": {
-        "value": "Vila Cordeiro",
+        "value": "Vereador José Diniz",
         "source": "osm",
         "confidence": "C",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "JOSÉ DINIZ",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
       },
       "coordinates": {
         "value": {
-          "lat": -23.61542393,
-          "lon": -46.68897816
+          "lat": -23.6219258,
+          "lon": -46.6789536
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.6155758,
-              "lon": -46.6885977
+              "lat": -23.6220552,
+              "lon": -46.6788791
             },
             "source": "osm",
             "confidence": "C",
-            "note": "42 m de distância"
+            "note": "16 m de distância"
           },
           {
             "value": {
-              "lat": -23.615556,
-              "lon": -46.688611
+              "lat": -23.622222,
+              "lon": -46.678611
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "40 m de distância"
+            "note": "48 m de distância"
           },
           {
             "value": {
-              "lat": -23.615585,
-              "lon": -46.688565
+              "lat": -23.62209,
+              "lon": -46.678848
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "46 m de distância"
+            "note": "21 m de distância"
           }
         ]
       },
@@ -2990,21 +2875,136 @@
         ]
       },
       "code": {
-        "value": "VCD",
+        "value": "VJD",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "accessibility": null,
-      "opened": null,
+      "opened": {
+        "value": "2026-03-31",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
       "address": null,
       "external_ids": {
-        "wikidata": "Q18475857",
-        "osm": "way/506475778",
-        "gtfs_stop_id": "3407225",
+        "wikidata": "Q19707412",
+        "osm": "way/671909899",
+        "gtfs_stop_id": "1506220",
         "gtfs_route_id": null,
-        "geosampa_id": "103",
-        "metro_code": "VCD"
+        "geosampa_id": "1507",
+        "metro_code": "VJD"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "aeroporto-de-congonhas",
+      "slug": "aeroporto-de-congonhas",
+      "name": {
+        "value": "Aeroporto de Congonhas",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Congonhas",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.62665605,
+          "lon": -46.66150152
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.6270021,
+              "lon": -46.6618974
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "56 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.626944,
+              "lon": -46.661764
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "42 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.626925,
+              "lon": -46.661869
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "48 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-17"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "pipeline",
+        "confidence": "E",
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "ainda projetada nesta fonte"
+          },
+          {
+            "value": "operational",
+            "source": "osm",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "code": {
+        "value": "CGN",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "opened": {
+        "value": "2026-03-31",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q18475293",
+        "osm": "way/698751459",
+        "gtfs_stop_id": "1506222",
+        "gtfs_route_id": null,
+        "geosampa_id": "1512",
+        "metro_code": "CGN"
       },
       "is_interchange": false,
       "observed_by": [
@@ -3101,7 +3101,7 @@
         "osm": "way/671909903",
         "gtfs_stop_id": "1506223",
         "gtfs_route_id": null,
-        "geosampa_id": "99",
+        "geosampa_id": "1505",
         "metro_code": "JDA"
       },
       "is_interchange": false,
@@ -3148,7 +3148,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "152",
+        "geosampa_id": "1558",
         "metro_code": null
       },
       "is_interchange": false,
@@ -3192,7 +3192,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "151",
+        "geosampa_id": "1557",
         "metro_code": null
       },
       "is_interchange": false,
@@ -3236,7 +3236,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "150",
+        "geosampa_id": "1556",
         "metro_code": null
       },
       "is_interchange": false,
@@ -3280,7 +3280,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "149",
+        "geosampa_id": "1555",
         "metro_code": null
       },
       "is_interchange": false,

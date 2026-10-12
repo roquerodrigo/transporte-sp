@@ -1444,12 +1444,16 @@
             -23.5389089
           ],
           [
-            -46.6232003,
-            -23.5385017
+            -46.6231909,
+            -23.5384931
           ],
           [
-            -46.6235208,
-            -23.538341
+            -46.6233612,
+            -23.5384123
+          ],
+          [
+            -46.6237881,
+            -23.538235
           ],
           [
             -46.6241801,
@@ -2491,6 +2495,15 @@
             "source": "gtfs_sptrans",
             "confidence": "A",
             "note": "64 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525282,
+              "lon": -46.667175
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "77 m de distância"
           }
         ]
       },
@@ -2498,6 +2511,8 @@
         "linha-3",
         "linha-7",
         "linha-8",
+        "linha-10",
+        "linha-11",
         "expresso-aeroporto"
       ],
       "status": {
@@ -2514,12 +2529,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1988-12-17",
+        "value": "1988-12-18",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1988-12-18",
+            "value": "1988-12-17",
             "source": "wikidata",
             "confidence": "C",
             "note": null

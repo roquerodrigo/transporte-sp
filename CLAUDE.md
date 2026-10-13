@@ -30,17 +30,6 @@ cd site
 npx astro check && npm run build
 ```
 
-## Onde mexer
-
-| Quero mudar | Mexo em |
-|---|---|
-| Qualquer URL, limiar, bbox, caminho | `pipeline/src/transporte_sp/config.py` — **fonte única**, nada disperso |
-| Como uma fonte é lida | `pipeline/src/transporte_sp/sources/<fonte>.py` |
-| Qual fonte ganha em qual campo | `pipeline/src/transporte_sp/merge/precedence.py` |
-| Como estações são agrupadas entre fontes | `pipeline/src/transporte_sp/merge/matching.py` |
-| O que aparece nas páginas de linha/estação | `pipeline/src/transporte_sp/export/pages.py` |
-| Aparência, mapa, páginas fixas | `site/src/` |
-
 ## Armadilhas das fontes (custaram tempo, não repita)
 
 - **`ref` de estação no OSM é a sigla oficial** (`VMD`, `BAS`), **não a linha**. Lê-lo como

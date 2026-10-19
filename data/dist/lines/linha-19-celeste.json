@@ -807,7 +807,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "167",
+        "geosampa_id": "1573",
         "metro_code": null
       },
       "is_interchange": false,
@@ -851,7 +851,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "168",
+        "geosampa_id": "1574",
         "metro_code": null
       },
       "is_interchange": false,
@@ -895,7 +895,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "161",
+        "geosampa_id": "1567",
         "metro_code": null
       },
       "is_interchange": false,
@@ -950,7 +950,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "135",
+        "geosampa_id": "1541",
         "metro_code": null
       },
       "is_interchange": true,
@@ -994,7 +994,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "170",
+        "geosampa_id": "1576",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1038,7 +1038,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "171",
+        "geosampa_id": "1577",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1082,7 +1082,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "169",
+        "geosampa_id": "1575",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1126,7 +1126,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "162",
+        "geosampa_id": "1568",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1170,7 +1170,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "158",
+        "geosampa_id": "1564",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1214,7 +1214,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "163",
+        "geosampa_id": "1569",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1258,7 +1258,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "159",
+        "geosampa_id": "1565",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1302,7 +1302,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "166",
+        "geosampa_id": "1572",
         "metro_code": null
       },
       "is_interchange": false,
@@ -1357,7 +1357,7 @@
         "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
-        "geosampa_id": "165",
+        "geosampa_id": "1571",
         "metro_code": null
       },
       "is_interchange": true,
@@ -1411,12 +1411,12 @@
           },
           {
             "value": {
-              "lat": -23.5441,
-              "lon": -46.6342
+              "lat": -23.544094,
+              "lon": -46.634175
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "4 m de distância"
+            "note": "1 m de distância"
           }
         ]
       },

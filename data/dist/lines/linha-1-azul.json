@@ -1300,7 +1300,7 @@
       "confidence": "C",
       "alternatives": [
         {
-          "value": "20.552 km",
+          "value": "20.581 km",
           "source": "gtfs_sptrans",
           "confidence": "A",
           "note": "traçado alternativo, não usado"
@@ -2099,12 +2099,12 @@
           },
           {
             "value": {
-              "lat": -23.581203,
-              "lon": -46.638489
+              "lat": -23.581204,
+              "lon": -46.638496
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "22 m de distância"
+            "note": "21 m de distância"
           },
           {
             "value": {
@@ -2300,12 +2300,12 @@
         "alternatives": [
           {
             "value": {
-              "lat": -23.5685349,
-              "lon": -46.6399175
+              "lat": -23.5688164,
+              "lon": -46.6399211
             },
             "source": "osm",
             "confidence": "C",
-            "note": "42 m de distância"
+            "note": "11 m de distância"
           },
           {
             "value": {
@@ -2318,12 +2318,12 @@
           },
           {
             "value": {
-              "lat": -23.568521,
-              "lon": -46.639904
+              "lat": -23.568467,
+              "lon": -46.639928
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "44 m de distância"
+            "note": "50 m de distância"
           }
         ]
       },
@@ -2399,12 +2399,12 @@
           },
           {
             "value": {
-              "lat": -23.5615965,
-              "lon": -46.6386084
+              "lat": -23.5618155,
+              "lon": -46.6386573
             },
             "source": "osm",
             "confidence": "C",
-            "note": "36 m de distância"
+            "note": "11 m de distância"
           },
           {
             "value": {
@@ -2417,12 +2417,12 @@
           },
           {
             "value": {
-              "lat": -23.561435,
-              "lon": -46.638534
+              "lat": -23.561473,
+              "lon": -46.63858
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "55 m de distância"
+            "note": "50 m de distância"
           }
         ]
       },
@@ -2499,12 +2499,12 @@
         "alternatives": [
           {
             "value": {
-              "lat": -23.5551768,
-              "lon": -46.6356017
+              "lat": -23.5552289,
+              "lon": -46.6358624
             },
             "source": "osm",
             "confidence": "C",
-            "note": "26 m de distância"
+            "note": "31 m de distância"
           },
           {
             "value": {
@@ -2611,7 +2611,7 @@
           },
           {
             "value": {
-              "lat": -23.5505,
+              "lat": -23.550503,
               "lon": -46.633305
             },
             "source": "gtfs_sptrans",
@@ -2620,7 +2620,7 @@
           },
           {
             "value": {
-              "lat": -23.550611,
+              "lat": -23.550614,
               "lon": -46.633505
             },
             "source": "gtfs_sptrans",
@@ -2715,12 +2715,12 @@
           },
           {
             "value": {
-              "lat": -23.5441,
-              "lon": -46.6342
+              "lat": -23.544094,
+              "lon": -46.634175
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "4 m de distância"
+            "note": "1 m de distância"
           }
         ]
       },
@@ -2780,8 +2780,8 @@
         "confidence": "C",
         "alternatives": [
           {
-            "value": "da Luz",
-            "source": "wikidata",
+            "value": "Estação da Luz",
+            "source": "osm",
             "confidence": "C",
             "note": null
           }
@@ -2824,12 +2824,30 @@
           },
           {
             "value": {
-              "lat": -23.53509,
-              "lon": -46.63528
+              "lat": -23.5351033,
+              "lon": -46.6353376
             },
-            "source": "wikidata",
+            "source": "osm",
             "confidence": "C",
-            "note": "260 m de distância"
+            "note": "263 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5365882,
+              "lon": -46.6332566
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "55 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5361768,
+              "lon": -46.6352915
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "184 m de distância"
           },
           {
             "value": {
@@ -2842,8 +2860,17 @@
           },
           {
             "value": {
+              "lat": -23.53509,
+              "lon": -46.63528
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "260 m de distância"
+          },
+          {
+            "value": {
               "lat": -23.5366,
-              "lon": -46.6343
+              "lon": -46.634299
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
@@ -2860,15 +2887,6 @@
           },
           {
             "value": {
-              "lat": -23.535297,
-              "lon": -46.634703
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "207 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.536598,
               "lon": -46.634502
             },
@@ -2881,7 +2899,7 @@
       "lines": [
         "linha-1",
         "linha-4",
-        "linha-7",
+        "linha-10",
         "linha-11"
       ],
       "status": {
@@ -2898,12 +2916,12 @@
       },
       "accessibility": null,
       "opened": {
-        "value": "1867-02-16",
+        "value": "1975-09-26",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "1975-09-26",
+            "value": "1867-02-16",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -2964,12 +2982,12 @@
           },
           {
             "value": {
-              "lat": -23.531324,
-              "lon": -46.632672
+              "lat": -23.531286,
+              "lon": -46.632499
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "90 m de distância"
+            "note": "77 m de distância"
           }
         ]
       },
@@ -3058,8 +3076,8 @@
           },
           {
             "value": {
-              "lat": -23.5254,
-              "lon": -46.6292
+              "lat": -23.525409,
+              "lon": -46.629192
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
@@ -3157,12 +3175,12 @@
           },
           {
             "value": {
-              "lat": -23.51624,
-              "lon": -46.625149
+              "lat": -23.516067,
+              "lon": -46.625162
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "12 m de distância"
+            "note": "7 m de distância"
           }
         ]
       },
@@ -3256,12 +3274,12 @@
           },
           {
             "value": {
-              "lat": -23.508727,
-              "lon": -46.624897
+              "lat": -23.508985,
+              "lon": -46.62492
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "61 m de distância"
+            "note": "33 m de distância"
           }
         ]
       },
@@ -3355,12 +3373,12 @@
           },
           {
             "value": {
-              "lat": -23.502716,
-              "lon": -46.624716
+              "lat": -23.502706,
+              "lon": -46.624761
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "17 m de distância"
+            "note": "15 m de distância"
           }
         ]
       },
@@ -3454,12 +3472,12 @@
           },
           {
             "value": {
-              "lat": -23.492734,
-              "lon": -46.617354
+              "lat": -23.492642,
+              "lon": -46.617445
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "43 m de distância"
+            "note": "42 m de distância"
           }
         ]
       },
@@ -3553,8 +3571,8 @@
           },
           {
             "value": {
-              "lat": -23.487111,
-              "lon": -46.608877
+              "lat": -23.487104,
+              "lon": -46.608883
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
@@ -3638,12 +3656,12 @@
           },
           {
             "value": {
-              "lat": -23.480049,
-              "lon": -46.603209
+              "lat": -23.480016,
+              "lon": -46.603214
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "10 m de distância"
+            "note": "8 m de distância"
           }
         ]
       },

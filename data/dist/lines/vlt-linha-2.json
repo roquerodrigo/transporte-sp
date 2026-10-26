@@ -2777,8 +2777,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.9507612,
-          "lon": -46.3207816
+          "lat": -23.9506086,
+          "lon": -46.3207668
         },
         "source": "osm",
         "confidence": "C",
@@ -2790,7 +2790,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "2 m de distância"
+            "note": "15 m de distância"
           }
         ]
       },
@@ -2832,8 +2832,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.946944,
-          "lon": -46.3203942
+          "lat": -23.9468006,
+          "lon": -46.3204136
         },
         "source": "osm",
         "confidence": "C",
@@ -2845,7 +2845,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "5 m de distância"
+            "note": "13 m de distância"
           }
         ]
       },
@@ -2881,36 +2881,26 @@
       "slug": "mercado",
       "name": {
         "value": "Mercado",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9402466,
-          "lon": -46.3191926
+          "lat": -23.940235,
+          "lon": -46.31918
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.940235,
-              "lon": -46.31918
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "2 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -2919,7 +2909,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364614",
-        "osm": "node/12396988316",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -2927,7 +2917,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -2936,36 +2925,26 @@
       "slug": "paqueta",
       "name": {
         "value": "Paquetá",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9366796,
-          "lon": -46.3187696
+          "lat": -23.936675,
+          "lon": -46.318794
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.936675,
-              "lon": -46.318794
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "3 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -2974,7 +2953,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364615",
-        "osm": "node/12396988312",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -2982,7 +2961,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -2991,36 +2969,26 @@
       "slug": "poupatempo",
       "name": {
         "value": "Poupatempo",
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.9356616,
-          "lon": -46.3238602
+          "lat": -23.935665,
+          "lon": -46.323879
         },
-        "source": "osm",
+        "source": "wikidata",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.935665,
-              "lon": -46.323879
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "2 m de distância"
-          }
-        ]
+        "alternatives": []
       },
       "lines": [
         "vlt-linha-2"
       ],
       "status": {
         "value": "operational",
-        "source": "osm",
-        "confidence": "C",
+        "source": "pipeline",
+        "confidence": "E",
         "alternatives": []
       },
       "code": null,
@@ -3029,7 +2997,7 @@
       "address": null,
       "external_ids": {
         "wikidata": "Q131364617",
-        "osm": "node/12396988308",
+        "osm": null,
         "gtfs_stop_id": null,
         "gtfs_route_id": null,
         "geosampa_id": null,
@@ -3037,7 +3005,6 @@
       },
       "is_interchange": false,
       "observed_by": [
-        "osm",
         "wikidata"
       ]
     },
@@ -3052,8 +3019,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.9344634,
-          "lon": -46.3298608
+          "lat": -23.9344183,
+          "lon": -46.32985
         },
         "source": "osm",
         "confidence": "C",
@@ -3065,7 +3032,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "1 m de distância"
+            "note": "4 m de distância"
           }
         ]
       },
@@ -3107,8 +3074,8 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.933567,
-          "lon": -46.3348819
+          "lat": -23.9335339,
+          "lon": -46.334915
         },
         "source": "osm",
         "confidence": "C",
@@ -3120,7 +3087,7 @@
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "6 m de distância"
+            "note": "5 m de distância"
           }
         ]
       },

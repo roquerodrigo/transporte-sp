@@ -1,0 +1,9 @@
+{
+  "stations.json": {
+    "bytes": 2339485,
+    "fetched_at": "2026-11-02T13:55:29+00:00",
+    "licence": "CC0-1.0",
+    "sha256": "162a708477669b4eed30ca653fba57434f3daf071458d387aeddbc29b9648f9b",
+    "url": "https://query.wikidata.org/sparql"
+  }
+}

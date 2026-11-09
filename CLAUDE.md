@@ -39,7 +39,8 @@ npx astro check && npm run build
 - **GeoSampa entrega EPSG:31983 por padrão**; `srsName=EPSG:4326` faz o servidor reprojetar,
   e é por isso que o pipeline não precisa de biblioteca de projeção.
 - **O GTFS da SPTrans tem trilhos**, ao contrário do que se repete — e é a única fonte que
-  declara a ordem das estações. Falta nele: Linhas 6-Laranja e 17-Ouro.
+  declara a ordem das estações. Já cobre as Linhas 6-Laranja e 17-Ouro; a 17 chega como
+  `METRÔ17A` e `METRÔ17W`, e só o número no `route_id` diz que é uma linha só.
 - **GeoSampa para na divisa do município.** Um traçado dele mais curto que o do OSM é
   cobertura, não divergência, e não deve virar conflito.
 - **`P81` do Wikidata erra a linha dos trens metropolitanos** (aponta para a ferrovia

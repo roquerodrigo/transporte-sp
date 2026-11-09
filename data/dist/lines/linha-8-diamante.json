@@ -59,28 +59,28 @@
       "alternatives": []
     },
     "stations": [
-      "itapevi",
-      "sagrado-coracao",
-      "jardim-belval",
-      "antonio-joao",
-      "santa-terezinha",
-      "carapicuiba",
-      "quitauna",
-      "comandante-sampaio",
-      "osasco",
-      "lapa-senac",
-      "julio-prestes",
-      "palmeiras-barra-funda",
-      "domingos-de-moraes",
-      "imperatriz-leopoldina",
-      "presidente-altino",
-      "general-miguel-costa",
-      "barueri",
-      "jardim-silveira-leo-madeiras",
-      "jandira",
-      "engenheiro-cardoso",
+      "amador-bueno",
       "santa-rita",
-      "amador-bueno"
+      "engenheiro-cardoso",
+      "jandira",
+      "jardim-silveira-leo-madeiras",
+      "barueri",
+      "general-miguel-costa",
+      "presidente-altino",
+      "imperatriz-leopoldina",
+      "domingos-de-moraes",
+      "palmeiras-barra-funda",
+      "julio-prestes",
+      "lapa-senac",
+      "osasco",
+      "comandante-sampaio",
+      "quitauna",
+      "carapicuiba",
+      "santa-terezinha",
+      "antonio-joao",
+      "jardim-belval",
+      "sagrado-coracao",
+      "itapevi"
     ],
     "station_order": {
       "value": "gtfs_sptrans",
@@ -3110,42 +3110,42 @@
             -23.5308859
           ],
           [
-            -46.6417451,
-            -23.5311605
+            -46.6417789,
+            -23.5311393
           ],
           [
-            -46.6416582,
-            -23.5313099
+            -46.6416814,
+            -23.531309
           ],
           [
-            -46.6416426,
-            -23.5313432
+            -46.6416525,
+            -23.5313712
           ],
           [
-            -46.641583,
-            -23.5314703
+            -46.6415867,
+            -23.5315116
           ],
           [
-            -46.6415684,
-            -23.5315081
-          ],
-          [
-            -46.6415112,
-            -23.5316564
+            -46.6415276,
+            -23.5316653
           ]
         ],
         [
           [
-            -46.6413221,
-            -23.5320806
+            -46.6413347,
+            -23.5320859
           ],
           [
-            -46.6414159,
-            -23.531882
+            -46.6413801,
+            -23.5319937
           ],
           [
-            -46.6415112,
-            -23.5316564
+            -46.6414304,
+            -23.5318891
+          ],
+          [
+            -46.6415276,
+            -23.5316653
           ]
         ],
         [
@@ -3162,8 +3162,8 @@
             -23.5321572
           ],
           [
-            -46.6413221,
-            -23.5320806
+            -46.6413347,
+            -23.5320859
           ]
         ],
         [
@@ -3877,7 +3877,7 @@
       "confidence": "C",
       "alternatives": [
         {
-          "value": "41.784 km",
+          "value": "38.391 km",
           "source": "gtfs_sptrans",
           "confidence": "A",
           "note": "traçado alternativo, não usado"
@@ -3906,48 +3906,48 @@
   },
   "stations": [
     {
-      "id": "itapevi",
-      "slug": "itapevi",
+      "id": "amador-bueno",
+      "slug": "amador-bueno",
       "name": {
-        "value": "Itapevi",
+        "value": "Amador Bueno",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.54613587,
-          "lon": -46.93568932
+          "lat": -23.53050823,
+          "lon": -46.9837556
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.545531,
-              "lon": -46.9352563
+              "lat": -23.5305559,
+              "lon": -46.9839397
             },
             "source": "osm",
             "confidence": "C",
-            "note": "80 m de distância"
+            "note": "20 m de distância"
           },
           {
             "value": {
-              "lat": -23.54554,
-              "lon": -46.93525
+              "lat": -23.5311,
+              "lon": -46.9863
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "80 m de distância"
+            "note": "268 m de distância"
           },
           {
             "value": {
-              "lat": -23.545728,
-              "lon": -46.935416
+              "lat": -23.530688,
+              "lon": -46.983953
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "53 m de distância"
+            "note": "28 m de distância"
           }
         ]
       },
@@ -3961,21 +3961,26 @@
         "alternatives": []
       },
       "code": {
-        "value": "IPV",
+        "value": "ABU",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "accessibility": null,
-      "opened": null,
+      "opened": {
+        "value": "1985-06-21",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
       "address": null,
       "external_ids": {
-        "wikidata": "Q10275882",
-        "osm": "node/4593623418",
-        "gtfs_stop_id": "18947",
+        "wikidata": "Q10344485",
+        "osm": "node/6052939428",
+        "gtfs_stop_id": "18914",
         "gtfs_route_id": null,
-        "geosampa_id": "3062",
-        "metro_code": "IPV"
+        "geosampa_id": "3097",
+        "metro_code": "ABU"
       },
       "is_interchange": false,
       "observed_by": [
@@ -3986,48 +3991,48 @@
       ]
     },
     {
-      "id": "sagrado-coracao",
-      "slug": "sagrado-coracao",
+      "id": "santa-rita",
+      "slug": "santa-rita",
       "name": {
-        "value": "Sagrado Coração",
+        "value": "Santa Rita",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.52914341,
-          "lon": -46.91713104
+          "lat": -23.54497465,
+          "lon": -46.94751672
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5291372,
-              "lon": -46.9172786
+              "lat": -23.5449666,
+              "lon": -46.9474792
             },
             "source": "osm",
             "confidence": "C",
-            "note": "15 m de distância"
+            "note": "4 m de distância"
           },
           {
             "value": {
-              "lat": -23.52914,
-              "lon": -46.91726
+              "lat": -23.54489,
+              "lon": -46.94778
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "13 m de distância"
+            "note": "28 m de distância"
           },
           {
             "value": {
-              "lat": -23.52908,
-              "lon": -46.91728
+              "lat": -23.545115,
+              "lon": -46.947651
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "17 m de distância"
+            "note": "21 m de distância"
           }
         ]
       },
@@ -4041,7 +4046,7 @@
         "alternatives": []
       },
       "code": {
-        "value": "SCO",
+        "value": "SRT",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
@@ -4055,12 +4060,12 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q10276117",
-        "osm": "node/4676959302",
-        "gtfs_stop_id": "18949",
+        "wikidata": "Q10344494",
+        "osm": "node/4593637408",
+        "gtfs_stop_id": "18946",
         "gtfs_route_id": null,
-        "geosampa_id": "3059",
-        "metro_code": "SCO"
+        "geosampa_id": "3085",
+        "metro_code": "SRT"
       },
       "is_interchange": false,
       "observed_by": [
@@ -4071,209 +4076,44 @@
       ]
     },
     {
-      "id": "jardim-belval",
-      "slug": "jardim-belval",
+      "id": "engenheiro-cardoso",
+      "slug": "engenheiro-cardoso",
       "name": {
-        "value": "Jardim Belval",
+        "value": "Engenheiro Cardoso",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.51399261,
-          "lon": -46.88928088
+          "lat": -23.53523328,
+          "lon": -46.92857911
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5142111,
-              "lon": -46.8893192
+              "lat": -23.535202,
+              "lon": -46.9286733
             },
             "source": "osm",
             "confidence": "C",
-            "note": "25 m de distância"
+            "note": "10 m de distância"
           },
           {
             "value": {
-              "lat": -23.51402,
-              "lon": -46.88929
+              "lat": -23.5352,
+              "lon": -46.92868
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "3 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.514306,
-              "lon": -46.88929
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "35 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-8"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "JBE",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1951-01-01",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q10275888",
-        "osm": "node/4676923109",
-        "gtfs_stop_id": "18952",
-        "gtfs_route_id": null,
-        "geosampa_id": "3053",
-        "metro_code": "JBE"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "antonio-joao",
-      "slug": "antonio-joao",
-      "name": {
-        "value": "Antônio João",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.51683124,
-          "lon": -46.85890198
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.5170734,
-              "lon": -46.8583297
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "64 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.51688,
-              "lon": -46.85872
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "19 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.516859,
-              "lon": -46.858801
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
             "note": "11 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-8"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "AJO",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q10275570",
-        "osm": "node/4676900470",
-        "gtfs_stop_id": "18954",
-        "gtfs_route_id": null,
-        "geosampa_id": "3076",
-        "metro_code": "AJO"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "santa-terezinha",
-      "slug": "santa-terezinha",
-      "name": {
-        "value": "Santa Terezinha",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.51657855,
-          "lon": -46.8479496
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.5166183,
-              "lon": -46.8479575
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "4 m de distância"
           },
           {
             "value": {
-              "lat": -23.51662,
-              "lon": -46.84803
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "9 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.516347,
-              "lon": -46.84807
+              "lat": -23.535245,
+              "lon": -46.928291
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
@@ -4291,26 +4131,21 @@
         "alternatives": []
       },
       "code": {
-        "value": "STE",
+        "value": "ECD",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
-      "accessibility": {
-        "value": "full",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
+      "accessibility": null,
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q10276133",
-        "osm": "node/4676900471",
-        "gtfs_stop_id": "18955",
+        "wikidata": "Q10275732",
+        "osm": "node/4676958580",
+        "gtfs_stop_id": "18948",
         "gtfs_route_id": null,
-        "geosampa_id": "3060",
-        "metro_code": "STE"
+        "geosampa_id": "3019",
+        "metro_code": "ECD"
       },
       "is_interchange": false,
       "observed_by": [
@@ -4321,79 +4156,62 @@
       ]
     },
     {
-      "id": "carapicuiba",
-      "slug": "carapicuiba",
+      "id": "jandira",
+      "slug": "jandira",
       "name": {
-        "value": "Carapicuíba",
+        "value": "Jandira",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.51853649,
-          "lon": -46.83541742
+          "lat": -23.5277065,
+          "lon": -46.90237949
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.51828205,
-              "lon": -46.83517674
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "37 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5185372,
-              "lon": -46.8352767
+              "lat": -23.5276045,
+              "lon": -46.9023728
             },
             "source": "osm",
-            "confidence": "C",
-            "note": "14 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.51854,
-              "lon": -46.83531
-            },
-            "source": "wikidata",
             "confidence": "C",
             "note": "11 m de distância"
           },
           {
             "value": {
-              "lat": -23.518744,
-              "lon": -46.835417
+              "lat": -23.52776,
+              "lon": -46.9026
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "23 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.527721,
+              "lon": -46.902507
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "23 m de distância"
+            "note": "13 m de distância"
           }
         ]
       },
       "lines": [
-        "linha-8",
-        "ligacao-alphaville-campo-limpo"
+        "linha-8"
       ],
       "status": {
         "value": "operational",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": [
-          {
-            "value": "planned",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "code": {
-        "value": "CPB",
+        "value": "JDI",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
@@ -4402,14 +4220,14 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q10275630",
-        "osm": "node/4691931326",
-        "gtfs_stop_id": "18956",
+        "wikidata": "Q10275886",
+        "osm": "node/4676944087",
+        "gtfs_stop_id": "18950",
         "gtfs_route_id": null,
-        "geosampa_id": "3078",
-        "metro_code": "CPB"
+        "geosampa_id": "3052",
+        "metro_code": "JDI"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -4418,44 +4236,51 @@
       ]
     },
     {
-      "id": "quitauna",
-      "slug": "quitauna",
+      "id": "jardim-silveira-leo-madeiras",
+      "slug": "jardim-silveira-leo-madeiras",
       "name": {
-        "value": "Quitaúna",
+        "value": "Jardim Silveira - Leo Madeiras",
         "source": "osm",
         "confidence": "C",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "Jardim Silveira",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
       },
       "coordinates": {
         "value": {
-          "lat": -23.52282274,
-          "lon": -46.80676555
+          "lat": -23.52384923,
+          "lon": -46.89359674
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5227166,
-              "lon": -46.8070741
+              "lat": -23.5234955,
+              "lon": -46.8935269
             },
             "source": "osm",
             "confidence": "C",
-            "note": "34 m de distância"
+            "note": "40 m de distância"
           },
           {
             "value": {
-              "lat": -23.52275,
-              "lon": -46.807138888
+              "lat": -23.52357,
+              "lon": -46.89354
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "39 m de distância"
+            "note": "32 m de distância"
           },
           {
             "value": {
-              "lat": -23.522871,
-              "lon": -46.807085
+              "lat": -23.523568,
+              "lon": -46.893491
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
@@ -4473,187 +4298,7 @@
         "alternatives": []
       },
       "code": {
-        "value": "QTU",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1929-05-29",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q10276083",
-        "osm": "node/6663080267",
-        "gtfs_stop_id": "18958",
-        "gtfs_route_id": null,
-        "geosampa_id": "3058",
-        "metro_code": "QTU"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "comandante-sampaio",
-      "slug": "comandante-sampaio",
-      "name": {
-        "value": "Comandante Sampaio",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.52570546,
-          "lon": -46.79586924
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.5257462,
-              "lon": -46.7957051
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "17 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.525722222,
-              "lon": -46.795694444
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "18 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.52599,
-              "lon": -46.796059
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "37 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-8"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "CSA",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1946-10-12",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q10275659",
-        "osm": "node/4593692582",
-        "gtfs_stop_id": "18959",
-        "gtfs_route_id": null,
-        "geosampa_id": "3081",
-        "metro_code": "CSA"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "osasco",
-      "slug": "osasco",
-      "name": {
-        "value": "Osasco",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.52774745,
-          "lon": -46.77588391
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.52774745,
-              "lon": -46.77588391
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "0 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5277015,
-              "lon": -46.7759232
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "6 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.527666666,
-              "lon": -46.775972222
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "13 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.527834,
-              "lon": -46.776007
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "16 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-8",
-        "linha-9"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "OSA",
+        "value": "JSI",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
@@ -4662,14 +4307,14 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q10276021",
-        "osm": "node/4427745672",
-        "gtfs_stop_id": "18960",
+        "wikidata": "Q10275894",
+        "osm": "node/4676923108",
+        "gtfs_stop_id": "18951",
         "gtfs_route_id": null,
-        "geosampa_id": "3041",
-        "metro_code": "OSA"
+        "geosampa_id": "3054",
+        "metro_code": "JSI"
       },
-      "is_interchange": true,
+      "is_interchange": false,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -4678,374 +4323,48 @@
       ]
     },
     {
-      "id": "lapa-senac",
-      "slug": "lapa-senac",
+      "id": "barueri",
+      "slug": "barueri",
       "name": {
-        "value": "Lapa - Senac",
+        "value": "Barueri",
         "source": "osm",
         "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Lapa (Linha 8)",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
+        "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.52016377,
-          "lon": -46.69900484
+          "lat": -23.512558,
+          "lon": -46.87517168
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5199813,
-              "lon": -46.6991793
+              "lat": -23.5126077,
+              "lon": -46.875075
             },
             "source": "osm",
-            "confidence": "C",
-            "note": "27 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.520109,
-              "lon": -46.698917
-            },
-            "source": "wikidata",
             "confidence": "C",
             "note": "11 m de distância"
           },
           {
             "value": {
-              "lat": -23.519585,
-              "lon": -46.700124
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "131 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-8"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "LAB",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q10275927",
-        "osm": "node/4592396614",
-        "gtfs_stop_id": "18918",
-        "gtfs_route_id": null,
-        "geosampa_id": "3056",
-        "metro_code": "LAB"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "julio-prestes",
-      "slug": "julio-prestes",
-      "name": {
-        "value": "Júlio Prestes",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.53259702,
-          "lon": -46.64098402
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.5332165,
-              "lon": -46.6405646
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "81 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.534803,
-              "lon": -46.639587
+              "lat": -23.51259,
+              "lon": -46.87508
             },
             "source": "wikidata",
-            "confidence": "C",
-            "note": "284 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.532964,
-              "lon": -46.640763
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "47 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-8"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "JPR",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1875-07-10",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q3297457",
-        "osm": "node/4985618204",
-        "gtfs_stop_id": "18939",
-        "gtfs_route_id": null,
-        "geosampa_id": "3055",
-        "metro_code": "JPR"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "palmeiras-barra-funda",
-      "slug": "palmeiras-barra-funda",
-      "name": {
-        "value": "Palmeiras-Barra Funda",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "Terminal Intermodal Palmeiras-Barra Funda",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.52594769,
-          "lon": -46.66737276
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.5255841,
-              "lon": -46.66751601
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "43 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5254616,
-              "lon": -46.6675134
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "56 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5259743,
-              "lon": -46.6674683
-            },
-            "source": "osm",
             "confidence": "C",
             "note": "10 m de distância"
           },
           {
             "value": {
-              "lat": -23.525505,
-              "lon": -46.667358
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "49 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.525556,
-              "lon": -46.667222
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "46 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.525317,
-              "lon": -46.666547
+              "lat": -23.512644,
+              "lon": -46.875113
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "110 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.525592,
-              "lon": -46.666651
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "84 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.525703,
-              "lon": -46.666803
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "64 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-3",
-        "linha-7",
-        "linha-8",
-        "expresso-aeroporto"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "BFU",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": {
-        "value": "1988-12-17",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "1988-12-18",
-            "source": "wikidata",
-            "confidence": "C",
-            "note": null
-          }
-        ]
-      },
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q3293864",
-        "osm": "node/4593540897",
-        "gtfs_stop_id": "18920",
-        "gtfs_route_id": null,
-        "geosampa_id": "18",
-        "metro_code": "BFU"
-      },
-      "is_interchange": true,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "domingos-de-moraes",
-      "slug": "domingos-de-moraes",
-      "name": {
-        "value": "Domingos de Moraes",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": [
-          {
-            "value": "DOMINGOS DE MORAIS",
-            "source": "geosampa",
-            "confidence": "A",
-            "note": null
-          }
-        ]
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.51892954,
-          "lon": -46.72148463
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.5187866,
-              "lon": -46.7216717
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "25 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.51879,
-              "lon": -46.72162
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "21 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.518787,
-              "lon": -46.721665
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "24 m de distância"
+            "note": "11 m de distância"
           }
         ]
       },
@@ -5059,7 +4378,7 @@
         "alternatives": []
       },
       "code": {
-        "value": "DMO",
+        "value": "BRU",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
@@ -5068,193 +4387,14 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q10275692",
-        "osm": "node/4593577589",
-        "gtfs_stop_id": "18969",
+        "wikidata": "Q10275595",
+        "osm": "node/4691936386",
+        "gtfs_stop_id": "18953",
         "gtfs_route_id": null,
-        "geosampa_id": "3082",
-        "metro_code": "DMO"
+        "geosampa_id": "3077",
+        "metro_code": "BRU"
       },
       "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "imperatriz-leopoldina",
-      "slug": "imperatriz-leopoldina",
-      "name": {
-        "value": "Imperatriz Leopoldina",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.52375404,
-          "lon": -46.73759245
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.523724,
-              "lon": -46.7376007
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "3 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.523779,
-              "lon": -46.737462
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "14 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.523749,
-              "lon": -46.737662
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "7 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-8"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "ILE",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q10275869",
-        "osm": "node/4593586861",
-        "gtfs_stop_id": "18964",
-        "gtfs_route_id": null,
-        "geosampa_id": "3051",
-        "metro_code": "ILE"
-      },
-      "is_interchange": false,
-      "observed_by": [
-        "geosampa",
-        "gtfs_sptrans",
-        "osm",
-        "wikidata"
-      ]
-    },
-    {
-      "id": "presidente-altino",
-      "slug": "presidente-altino",
-      "name": {
-        "value": "Presidente Altino",
-        "source": "osm",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "coordinates": {
-        "value": {
-          "lat": -23.5312244,
-          "lon": -46.76177312
-        },
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": [
-          {
-            "value": {
-              "lat": -23.5312244,
-              "lon": -46.76177312
-            },
-            "source": "geosampa",
-            "confidence": "A",
-            "note": "0 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.5312344,
-              "lon": -46.7617426
-            },
-            "source": "osm",
-            "confidence": "C",
-            "note": "3 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.53125,
-              "lon": -46.76175
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "4 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.530423,
-              "lon": -46.760577
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "151 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.530253,
-              "lon": -46.760683
-            },
-            "source": "gtfs_sptrans",
-            "confidence": "A",
-            "note": "155 m de distância"
-          }
-        ]
-      },
-      "lines": [
-        "linha-8",
-        "linha-9"
-      ],
-      "status": {
-        "value": "operational",
-        "source": "geosampa",
-        "confidence": "A",
-        "alternatives": []
-      },
-      "code": {
-        "value": "PAL",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
-      "accessibility": null,
-      "opened": null,
-      "address": null,
-      "external_ids": {
-        "wikidata": "Q10276070",
-        "osm": "node/4427135151",
-        "gtfs_stop_id": "18961",
-        "gtfs_route_id": null,
-        "geosampa_id": "3090",
-        "metro_code": "PAL"
-      },
-      "is_interchange": true,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -5364,48 +4504,147 @@
       ]
     },
     {
-      "id": "barueri",
-      "slug": "barueri",
+      "id": "presidente-altino",
+      "slug": "presidente-altino",
       "name": {
-        "value": "Barueri",
+        "value": "Presidente Altino",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.512558,
-          "lon": -46.87517168
+          "lat": -23.5312244,
+          "lon": -46.76177312
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5126077,
-              "lon": -46.875075
+              "lat": -23.5312244,
+              "lon": -46.76177312
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "0 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5312344,
+              "lon": -46.7617426
             },
             "source": "osm",
             "confidence": "C",
-            "note": "11 m de distância"
+            "note": "3 m de distância"
           },
           {
             "value": {
-              "lat": -23.51259,
-              "lon": -46.87508
+              "lat": -23.53125,
+              "lon": -46.76175
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "10 m de distância"
+            "note": "4 m de distância"
           },
           {
             "value": {
-              "lat": -23.512644,
-              "lon": -46.875113
+              "lat": -23.530423,
+              "lon": -46.760577
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "11 m de distância"
+            "note": "151 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.530253,
+              "lon": -46.760683
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "155 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8",
+        "linha-9"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "PAL",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10276070",
+        "osm": "node/4427135151",
+        "gtfs_stop_id": "18961",
+        "gtfs_route_id": null,
+        "geosampa_id": "3090",
+        "metro_code": "PAL"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "imperatriz-leopoldina",
+      "slug": "imperatriz-leopoldina",
+      "name": {
+        "value": "Imperatriz Leopoldina",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.52375404,
+          "lon": -46.73759245
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.523724,
+              "lon": -46.7376007
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "3 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.523779,
+              "lon": -46.737462
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "14 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.523749,
+              "lon": -46.737662
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "7 m de distância"
           }
         ]
       },
@@ -5419,7 +4658,7 @@
         "alternatives": []
       },
       "code": {
-        "value": "BRU",
+        "value": "ILE",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
@@ -5428,12 +4667,12 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q10275595",
-        "osm": "node/4691936386",
-        "gtfs_stop_id": "18953",
+        "wikidata": "Q10275869",
+        "osm": "node/4593586861",
+        "gtfs_stop_id": "18964",
         "gtfs_route_id": null,
-        "geosampa_id": "3077",
-        "metro_code": "BRU"
+        "geosampa_id": "3051",
+        "metro_code": "ILE"
       },
       "is_interchange": false,
       "observed_by": [
@@ -5444,15 +4683,102 @@
       ]
     },
     {
-      "id": "jardim-silveira-leo-madeiras",
-      "slug": "jardim-silveira-leo-madeiras",
+      "id": "domingos-de-moraes",
+      "slug": "domingos-de-moraes",
       "name": {
-        "value": "Jardim Silveira - Leo Madeiras",
+        "value": "Domingos de Moraes",
         "source": "osm",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "Jardim Silveira",
+            "value": "DOMINGOS DE MORAIS",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.51892954,
+          "lon": -46.72148463
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5187866,
+              "lon": -46.7216717
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "25 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.51879,
+              "lon": -46.72162
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "21 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.518787,
+              "lon": -46.721665
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "24 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "DMO",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10275692",
+        "osm": "node/4593577589",
+        "gtfs_stop_id": "18969",
+        "gtfs_route_id": null,
+        "geosampa_id": "3082",
+        "metro_code": "DMO"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "palmeiras-barra-funda",
+      "slug": "palmeiras-barra-funda",
+      "name": {
+        "value": "Palmeiras-Barra Funda",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Terminal Intermodal Palmeiras-Barra Funda",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -5461,34 +4787,532 @@
       },
       "coordinates": {
         "value": {
-          "lat": -23.52384923,
-          "lon": -46.89359674
+          "lat": -23.52594769,
+          "lon": -46.66737276
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5234955,
-              "lon": -46.8935269
+              "lat": -23.5255841,
+              "lon": -46.66751601
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "43 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5254616,
+              "lon": -46.6675134
             },
             "source": "osm",
             "confidence": "C",
-            "note": "40 m de distância"
+            "note": "56 m de distância"
           },
           {
             "value": {
-              "lat": -23.52357,
-              "lon": -46.89354
+              "lat": -23.5259743,
+              "lon": -46.6674683
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "10 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525505,
+              "lon": -46.667358
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "32 m de distância"
+            "note": "49 m de distância"
           },
           {
             "value": {
-              "lat": -23.523568,
-              "lon": -46.893491
+              "lat": -23.525556,
+              "lon": -46.667222
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "46 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525317,
+              "lon": -46.666547
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "110 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525592,
+              "lon": -46.666651
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "84 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525703,
+              "lon": -46.666803
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "64 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525282,
+              "lon": -46.667175
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "77 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-3",
+        "linha-7",
+        "linha-8",
+        "linha-10",
+        "linha-11",
+        "expresso-aeroporto"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "BFU",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1988-12-17",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "1988-12-18",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q3293864",
+        "osm": "node/4593540897",
+        "gtfs_stop_id": "18920",
+        "gtfs_route_id": null,
+        "geosampa_id": "18",
+        "metro_code": "BFU"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "julio-prestes",
+      "slug": "julio-prestes",
+      "name": {
+        "value": "Júlio Prestes",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.53259702,
+          "lon": -46.64098402
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5332165,
+              "lon": -46.6405646
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "81 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.534803,
+              "lon": -46.639587
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "284 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.532964,
+              "lon": -46.640763
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "47 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "JPR",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1875-07-10",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q3297457",
+        "osm": "node/4985618204",
+        "gtfs_stop_id": "18939",
+        "gtfs_route_id": null,
+        "geosampa_id": "3055",
+        "metro_code": "JPR"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "lapa-senac",
+      "slug": "lapa-senac",
+      "name": {
+        "value": "Lapa - Senac",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": [
+          {
+            "value": "Lapa (Linha 8)",
+            "source": "wikidata",
+            "confidence": "C",
+            "note": null
+          }
+        ]
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.52016377,
+          "lon": -46.69900484
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5199813,
+              "lon": -46.6991793
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "27 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.520109,
+              "lon": -46.698917
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "11 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.519585,
+              "lon": -46.700124
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "131 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "LAB",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10275927",
+        "osm": "node/4592396614",
+        "gtfs_stop_id": "18918",
+        "gtfs_route_id": null,
+        "geosampa_id": "3056",
+        "metro_code": "LAB"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "osasco",
+      "slug": "osasco",
+      "name": {
+        "value": "Osasco",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.52774745,
+          "lon": -46.77588391
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.52774745,
+              "lon": -46.77588391
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "0 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5277015,
+              "lon": -46.7759232
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "6 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.527666666,
+              "lon": -46.775972222
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "13 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.527834,
+              "lon": -46.776007
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "16 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8",
+        "linha-9"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "OSA",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10276021",
+        "osm": "node/4427745672",
+        "gtfs_stop_id": "18960",
+        "gtfs_route_id": null,
+        "geosampa_id": "3041",
+        "metro_code": "OSA"
+      },
+      "is_interchange": true,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "comandante-sampaio",
+      "slug": "comandante-sampaio",
+      "name": {
+        "value": "Comandante Sampaio",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.52570546,
+          "lon": -46.79586924
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5257462,
+              "lon": -46.7957051
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "17 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.525722222,
+              "lon": -46.795694444
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "18 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.52599,
+              "lon": -46.796059
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "37 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "CSA",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1946-10-12",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10275659",
+        "osm": "node/4593692582",
+        "gtfs_stop_id": "18959",
+        "gtfs_route_id": null,
+        "geosampa_id": "3081",
+        "metro_code": "CSA"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "quitauna",
+      "slug": "quitauna",
+      "name": {
+        "value": "Quitaúna",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.52282274,
+          "lon": -46.80676555
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5227166,
+              "lon": -46.8070741
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "34 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.52275,
+              "lon": -46.807138888
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "39 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.522871,
+              "lon": -46.807085
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
@@ -5506,21 +5330,26 @@
         "alternatives": []
       },
       "code": {
-        "value": "JSI",
+        "value": "QTU",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "accessibility": null,
-      "opened": null,
+      "opened": {
+        "value": "1929-05-29",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
       "address": null,
       "external_ids": {
-        "wikidata": "Q10275894",
-        "osm": "node/4676923108",
-        "gtfs_stop_id": "18951",
+        "wikidata": "Q10276083",
+        "osm": "node/6663080267",
+        "gtfs_stop_id": "18958",
         "gtfs_route_id": null,
-        "geosampa_id": "3054",
-        "metro_code": "JSI"
+        "geosampa_id": "3058",
+        "metro_code": "QTU"
       },
       "is_interchange": false,
       "observed_by": [
@@ -5531,62 +5360,79 @@
       ]
     },
     {
-      "id": "jandira",
-      "slug": "jandira",
+      "id": "carapicuiba",
+      "slug": "carapicuiba",
       "name": {
-        "value": "Jandira",
+        "value": "Carapicuíba",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.5277065,
-          "lon": -46.90237949
+          "lat": -23.51853649,
+          "lon": -46.83541742
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5276045,
-              "lon": -46.9023728
+              "lat": -23.51828205,
+              "lon": -46.83517674
+            },
+            "source": "geosampa",
+            "confidence": "A",
+            "note": "37 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.5185372,
+              "lon": -46.8352767
             },
             "source": "osm",
+            "confidence": "C",
+            "note": "14 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.51854,
+              "lon": -46.83531
+            },
+            "source": "wikidata",
             "confidence": "C",
             "note": "11 m de distância"
           },
           {
             "value": {
-              "lat": -23.52776,
-              "lon": -46.9026
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "23 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.527721,
-              "lon": -46.902507
+              "lat": -23.518744,
+              "lon": -46.835417
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "13 m de distância"
+            "note": "23 m de distância"
           }
         ]
       },
       "lines": [
-        "linha-8"
+        "linha-8",
+        "ligacao-alphaville-campo-limpo"
       ],
       "status": {
         "value": "operational",
         "source": "geosampa",
         "confidence": "A",
-        "alternatives": []
+        "alternatives": [
+          {
+            "value": "planned",
+            "source": "geosampa",
+            "confidence": "A",
+            "note": null
+          }
+        ]
       },
       "code": {
-        "value": "JDI",
+        "value": "CPB",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
@@ -5595,14 +5441,14 @@
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q10275886",
-        "osm": "node/4676944087",
-        "gtfs_stop_id": "18950",
+        "wikidata": "Q10275630",
+        "osm": "node/4691931326",
+        "gtfs_stop_id": "18956",
         "gtfs_route_id": null,
-        "geosampa_id": "3052",
-        "metro_code": "JDI"
+        "geosampa_id": "3078",
+        "metro_code": "CPB"
       },
-      "is_interchange": false,
+      "is_interchange": true,
       "observed_by": [
         "geosampa",
         "gtfs_sptrans",
@@ -5611,44 +5457,44 @@
       ]
     },
     {
-      "id": "engenheiro-cardoso",
-      "slug": "engenheiro-cardoso",
+      "id": "santa-terezinha",
+      "slug": "santa-terezinha",
       "name": {
-        "value": "Engenheiro Cardoso",
+        "value": "Santa Terezinha",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.53523328,
-          "lon": -46.92857911
+          "lat": -23.51657855,
+          "lon": -46.8479496
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.535202,
-              "lon": -46.9286733
+              "lat": -23.5166183,
+              "lon": -46.8479575
             },
             "source": "osm",
             "confidence": "C",
-            "note": "10 m de distância"
+            "note": "4 m de distância"
           },
           {
             "value": {
-              "lat": -23.5352,
-              "lon": -46.92868
+              "lat": -23.51662,
+              "lon": -46.84803
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "11 m de distância"
+            "note": "9 m de distância"
           },
           {
             "value": {
-              "lat": -23.535245,
-              "lon": -46.928291
+              "lat": -23.516347,
+              "lon": -46.84807
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
@@ -5666,21 +5512,26 @@
         "alternatives": []
       },
       "code": {
-        "value": "ECD",
+        "value": "STE",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
-      "accessibility": null,
+      "accessibility": {
+        "value": "full",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
       "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q10275732",
-        "osm": "node/4676958580",
-        "gtfs_stop_id": "18948",
+        "wikidata": "Q10276133",
+        "osm": "node/4676900471",
+        "gtfs_stop_id": "18955",
         "gtfs_route_id": null,
-        "geosampa_id": "3019",
-        "metro_code": "ECD"
+        "geosampa_id": "3060",
+        "metro_code": "STE"
       },
       "is_interchange": false,
       "observed_by": [
@@ -5691,48 +5542,48 @@
       ]
     },
     {
-      "id": "santa-rita",
-      "slug": "santa-rita",
+      "id": "antonio-joao",
+      "slug": "antonio-joao",
       "name": {
-        "value": "Santa Rita",
+        "value": "Antônio João",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.54497465,
-          "lon": -46.94751672
+          "lat": -23.51683124,
+          "lon": -46.85890198
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5449666,
-              "lon": -46.9474792
+              "lat": -23.5170734,
+              "lon": -46.8583297
             },
             "source": "osm",
             "confidence": "C",
-            "note": "4 m de distância"
+            "note": "64 m de distância"
           },
           {
             "value": {
-              "lat": -23.54489,
-              "lon": -46.94778
+              "lat": -23.51688,
+              "lon": -46.85872
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "28 m de distância"
+            "note": "19 m de distância"
           },
           {
             "value": {
-              "lat": -23.545115,
-              "lon": -46.947651
+              "lat": -23.516859,
+              "lon": -46.858801
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "21 m de distância"
+            "note": "11 m de distância"
           }
         ]
       },
@@ -5746,7 +5597,172 @@
         "alternatives": []
       },
       "code": {
-        "value": "SRT",
+        "value": "AJO",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": null,
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10275570",
+        "osm": "node/4676900470",
+        "gtfs_stop_id": "18954",
+        "gtfs_route_id": null,
+        "geosampa_id": "3076",
+        "metro_code": "AJO"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "jardim-belval",
+      "slug": "jardim-belval",
+      "name": {
+        "value": "Jardim Belval",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.51399261,
+          "lon": -46.88928088
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5142111,
+              "lon": -46.8893192
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "25 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.51402,
+              "lon": -46.88929
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "3 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.514306,
+              "lon": -46.88929
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "35 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "JBE",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "1951-01-01",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10275888",
+        "osm": "node/4676923109",
+        "gtfs_stop_id": "18952",
+        "gtfs_route_id": null,
+        "geosampa_id": "3053",
+        "metro_code": "JBE"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "sagrado-coracao",
+      "slug": "sagrado-coracao",
+      "name": {
+        "value": "Sagrado Coração",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.52914341,
+          "lon": -46.91713104
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5291372,
+              "lon": -46.9172786
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "15 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.52914,
+              "lon": -46.91726
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "13 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.52908,
+              "lon": -46.91728
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "17 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "SCO",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
@@ -5760,12 +5776,12 @@
       },
       "address": null,
       "external_ids": {
-        "wikidata": "Q10344494",
-        "osm": "node/4593637408",
-        "gtfs_stop_id": "18946",
+        "wikidata": "Q10276117",
+        "osm": "node/4676959302",
+        "gtfs_stop_id": "18949",
         "gtfs_route_id": null,
-        "geosampa_id": "3085",
-        "metro_code": "SRT"
+        "geosampa_id": "3059",
+        "metro_code": "SCO"
       },
       "is_interchange": false,
       "observed_by": [
@@ -5776,48 +5792,48 @@
       ]
     },
     {
-      "id": "amador-bueno",
-      "slug": "amador-bueno",
+      "id": "itapevi",
+      "slug": "itapevi",
       "name": {
-        "value": "Amador Bueno",
+        "value": "Itapevi",
         "source": "osm",
         "confidence": "C",
         "alternatives": []
       },
       "coordinates": {
         "value": {
-          "lat": -23.53050823,
-          "lon": -46.9837556
+          "lat": -23.54613587,
+          "lon": -46.93568932
         },
         "source": "geosampa",
         "confidence": "A",
         "alternatives": [
           {
             "value": {
-              "lat": -23.5305559,
-              "lon": -46.9839397
+              "lat": -23.545531,
+              "lon": -46.9352563
             },
             "source": "osm",
             "confidence": "C",
-            "note": "20 m de distância"
+            "note": "80 m de distância"
           },
           {
             "value": {
-              "lat": -23.5311,
-              "lon": -46.9863
+              "lat": -23.54554,
+              "lon": -46.93525
             },
             "source": "wikidata",
             "confidence": "C",
-            "note": "268 m de distância"
+            "note": "80 m de distância"
           },
           {
             "value": {
-              "lat": -23.5307,
-              "lon": -46.983928
+              "lat": -23.545728,
+              "lon": -46.935416
             },
             "source": "gtfs_sptrans",
             "confidence": "A",
-            "note": "28 m de distância"
+            "note": "53 m de distância"
           }
         ]
       },
@@ -5831,26 +5847,21 @@
         "alternatives": []
       },
       "code": {
-        "value": "ABU",
+        "value": "IPV",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": []
       },
       "accessibility": null,
-      "opened": {
-        "value": "1985-06-21",
-        "source": "wikidata",
-        "confidence": "C",
-        "alternatives": []
-      },
+      "opened": null,
       "address": null,
       "external_ids": {
-        "wikidata": "Q10344485",
-        "osm": "node/6052939428",
-        "gtfs_stop_id": "18914",
+        "wikidata": "Q10275882",
+        "osm": "node/4593623418",
+        "gtfs_stop_id": "18947",
         "gtfs_route_id": null,
-        "geosampa_id": "3097",
-        "metro_code": "ABU"
+        "geosampa_id": "3062",
+        "metro_code": "IPV"
       },
       "is_interchange": false,
       "observed_by": [

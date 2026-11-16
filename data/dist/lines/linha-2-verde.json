@@ -2212,6 +2212,15 @@
           },
           {
             "value": {
+              "lat": -23.59447,
+              "lon": -46.587932
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "239 m de distância"
+          },
+          {
+            "value": {
               "lat": -23.592412,
               "lon": -46.589685
             },
@@ -2227,15 +2236,6 @@
             "source": "wikidata",
             "confidence": "C",
             "note": "228 m de distância"
-          },
-          {
-            "value": {
-              "lat": -23.59447,
-              "lon": -46.587932
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "239 m de distância"
           },
           {
             "value": {
@@ -2268,12 +2268,12 @@
         "alternatives": []
       },
       "code": {
-        "value": "TMD",
+        "value": "TTI",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "TTI",
+            "value": "TMD",
             "source": "wikidata",
             "confidence": "C",
             "note": null
@@ -2332,21 +2332,21 @@
           },
           {
             "value": {
-              "lat": -23.603056,
-              "lon": -46.602778
-            },
-            "source": "wikidata",
-            "confidence": "C",
-            "note": "187 m de distância"
-          },
-          {
-            "value": {
               "lat": -23.60128,
               "lon": -46.60256
             },
             "source": "wikidata",
             "confidence": "C",
             "note": "64 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.603056,
+              "lon": -46.602778
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "187 m de distância"
           },
           {
             "value": {
@@ -2381,12 +2381,12 @@
         "alternatives": []
       },
       "opened": {
-        "value": "2007-03-08",
+        "value": "2010-01-30",
         "source": "wikidata",
         "confidence": "C",
         "alternatives": [
           {
-            "value": "2010-01-30",
+            "value": "2007-03-08",
             "source": "wikidata",
             "confidence": "C",
             "note": null

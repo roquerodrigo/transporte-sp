@@ -46,3 +46,7 @@ updates:
       prefix: "deps"
       prefix-development: "deps-dev"
       include: "scope"
+    ignore:
+      # @astrojs/check does not support TypeScript 7 yet
+      - dependency-name: "typescript"
+        versions: [">= 7"]

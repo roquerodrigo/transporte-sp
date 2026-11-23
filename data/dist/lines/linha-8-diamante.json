@@ -60,6 +60,7 @@
     },
     "stations": [
       "amador-bueno",
+      "ambuita",
       "santa-rita",
       "engenheiro-cardoso",
       "jandira",
@@ -3110,42 +3111,42 @@
             -23.5308859
           ],
           [
-            -46.6417451,
-            -23.5311605
+            -46.6417789,
+            -23.5311393
           ],
           [
-            -46.6416582,
-            -23.5313099
+            -46.6416814,
+            -23.531309
           ],
           [
-            -46.6416426,
-            -23.5313432
+            -46.6416525,
+            -23.5313712
           ],
           [
-            -46.641583,
-            -23.5314703
+            -46.6415867,
+            -23.5315116
           ],
           [
-            -46.6415684,
-            -23.5315081
-          ],
-          [
-            -46.6415112,
-            -23.5316564
+            -46.6415276,
+            -23.5316653
           ]
         ],
         [
           [
-            -46.6413221,
-            -23.5320806
+            -46.6413347,
+            -23.5320859
           ],
           [
-            -46.6414159,
-            -23.531882
+            -46.6413801,
+            -23.5319937
           ],
           [
-            -46.6415112,
-            -23.5316564
+            -46.6414304,
+            -23.5318891
+          ],
+          [
+            -46.6415276,
+            -23.5316653
           ]
         ],
         [
@@ -3162,8 +3163,8 @@
             -23.5321572
           ],
           [
-            -46.6413221,
-            -23.5320806
+            -46.6413347,
+            -23.5320859
           ]
         ],
         [
@@ -3981,6 +3982,91 @@
         "gtfs_route_id": null,
         "geosampa_id": "3097",
         "metro_code": "ABU"
+      },
+      "is_interchange": false,
+      "observed_by": [
+        "geosampa",
+        "gtfs_sptrans",
+        "osm",
+        "wikidata"
+      ]
+    },
+    {
+      "id": "ambuita",
+      "slug": "ambuita",
+      "name": {
+        "value": "Ambuitá",
+        "source": "osm",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "coordinates": {
+        "value": {
+          "lat": -23.53016804,
+          "lon": -46.97270475
+        },
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": [
+          {
+            "value": {
+              "lat": -23.5302352,
+              "lon": -46.9727718
+            },
+            "source": "osm",
+            "confidence": "C",
+            "note": "10 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.529861,
+              "lon": -46.97278
+            },
+            "source": "wikidata",
+            "confidence": "C",
+            "note": "35 m de distância"
+          },
+          {
+            "value": {
+              "lat": -23.530256,
+              "lon": -46.972755
+            },
+            "source": "gtfs_sptrans",
+            "confidence": "A",
+            "note": "11 m de distância"
+          }
+        ]
+      },
+      "lines": [
+        "linha-8"
+      ],
+      "status": {
+        "value": "operational",
+        "source": "geosampa",
+        "confidence": "A",
+        "alternatives": []
+      },
+      "code": {
+        "value": "AMB",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "accessibility": null,
+      "opened": {
+        "value": "2025-04-04",
+        "source": "wikidata",
+        "confidence": "C",
+        "alternatives": []
+      },
+      "address": null,
+      "external_ids": {
+        "wikidata": "Q10344486",
+        "osm": "node/13724871811",
+        "gtfs_stop_id": "18896",
+        "gtfs_route_id": null,
+        "geosampa_id": "3109",
+        "metro_code": "AMB"
       },
       "is_interchange": false,
       "observed_by": [
